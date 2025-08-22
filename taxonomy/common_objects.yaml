@@ -1,0 +1,44 @@
+# Canonical object taxonomy
+# Extend with provider aliases for improved normalization.
+# Structure:
+# key:
+#   canonical_label: <Human label>
+#   provider_aliases:
+#     azure: [..]
+#     aws: [..]
+#     gcp: [..]
+
+virtual_machine:
+  canonical_label: Virtual Machine
+  provider_aliases:
+    azure: ["virtual machine", "vm "]
+    aws: ["ec2 instance", "instance "]
+    gcp: ["compute instance"]
+
+disk:
+  canonical_label: Disk
+  provider_aliases:
+    azure: ["disk", "managed disk"]
+    aws: ["ebs volume", "volume "]
+    gcp: ["persistent disk", "disk "]
+
+storage_account:
+  canonical_label: Storage Account
+  provider_aliases:
+    azure: ["storage account"]
+    aws: ["s3 bucket"]
+    gcp: ["storage bucket"]
+
+database:
+  canonical_label: Database
+  provider_aliases:
+    azure: ["sql database", "cosmos db", "postgresql server", "mariadb server"]
+    aws: ["rds instance", "dynamodb table"]
+    gcp: ["cloud sql instance", "spanner instance"]
+
+key:
+  canonical_label: Key
+  provider_aliases:
+    azure: ["keyvault key"]
+    aws: ["kms key"]
+    gcp: ["kms key"]
