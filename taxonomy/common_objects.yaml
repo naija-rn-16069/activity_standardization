@@ -1,97 +1,44 @@
-# Canonical object vocabulary mapped across providers.
-# Each entry defines a canonical_label (used in CommonActivityName) and
-# provider_aliases: lists of lowercase substrings per provider used to match raw resource names.
+# Canonical object taxonomy
+# Extend with provider aliases for improved normalization.
+# Structure:
+# key:
+#   canonical_label: <Human label>
+#   provider_aliases:
+#     azure: [..]
+#     aws: [..]
+#     gcp: [..]
 
 virtual_machine:
   canonical_label: Virtual Machine
   provider_aliases:
-    azure: ["virtual machine"]
-    aws: ["ec2 instance", "instance"]
-    gcp: ["compute engine instance", "compute engine vm", "vm instance", "instance"]
-
-instance_group:
-  canonical_label: Instance Group
-  provider_aliases:
-    azure: ["virtual machine scale set"]
-    aws: ["auto scaling group", "autoscaling group"]
-    gcp: ["managed instance group"]
+    azure: ["virtual machine", "vm "]
+    aws: ["ec2 instance", "instance "]
+    gcp: ["compute instance"]
 
 disk:
   canonical_label: Disk
   provider_aliases:
-    azure: ["disk"]
-    aws: ["ebs volume", "volume"]
-    gcp: ["persistent disk", "pd-standard", "pd-balanced", "pd-ssd", "disk"]
+    azure: ["disk", "managed disk"]
+    aws: ["ebs volume", "volume "]
+    gcp: ["persistent disk", "disk "]
 
-snapshot:
-  canonical_label: Snapshot
+storage_account:
+  canonical_label: Storage Account
   provider_aliases:
-    azure: ["snapshot"]
-    aws: ["ebs snapshot", "snapshot"]
-    gcp: ["disk snapshot", "snapshot"]
+    azure: ["storage account"]
+    aws: ["s3 bucket"]
+    gcp: ["storage bucket"]
 
-machine_image:
-  canonical_label: Machine Image
+database:
+  canonical_label: Database
   provider_aliases:
-    azure: ["image", "gallery image"]
-    aws: ["ami"]
-    gcp: ["image"]
+    azure: ["sql database", "cosmos db", "postgresql server", "mariadb server"]
+    aws: ["rds instance", "dynamodb table"]
+    gcp: ["cloud sql instance", "spanner instance"]
 
-machine_image_version:
-  canonical_label: Machine Image Version
+key:
+  canonical_label: Key
   provider_aliases:
-    azure: ["gallery image version"]
-    aws: []
-    gcp: []
-
-ssh_key:
-  canonical_label: SSH Key
-  provider_aliases:
-    azure: ["ssh public key"]
-    aws: ["key pair", "ec2 key pair"]
-    gcp: ["os login ssh key", "project ssh key", "ssh key"]
-
-temporary_access_url:
-  canonical_label: Temporary Access URL
-  provider_aliases:
-    azure: ["sas uri", "begingetaccess", "endgetaccess"]
-    aws: ["pre-signed url", "presigned url"]
-    gcp: ["signed url"]
-
-scaling_verification:
-  canonical_label: Scaling Verification
-  provider_aliases:
-    azure: ["verify scaling"]
-    aws: []
-    gcp: []
-
-rolling_upgrade:
-  canonical_label: Rolling Upgrade
-  provider_aliases:
-    azure: ["rolling upgrade"]
-    aws: ["rolling update"]
-    gcp: ["rolling update"]
-
-patch_operation:
-  canonical_label: Patch Operation
-  provider_aliases:
-    azure: ["assess patches", "install patches", "patch installation"]
-    aws: ["ssm patch", "patch baseline", "patch compliance"]
-    gcp: ["os patch", "patch job"]
-
-availability_set:
-  canonical_label: Availability Set
-  provider_aliases:
-    azure: ["availability set"]
-
-proximity_placement_group:
-  canonical_label: Proximity Placement Group
-  provider_aliases:
-    azure: ["proximity placement group"]
-
-placement_scores:
-  canonical_label: Placement Scores
-  provider_aliases:
-    azure: ["placement scores"]
-
-# Extend below as new CSVs introduce additional objects (key vault, kms key, secret, container registry, etc.)
+    azure: ["keyvault key"]
+    aws: ["kms key"]
+    gcp: ["kms key"]
