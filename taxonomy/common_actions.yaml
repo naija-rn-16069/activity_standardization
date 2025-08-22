@@ -1,0 +1,163 @@
+# Canonical action vocabulary. Each key:
+#   label: Human-readable past tense phrase part.
+#   provider_variants: lowercase substrings to detect in the provider-specific operation text.
+
+created:
+  label: Created
+  provider_variants: ["create "]
+
+created_or_updated:
+  label: Created or Updated
+  provider_variants: ["create or update"]
+
+updated:
+  label: Updated
+  provider_variants: [" update "]
+
+deleted:
+  label: Deleted
+  provider_variants: ["delete", "terminate ", "terminated "]
+
+started:
+  label: Started
+  provider_variants: ["start"]
+
+stopped:
+  label: Stopped
+  provider_variants: ["stop", "power off", "poweroff", "deallocate"]
+
+restarted:
+  label: Restarted
+  provider_variants: ["restart", "reboot"]
+
+reimaged:
+  label: Reimaged
+  provider_variants: ["reimage "]
+
+reimaged_all_disks:
+  label: Reimaged All Disks
+  provider_variants: ["reimage all"]
+
+redeployed:
+  label: Redeployed
+  provider_variants: ["redeploy"]
+
+reapplied:
+  label: Reapplied
+  provider_variants: ["reapply"]
+
+scaled:
+  label: Scaled
+  provider_variants: ["scale "]
+
+scaling_verified:
+  label: Scaling Verified
+  provider_variants: ["verify scaling"]
+
+patches_assessed:
+  label: Patches Assessed
+  provider_variants: ["assess patches"]
+
+patches_installed:
+  label: Patches Installed
+  provider_variants: ["install patches"]
+
+patch_installation_canceled:
+  label: Patch Installation Canceled
+  provider_variants: ["cancel patch"]
+
+agent_upgraded:
+  label: Agent Upgraded
+  provider_variants: ["upgrade vm agent", "ssm agent update", "upgrade ssm agent"]
+
+os_upgraded:
+  label: OS Upgraded
+  provider_variants: ["upgrade os", "os upgrade", "os rolling upgrade"]
+
+maintenance_performed:
+  label: Maintenance Performed
+  provider_variants: ["perform maintenance", "planned maintenance", "perform maintenance operation"]
+
+captured:
+  label: Captured
+  provider_variants: ["capture"]
+
+generalized:
+  label: Generalized
+  provider_variants: ["generalize"]
+
+disks_converted_to_managed:
+  label: Disks Converted To Managed
+  provider_variants: ["convert to managed disks"]
+
+login_performed:
+  label: Login Performed
+  provider_variants: ["login", "log in"]
+
+admin_login_performed:
+  label: Admin Login Performed
+  provider_variants: ["loginasadmin", "login as admin", "admin login"]
+
+temporary_access_url_granted:
+  label: Temporary Access URL Granted
+  provider_variants: ["begingetaccess", "generate pre-signed url", "generate signed url"]
+
+temporary_access_url_revoked:
+  label: Temporary Access URL Revoked
+  provider_variants: ["endgetaccess", "revoke pre-signed url", "revoke signed url"]
+
+data_export_performed:
+  label: Data Export Performed
+  provider_variants: ["download", "export data"]
+
+data_upload_performed:
+  label: Data Upload Performed
+  provider_variants: ["upload"]
+
+replicated:
+  label: Replicated
+  provider_variants: ["replicate"]
+
+validated:
+  label: Validated
+  provider_variants: ["validate"]
+
+shared:
+  label: Shared
+  provider_variants: ["share"]
+
+approved:
+  label: Approved
+  provider_variants: ["approve "]
+
+rejected:
+  label: Rejected
+  provider_variants: ["reject "]
+
+approved_or_rejected:
+  label: Approved or Rejected
+  provider_variants: ["approve or reject"]
+
+rolling_upgrade_approved:
+  label: Rolling Upgrade Approved
+  provider_variants: ["approve deferred rolling upgrade"]
+
+rolling_upgrade_canceled:
+  label: Rolling Upgrade Canceled
+  provider_variants: ["cancel rolling upgrade"]
+
+orchestration_service_state_set:
+  label: Orchestration Service State Set
+  provider_variants: ["set orchestration service state"]
+
+service_fabric_update_domains_walked:
+  label: Service Fabric Update Domains Walked
+  provider_variants: ["force recovery service fabric"]
+
+eviction_simulated:
+  label: Eviction Simulated
+  provider_variants: ["simulate eviction"]
+
+boot_diagnostics_retrieved:
+  label: Boot Diagnostics URIs Retrieved
+  provider_variants: ["retrieve boot diagnostic"]
