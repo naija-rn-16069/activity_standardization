@@ -1,0 +1,45 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+CancelKeyDeletion,ID:requestParameters.keyId,ARN:responseElements.keyId,
+ConnectCustomKeyStore,,,No related resource
+CreateAlias,"ID:requestParameters.targetKeyId
+NAME:requestParamaters.aliasName",ARN:responseElements.keyId,
+CreateCustomKeyStore,,,No related resource
+CreateGrant,ARN:requestParameters.keyId,"ARN:responseElements.keyId
+ID:responseElements.grantId",
+CreateKey,,"ID:responseElements.keyMetadata.keyId
+ARN:responseElements.keyMetadata.arn",
+Decrypt,ARN:requestParameters.encryptionContext.aws:lambda:FunctionArn,,
+DeleteAlias,NAME:requestParamaters.aliasName,ARN:responseElements.keyId,
+DeleteCustomKeyStore,,,No related resource
+DeleteImportedKeyMaterial,,,
+DisableKey,ID:requestParameters.keyId,ARN:responseElements.keyId,
+DisableKeyRotation,ID:requestParameters.keyId,ARN:responseElements.keyId,
+DisconnectCustomKeyStore,,,
+EnableKey,ID:requestParameters.keyId,ARN:responseElements.keyId,
+EnableKeyRotation,ID:requestParameters.keyId,ARN:responseElements.keyId,
+Encrypt,ARN:requestParameters.keyId,,
+GenerateDataKey,ID:requestParameters.keyId,,
+GenerateDataKeyPair,ID:requestParameters.keyId,,
+GenerateDataKeyPairWithoutPlaintext,ID:requestParameters.keyId,,
+GenerateDataKeyWithoutPlaintext,ID:requestParameters.keyId,,
+GenerateMac,ID:requestParameters.keyId,,
+GenerateRandom,,,
+ImportKeyMaterial,,,
+PutKeyPolicy,ID:requestParameters.keyId,ARN:responseElements.keyId,
+ReEncrypt,ID:requestParameters.destinationKeyId,,
+ReplicateKey,ID:requestParameters.keyId,,
+RetireGrant,,ARN:responseElements.keyId,
+RevokeGrant,"ID:requestParameters.keyId
+ID:requestParameters.grantId",,
+RotateKeyOnDemand,,,
+ScheduleKeyDeletion,ID:requestParameters.keyId,ARN:responseElements.keyId,
+Sign,,,
+TagResource,ID:requestParameters.keyId,ARN:responseElements.keyId,
+UntagResource,ID:requestParameters.keyId,ARN:responseElements.keyId,
+UpdateAlias,"ID:requestParameters.targetKeyId
+NAME:requestParamaters.aliasName",ARN:responseElements.keyId,
+UpdateCustomKeyStore,,,No related resource
+UpdateKeyDescription,ID:requestParameters.keyId,ARN:responseElements.keyId,
+UpdatePrimaryRegion,ID:requestParameters.keyId,ARN:responseElements.keyId,
+Verify,ID:requestParameters.keyId,,
+VerifyMac,ID:requestParameters.keyId,,

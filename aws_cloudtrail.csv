@@ -1,0 +1,43 @@
+EVENT,REQUEST,RESPONSE
+AddTags,ARN: requestParameters.resourceId,
+CancelQuery,,
+CreateChannel,NAME: requestParameters.name,"NAME: responseElements.name
+ARN: responseElements.channelArn"
+CreateDashboard,,
+CreateEventDataStore,NAME: requestParameters.name,"NAME: responseElements.name
+ARN: responseElements.eventDataStoreArn"
+CreateTrail,NAME: requestParameters.name,"NAME: responseElements.name
+ARN: responseElements.trailARN"
+DeleteChannel,ARN: requestParameters.channel,
+DeleteDashboard,,
+DeleteEventDataStore,ARN: requestParameters.eventDataStore,
+DeleteResourcePolicy,ARN: requestParameters.resourceArn,
+DeleteTrail,ARN: requestParameters.name,
+DeregisterOrganizationDelegatedAdmin,,
+DisableFederation,,
+EnableFederation,,
+LookupEvents,,
+PutEventConfiguration,,
+PutEventSelectors,NAME: requestParameters.trailName,ARN: responseElements.trailARN
+PutInsightSelectors,NAME: requestParameters.trailName,ARN: responseElements.trailARN
+PutResourcePolicy,ARN: requestParameters.resourceArn,ARN: responseElements.resourceArn
+RegisterOrganizationDelegatedAdmin,,
+RemoveTags,ARN: requestParameters.resourceId,
+RestoreEventDataStore,ARN: requestParameters.eventDataStore,"NAME: responseElements.name
+ARN: responseElements.eventDataStoreArn"
+StartDashboardRefresh,,
+StartEventDataStoreIngestion,ARN: requestParameters.eventDataStore,
+StartImport,,
+StartLogging,ARN: requestParameters.name,
+StartQuery,,
+StopEventDataStoreIngestion,ARN: requestParameters.eventDataStore,
+StopImport,,
+StopLogging,ARN: requestParameters.name,
+UpdateChannel,ARN: requestParameters.channel,"NAME: responseElements.name
+ARN: responseElements.channelArn"
+UpdateDashboard,,
+UpdateEventDataStore,"NAME: requestParameters.name
+ARN: requestParameters.eventDataStoreArn","NAME: responseElements.name
+ARN: responseElements.eventDataStoreArn"
+UpdateTrail,NAME: requestParameters.name,"NAME: responseElements.name
+ARN: responseElements.trailARN"

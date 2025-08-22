@@ -1,0 +1,129 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+AddClientIDToOpenIDConnectProvider,,,No related resource
+AddRoleToInstanceProfile,"NAME:requestParameters.roleName
+NAME:requestParameters.instanceProfileName",,
+AddUserToGroup,"NAME:requestParameters.userName
+NAME:requestParameters.groupName",,
+AttachGroupPolicy,"NAME: requestParameters.groupName
+ARN: requestParameters.policyArn",,
+AttachRolePolicy,"NAME:requestParameters.roleName
+ARN:requestParameters.policyArn",,
+AttachUserPolicy,"NAME:requestParameters.roleName
+ARN:requestParameters.policyArn",,
+ChangePassword,,,No related resource
+CreateAccessKey,NAME:requestParameters.userName,NAME:responseElements.accesskey.userName,
+CreateAccountAlias,,,No related resource
+CreateGroup,NAME:requestParameters.groupName,"NAME:responseElements.group.groupName
+ARN:responseElements.group.arn
+ID:responseElements.group.groupId",
+CreateInstanceProfile,NAME: requestParameters.instanceProfileName,ARN: responseElements.instanceProfile.arn,
+CreateLoginProfile,NAME:requestParameters.userName,NAME:responseElements.loginProfile.userName,
+CreateOpenIDConnectProvider,,,No related resource
+CreatePolicy,NAME:requestParameters.policyName,"NAME:responseElements.policy.policyName
+ARN:responseElements.policy.arn
+ID:responseElements.policy.policyId",
+CreatePolicyVersion,ARN:requestParameters.policyArn,,
+CreateRole,NAME:requestParameters.roleName,"NAME:responseElements.role.roleName
+ARN:responseElements.role.arn
+ID:responseElements.role.roleId",
+CreateSAMLProvider,NAME: requestParameters.name,ARN: responseElements.sAMLProviderArn,
+CreateServiceLinkedRole,,"NAME: responseElements.role.roleName
+ID: responseElements.role.roleId
+ARN: responseElements.role.arn",
+CreateServiceSpecificCredential,NAME:requestParameters.userName,,
+CreateUser,NAME:requestParameters.userName,"NAME:responseElements.user.userName
+ARN:responseElements.user.arn
+ID:responseElements.user.userId",
+CreateVirtualMFADevice,,,
+DeactivateMFADevice,,,
+DeleteAccessKey,NAME:requestParameters.userName,,
+DeleteAccountAlias,,,No related resource
+DeleteAccountPasswordPolicy,,,No related resource
+DeleteGroup,NAME: requestParameters.groupName,,
+DeleteGroupPolicy,"NAME: requestParameters.groupName
+NAME: requestParameters.policyName",,
+DeleteInstanceProfile,NAME:requestParameters.instanceProfileName,,
+DeleteLoginProfile,NAME:requestParameters.userName,,
+DeleteOpenIDConnectProvider,,,No related resource
+DeletePolicy,ARN:requestParameters.policyArn,,
+DeletePolicyVersion,ARN:requestParameters.policyArn,,
+DeleteRole,NAME:requestParameters.roleName,,
+DeleteRolePermissionsBoundary,NAME:requestParameters.roleName,,
+DeleteRolePolicy,"NAME: requestParameters.roleName
+NAME: requestParameters.policyName",,
+DeleteSAMLProvider,ARN: requestParameters.sAMLProviderArn,,
+DeleteServerCertificate,NAME:requestParameters.serverCertificateName,,
+DeleteServiceLinkedRole,NAME:requestParameters.roleName,,
+DeleteServiceSpecificCredential,NAME:requestParameters.userName,,
+DeleteSigningCertificate,NAME:requestParameters.userName,,
+DeleteSSHPublicKey,NAME:requestParameters.userName,,
+DeleteUser,NAME:requestParameters.userName,,
+DeleteUserPermissionsBoundary,NAME:requestParameters.userName,,
+DeleteUserPolicy,"NAME:requestParameters.userName
+ARN: requestParameters.policyArn",,
+DeleteVirtualMFADevice,,,
+DetachGroupPolicy,"NAME: requestParameters.groupName
+ARN: requestParameters.policyArn",,
+DetachRolePolicy,"NAME: requestParameters.roleName
+ARN: requestParameters.policyArn",,
+DetachUserPolicy,"NAME:requestParameters.userName
+ARN:requestParameters.policyArn",,
+DisableOrganizationsRootCredentialsManagement,,,
+DisableOrganizationsRootSessions,,,
+EnableMFADevice,,,
+EnableOrganizationsRootCredentialsManagement,,,
+EnableOrganizationsRootSessions,,,
+GenerateCredentialReport,,,No related resource
+GenerateOrganizationsAccessReport,,,No related resource
+GenerateServiceLastAccessedDetails,ARN: requestParameters.arn,,
+PutGroupPolicy,"NAME: requestParameters.groupName
+NAME: requestParameters.policyName",,
+PutRolePermissionsBoundary,"NAME: requestParameters.roleName
+NAME: requestParameters.policyName",,
+PutRolePolicy,"NAME: requestParameters.roleName
+NAME: requestParameters.policyName",,
+PutUserPermissionsBoundary,"NAME: requestParameters.userName
+NAME: requestParameters.policyName",,
+PutUserPolicy,"NAME: requestParameters.userName
+NAME: requestParameters.policyName",,
+RemoveClientIDFromOpenIDConnectProvider,,,No related resource
+RemoveRoleFromInstanceProfile,NAME:requestParameters.instanceProfileName,,
+RemoveUserFromGroup,"NAME:requestParameters.userName
+NAME:requestParameters.groupName",,
+ResetServiceSpecificCredential,NAME:requestParameters.userName,,
+ResyncMFADevice,,,
+SetDefaultPolicyVersion,ARN: requestParameters.policyArn,,
+SetSecurityTokenServicePreferences,,,No related resource
+TagInstanceProfile,NAME:requestParameters.instanceProfileName,,
+TagMFADevice,,,
+TagOpenIDConnectProvider,,,No related resource
+TagPolicy,ARN: requestParameters.policyArn,,
+TagRole,NAME: requestParameters.roleName,,
+TagSAMLProvider,ARN: requestParameters.sAMLProviderArn,,
+TagServerCertificate,NAME:requestParameters.serverCertificateName,,
+TagUser,NAME:requestParameters.userName,,
+UntagInstanceProfile,NAME:requestParameters.instanceProfileName,,
+UntagOpenIDConnectProvider,,,No related resource
+UntagPolicy,ARN: requestParameters.policyArn,,
+UntagRole,NAME: requestParameters.roleName,,
+UntagSAMLProvider,ARN: requestParameters.sAMLProviderArn,,
+UntagServerCertificate,NAME:requestParameters.serverCertificateName,,
+UntagUser,NAME:requestParameters.userName,,
+UpdateAccessKey,NAME:requestParameters.userName,,
+UpdateAccountPasswordPolicy,,,No related resource
+UpdateAssumeRolePolicy,NAME:requestParameters.roleName,,
+UpdateGroup,"NAME:requestParameters.groupName
+NAME:requestParameters.newGroupName",,
+UpdateLoginProfile,NAME:requestParameters.userName,,
+UpdateOpenIDConnectProviderThumbprint,,,No related resource
+UpdateRole,NAME:requestParameters.roleName,,
+UpdateRoleDescription,NAME:requestParameters.roleName,,
+UpdateSAMLProvider,ARN: requestParameters.sAMLProviderArn,,
+UpdateServerCertificate,NAME:requestParameters.serverCertificateName,,
+UpdateServiceSpecificCredential,NAME:requestParameters.userName,,
+UpdateSigningCertificate,NAME:requestParameters.userName,,
+UpdateSSHPublicKey,NAME:requestParameters.userName,,
+UpdateUser,NAME:requestParameters.userName,,
+UploadServerCertificate,NAME:requestParameters.serverCertificateName,,
+UploadSigningCertificate,NAME:requestParameters.userName,,
+UploadSSHPublicKey,NAME:requestParameters.ruserName,,

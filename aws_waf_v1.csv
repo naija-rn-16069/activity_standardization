@@ -1,0 +1,57 @@
+EVENT,REQUEST,RESPONSE
+CreateByteMatchSet,NAME: requestParameters.name,"NAME: responseElements.byteMatchSet.name
+ID: responseElements.byteMatchSet.byteMatchSetId"
+CreateGeoMatchSet,NAME: requestParameters.name,"NAME: responseElements.geoMatchSet.name
+ID: responseElements.geoMatchSet.geoMatchSetId"
+CreateIPSet,NAME: requestParameters.name,"NAME: responseElements.iPSet.name
+ID: responseElements.iPSet.iPSetId"
+CreateRateBasedRule,NAME: requestParameters.name,"NAME: responseElements.rule.name
+ID: responseElements.rule.ruleId"
+CreateRegexMatchSet,NAME: requestParameters.name,"NAME: responseElements.regexMatchSet.name
+ID: responseElements.regexMatchSet.regexMatchSetId"
+CreateRegexPatternSet,NAME: requestParameters.name,"NAME: responseElements.regexPatternSet.name
+ID: responseElements.regexPatternSet.regexPatternSetId"
+CreateRule,NAME: requestParameters.name,"NAME: responseElements.rule.name
+ID: responseElements.rule.ruleId"
+CreateRuleGroup,NAME: requestParameters.name,"NAME: responseElements.ruleGroup.name
+ID: responseElements.ruleGroup.ruleGroupId"
+CreateSizeConstraintSet,NAME: requestParameters.name,"NAME: responseElements.sizeConstraintSet.name
+ID: responseElements.sizeConstraintSet.sizeConstraintSetId"
+CreateSqlInjectionMatchSet,NAME: requestParameters.name,"NAME: responseElements.sqlInjectionMatchSet.name
+ID: responseElements.sqlInjectionMatchSet.sqlInjectionMatchSetId"
+CreateWebACL,NAME: requestParameters.name,"NAME: responseElements.webACL.name
+ID: responseElements.webACL.webACLId
+ARN: responseElements.webACL.webACLArn"
+CreateWebACLMigrationStack,ID: requestParameters.webACLId,
+CreateXssMatchSet,NAME: requestParameters.name,"NAME: responseElements.xssMatchSet.name
+ID: responseElements.xssMatchSet.xssMatchSetId"
+DeleteByteMatchSet,ID: requestParameters.byteMatchSetId,
+DeleteGeoMatchSet,ID: requestParameters.geoMatchSetId,
+DeleteIPSet,ID: requestParameters.iPSetId,
+DeleteLoggingConfiguration,ARN: requestParameters.resourceArn,
+DeletePermissionPolicy,ARN: requestParameters.resourceArn,
+DeleteRateBasedRule,ID: requestParameters.ruleId,
+DeleteRegexMatchSet,ID: requestParameters.regexMatchSetId,
+DeleteRegexPatternSet,ID: requestParameters.regexPatternSetId,
+DeleteRule,ID: requestParameters.ruleId,
+DeleteRuleGroup,ID: requestParameters.ruleGroupId,
+DeleteSizeConstraintSet,ID: requestParameters.sizeConstraintSetId,
+DeleteSqlInjectionMatchSet,ID: requestParameters.sqlInjectionMatchSetId,
+DeleteWebACL,ID: requestParameters.webACLId,
+DeleteXssMatchSet,ID: requestParameters.xssMatchSetId,
+PutLoggingConfiguration,ARN: requestParameters.loggingConfiguration.resourceArn,ARN: responseElements.loggingConfiguration.resourceArn
+PutPermissionPolicy,ARN: requestParameters.resourceArn,
+TagResource,ARN: requestParameters.resourceARN,
+UntagResource,ARN: requestParameters.resourceARN,
+UpdateByteMatchSet,ID: requestParameters.byteMatchSetId,
+UpdateGeoMatchSet,ID: requestParameters.geoMatchSetId,
+UpdateIPSet,ID: requestParameters.iPSetId,
+UpdateRateBasedRule,ID: requestParameters.ruleId,
+UpdateRegexMatchSet,ID: requestParameters.regexMatchSetId,
+UpdateRegexPatternSet,ID: requestParameters.regexPatternSetId,
+UpdateRule,ID: requestParameters.ruleId,
+UpdateRuleGroup,ID: requestParameters.ruleGroupId,
+UpdateSizeConstraintSet,ID: requestParameters.sizeConstraintSetId,
+UpdateSqlInjectionMatchSet,ID: requestParameters.sqlInjectionMatchSetId,
+UpdateWebACL,ID: requestParameters.webACLId,
+UpdateXssMatchSet,ID: requestParameters.xssMatchSetId,

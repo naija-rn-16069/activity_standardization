@@ -1,0 +1,62 @@
+EVENT,REQUEST,RESPONSE
+ActivateKeySigningKey,"ID: requestParameters.hostedZoneId
+NAME: requestParameters.name",ID: responseElements.changeInfo.id
+AssociateVPCWithHostedZone,"ID: requestParameters.id
+ID: requestParameters.vPC.vPCId",ID: responseElements.changeInfo.id
+ChangeCidrCollection,ID: requestParameters.cidrCollectionId,ID: responseElements.id
+ChangeResourceRecordSets,ID: requestParameters.id,ID: responseElements.id
+ChangeTagsForResource,ID: requestParameters.resourceId,
+CreateCidrCollection,NAME: requestParameters.name,"ID: responseElements.collection.id
+ARN: responseElements.collection.arn
+NAME: responseElements.collection.name"
+CreateHealthCheck,,ID: responseElements.healthCheck.id
+CreateHostedZone,NAME: requestParameters.name,"ID: responseElements.changeInfo.id
+ID: responseElements.delegationSet.id
+ID: responseElements.vPC.vPCId
+ID: responseElements.hostedZone.id
+Name: responseElements.hostedZone.name"
+CreateKeySigningKey,"ID: requestParameters.hostedZoneId
+NAME: requestParameters.name",ID: responseElements.changeInfo.id
+CreateQueryLoggingConfig,NAME: requestParameters.name,"ID: responseElements.queryLoggingConfig.hostedZoneId
+ID: responseElements.queryLoggingConfig.id"
+CreateReusableDelegationSet,ID: requestParameters.hostedZoneId,ID: responseElements.delegationSet.id
+CreateTrafficPolicy,NAME: requestParameters.name,"Name: responseElements.trafficPolicy.name
+ID: responseElements.trafficPolicy.id"
+CreateTrafficPolicyInstance,"ID: requestParameters.hostedZoneId
+ID: requestParameters.trafficPolicyId
+NAME: requestParameters.name","NAME: responseElements.trafficPolicyInstance.name
+ID: responseElements.trafficPolicyInstance.hostedZoneId
+ID: responseElements.trafficPolicyInstance.trafficPolicyId
+ID: responseElements.trafficPolicyInstance.id"
+CreateTrafficPolicyVersion,ID: requestParameters.id,"Name: responseElements.trafficPolicy.name
+ID: responseElements.trafficPolicy.id"
+CreateVPCAssociationAuthorization,"ID: requestParameters.id
+ID: requestParameters.vPC.vPCId","ID: responseElements.hostedZoneId
+ID: responseElements.vPC.vPCId"
+DeactivateKeySigningKey,"ID: requestParameters.hostedZoneId
+NAME: requestParameters.name",ID: responseElements.changeInfo.id
+DeleteCidrCollection,ID: requestParameters.cidrCollectionId,
+DeleteHealthCheck,ID: requestParameters.healthCheckId,
+DeleteHostedZone,ID: requestParameters.id,ID: responseElements.changeInfo.id
+DeleteKeySigningKey,"ID: requestParameters.hostedZoneId
+NAME: requestParameters.name",ID: responseElements.changeInfo.id
+DeleteQueryLoggingConfig,ID: requestParameters.id,
+DeleteReusableDelegationSet,ID: requestParameters.id,
+DeleteTrafficPolicy,ID: requestParameters.id,
+DeleteTrafficPolicyInstance,ID: requestParameters.id,
+DeleteVPCAssociationAuthorization,"ID: requestParameters.id
+ID: requestParameters.vPC.vPCId",
+DisableHostedZoneDNSSEC,ID: requestParameters.id,ID: responseElements.changeInfo.id
+DisassociateVPCFromHostedZone,"ID: requestParameters.id
+ID: requestParameters.vPC.vPCId",ID: responseElements.changeInfo.id
+EnableHostedZoneDNSSEC,ID: requestParameters.id,ID: responseElements.changeInfo.id
+UpdateHealthCheck,ID: requestParameters.healthCheckId,ID: responseElements.healthCheck.id
+UpdateHostedZoneComment,ID: requestParameters.id,"ID: responseElements.hostedZone.id
+ID: responseElements.hostedZone.name"
+UpdateTrafficPolicyComment,ID: requestParameters.id,"Name: responseElements.trafficPolicy.name
+ID: responseElements.trafficPolicy.id"
+UpdateTrafficPolicyInstance,"ID: requestParameters.id 
+ID: requestParameters.trafficPolicyId","NAME: responseElements.trafficPolicyInstance.name
+ID: responseElements.trafficPolicyInstance.hostedZoneId
+ID: responseElements.trafficPolicyInstance.trafficPolicyId
+ID: responseElements.trafficPolicyInstance.id"

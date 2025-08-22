@@ -1,0 +1,56 @@
+EVENT,REQUEST,RESPONSE
+AbortEnvironmentUpdate,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+ApplyEnvironmentManagedAction,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+AssociateEnvironmentOperationsRole,NAME: requestParameters.environmentName,
+ComposeEnvironments,NAME: requestParameters.environmentName,
+CreateApplication,NAME: requestParameters.applicationName,
+CreateApplicationVersion,"NAME: requestParameters.applicationName
+NAME: requestParameters.versionLabel",
+CreateConfigurationTemplate,"NAME: requestParameters.applicationName
+NAME: requestParameters.templateName",
+CreateEnvironment,"NAME: requestParameters.applicationName
+NAME: requestParameters.environmentName",
+CreatePlatformVersion,"NAME: requestParameters.platformName
+NAME: requestParameters.environmentName
+ID: requestParameters.platformVersion",
+CreateStorageLocation,,
+DeleteApplication,NAME: requestParameters.applicationName,
+DeleteApplicationVersion,"NAME: requestParameters.applicationName
+NAME: requestParameters.versionLabel",
+DeleteConfigurationTemplate,"NAME: requestParameters.applicationName
+NAME: requestParameters.templateName",
+DeleteEnvironmentConfiguration,"NAME: requestParameters.applicationName
+NAME: requestParameters.environmentName",
+DeletePlatformVersion,ARN: requestParameters.platformArn,
+DisassociateEnvironmentOperationsRole,NAME: requestParameters.environmentName,
+RebuildEnvironment,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+RequestEnvironmentInfo,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+RestartAppServer,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+RetrieveEnvironmentInfo,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+SwapEnvironmentCNAMEs,"NAME: requestParameters.destinationEnvironmentName
+ID: requestParameters.destinationEnvironmentId ((AND))
+NAME: requestParameters.sourceEnvironmentName
+ID: requestParameters.sourceEnvironmentId",
+TerminateEnvironment,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId","NAME: responseElements.applicationName
+NAME: responseElements.environmentName
+ID: responseElements.environmentId
+ARN: responseElements.environmentArn"
+UpdateApplication,NAME: requestParameters.applicationName,
+UpdateApplicationResourceLifecycle,NAME: requestParameters.applicationName,
+UpdateApplicationVersion,"NAME: requestParameters.applicationName
+NAME: requestParameters.versionLabel",
+UpdateConfigurationTemplate,"NAME: requestParameters.applicationName
+NAME: requestParameters.templateName",
+UpdateEnvironment,"NAME: requestParameters.environmentName
+ID: requestParameters.environmentId",
+UpdateTagsForResource,ARN: requestParameters.resourceArn (Can be used for different resource type),
+ValidateConfigurationSettings,"NAME: requestParameters.applicationName
+NAME: requestParameters.environmentName
+NAME: requestParameters.templateName",

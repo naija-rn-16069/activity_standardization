@@ -1,0 +1,37 @@
+EVENT,REQUEST,RESPONSE
+CreateCluster,NAME: requestParameters.clusterName,"NAME: responseElements.cluster.clusterName
+ARN: responseElements.cluster.clusterArn
+NAME: responseElements.cluster.subnetGroup
+NAME: responseElements.cluster.parameterGroup.parameterGroupName"
+CreateParameterGroup,NAME: requestParameters.parameterGroupName,NAME: responseElements.parameterGroup.parameterGroupName
+CreateSubnetGroup,"NAME: requestParameters.subnetGroupName
+ID:requestParameters.subnetIds[*]","NAME: responseElements.subnetGroup.subnetGroupName
+ID: responseElements.subnetGroup.subnets[*].subnetIdentifier"
+DecreaseReplicationFactor,NAME: requestParameters.clusterName,"NAME: responseElements.cluster.clusterName
+ARN: responseElements.cluster.clusterArn
+NAME: responseElements.cluster.subnetGroup
+NAME: responseElements.cluster.parameterGroup.parameterGroupName"
+DeleteCluster,NAME: requestParameters.clusterName,"NAME: responseElements.cluster.clusterName
+ARN: responseElements.cluster.clusterArn
+NAME: responseElements.cluster.subnetGroup
+NAME: responseElements.cluster.parameterGroup.parameterGroupName"
+DeleteParameterGroup,NAME: requestParameters.parameterGroupName,
+DeleteSubnetGroup,NAME: requestParameters.subnetGroupName,
+IncreaseReplicationFactor,NAME: requestParameters.clusterName,"NAME: responseElements.cluster.clusterName
+ARN: responseElements.cluster.clusterArn
+NAME: responseElements.cluster.subnetGroup
+NAME: responseElements.cluster.parameterGroup.parameterGroupName"
+RebootNode,"NAME: requestParameters.clusterName
+ID: requestParameters.nodeId","NAME: responseElements.cluster.clusterName
+ARN: responseElements.cluster.clusterArn
+NAME: responseElements.cluster.subnetGroup
+NAME: responseElements.cluster.parameterGroup.parameterGroupName"
+TagResource,NAME: requestParameters.resourceName,
+UntagResource,NAME: requestParameters.resourceName,
+UpdateCluster,NAME: requestParameters.clusterName,"NAME: responseElements.cluster.clusterName
+ARN: responseElements.cluster.clusterArn
+NAME: responseElements.cluster.subnetGroup
+NAME: responseElements.cluster.parameterGroup.parameterGroupName"
+UpdateParameterGroup,NAME: requestParameters.parameterGroupName,NAME: responseElements.parameterGroup.parameterGroupName
+UpdateSubnetGroup,NAME: requestParameters.subnetGroupName,"NAME: responseElements.subnetGroup.subnetGroupName
+ID: responseElements.subnetGroup.subnets[*].subnetIdentifier"

@@ -1,0 +1,51 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+BatchExecuteStatement,,"NAME: responseElements.consumedCapacity.tableName
+NAME: responseElements.responses[*].tableName",
+BatchWriteItem,,NAME: responseElements.consumedCapacity[*].tableName,
+CreateBackup,"NAME: requestParameters.backupName
+NAME: requestParameters.tableName",,
+CreateGlobalTable,NAME: requestParameters.globalTableName,ARN: responseElements.globalTableDescription.globalTableArn,
+CreateTable,NAME: requestParameters.tableName,"NAME: responseElements.tableDescription.tableName
+ARN: responseElements.tableDescription.tableArn
+ID: responseElements.tableDescription.tableId",
+DeleteBackup,ARN: requestParameters.backupArn,,
+DeleteItem,NAME: requestParameters.tableName,NAME: responseElements.consumedCapacity.tableName,
+DeleteResourcePolicy,,,
+DeleteTable,NAME: requestParameters.tableName,"NAME: responseElements.tableDescription.tableName
+ARN: responseElements.tableDescription.tableArn
+ID: responseElements.tableDescription.tableId",
+DisableKinesisStreamingDestination,"ARN: requestParameters.streamArn
+NAME: requestParameters.tableName","ARN: responseElements.streamArn
+NAME: responseElements.tableName",
+EnableKinesisStreamingDestination,"ARN: requestParameters.streamArn
+NAME: requestParameters.tableName","ARN: responseElements.streamArn
+NAME: responseElements.tableName",
+ExecuteStatement,,NAME: responseElements.consumedCapacity.tableName,
+ExecuteTransaction,,NAME: responseElements.consumedCapacity[*].tableName,
+ExportTableToPointInTime,ARN: requestParameters.tableArn,"ARN: responseElements.exportDescription.exportArn
+ARN: responseElements.exportDescription.tableArn
+ID: responseElements.exportDescription.tableId",not in cloudTrail
+ImportTable,NAME: requestParameters.tableCreationParameters.tableName,,
+PutItem,NAME: requestParameters.tableName,NAME: responseElements.consumedCapacity.tableName,
+PutResourcePolicy,,,
+RestoreTableFromBackup,"ARN: requestParameters.backupArn
+NAME: requestParameters.targetTableName",,
+RestoreTableToPointInTime,"ARN: requestParameters.sourceTableArn
+NAME: requestParameters.targetTableName",,
+TagResource,ARN: requestParameters.resourceArn,,
+TransactWriteItems,"NAME: requestParameters.transactItems.conditionCheck.tableName
+NAME: requestParameters.transactItems.delete.tableName
+NAME: requestParameters.transactItems.put.tableName
+NAME: requestParameters.transactItems.update.tableName",NAME: responseElements.consumedCapacity.tableName,
+UntagResource,ARN: requestParameters.resourceArn,,
+UpdateContinuousBackups,NAME: requestParameters.tableName,,
+UpdateContributorInsights,"NAME: requestParameters.tableName
+NAME: requestParameters.IndexNam","NAME: responseElements.tableName
+NAME: responseElements.IndexName",
+UpdateGlobalTable,NAME: requestParameters.globalTableName,"NAME: responseElements.globalTableDescription.globalTableName
+ARN: responseElements.globalTableDescription.globalTableArn",not in cloudTrail
+UpdateGlobalTableSettings,NAME: requestParameters.globalTableName,,
+UpdateItem,NAME: requestParameters.tableName,NAME: responseElements.consumedCapacity.tableName,
+UpdateTable,NAME: requestParameters.tableName,,
+UpdateTableReplicaAutoScaling,NAME: requestParameters.tableName,NAME: responseElements.tableAutoScalingDescription.tableName,not in cloudTrail
+UpdateTimeToLive,NAME: requestParameters.tableName,,

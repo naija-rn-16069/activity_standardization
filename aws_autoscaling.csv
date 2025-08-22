@@ -1,0 +1,48 @@
+EVENT,REQUEST,RESPONSE
+AttachInstances,NAME: requestParameters.autoScalingGroupName,
+AttachLoadBalancers,NAME: requestParameters.autoScalingGroupName,
+AttachLoadBalancerTargetGroups,NAME: requestParameters.autoScalingGroupName,
+AttachTrafficSources,NAME: requestParameters.autoScalingGroupName,
+BatchDeleteScheduledAction,NAME: requestParameters.autoScalingGroupName,
+BatchPutScheduledUpdateGroupAction,NAME: requestParameters.autoScalingGroupName,
+CancelInstanceRefresh,NAME: requestParameters.autoScalingGroupName,
+CompleteLifecycleAction,NAME: requestParameters.autoScalingGroupName,
+CreateAutoScalingGroup,NAME: requestParameters.autoScalingGroupName,
+CreateLaunchConfiguration,NAME: requestParameters.launchConfigurationName,
+CreateOrUpdateTags,NAME: requestParameters.tags[*].resourceId,
+DeleteAutoScalingGroup,NAME: requestParameters.autoScalingGroupName,
+DeleteLaunchConfiguration,NAME: requestParameters.launchConfigurationName,
+DeleteLifecycleHook,NAME: requestParameters.autoScalingGroupName,
+DeleteNotificationConfiguration,NAME: requestParameters.autoScalingGroupName,
+DeletePolicy,NAME: requestParameters.autoScalingGroupName,
+DeleteScheduledAction,NAME: requestParameters.autoScalingGroupName,
+DeleteTags,NAME: requestParameters.tags[*].resourceId,
+DeleteWarmPool,NAME: requestParameters.autoScalingGroupName,
+DetachInstances,NAME: requestParameters.autoScalingGroupName,"NAME: responseElements.activities[*].autoScalingGroupName
+ARN: responseElements.activities[*].autoScalingGroupARN"
+DetachLoadBalancers,NAME: requestParameters.autoScalingGroupName,
+DetachLoadBalancerTargetGroups,NAME: requestParameters.autoScalingGroupName,
+DetachTrafficSources,NAME: requestParameters.autoScalingGroupName,
+DisableMetricsCollection,NAME: requestParameters.autoScalingGroupName,
+EnableMetricsCollection,NAME: requestParameters.autoScalingGroupName,
+EnterStandby,NAME: requestParameters.autoScalingGroupName,"NAME: responseElements.activities[*].autoScalingGroupName
+ARN: responseElements.activities[*].autoScalingGroupARN"
+ExecutePolicy,NAME: requestParameters.autoScalingGroupName,
+ExitStandby,NAME: requestParameters.autoScalingGroupName,"NAME: responseElements.activities[*].autoScalingGroupName
+ARN: responseElements.activities[*].autoScalingGroupARN"
+PutLifecycleHook,NAME: requestParameters.autoScalingGroupName,
+PutNotificationConfiguration,NAME: requestParameters.autoScalingGroupName,
+PutScalingPolicy,NAME: requestParameters.autoScalingGroupName,
+PutScheduledUpdateGroupAction,NAME: requestParameters.autoScalingGroupName,
+PutWarmPool,NAME: requestParameters.autoScalingGroupName,
+RecordLifecycleActionHeartbeat,NAME: requestParameters.autoScalingGroupName,
+ResumeProcesses,NAME: requestParameters.autoScalingGroupName,
+RollbackInstanceRefresh,NAME: requestParameters.autoScalingGroupName,
+SetDesiredCapacity,NAME: requestParameters.autoScalingGroupName,
+SetInstanceHealth,,
+SetInstanceProtection,NAME: requestParameters.autoScalingGroupName,
+StartInstanceRefresh,NAME: requestParameters.autoScalingGroupName,
+SuspendProcesses,NAME: requestParameters.autoScalingGroupName,
+TerminateInstanceInAutoScalingGroup,,"NAME: responseElements.activity[*].autoScalingGroupName
+ARN: responseElements.activity[*].autoScalingGroupARN"
+UpdateAutoScalingGroup,NAME: requestParameters.autoScalingGroupName,

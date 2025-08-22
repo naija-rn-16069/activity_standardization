@@ -1,0 +1,104 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+AssociateAlias,ID:requestParameters.targetDistributionId,,
+AssociateDistributionTenantWebACL,,,
+AssociateDistributionWebACL,,,
+CopyDistribution,,,
+CreateAnycastIpList,,,
+CreateCachePolicy,NAME: requestParameters.cachePolicyConfig.name,"NAME:responseElements.cachePolicy.cachePolicyConfig.name
+ID:responseElements.cachePolicy.id",
+CreateCloudFrontOriginAccessIdentity,NAME: requestParameters.cloudFrontOriginAccessIdentityConfig.comment,"ID: responseElements.cloudFrontOriginAccessIdentity.id
+NAME: responseElements.cloudFrontOriginAccessIdentity.cloudFrontOriginAccessIdentityConfig.comment",
+CreateContinuousDeploymentPolicy,,ID: responseElements.continuousDeploymentPolicy.id,
+CreateDistribution,ID: requestParameters.distributionConfig.id,"ID: responseElements.distribution.
+ARN: responseElements.distribution.aRN",
+CreateDistributionTenant,,,
+CreateDistributionWithTags,ID: requestParameters.distributionConfig.id,"ID: responseElements.distribution.
+ARN: responseElements.distribution.aRN",
+CreateFieldLevelEncryptionConfig,ID: requestParameters.fieldLevelEncryptionConfig.contentTypeProfileConfig.contentTypeProfiles.items.profileId,"ID: responseElements.fieldLevelEncryption.id
+ID: responseElements.fieldLevelEncryption.fieldLevelEncryptionConfig.contentTypeProfileConfig.contentTypeProfiles.items.profileId",
+CreateFieldLevelEncryptionProfile,NAME: requestParameters.fieldLevelEncryptionProfileConfig.name,"ID: responseElements.fieldLevelEncryptionProfile.id
+NAME: responseElements.fieldLevelEncryptionProfile.fieldLevelEncryptionProfileConfig.name",
+CreateFunction,NAME: requestParameters.name,"NAME: resposeElements.functionSummary.name
+ARN: resposeElements.functionSummary.functionMetadata.functionARN",
+CreateInvalidation,,,
+CreateInvalidationForDistributionTenant,,,
+CreateKeyGroup,,,No related resource
+CreateKeyValueStore,,,
+CreateMonitoringSubscription,,,No related resource
+CreateOriginAccessControl,NAME: requestParameters.name,"ID: responseElements.id
+NAME: responseElements.originAccessControlConfig.name",
+CreateOriginRequestPolicy,NAME: requestParameters.originRequestPolicyConfig.name,"NAME: responseElements.originRequestPolicy.originRequestPolicyConfig.name
+ID: responseElements.originRequestPolicy.id",
+CreatePublicKey,,,No related resource
+CreateRealtimeLogConfig,NAME: requestParameters.name,"ARN: responseElements.realtimeLogConfig.ARN
+NAME: responseElements.realtimeLogConfig.name",
+CreateResponseHeadersPolicy,NAME: requestParameters.responseHeadersPolicyConfig.name,"NAME: responseElements.responseHeadersPolicy.responseHeadersPolicyConfig.name
+ID: responseElements.responseHeadersPolicy.id",
+CreateStreamingDistribution,,,
+CreateStreamingDistributionWithTags,,,
+CreateVpcOrigin,,,
+DeleteAnycastIpList,,,
+DeleteCachePolicy,ID: requestParameters.id,,
+DeleteCloudFrontOriginAccessIdentity,ID: requestParameters.id,,
+DeleteContinuousDeploymentPolicy,ID: requestParameters.id,,
+DeleteDistribution,ID: requestParameters.id,,
+DeleteDistributionTenant,,,
+DeleteFieldLevelEncryptionConfig,ID: requestParameters.id,,
+DeleteFieldLevelEncryptionProfile,ID: requestParameters.id,,
+DeleteFunction,NAME: requestParameters.name,,
+DeleteKeyGroup,,,No related resource
+DeleteKeyValueStore,,,
+DeleteMonitoringSubscription,,,No related resource
+DeleteOriginAccessControl,ID: requestParameters.id,,
+DeleteOriginRequestPolicy,ID: requestParameters.id,,
+DeletePublicKey,,,No related resource
+DeleteRealtimeLogConfig,NAME: requestParameters.name,,
+DeleteResponseHeadersPolicy,ID: requestParameters.id,,
+DeleteStreamingDistribution,,,
+DeleteVpcOrigin,,,
+DisassociateDistributionTenantWebACL,,,
+DisassociateDistributionWebACL,,,
+PublishFunction,NAME: requestParameters.name,"resposeElements.functionSummary.name
+resposeElements.functionSummary.functionMetadata.functionARN",
+TagResource,ARN: requestParameters.resource,,
+TestFunction,NAME: requestParameters.name,"resposeElements.testResult.functionSummary.name
+resposeElements.testResult.functionSummary.functionMetadata.functionARN",
+UntagResource,ARN: requestParameters.resource,,
+UpdateCachePolicy,"ID: requestParameters.id
+NAME: requestParameters.cachePolicyConfig.name","ID: responseElements.cachePolicy.id
+NAME: responseElements.cachePolicy.cachePolicyConfig.name",
+UpdateCloudFrontOriginAccessIdentity,"ID: requestParameters.id
+NAME: requestParameters.cloudFrontOriginAccessIdentityConfig.comment","ID: responseElements.cloudFrontOriginAccessIdentity.id
+NAME: responseElements.cloudFrontOriginAccessIdentity.cloudFrontOriginAccessIdentityConfig.comment",
+UpdateConnectionGroup,,,
+UpdateContinuousDeploymentPolicy,ID: requestParameters.id,ID: responseElements.continuousDeploymentPolicy.id,
+UpdateDistribution,ID: requestParameters.distributionConfig.id,"ID: responseElements.distribution.
+ARN: responseElements.distribution.aRN",
+UpdateDistributionTenant,,,
+UpdateDistributionWithStagingConfig,ID: requestParameters.id,"ID: responseElements.distribution.id
+ARN: responseElements.distribution.aRN",
+UpdateDomainAssociation,,,
+UpdateFieldLevelEncryptionConfig,"NAME: requestParameters.fieldLevelEncryptionConfig.comment
+ID: requestParameters.id
+ID: requestParameters.fieldLevelEncryptionConfig.contentTypeProfileConfig.contentTypeProfiles.items.profileId","ID: responseElements.fieldLevelEncryption.id
+NAME: responseElements.fieldLevelEncryption.fieldLevelEncryptionConfig.comment
+ID: responseElements.fieldLevelEncryptionConfig.contentTypeProfileConfig.contentTypeProfiles.items.profileId",
+UpdateFieldLevelEncryptionProfile,"ID: requestParameters.id
+NAME: requestParameters.fieldLevelEncryptionProfileConfig.name","ID: responseElements.fieldLevelEncryptionProfile.id
+NAME: responseElements.fieldLevelEncryptionProfile.fieldLevelEncryptionProfileConfig.name",
+UpdateFunction,NAME: requestParameters.name,ARN: responseElements.functionMetadata.functionARN,
+UpdateKeyGroup,,,No related resource
+UpdateKeyValueStore,,,
+UpdateOriginAccessControl,"ID: requestParameters.id
+NAME:requestParameters.originAccessControlConfig.name","ID: responseElements.originAccessControl.id
+NAME: responseElements.originAccessControl.originAccessControlConfig.name",
+UpdateOriginRequestPolicy,"NAME: requestParameters.originRequestPolicyConfig.name
+ID: requestParameters.id","ID: responseElements.originRequestPolicy.id
+NAME: responseElements.originRequestPolicy.originRequestPolicyConfig.name",
+UpdatePublicKey,,,No related resource
+UpdateRealtimeLogConfig,NAME: requestParameters.Arn,NAME: responseElements.Arn,
+UpdateResponseHeadersPolicy,NAME: requestParameters.responseHeadersPolicyConfig.name,"ID: responseElements.responseHeadersPolicy.id
+NAME: responseElements.responseHeadersPolicy.responseHeadersPolicyConfig.name",
+UpdateStreamingDistribution,,,
+UpdateVpcOrigin,,,
+VerifyDnsConfiguration,,,

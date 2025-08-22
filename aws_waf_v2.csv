@@ -1,0 +1,47 @@
+EVENT,REQUEST,RESPONSE
+AssociateWebACL,"ARN: requestParameters.webACLArn
+ARN: requestParameters.resourceArn",
+CheckCapacity,,
+CreateAPIKey,,
+CreateIPSet,NAME: requestParameters.name,"NAME: responseElements.Summary.name
+ID: responseElements.Summary.id
+ARN: responseElements.Summary.aRN"
+CreateRegexPatternSet,NAME: requestParameters.name,"NAME: responseElements.Summary.name
+ID: responseElements.Summary.id
+ARN: responseElements.Summary.aRN"
+CreateRuleGroup,NAME: requestParameters.name,"NAME: responseElements.Summary.name
+ID: responseElements.Summary.id
+ARN: responseElements.Summary.aRN"
+CreateWebACL,NAME: requestParameters.name,"NAME: responseElements.Summary.name
+ID: responseElements.Summary.id
+ARN: responseElements.Summary.aRN"
+DeleteAPIKey,,
+DeleteFirewallManagerRuleGroups,ARN: requestParameters.webACLArn,
+DeleteIPSet,"NAME: requestParameters.name
+ID: requestParameters.id",
+DeleteLoggingConfiguration,ARN: requestParameters.resourceArn,
+DeletePermissionPolicy,ARN: requestParameters.resourceArn,
+DeleteRegexPatternSet,"NAME: requestParameters.name
+ID: requestParameters.id",
+DeleteRuleGroup,"NAME: requestParameters.name
+ID: requestParameters.id",
+DeleteWebACL,"NAME: requestParameters.name
+ID: requestParameters.id",
+DisassociateWebACL,ARN: requestParameters.resourceArn,
+GenerateMobileSdkReleaseUrl,,
+PutLoggingConfiguration,ARN: requestParameters.loggingConfiguration.resourceArn,ARN: responseElements.loggingConfiguration.resourceArn
+PutManagedRuleSetVersions,"NAME: requestParameters.name
+ID: requestParameters.id",
+PutPermissionPolicy,ARN: requestParameters.resourceArn,
+TagResource,ARN: requestParameters.resourceARN,
+UntagResource,ARN: requestParameters.resourceARN,
+UpdateIPSet,"NAME: requestParameters.name
+ID: requestParameters.id",
+UpdateManagedRuleSetVersionExpiryDate,"NAME: requestParameters.name
+ID: requestParameters.id",
+UpdateRegexPatternSet,"NAME: requestParameters.name
+ID: requestParameters.id",
+UpdateRuleGroup,"NAME: requestParameters.name
+ID: requestParameters.id",
+UpdateWebACL,"NAME: requestParameters.name
+ID: requestParameters.id",

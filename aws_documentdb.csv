@@ -1,0 +1,119 @@
+EVENT,REQUEST,RESPONSE
+AddSourceIdentifierToSubscription,"ID: requestParameters.sourceIdentifier
+NAME: requestParameters.subscriptionName","ARN: responseElements.eventSubscriptionArn
+NAME: responseElements.custSubscriptionId
+ID: responseElements.custSubscriptionId.sourceIdsList[*]"
+AddTagsToResource,NAME: requestParameters.resourceName,
+ApplyPendingMaintenanceAction,ARN: requestParameters.resourceIdentifier,ARN: responseElements.resourceIdentifier
+CopyDBClusterParameterGroup,"ARN: requestParameters.sourceDBClusterParameterGroupIdentifier
+NAME: requestParameters.targetDBClusterParameterGroupIdentifier","ARN: responseElements.dBClusterParameterGroupArn
+NAME: responseElements.dBClusterParameterGroupName"
+CopyDBClusterSnapshot,"NAME: requestParameters.sourceDBClusterSnapshotIdentifier
+NAME: requestParameters.targetDBClusterSnapshotIdentifier","NAME: responseElements.dBClusterSnapshotIdentifier
+NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.sourceDBClusterSnapshotArn
+ARN: responseElements.dBClusterSnapshotArn"
+CreateDBCluster,NAME: requestParameters.dBClusterIdentifier,"ARN: responseElements.dBClusterArn
+NAME: responseElements.dBClusterIdentifier
+ID: responseElements.dbClusterResourceId
+NAME: responseElements.dBSubnetGroup"
+CreateDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,"ARN: responseElements.dBClusterParameterGroupArn
+NAME: responseElements.dBClusterParameterGroupName"
+CreateDBClusterSnapshot,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.dBClusterSnapshotIdentifier",
+CreateDBInstance,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.dBInstanceIdentifier","ARN: responseElements.dBInstanceArn
+NAME: responseElements.dBInstanceIdentifier
+ID: responseElements.dbiResourceId
+NAME: responseElements.dBParameterGroups[*].dBParameterGroupName
+NAME: responseElements.dBSubnetGroup[*].dBSubnetGroupName
+NAME: responseElements.dBClusterIdentifier"
+CreateDBSubnetGroup,"NAME: requestParameters.dBSubnetGroupName
+ID: requestParameters.subnetIds[*]","NAME: responseElements.dBSubnetGroupName
+ARN: responseElements.dBSubnetGroupArn
+ID: responseElements.subnets[*].subnetIdentifier"
+CreateEventSubscription,NAME: requestParameters.subscriptionName,"ID: responseElements.custSubscriptionId
+ARN:responseElements.eventSubscriptionArn"
+CreateGlobalCluster,NAME: requestParameters.globalClusterIdentifier,"NAME: responseElements.globalClusterIdentifier
+ARN: responseElements.globalClusterArn
+ID: responseElements.globalClusterResourceId"
+DeleteDBCluster,NAME: requestParameters.dBClusterIdentifier,"ARN: responseElements.dBClusterArn
+NAME: responseElements.dBClusterIdentifier
+ID: responseElements.dbClusterResourceId
+NAME: responseElements.dBSubnetGroup
+NAME: responseElements.dBClusterParameterGroup"
+DeleteDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,
+DeleteDBClusterSnapshot,NAME: requestParameters.dBClusterSnapshotIdentifier,
+DeleteDBInstance,NAME: requestParameters.dBInstanceIdentifier,"ARN: responseElements.dBInstanceArn
+NAME: responseElements.dBInstanceIdentifier
+ID: responseElements.dbiResourceId
+NAME: responseElements.dBParameterGroups[*].dBParameterGroupName
+NAME: responseElements.dBSubnetGroup[*].dBSubnetGroupName
+NAME: responseElements.dBClusterIdentifier"
+DeleteDBSubnetGroup,NAME: requestParameters.dBSubnetGroupName,
+DeleteEventSubscription,NAME: requestParameters.subscriptionName,"ID: responseElements.custSubscriptionId
+ARN:responseElements.eventSubscriptionArn"
+DeleteGlobalCluster,NAME: requestParameters.globalClusterIdentifier,"NAME: responseElements.globalClusterIdentifier
+ARN: responseElements.globalClusterArn
+ID: responseElements.globalClusterResourceId"
+FailoverDBCluster,"NAME: requestParameters.dBClusterIdentifier
+ARN: responseElements.dBClusterArn",
+FailoverGlobalCluster,,
+ModifyDBCluster,NAME: requestParameters.dBClusterIdentifier,"ARN: responseElements.dBClusterArn
+NAME: responseElements.dBClusterIdentifier
+ID: responseElements.dbClusterResourceId
+NAME: responseElements.dBSubnetGroup
+NAME: responseElements.dBClusterParameterGroup"
+ModifyDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,NAME: responseElements.dBClusterParameterGroupName
+ModifyDBClusterSnapshotAttribute,"NAME: requestParameters.attributeName
+NAME: requestParameters.dBClusterSnapshotIdentifier",NAME: responseElements.dBClusterSnapshotIdentifier
+ModifyDBInstance,NAME: requestParameters.dBInstanceIdentifier,"ARN: responseElements.dBInstanceArn
+NAME: responseElements.dBInstanceIdentifier
+ID: responseElements.dbiResourceId
+NAME: responseElements.dBParameterGroups[*].dBParameterGroupName
+NAME: responseElements.dBSubnetGroup[*].dBSubnetGroupName
+NAME: responseElements.dBClusterIdentifier"
+ModifyDBSubnetGroup,"NAME: requestParameters.dBSubnetGroupName
+ID: requestParameters.subnetIds[*]","NAME: responseElements.dBSubnetGroupName
+ARN: responseElements.dBSubnetGroupArn
+ID: responseElements.subnets[*].SubnetIdentifier"
+ModifyEventSubscription,NAME: requestParameters.subscriptionName,"ID: responseElements.custSubscriptionId
+ARN:responseElements.eventSubscriptionArn"
+ModifyGlobalCluster,NAME: requestParameters.globalClusterIdentifier,"NAME: responseElements.globalClusterIdentifier
+ARN: responseElements.globalClusterArn
+ID: responseElements.globalClusterResourceId"
+RebootDBInstance,NAME: requestParameters.dBInstanceIdentifier,"ARN: responseElements.dBInstanceArn
+NAME: responseElements.dBInstanceIdentifier
+ID: responseElements.dbiResourceId
+NAME: responseElements.dBParameterGroups[*].dBParameterGroupName
+NAME: responseElements.dBSubnetGroup[*].dBSubnetGroupName
+NAME: responseElements.dBClusterIdentifier"
+RemoveFromGlobalCluster,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.globalClusterIdentifier","NAME: responseElements.globalClusterIdentifier
+ARN: responseElements.globalClusterArn
+ID: responseElements.globalClusterResourceId"
+RemoveSourceIdentifierFromSubscription,"ID: requestParameters.sourceIdentifier
+NAME: requestParameters.subscriptionName","ID: responseElements.custSubscriptionId
+ARN:responseElements.eventSubscriptionArn"
+RemoveTagsFromResource,ARN: requestParameters.resourceName,
+ResetDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,NAME: responseElements.dBClusterParameterGroupName
+RestoreDBClusterFromSnapshot,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.snapshotIdentifier","ARN: responseElements.dBClusterArn
+NAME: responseElements.dBClusterIdentifier
+ID: responseElements.dbClusterResourceId
+NAME: responseElements.dBSubnetGroup
+NAME: responseElements.dBClusterParameterGroup"
+RestoreDBClusterToPointInTime,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.sourceDBClusterIdentifier","ARN: responseElements.dBClusterArn
+NAME: responseElements.dBClusterIdentifier
+ID: responseElements.dbClusterResourceId
+NAME: responseElements.dBSubnetGroup
+NAME: responseElements.dBClusterParameterGroup"
+StartDBCluster,NAME: requestParameters.dBClusterIdentifier,"ARN: responseElements.dBClusterArn
+NAME: responseElements.dBClusterIdentifier
+ID: responseElements.dbClusterResourceId
+NAME: responseElements.dBSubnetGroup
+NAME: responseElements.dBClusterParameterGroup
+NAME: responseElements.dBClusterMembers[*].dBInstanceIdentifier"
+StopDBCluster,NAME: requestParameters.dBClusterIdentifier,
+SwitchoverGlobalCluster,,

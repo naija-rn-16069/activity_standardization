@@ -1,0 +1,27 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+AddPermission,ARN:requestParameter.topicArn,,
+CheckIfPhoneNumberIsOptedOut,,,No Related resource
+ConfirmSubscription,ARN:requestParameter.topicArn,ARN:responseElements.subscriptionArn,
+CreatePlatformApplication,,,resource not collected
+CreatePlatformEndpoint,,,resource not collected
+CreateSMSSandboxPhoneNumber,,,No Related resource
+CreateTopic,NAME:requestParameter.name,ARN:responseElements.topicArn,
+DeleteEndpoint,,,resource not collected
+DeletePlatformApplication,,,resource not collected
+DeleteSMSSandboxPhoneNumber,,,No Related resource
+DeleteTopic,ARN:requestParameter.topicArn,,
+OptInPhoneNumber,,,No Related resource
+Publish,,,
+PublishBatch,,,
+PutDataProtectionPolicy,ARN:requestParameter.resourceArn,,
+RemovePermission,ARN:requestParameter.topicArn,,
+SetEndpointAttributes,,,resource not collected
+SetPlatformApplicationAttributes,,,resource not collected
+SetSMSAttributes,,,No Related resource
+SetSubscriptionAttributes,ARN:requestParameter.subscriptionArn,,
+SetTopicAttributes,ARN:requestParameter.topicArn,,
+Subscribe,ARN:requestParameter.topicArn,ARN:responseElements.subscriptionArn,
+TagResource,ARN:requestParameter.resourceArn,,
+Unsubscribe,ARN:requestParameter.subscriptionArn,,
+UntagResource,ARN:requestParameter.resourceArn,,
+VerifySMSSandboxPhoneNumber,,,No Related resource

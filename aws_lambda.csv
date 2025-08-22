@@ -1,0 +1,42 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+AddLayerVersionPermission,,,Resource not collected
+AddPermission,NAME:requestParameters.functionName,,
+CreateAlias,NAME:requestParameters.functionName,getting aliasArn which is not a resource,
+CreateCodeSigningConfig,,,Resource not collected
+CreateEventSourceMapping,NAME:requestParameters.functionName,,
+CreateFunction,NAME:requestParameters.functionName,"NAME:responseElements.functionName
+ARN:responseElements.functionArn",
+CreateFunctionUrlConfig,NAME:requestParameters.functionName,ARN:responseElements.functionArn,
+DeleteAlias,NAME:requestParameters.functionName,,
+DeleteCodeSigningConfig,,,Resource not collected
+DeleteEventSourceMapping,,,No related resource
+DeleteFunction,NAME:requestParameters.functionName,,
+DeleteFunctionCodeSigningConfig,NAME:requestParameters.functionName,,
+DeleteFunctionConcurrency,NAME:requestParameters.functionName,,
+DeleteFunctionEventInvokeConfig,NAME:requestParameters.functionName,,
+DeleteFunctionUrlConfig,NAME:requestParameters.functionName,,
+DeleteLayerVersion,,,No related resource
+DeleteProvisionedConcurrencyConfig,NAME:requestParameters.functionName,,
+Invoke,NAME:requestParameters.functionName,,
+InvokeAsync,,,
+InvokeWithResponseStream,,,
+PublishLayerVersion,,,No related resource
+PublishVersion,NAME:requestParameters.functionName,"ARN:responseElements.functionArn
+NAME:responseElements.functionName",
+PutFunctionCodeSigningConfig,NAME:requestParameters.functionName,NAME:responseElements.functionName,
+PutFunctionConcurrency,NAME:requestParameters.functionName,,
+PutFunctionEventInvokeConfig,NAME:requestParameters.functionName,ARN:responseElements.functionArn,
+PutFunctionRecursionConfig,,,
+PutProvisionedConcurrencyConfig,NAME:requestParameters.functionName,,
+PutRuntimeManagementConfig,NAME:requestParameters.functionName,ARN:responseElements.functionArn,
+RemoveLayerVersionPermission,,,No related resource
+RemovePermission,NAME:requestParameters.functionName,,
+TagResource,ARN:requestParameters.resource,,
+UntagResource,ARN:requestParameters.resource,,
+UpdateAlias,NAME:requestParameters.functionName,,Getting aliasArn in responseElements
+UpdateCodeSigningConfig,,,Resource not collected
+UpdateEventSourceMapping,NAME:requestParameters.functionName,,
+UpdateFunctionCode,NAME:requestParameters.functionName,ARN:responseElements.functionArn,
+UpdateFunctionConfiguration,NAME:requestParameters.functionName,ARN:responseElements.functionArn,
+UpdateFunctionEventInvokeConfig,NAME:requestParameters.functionName,ARN:responseElements.functionArn,
+UpdateFunctionUrlConfig,NAME:requestParameters.functionName,ARN:responseElements.functionArn,

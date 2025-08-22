@@ -1,0 +1,18 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+AddPermission,NAME: requestParameters.queueUrl,,
+CancelMessageMoveTask,,,Invalid event
+ChangeMessageVisibility,NAME: requestParameters.queueUrl,,
+ChangeMessageVisibilityBatch,NAME: requestParameters.queueUrl,,
+CreateQueue,NAME: requestParameters.queueName,NAME: responseElements.queueUrl,
+DeleteMessage,NAME: requestParameters.queueUrl,,
+DeleteMessageBatch,NAME: requestParameters.queueUrl,,
+DeleteQueue,NAME: requestParameters.queueUrl,,
+PurgeQueue,NAME: requestParameters.queueUrl,,
+ReceiveMessage,NAME: requestParameters.queueUrl,,
+RemovePermission,NAME: requestParameters.queueUrl,,
+SendMessage,NAME: requestParameters.queueUrl,,
+SendMessageBatch,NAME: requestParameters.queueUrl,,
+SetQueueAttributes,NAME: requestParameters.queueUrl,,
+StartMessageMoveTask,ARN: requestParameters.sourceArn,,Invalid event
+TagQueue,NAME: requestParameters.queueUrl,,
+UntagQueue,NAME: requestParameters.queueUrl,,

@@ -1,0 +1,30 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+BatchUpdateCluster,NAME:requestParameters.clusterNames,,
+CopySnapshot,,,Resource Not Collected
+CreateACL,,,Resource Not Collected
+CreateCluster,"NAME:requestParameters.clusterName
+NAME:requestParameters.subnetGroupName","ARN:responseElements.cluster.aRN
+NAME:responseElements.subnetGroupName",
+CreateMultiRegionCluster,,,
+CreateParameterGroup,,,Resource Not Collected
+CreateSnapshot,,,Resource Not Collected
+CreateSubnetGroup,NAME:requestParameters.subnetGroupName,ARN:responseElements.subnetGroup.aRN,
+CreateUser,,,Resource Not Collected
+DeleteACL,,,Resource Not Collected
+DeleteCluster,NAME:requestParameters.clusterName,ARN:responseElements.cluster.aRN,
+DeleteMultiRegionCluster,,,
+DeleteParameterGroup,,,Resource Not Collected
+DeleteSnapshot,,,Resource Not Collected
+DeleteSubnetGroup,NAME:requestParameters.subnetGroupName,ARN:responseElements.subnetGroup.aRN,
+DeleteUser,,,Resource Not Collected
+FailoverShard,NAME:requestParameters.clusterName,ARN:responseElements.cluster.aRN,
+PurchaseReservedNodesOffering,,,Resource Not Collected
+ResetParameterGroup,,,Resource Not Collected
+TagResource,ARN:requestParameters.resourceArn,,
+UntagResource,ARN:requestParameters.resourceArn,,
+UpdateACL,,,Resource Not Collected
+UpdateCluster,NAME:requestParameters.clusterName,ARN:responseElements.cluster.aRN,
+UpdateMultiRegionCluster,,,
+UpdateParameterGroup,,,Resource Not Collected
+UpdateSubnetGroup,NAME:requestParameters.subnetGroupName,ARN:responseElements.subnetGroup.aRN,
+UpdateUser,,,Resource Not Collected

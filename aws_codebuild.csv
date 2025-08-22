@@ -1,0 +1,50 @@
+EVENT,REQUEST,RESPONSE,Unnamed: 3
+BatchDeleteBuilds,ID: requestParameters.ids[*],"ID: responseElements.buildsDeleted[*]
+ID: responseElements.buildsNotDeleted[*]",
+CreateFleet,,,
+CreateProject,NAME: requestParameters.name,"ARN: responseElements.project.arn
+NAME: responseElements.project.name",
+CreateReportGroup,NAME: requestParameters.name,"ARN: responseElements.reportGroup.arn
+NAME: responseElements.reportGroup.name",
+CreateWebhook,NAME: requestParameters.projectName,,not in cloudTrail
+DeleteBuildBatch,ID: requestParameters.id,"ID: responseElements.buildsDeleted[*]
+ID: responseElements.buildsNotDeleted[*]",
+DeleteFleet,,,
+DeleteProject,NAME: requestParameters.name,,
+DeleteReport,ARN: requestParameters.arn,,not in cloudTrail
+DeleteReportGroup,ARN: requestParameters.arn,,
+DeleteResourcePolicy,ARN: requestParameters.resourceArn,,not in cloudTrail
+DeleteSourceCredentials,ARN: requestParameters.arn,ARN: responseElements.arn,
+DeleteWebhook,NAME: requestParameters.projectName,,not in cloudTrail
+ImportSourceCredentials,,ARN: responseElements.arn,
+InvalidateProjectCache,NAME: requestParameters.projectName,,
+PutResourcePolicy,ARN: requestParameters.resourceArn,ARN: responseElements.resourceArn,not in cloudTrail
+RetryBuild,ID: requestParameters.id,"NAME: responseElements.build.projectName
+ID: responseElements.build.id
+ARN: responseElements.build.arn",
+RetryBuildBatch,ID: requestParameters.id,"NAME: responseElements.buildBatch.projectName
+ID: responseElements.buildBatch.id
+ARN: responseElements.buildBatch.arn",
+StartBuild,NAME: requestParameters.projectName,"NAME: responseElements.build.projectName
+ID: responseElements.build.id
+ARN: responseElements.build.arn",
+StartBuildBatch,NAME: requestParameters.projectName,"NAME: responseElements.buildBatch.projectName
+ID: responseElements.buildBatch.id
+ARN: responseElements.buildBatch.arn",
+StartCommandExecution,,,
+StartSandbox,,,
+StartSandboxConnection,,,
+StopBuild,ID: requestParameters.id,"NAME: responseElements.build.projectName
+ID: responseElements.build.id
+ARN: responseElements.build.arn",
+StopBuildBatch,ID: requestParameters.id,"NAME: responseElements.buildBatch.projectName
+ID: responseElements.buildBatch.id
+ARN: responseElements.buildBatch.arn",
+StopSandbox,,,
+UpdateFleet,,,
+UpdateProject,NAME: requestParameters.name,"ARN: responseElements.project.arn
+NAME: responseElements.project.name",
+UpdateProjectVisibility,ARN: requestParameters.projectArn,,
+UpdateReportGroup,ARN: requestParameters.arn,"ARN: responseElements.reportGroup.arn
+NAME: responseElements.reportGroup.name",
+UpdateWebhook,NAME: requestParameters.projectName,,not in cloudTrail

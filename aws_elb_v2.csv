@@ -1,0 +1,37 @@
+EVENT,REQUEST,RESPONSE
+AddListenerCertificates,ARN: requestParameters.listenerArn,
+AddTags,ARN: requestParameters.resourceArns[*],
+AddTrustStoreRevocations,,
+CreateListener,NAME:requestParameters.listenerName,"ARN: responseElements.listeners[*].listenerArn
+ARN: responseElements.listeners[*].loadBalancerArn"
+CreateLoadBalancer,NAME: requestParameters.loadBalancerName,"ARN: responseElements.loadBalancers[*].loadBalancerArn
+NAME: responseElements.loadBalancers[*].loadBalancerName"
+CreateRule,ARN: requestParameters.listenerArn,ARN: responseElements.rules[*].ruleArn
+CreateTargetGroup,NAME: requestParameters.targetGroupName,"ARN: responseElements.targetGroups[*].targetGroupArn
+NAME: responseElements.targetGroups[*].targetGroupName"
+CreateTrustStore,,
+DeleteListener,ARN: requestParameters.listenerArn,
+DeleteLoadBalancer,ARN: requestParameters.loadBalancerArn,
+DeleteRule,ARN: requestParameters.ruleArn,
+DeleteSharedTrustStoreAssociation,,
+DeleteTargetGroup,ARN: requestParameters.targetGroupArn,
+DeleteTrustStore,,
+DeregisterTargets,ARN: requestParameters.targetGroupArn,
+ModifyCapacityReservation,,
+ModifyIpPools,,
+ModifyListener,ARN: requestParameters.listenerArn,"ARN: responseElements.listeners[*].listenerArn
+ARN: responseElements.listeners[*].loadBalancerArn"
+ModifyLoadBalancerAttributes,ARN: requestParameters.loadBalancerArn,
+ModifyRule,ARN: requestParameters.ruleArn,ARN: responseElements.rules[*].ruleArn
+ModifyTargetGroup,ARN: requestParameters.targetGroupArn,"ARN: responseElements.targetGroups[*].targetGroupArn
+NAME: responseElements.targetGroups[*].targetGroupName"
+ModifyTargetGroupAttributes,ARN: requestParameters.targetGroupArn,
+ModifyTrustStore,,
+RegisterTargets,ARN: requestParameters.targetGroupArn,
+RemoveListenerCertificates,ARN: requestParameters.listenerArn,
+RemoveTags,ARN: requestParameters.resourceArns[*],
+RemoveTrustStoreRevocations,,
+SetIpAddressType,ARN: requestParameters.loadBalancerArn,
+SetRulePriorities,ARN: requestParameters.rulePriorities.ruleArn,ARN: responseElements.rules[*].ruleArn
+SetSecurityGroups,ARN: requestParameters.loadBalancerArn,
+SetSubnets,ARN: requestParameters.loadBalancerArn,

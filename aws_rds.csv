@@ -1,0 +1,219 @@
+EVENT,REQUEST,RESPONSE
+AddRoleToDBCluster,NAME: requestParameters.dBClusterIdentifier,
+AddRoleToDBInstance,NAME: requestParameters.dBInstanceIdentifier,
+AddSourceIdentifierToSubscription,"NAME: requestParameters.sourceIdentifier
+NAME: requestParameters.subscriptionName",ARN: responseElements.eventSubscriptionArn
+AddTagsToResource,NAME: requestParameters.resourceName,
+ApplyPendingMaintenanceAction,ARN: requestParameters.resourceIdentifier,ARN: responseElements.resourcePendingMaintenanceActions.resourceIdentifier
+AuthorizeDBSecurityGroupIngress,NAME: requestParameters.dBSecurityGroupName,"NAME: responseElements.dBSecurityGroupName
+ARN: responseElements.dBSecurityGroupArn"
+BacktrackDBCluster,NAME: requestParameters.dBClusterIdentifier,NAME: responseElements.dBClusterIdentifier
+CancelExportTask,,ARN: responseElements.sourceArn
+CopyDBClusterParameterGroup,"NAME/ARN: requestParameters.sourceDBClusterParameterGroupIdentifier
+NAME: requestParameters.targetDBClusterParameterGroupIdentifier","NAME: responseElements.dBClusterParameterGroupName
+ARN: responseElements.dBClusterParameterGroupArn"
+CopyDBClusterSnapshot,"NAME: requestParameters.sourceDBClusterSnapshotIdentifier
+NAME: requestParameters.targetDBClusterSnapshotIdentifier","NAME: responseElements.dBClusterSnapshotIdentifier
+ARN: responseElements.dBClusterSnapshotArn"
+CopyDBParameterGroup,"NAME/ARN: requestParameters.sourceDBParameterGroupIdentifier
+NAME: requestParameters.targetDBParameterGroupIdentifier","NAME: responseElements.dBParameterGroupName
+ARN: responseElements.dBParameterGroupArn"
+CopyDBSnapshot,"ARN: requestParameters.sourceDBSnapshotIdentifier
+NAME: requestParameters.targetDBSnapshotIdentifier","NAME: responseElements.dBSnapshotIdentifier
+ARN: responseElements.dBSnapshotArn"
+CopyOptionGroup,"NAME: requestParameters.sourceOptionGroupIdentifier
+NAME: requestParameters.targetOptionGroupIdentifier","NAME: responseElements.optionGroupName
+ARN: responseElements.optionGroupArn"
+CreateBlueGreenDeployment,"NAME: requestParameters.blueGreenDeploymentName
+NAME: requestParameters.source","NAME: responseElements.blueGreenDeploymentName
+ID: responseElements.blueGreenDeploymentIdentifier"
+CreateCustomDBEngineVersion,NAME: requestParameters.engine,"NAME: responseElements.engine
+ARN: responseElements.dBEngineVersionArn"
+CreateDBCluster,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.engine","NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+CreateDBClusterEndpoint,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.dBClusterEndpointIdentifier","NAME: responseElements.dBClusterEndpointIdentifier
+ARN: responseElements.dBClusterEndpointArn
+NAME: responseElements.dBClusterIdentifier"
+CreateDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,"NAME: responseElements.dBClusterParameterGroupName
+ARN: responseElements.dBClusterParameterGroupArn"
+CreateDBClusterSnapshot,"NAME: requestParameters.dBClusterSnapshotIdentifier
+NAME: requestParameters.dBClusterIdentifier","NAME: responseElements.dBClusterSnapshotIdentifier
+ARN: responseElements.dBClusterSnapshotArn"
+CreateDBInstance,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+CreateDBInstanceReadReplica,"NAME: requestParameters.sourceDBInstanceIdentifier
+NAME: requestParameters.dBInstanceIdentifier","NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+CreateDBParameterGroup,NAME: requestParameters.dBParameterGroupName,"NAME: responseElements.dBParameterGroupName
+ARN: responseElements.dBParameterGroupArn"
+CreateDBProxy,NAME: requestParameters.dBProxyName,"NAME: responseElements.dBProxy.dBProxyName
+ARN: responseElements.dBProxy.dBProxyArn"
+CreateDBProxyEndpoint,"NAME: requestParameters.dBProxyName
+NAME: requestParameters.dbProxyEndpointName","NAME: responseElements.dBProxyEndpoint.dBProxyName
+NAME: responseElements.dBProxyEndpoint.dbProxyEndpointName
+ARN: responseElements.dBProxyEndpoint.dBProxyEndpointArn"
+CreateDBSecurityGroup,NAME: requestParameters.dBSecurityGroupName,"NAME: responseElements.dbSecurityGroupName
+ARN: responseElements.dbSecurityGroupArn"
+CreateDBShardGroup,,
+CreateDBSnapshot,"NAME: requestParameters.dBSnapshotIdentifier
+NAME: requestParameters.dBInstanceIdentifier","NAME: responseElements.dBSnapshotIdentifier
+NAME: repsonseElements.dBInstanceIdentifier
+ARN: responseElements.dBSnapshotArn"
+CreateDBSubnetGroup,NAME: requestParameters.dBSubnetGroupName,"NAME: responseElements.dbSubnetGroupName
+ARN: responseElements.dbSubnetGroupArn"
+CreateEventSubscription,NAME: requestParameters.subscriptionName,ARN: responseElements.eventSubscriptionArn
+CreateGlobalCluster,"NAME: requestParameters.sourceDBClusterIdentifier
+NAME: requestParameters.globalClusterIdentifier","NAME: responseElements.globalClusterName
+ARN: responseElements.globalClusterArn"
+CreateIntegration,,
+CreateOptionGroup,NAME: requestParameters.optionGroupName,"NAME: responseElements.optionGroupName
+ARN: responseElements.optionGroupArn"
+CreateTenantDatabase,,
+DeleteBlueGreenDeployment,ID: requestParameters.blueGreenDeploymentIdentifier,"NAME: responseElements.dBClusterParameterGroupName
+ARN: responseElements.dBClusterParameterGroupArn"
+DeleteCustomDBEngineVersion,NAME: requestParameters.engine,"NAME: responseElements.engine
+ARN: responseElements.dBEngineVersionArn"
+DeleteDBCluster,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.engine","NAME: responseElements.dBCluster.dBClusterIdentifier
+ARN: responseElements.dBCluster.dBClusterArn"
+DeleteDBClusterAutomatedBackup,,
+DeleteDBClusterEndpoint,NAME: requestParameters.dBClusterEndpointIdentifier,"NAME: responseElements.dBClusterEndpointIdentifier
+ARN: responseElements.dBClusterEndpointArn
+NAME: responseElements.dBClusterIdentifier"
+DeleteDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,
+DeleteDBClusterSnapshot,NAME: requestParameters.dBClusterSnapshotIdentifier,"NAME: responseElements.dBClusterSnapshotIdentifier
+ARN: responseElements.dBClusterSnapshotArn"
+DeleteDBInstance,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstance.dBInstanceIdentifier
+ARN: responseElements.dBInstance.dBInstanceArn"
+DeleteDBInstanceAutomatedBackup,"ARN: requestParameters.dBInstanceAutomatedBackupsArn
+NAME: requestParameters.dbiResourceId","ARN: responseElements.dBInstanceArn
+ARN: responseElements.dBInstanceAutomatedBackupsArn
+NAME: responseElements.dBInstanceIdentifier"
+DeleteDBParameterGroup,NAME: requestParameters.dBParameterGroupName,
+DeleteDBProxy,NAME: requestParameters.dBProxyName,"NAME: responseElements.dBProxy.dBProxyName
+ARN: responseElements.dBProxy.dBProxyArn"
+DeleteDBProxyEndpoint,NAME: requestParameters.dbProxyEndpointName,"NAME: responseElements.dBProxyEndpoint.dBProxyName
+NAME: responseElements.dBProxyEndpoint.dbProxyEndpointName
+ARN: responseElements.dBProxyEndpoint.dBProxyEndpointArn"
+DeleteDBSecurityGroup,NAME: requestParameters.dBSecurityGroupName,
+DeleteDBShardGroup,,
+DeleteDBSnapshot,NAME: requestParameters.dBSnapshotIdentifier,
+DeleteDBSubnetGroup,NAME: requestParameters.dBSubnetGroupName,
+DeleteEventSubscription,NAME: requestParameters.subscriptionName,ARN: responseElements.eventSubscriptionArn
+DeleteGlobalCluster,NAME: requestParameters.globalClusterIdentifier,"NAME: responseElements.globalClusterName
+ARN: responseElements.globalClusterArn"
+DeleteIntegration,,
+DeleteOptionGroup,NAME: requestParameters.optionGroupName,
+DeleteTenantDatabase,,
+DeregisterDBProxyTargets,"NAME: requestParameters.dBProxyName
+ID/NAME: requestParameters.dBClusterIdentifiers[*]
+ID/NAME: requestParameters.dBInstanceIdentifiers[*]",
+DisableHttpEndpoint,,
+DownloadDBLogFilePortion,NAME: requestParameters.dBInstanceIdentifier,
+EnableHttpEndpoint,,
+FailoverDBCluster,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+FailoverGlobalCluster,"NAME: requestParameters.globalClusterIdentifier
+NAME: requestParameters.targetDbClusterIdentifier","NAME: responseElements.globalClusterName
+ARN: responseElements.globalClusterArn"
+ModifyActivityStream,ARN: requestParameters.resourceArn,
+ModifyCertificates,NAME/ID: requestParameters.certificateIdentifier,"NAME: responseElements.certificateIdentifier
+ARN: responseElements.certificateArn"
+ModifyCurrentDBClusterCapacity,NAME: requestParameters.dBClusterIdentifier,NAME: responseElements.dBClusterIdentifier
+ModifyCustomDBEngineVersion,NAME: requestParameters.engine,"NAME: responseElements.engine
+ARN: responseElements.dBEngineVersionArn"
+ModifyDBCluster,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+ModifyDBClusterEndpoint,NAME: requestParameters.dBClusterEndpointIdentifier,"NAME: responseElements.dBClusterEndpointIdentifier
+ARN: responseElements.dBClusterEndpointArn
+NAME: responseElements.dBClusterIdentifier"
+ModifyDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,NAME: responseElements.dBClusterParameterGroupName
+ModifyDBClusterSnapshotAttribute,NAME: requestParameters.dBClusterSnapshotIdentifier,NAME: responseElements.dBClusterSnapshotIdentifier
+ModifyDBInstance,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+ModifyDBParameterGroup,NAME: requestParameters.dBParameterGroupName,NAME: responseElements.dBParameterGroupName
+ModifyDBProxy,NAME: requestParameters.dBProxyName,"NAME: responseElements.dBProxy.dBProxyName
+ARN: responseElements.dBProxy.dBProxyArn"
+ModifyDBProxyEndpoint,NAME: requestParameters.dbProxyEndpointName,"NAME: responseElements.dBProxyEndpoint.dBProxyName
+NAME: responseElements.dBProxyEndpoint.dbProxyEndpointName
+ARN: responseElements.dBProxyEndpoint.dBProxyEndpointArn"
+ModifyDBProxyTargetGroup,"NAME: requestParameters.dBProxyName
+NAME: requestParameters.targetGroupName","NAME: responseElements.dBProxyTargetGroup.dBProxyName
+NAME: responseElements.dBProxyTargetGroup.targetGroupName
+ARN: responseElements.dBProxyTargetGroup.targetGroupArn"
+ModifyDBRecommendation,,
+ModifyDBShardGroup,,
+ModifyDBSnapshot,NAME: requestParameters.dBSnapshotIdentifier,"NAME: responseElements.dBSnapshotIdentifier
+NAME: repsonseElements.dBInstanceIdentifier
+ARN: responseElements.dBSnapshotArn"
+ModifyDBSnapshotAttribute,NAME: requestParameters.dBSnapshotIdentifier,NAME: responseElements.dBSnapshotIdentifier
+ModifyDBSubnetGroup,NAME: requestParameters.dBSubnetGroupName,"NAME: responseElements.dbSubnetGroupName
+ARN: responseElements.dbSubnetGroupArn"
+ModifyEventSubscription,NAME: requestParameters.subscriptionName,ARN: responseElements.eventSubscriptionArn
+ModifyGlobalCluster,NAME: requestParameters.globalClusterIdentifier,"NAME: responseElements.globalClusterName
+ARN: responseElements.globalClusterArn"
+ModifyIntegration,,
+ModifyOptionGroup,NAME: requestParameters.optionGroupName,"NAME: responseElements.optionGroupName
+ARN: responseElements.optionGroupArn"
+ModifyTenantDatabase,,
+PromoteReadReplica,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+PromoteReadReplicaDBCluster,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+PurchaseReservedDBInstancesOffering,ID: requestParameters.reservedDBInstanceId,"ID: responseElements.reservedDBInstanceId
+ARN: responseElements.reservedDBInstanceArn"
+RebootDBCluster,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+RebootDBInstance,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+RebootDBShardGroup,,
+RegisterDBProxyTargets,NAME: requestParameters.dBProxyName,ID: responseElements.dBProxyTargets[*].rdsResourceId
+RemoveFromGlobalCluster,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.globalClusterIdentifier","NAME: responseElements.globalClusterName
+ARN: responseElements.globalClusterArn"
+RemoveRoleFromDBCluster,NAME: requestParameters.dBClusterIdentifier,
+RemoveRoleFromDBInstance,NAME: requestParameters.dBInstanceIdentifier,
+RemoveSourceIdentifierFromSubscription,"NAME: requestParameters.subscriptionName
+NAME: requestParameters.sourceIdentifier",ARN: responseElements.eventSubscriptionArn
+RemoveTagsFromResource,NAME: requestParameters.resourceName,
+ResetDBClusterParameterGroup,NAME: requestParameters.dBClusterParameterGroupName,NAME: responseElements.dBClusterParameterGroupName
+ResetDBParameterGroup,NAME: requestParameters.dBParameterGroupName,NAME: responseElements.dBParameterGroupName
+RestoreDBClusterFromS3,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+RestoreDBClusterFromSnapshot,"NAME: requestParameters.dBClusterIdentifier
+NAME: requestParameters.dBSnapshotIdentifier","NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+RestoreDBClusterToPointInTime,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+RestoreDBInstanceFromDBSnapshot,"NAME: requestParameters.dBInstanceIdentifier
+NAME: requestParameters.dBSnapshotIdentifier","NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+RestoreDBInstanceFromS3,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+RestoreDBInstanceToPointInTime,NAME: requestParameters.targetDBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+RevokeDBSecurityGroupIngress,NAME: requestParameters.dBSecurityGroupName,"NAME: responseElements.dbSecurityGroupName
+ARN: responseElements.dbSecurityGroupArn"
+StartActivityStream,ARN: requestParameters.resourceArn,
+StartDBCluster,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+StartDBInstance,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+StartDBInstanceAutomatedBackupsReplication,ARN: requestParameters.sourceDBInstanceArn,"ARN: responseElements.dBInstanceArn
+ARN: responseElements.dBInstanceAutomatedBackupsArn
+NAME: responseElements.dBInstanceIdentifier"
+StartExportTask,ARN: requestParameters.sourceArn,ARN: responseElements.sourceArn
+StopActivityStream,ARN: requestParameters.resourceArn,
+StopDBCluster,NAME: requestParameters.dBClusterIdentifier,"NAME: responseElements.dBClusterIdentifier
+ARN: responseElements.dBClusterArn"
+StopDBInstance,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
+StopDBInstanceAutomatedBackupsReplication,ARN: requestParameters.sourceDBInstanceArn,"ARN: responseElements.dBInstanceArn
+ARN: responseElements.dBInstanceAutomatedBackupsArn
+NAME: responseElements.dBInstanceIdentifier"
+SwitchoverBlueGreenDeployment,NAME: requestParameters.blueGreenDeploymentName,"NAME: responseElements.blueGreenDeploymentName
+ID: responseElements.blueGreenDeploymentIdentifier"
+SwitchoverReadReplica,NAME: requestParameters.dBInstanceIdentifier,"NAME: responseElements.dBInstanceIdentifier
+ARN: responseElements.dBInstanceArn"
