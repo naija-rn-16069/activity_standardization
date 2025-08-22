@@ -1,0 +1,498 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Azure Monitor,AADDomainServicesAccountLogon,Read AADDomainServicesAccountLogon data,Microsoft.Insights/Logs/AADDomainServicesAccountLogon/Read,Read data from the AADDomainServicesAccountLogon table,,False
+Microsoft Azure Monitor,AADDomainServicesAccountManagement,Read AADDomainServicesAccountManagement data,Microsoft.Insights/Logs/AADDomainServicesAccountManagement/Read,Read data from the AADDomainServicesAccountManagement table,,False
+Microsoft Azure Monitor,AADDomainServicesDirectoryServiceAccess,Read AADDomainServicesDirectoryServiceAccess data,Microsoft.Insights/Logs/AADDomainServicesDirectoryServiceAccess/Read,Read data from the AADDomainServicesDirectoryServiceAccess table,,False
+Microsoft Azure Monitor,AADDomainServicesLogonLogoff,Read AADDomainServicesLogonLogoff data,Microsoft.Insights/Logs/AADDomainServicesLogonLogoff/Read,Read data from the AADDomainServicesLogonLogoff table,,False
+Microsoft Azure Monitor,AADDomainServicesPolicyChange,Read AADDomainServicesPolicyChange data,Microsoft.Insights/Logs/AADDomainServicesPolicyChange/Read,Read data from the AADDomainServicesPolicyChange table,,False
+Microsoft Azure Monitor,AADDomainServicesPrivilegeUse,Read AADDomainServicesPrivilegeUse data,Microsoft.Insights/Logs/AADDomainServicesPrivilegeUse/Read,Read data from the AADDomainServicesPrivilegeUse table,,False
+Microsoft Azure Monitor,AADDomainServicesSystemSecurity,Read AADDomainServicesSystemSecurity data,Microsoft.Insights/Logs/AADDomainServicesSystemSecurity/Read,Read data from the AADDomainServicesSystemSecurity table,,False
+Microsoft Azure Monitor,AADManagedIdentitySignInLogs,Read AADManagedIdentitySignInLogs data,Microsoft.Insights/Logs/AADManagedIdentitySignInLogs/Read,Read data from the AADManagedIdentitySignInLogs table,,False
+Microsoft Azure Monitor,AADNonInteractiveUserSignInLogs,Read AADNonInteractiveUserSignInLogs data,Microsoft.Insights/Logs/AADNonInteractiveUserSignInLogs/Read,Read data from the AADNonInteractiveUserSignInLogs table,,False
+Microsoft Azure Monitor,AADServicePrincipalSignInLogs,Read AADServicePrincipalSignInLogs data,Microsoft.Insights/Logs/AADServicePrincipalSignInLogs/Read,Read data from the AADServicePrincipalSignInLogs table,,False
+Microsoft Azure Monitor,ADAssessmentRecommendation,Read ADAssessmentRecommendation data,Microsoft.Insights/Logs/ADAssessmentRecommendation/Read,Read data from the ADAssessmentRecommendation table,,False
+Microsoft Azure Monitor,ADFActivityRun,Read ADFActivityRun data,Microsoft.Insights/Logs/ADFActivityRun/Read,Read data from the ADFActivityRun table,,False
+Microsoft Azure Monitor,ADFPipelineRun,Read ADFPipelineRun data,Microsoft.Insights/Logs/ADFPipelineRun/Read,Read data from the ADFPipelineRun table,,False
+Microsoft Azure Monitor,ADFSSISIntegrationRuntimeLogs,Read ADFSSISIntegrationRuntimeLogs data,Microsoft.Insights/Logs/ADFSSISIntegrationRuntimeLogs/Read,Read data from the ADFSSISIntegrationRuntimeLogs table,,False
+Microsoft Azure Monitor,ADFSSISPackageEventMessageContext,Read ADFSSISPackageEventMessageContext data,Microsoft.Insights/Logs/ADFSSISPackageEventMessageContext/Read,Read data from the ADFSSISPackageEventMessageContext table,,False
+Microsoft Azure Monitor,ADFSSISPackageEventMessages,Read ADFSSISPackageEventMessages data,Microsoft.Insights/Logs/ADFSSISPackageEventMessages/Read,Read data from the ADFSSISPackageEventMessages table,,False
+Microsoft Azure Monitor,ADFSSISPackageExecutableStatistics,Read ADFSSISPackageExecutableStatistics data,Microsoft.Insights/Logs/ADFSSISPackageExecutableStatistics/Read,Read data from the ADFSSISPackageExecutableStatistics table,,False
+Microsoft Azure Monitor,ADFSSISPackageExecutionComponentPhases,Read ADFSSISPackageExecutionComponentPhases data,Microsoft.Insights/Logs/ADFSSISPackageExecutionComponentPhases/Read,Read data from the ADFSSISPackageExecutionComponentPhases table,,False
+Microsoft Azure Monitor,ADFSSISPackageExecutionDataStatistics,Read ADFSSISPackageExecutionDataStatistics data,Microsoft.Insights/Logs/ADFSSISPackageExecutionDataStatistics/Read,Read data from the ADFSSISPackageExecutionDataStatistics table,,False
+Microsoft Azure Monitor,ADFTriggerRun,Read ADFTriggerRun data,Microsoft.Insights/Logs/ADFTriggerRun/Read,Read data from the ADFTriggerRun table,,False
+Microsoft Azure Monitor,ADReplicationResult,Read ADReplicationResult data,Microsoft.Insights/Logs/ADReplicationResult/Read,Read data from the ADReplicationResult table,,False
+Microsoft Azure Monitor,ADSecurityAssessmentRecommendation,Read ADSecurityAssessmentRecommendation data,Microsoft.Insights/Logs/ADSecurityAssessmentRecommendation/Read,Read data from the ADSecurityAssessmentRecommendation table,,False
+Microsoft Azure Monitor,ADTDigitalTwinsOperation,Read ADTDigitalTwinsOperation data,Microsoft.Insights/Logs/ADTDigitalTwinsOperation/Read,Read data from the ADTDigitalTwinsOperation table,,False
+Microsoft Azure Monitor,ADTEventRoutesOperation,Read ADTEventRoutesOperation data,Microsoft.Insights/Logs/ADTEventRoutesOperation/Read,Read data from the ADTEventRoutesOperation table,,False
+Microsoft Azure Monitor,ADTModelsOperation,Read ADTModelsOperation data,Microsoft.Insights/Logs/ADTModelsOperation/Read,Read data from the ADTModelsOperation table,,False
+Microsoft Azure Monitor,ADTQueryOperation,Read ADTQueryOperation data,Microsoft.Insights/Logs/ADTQueryOperation/Read,Read data from the ADTQueryOperation table,,False
+Microsoft Azure Monitor,AWSCloudTrail,Read AWSCloudTrail data,Microsoft.Insights/Logs/AWSCloudTrail/Read,Read data from the AWSCloudTrail table,,False
+Microsoft Azure Monitor,Action Groups,Create or update action group,Microsoft.Insights/ActionGroups/Write,Create or update an action group,,False
+Microsoft Azure Monitor,Action Groups,Delete action group,Microsoft.Insights/ActionGroups/Delete,Delete an action group,,False
+Microsoft Azure Monitor,Action Groups,Read action group,Microsoft.Insights/ActionGroups/Read,Read an action group,,False
+Microsoft Azure Monitor,Action group endpoint NSP association proxy,Create or update action group endpoint NSP association proxy,Microsoft.Insights/actionGroups/NetworkSecurityPerimeterAssociationProxies/Write,Create or update a action group endpoint NSP association proxy,,False
+Microsoft Azure Monitor,Action group endpoint NSP association proxy,Delete action group endpoint NSP association proxy,Microsoft.Insights/actionGroups/NetworkSecurityPerimeterAssociationProxies/Delete,Delete a action group endpoint NSP association proxy,,False
+Microsoft Azure Monitor,Action group endpoint NSP association proxy,Read action group endpoint NSP association proxy,Microsoft.Insights/actionGroups/NetworkSecurityPerimeterAssociationProxies/Read,Read a action group endpoint NSP association proxy,,False
+Microsoft Azure Monitor,Action group endpoint effective NSP configuration,Read action group endpoint effective NSP configuration,Microsoft.Insights/actionGroups/NetworkSecurityPerimeterConfigurations/Read,Read action group endpoint effective NSP configuration,,False
+Microsoft Azure Monitor,Action group endpoint effective NSP configuration,Reconcile action group endpoint NSP configuration,Microsoft.Insights/actionGroups/NetworkSecurityPerimeterConfigurations/Reconcile/Action,Reconcile action group endpoint NSP configuration,,False
+Microsoft Azure Monitor,Activity Log Alert,Activity Log Alert activated,Microsoft.Insights/ActivityLogAlerts/Activated/Action,Activity Log Alert activated,,False
+Microsoft Azure Monitor,Activity Log Alert,Create or update activity log alert,Microsoft.Insights/ActivityLogAlerts/Write,Create or update an activity log alert,,False
+Microsoft Azure Monitor,Activity Log Alert,Delete activity log alert,Microsoft.Insights/ActivityLogAlerts/Delete,Delete an activity log alert,,False
+Microsoft Azure Monitor,Activity Log Alert,Read activity log alert,Microsoft.Insights/ActivityLogAlerts/Read,Read an activity log alert,,False
+Microsoft Azure Monitor,Activity Log Events,Read Activity Log,Microsoft.Insights/eventtypes/values/Read,Read Activity Log events,,False
+Microsoft Azure Monitor,Activity Log event category,Read Activity Log event categories,Microsoft.Insights/EventCategories/Read,Read available Activity Log event categories,,False
+Microsoft Azure Monitor,AddonAzureBackupAlerts,Read AddonAzureBackupAlerts data,Microsoft.Insights/Logs/AddonAzureBackupAlerts/Read,Read data from the AddonAzureBackupAlerts table,,False
+Microsoft Azure Monitor,AddonAzureBackupJobs,Read AddonAzureBackupJobs data,Microsoft.Insights/Logs/AddonAzureBackupJobs/Read,Read data from the AddonAzureBackupJobs table,,False
+Microsoft Azure Monitor,AddonAzureBackupPolicy,Read AddonAzureBackupPolicy data,Microsoft.Insights/Logs/AddonAzureBackupPolicy/Read,Read data from the AddonAzureBackupPolicy table,,False
+Microsoft Azure Monitor,AddonAzureBackupProtectedInstance,Read AddonAzureBackupProtectedInstance data,Microsoft.Insights/Logs/AddonAzureBackupProtectedInstance/Read,Read data from the AddonAzureBackupProtectedInstance table,,False
+Microsoft Azure Monitor,AddonAzureBackupStorage,Read AddonAzureBackupStorage data,Microsoft.Insights/Logs/AddonAzureBackupStorage/Read,Read data from the AddonAzureBackupStorage table,,False
+Microsoft Azure Monitor,AegDeliveryFailureLogs,Read AegDeliveryFailureLogs data,Microsoft.Insights/Logs/AegDeliveryFailureLogs/Read,Read data from the AegDeliveryFailureLogs table,,False
+Microsoft Azure Monitor,AegPublishFailureLogs,Read AegPublishFailureLogs data,Microsoft.Insights/Logs/AegPublishFailureLogs/Read,Read data from the AegPublishFailureLogs table,,False
+Microsoft Azure Monitor,Alert,Read Alert data,Microsoft.Insights/Logs/Alert/Read,Read data from the Alert table,,False
+Microsoft Azure Monitor,Alert Rule Incident resource,Read classic metric alert incidents,Microsoft.Insights/AlertRules/Incidents/Read,Read a classic metric alert incident,,False
+Microsoft Azure Monitor,AlertHistory,Read AlertHistory data,Microsoft.Insights/Logs/AlertHistory/Read,Read data from the AlertHistory table,,False
+Microsoft Azure Monitor,AmlComputeClusterEvent,Read AmlComputeClusterEvent data,Microsoft.Insights/Logs/AmlComputeClusterEvent/Read,Read data from the AmlComputeClusterEvent table,,False
+Microsoft Azure Monitor,AmlComputeClusterNodeEvent,Read AmlComputeClusterNodeEvent data,Microsoft.Insights/Logs/AmlComputeClusterNodeEvent/Read,Read data from the AmlComputeClusterNodeEvent table,,False
+Microsoft Azure Monitor,AmlComputeCpuGpuUtilization,Read AmlComputeCpuGpuUtilization data,Microsoft.Insights/Logs/AmlComputeCpuGpuUtilization/Read,Read data from the AmlComputeCpuGpuUtilization table,,False
+Microsoft Azure Monitor,AmlComputeJobEvent,Read AmlComputeJobEvent data,Microsoft.Insights/Logs/AmlComputeJobEvent/Read,Read data from the AmlComputeJobEvent table,,False
+Microsoft Azure Monitor,AmlRunStatusChangedEvent,Read AmlRunStatusChangedEvent data,Microsoft.Insights/Logs/AmlRunStatusChangedEvent/Read,Read data from the AmlRunStatusChangedEvent table,,False
+Microsoft Azure Monitor,ApiManagementGatewayLogs,Read ApiManagementGatewayLogs data,Microsoft.Insights/Logs/ApiManagementGatewayLogs/Read,Read data from the ApiManagementGatewayLogs table,,False
+Microsoft Azure Monitor,AppAvailabilityResults,Read AppAvailabilityResults data,Microsoft.Insights/Logs/AppAvailabilityResults/Read,Read data from the AppAvailabilityResults table,,False
+Microsoft Azure Monitor,AppBrowserTimings,Read AppBrowserTimings data,Microsoft.Insights/Logs/AppBrowserTimings/Read,Read data from the AppBrowserTimings table,,False
+Microsoft Azure Monitor,AppCenterError,Read AppCenterError data,Microsoft.Insights/Logs/AppCenterError/Read,Read data from the AppCenterError table,,False
+Microsoft Azure Monitor,AppDependencies,Read AppDependencies data,Microsoft.Insights/Logs/AppDependencies/Read,Read data from the AppDependencies table,,False
+Microsoft Azure Monitor,AppEvents,Read AppEvents data,Microsoft.Insights/Logs/AppEvents/Read,Read data from the AppEvents table,,False
+Microsoft Azure Monitor,AppExceptions,Read AppExceptions data,Microsoft.Insights/Logs/AppExceptions/Read,Read data from the AppExceptions table,,False
+Microsoft Azure Monitor,AppMetrics,Read AppMetrics data,Microsoft.Insights/Logs/AppMetrics/Read,Read data from the AppMetrics table,,False
+Microsoft Azure Monitor,AppPageViews,Read AppPageViews data,Microsoft.Insights/Logs/AppPageViews/Read,Read data from the AppPageViews table,,False
+Microsoft Azure Monitor,AppPerformanceCounters,Read AppPerformanceCounters data,Microsoft.Insights/Logs/AppPerformanceCounters/Read,Read data from the AppPerformanceCounters table,,False
+Microsoft Azure Monitor,AppPlatformLogsforSpring,Read AppPlatformLogsforSpring data,Microsoft.Insights/Logs/AppPlatformLogsforSpring/Read,Read data from the AppPlatformLogsforSpring table,,False
+Microsoft Azure Monitor,AppPlatformSystemLogs,Read AppPlatformSystemLogs data,Microsoft.Insights/Logs/AppPlatformSystemLogs/Read,Read data from the AppPlatformSystemLogs table,,False
+Microsoft Azure Monitor,AppRequests,Read AppRequests data,Microsoft.Insights/Logs/AppRequests/Read,Read data from the AppRequests table,,False
+Microsoft Azure Monitor,AppServiceAntivirusScanLogs,Read AppServiceAntivirusScanLogs data,Microsoft.Insights/Logs/AppServiceAntivirusScanLogs/Read,Read data from the AppServiceAntivirusScanLogs table,,False
+Microsoft Azure Monitor,AppServiceAppLogs,Read AppServiceAppLogs data,Microsoft.Insights/Logs/AppServiceAppLogs/Read,Read data from the AppServiceAppLogs table,,False
+Microsoft Azure Monitor,AppServiceAuditLogs,Read AppServiceAuditLogs data,Microsoft.Insights/Logs/AppServiceAuditLogs/Read,Read data from the AppServiceAuditLogs table,,False
+Microsoft Azure Monitor,AppServiceConsoleLogs,Read AppServiceConsoleLogs data,Microsoft.Insights/Logs/AppServiceConsoleLogs/Read,Read data from the AppServiceConsoleLogs table,,False
+Microsoft Azure Monitor,AppServiceEnvironmentPlatformLogs,Read AppServiceEnvironmentPlatformLogs data,Microsoft.Insights/Logs/AppServiceEnvironmentPlatformLogs/Read,Read data from the AppServiceEnvironmentPlatformLogs table,,False
+Microsoft Azure Monitor,AppServiceFileAuditLogs,Read AppServiceFileAuditLogs data,Microsoft.Insights/Logs/AppServiceFileAuditLogs/Read,Read data from the AppServiceFileAuditLogs table,,False
+Microsoft Azure Monitor,AppServiceHTTPLogs,Read AppServiceHTTPLogs data,Microsoft.Insights/Logs/AppServiceHTTPLogs/Read,Read data from the AppServiceHTTPLogs table,,False
+Microsoft Azure Monitor,AppServicePlatformLogs,Read AppServicePlatformLogs data,Microsoft.Insights/Logs/AppServicePlatformLogs/Read,Read data from the AppServicePlatformLogs table,,False
+Microsoft Azure Monitor,AppSystemEvents,Read AppSystemEvents data,Microsoft.Insights/Logs/AppSystemEvents/Read,Read data from the AppSystemEvents table,,False
+Microsoft Azure Monitor,AppTraces,Read AppTraces data,Microsoft.Insights/Logs/AppTraces/Read,Read data from the AppTraces table,,False
+Microsoft Azure Monitor,Application Insights ALM integration configuration,Application Insights ALM integration configuration delete,Microsoft.Insights/Components/WorkItemConfigs/Delete,Deleting an Application Insights ALM integration configuration,,False
+Microsoft Azure Monitor,Application Insights ALM integration configuration,Application Insights ALM integration configuration read,Microsoft.Insights/Components/WorkItemConfigs/Read,Reading an Application Insights ALM integration configuration,,False
+Microsoft Azure Monitor,Application Insights ALM integration configuration,Application Insights ALM integration configuration write,Microsoft.Insights/Components/WorkItemConfigs/Write,Writing an Application Insights ALM integration configuration,,False
+Microsoft Azure Monitor,Application Insights ALM integration configuration,Application Insights default ALM integration configuration read,Microsoft.Insights/Components/DefaultWorkItemConfig/Read,Reading an Application Insights default ALM integration configuration,,False
+Microsoft Azure Monitor,Application Insights API key,Application Insights API key delete,Microsoft.Insights/Components/ApiKeys/Delete,Deleting an Application Insights API key,,False
+Microsoft Azure Monitor,Application Insights API key,Application Insights API key generate,Microsoft.Insights/Components/ApiKeys/Action,Generating an Application Insights API key,,False
+Microsoft Azure Monitor,Application Insights API key,Application Insights API key read,Microsoft.Insights/Components/ApiKeys/Read,Reading an Application Insights API key,,False
+Microsoft Azure Monitor,Application Insights Events,Application Insights Events read,Microsoft.Insights/Components/Events/Read,Get logs from Application Insights using OData query format,,False
+Microsoft Azure Monitor,Application Insights Live Metrics token,Get Live Metrics token,Microsoft.Insights/generateLiveToken/Read,Live Metrics get token,,False
+Microsoft Azure Monitor,Application Insights Operations,Application Insights Operations read,Microsoft.Insights/Components/Operations/Read,Get status of long-running operations in Application Insights,,False
+Microsoft Azure Monitor,Application Insights Purge,Application Insights Purge Data action,Microsoft.Insights/Components/Purge/Action,Purging data from Application Insights,,False
+Microsoft Azure Monitor,Application Insights Query,Application Insights Query read,Microsoft.Insights/Components/Query/Read,Run queries against Application Insights logs,,False
+Microsoft Azure Monitor,Application Insights Topology,Read Topology,Microsoft.Insights/topology/Read,Read Topology,,False
+Microsoft Azure Monitor,Application Insights Transactions,Read Transactions,Microsoft.Insights/transactions/Read,Read Transactions,,False
+Microsoft Azure Monitor,Application Insights analytics item,Application Insights analytics item delete,Microsoft.Insights/Components/AnalyticsItems/Delete,Deleting an Application Insights analytics item,,False
+Microsoft Azure Monitor,Application Insights analytics item,Application Insights analytics item read,Microsoft.Insights/Components/AnalyticsItems/Read,Reading an Application Insights analytics item,,False
+Microsoft Azure Monitor,Application Insights analytics item,Application Insights analytics item write,Microsoft.Insights/Components/AnalyticsItems/Write,Writing an Application Insights analytics item,,False
+Microsoft Azure Monitor,Application Insights analytics item,Application Insights personal analytics item delete,Microsoft.Insights/Components/MyAnalyticsItems/Delete,Deleting an Application Insights personal analytics item,,False
+Microsoft Azure Monitor,Application Insights analytics item,Application Insights personal analytics item read,Microsoft.Insights/Components/MyAnalyticsItems/Read,Reading an Application Insights personal analytics item,,False
+Microsoft Azure Monitor,Application Insights analytics item,Application Insights personal analytics item write,Microsoft.Insights/Components/MyAnalyticsItems/Write,Writing an Application Insights personal analytics item,,False
+Microsoft Azure Monitor,Application Insights analytics table,Application Insights analytics table action,Microsoft.Insights/Components/AnalyticsTables/Action,Application Insights analytics table action,,False
+Microsoft Azure Monitor,Application Insights analytics table,Application Insights analytics table delete,Microsoft.Insights/Components/AnalyticsTables/Delete,Deleting an Application Insights analytics table schema,,False
+Microsoft Azure Monitor,Application Insights analytics table,Application Insights analytics table read,Microsoft.Insights/Components/AnalyticsTables/Read,Reading an Application Insights analytics table schema,,False
+Microsoft Azure Monitor,Application Insights analytics table,Application Insights analytics table write,Microsoft.Insights/Components/AnalyticsTables/Write,Writing an Application Insights analytics table schema,,False
+Microsoft Azure Monitor,Application Insights annotations,Application Insights annotation write,Microsoft.Insights/Components/Annotations/Write,Writing an Application Insights annotation,,False
+Microsoft Azure Monitor,Application Insights annotations,Application Insights annotations delete,Microsoft.Insights/Components/Annotations/Delete,Deleting an Application Insights annotation,,False
+Microsoft Azure Monitor,Application Insights annotations,Application Insights annotations read,Microsoft.Insights/Components/Annotations/Read,Reading an Application Insights annotation,,False
+Microsoft Azure Monitor,Application Insights component available billing features,Application Insights component available billing features read,Microsoft.Insights/Components/GetAvailableBillingFeatures/Read,Reading Application Insights component available billing features,,False
+Microsoft Azure Monitor,Application Insights component daily cap reached,Application Insights component daily cap reached,Microsoft.Insights/Components/DailyCapReached/Action,Reached the daily cap for Application Insights component,,False
+Microsoft Azure Monitor,Application Insights component daily cap warning threshold reached,Application Insights component daily cap warning threshold reached,Microsoft.Insights/Components/DailyCapWarningThresholdReached/Action,Reached the daily cap warning threshold for Application Insights component,,False
+Microsoft Azure Monitor,Application Insights component data API,Application Insights component data API read,Microsoft.Insights/Components/Api/Read,Reading Application Insights component data API,,False
+Microsoft Azure Monitor,Application Insights component extended query results,Application Insights component extended query results read,Microsoft.Insights/Components/ExtendQueries/Read,Reading Application Insights component extended query results,,False
+Microsoft Azure Monitor,Application Insights component feature capabilities,Application Insights component feature capabilities read,Microsoft.Insights/Components/FeatureCapabilities/Read,Reading Application Insights component feature capabilities,,False
+Microsoft Azure Monitor,Application Insights component metric definitions,Application Insights component metric definitions read,Microsoft.Insights/Components/MetricDefinitions/Read,Reading Application Insights component metric definitions,,False
+Microsoft Azure Monitor,Application Insights component metrics,Application Insights component metrics read,Microsoft.Insights/Components/Metrics/Read,Reading Application Insights component metrics,,False
+Microsoft Azure Monitor,Application Insights component pricing plan,Application Insights component pricing plan read,Microsoft.Insights/Components/PricingPlans/Read,Reading an Application Insights component pricing plan,,False
+Microsoft Azure Monitor,Application Insights component pricing plan,Application Insights component pricing plan write,Microsoft.Insights/Components/PricingPlans/Write,Writing an Application Insights component pricing plan,,False
+Microsoft Azure Monitor,Application Insights component quota status,Application Insights component quota status read,Microsoft.Insights/Components/QuotaStatus/Read,Reading Application Insights component quota status,,False
+Microsoft Azure Monitor,Application Insights component token,Application Insights component token read,Microsoft.Insights/Components/GetToken/Read,Reading an Application Insights component token,,False
+Microsoft Azure Monitor,Application Insights export settings,Application Insights export settings action,Microsoft.Insights/Components/ExportConfiguration/Action,Application Insights export settings action,,False
+Microsoft Azure Monitor,Application Insights export settings,Application Insights export settings delete,Microsoft.Insights/Components/ExportConfiguration/Delete,Deleting Application Insights export settings,,False
+Microsoft Azure Monitor,Application Insights export settings,Application Insights export settings read,Microsoft.Insights/Components/ExportConfiguration/Read,Reading Application Insights export settings,,False
+Microsoft Azure Monitor,Application Insights export settings,Application Insights export settings write,Microsoft.Insights/Components/ExportConfiguration/Write,Writing Application Insights export settings,,False
+Microsoft Azure Monitor,Application Insights favorites,Application Insights favorite write,Microsoft.Insights/Components/Favorites/Write,Writing an Application Insights favorite,,False
+Microsoft Azure Monitor,Application Insights favorites,Application Insights favorites delete,Microsoft.Insights/Components/Favorites/Delete,Deleting an Application Insights favorite,,False
+Microsoft Azure Monitor,Application Insights favorites,Application Insights favorites read,Microsoft.Insights/Components/Favorites/Read,Reading an Application Insights favorite,,False
+Microsoft Azure Monitor,Application Insights favorites,Application Insights personal favorites read,Microsoft.Insights/Components/MyFavorites/Read,Reading an Application Insights personal favorite,,False
+Microsoft Azure Monitor,Application Insights linked storage account,Create or modify linked storage account,Microsoft.Insights/Components/linkedStorageAccounts/Write,Create or modify linked storage account,,False
+Microsoft Azure Monitor,Application Insights linked storage account,Read linked storage account,Microsoft.Insights/Components/linkedStorageAccounts/Read,Read linked storage account,,False
+Microsoft Azure Monitor,Application Insights proactive detection configuration,Application Insights proactive detection configuration read,Microsoft.Insights/Components/ProactiveDetectionConfigs/Read,Reading Application Insights proactive detection configuration,,False
+Microsoft Azure Monitor,Application Insights proactive detection configuration,Application Insights proactive detection configuration read,Microsoft.Insights/Components/ProactiveDetectionConfigs/Write,Writing Application Insights proactive detection configuration,,False
+Microsoft Azure Monitor,Application Insights webtest location,Application Insights webtest locations read,Microsoft.Insights/Components/SyntheticMonitorLocations/Read,Reading Application Insights webtest locations,,False
+Microsoft Azure Monitor,Application insights components,Application Insights Component Move,Microsoft.Insights/Components/Move/Action,Move an Application Insights Component to another resource group or subscription,,False
+Microsoft Azure Monitor,Application insights components,Application insights component delete,Microsoft.Insights/Components/Delete,Deleting an application insights component configuration,,False
+Microsoft Azure Monitor,Application insights components,Application insights component read,Microsoft.Insights/Components/Read,Reading an application insights component configuration,,False
+Microsoft Azure Monitor,Application insights components,Application insights component write,Microsoft.Insights/Components/Write,Writing to an application insights component configuration,,False
+Microsoft Azure Monitor,ApplicationInsights,Read ApplicationInsights data,Microsoft.Insights/Logs/ApplicationInsights/Read,Read data from the ApplicationInsights table,,False
+Microsoft Azure Monitor,AuditLogs,Read AuditLogs data,Microsoft.Insights/Logs/AuditLogs/Read,Read data from the AuditLogs table,,False
+Microsoft Azure Monitor,Autoscale Setting,Autoscale scale down completed,Microsoft.Insights/AutoscaleSettings/ScaledownResult/Action,Autoscale scale down completed,,False
+Microsoft Azure Monitor,Autoscale Setting,Autoscale scale down initiated,Microsoft.Insights/AutoscaleSettings/Scaledown/Action,Autoscale scale down initiated,,False
+Microsoft Azure Monitor,Autoscale Setting,Autoscale scale up completed,Microsoft.Insights/AutoscaleSettings/ScaleupResult/Action,Autoscale scale up completed,,False
+Microsoft Azure Monitor,Autoscale Setting,Autoscale scale up initiated,Microsoft.Insights/AutoscaleSettings/Scaleup/Action,Autoscale scale up initiated,,False
+Microsoft Azure Monitor,Autoscale Setting,Create or update autoscale setting,Microsoft.Insights/AutoscaleSettings/Write,Create or update an autoscale setting,,False
+Microsoft Azure Monitor,Autoscale Setting,Delete autoscale setting,Microsoft.Insights/AutoscaleSettings/Delete,Delete an autoscale setting,,False
+Microsoft Azure Monitor,Autoscale Setting,Metric Failure,Microsoft.Insights/AutoscaleSettings/MetricFailure,Fetch metric value encounter failure,,False
+Microsoft Azure Monitor,Autoscale Setting,Predictive Autoscale scale up completed,Microsoft.Insights/AutoscaleSettings/PredictiveScaleupResult/Action,Predictive Autoscale scale up completed,,False
+Microsoft Azure Monitor,Autoscale Setting,Predictive Autoscale scale up initiated,Microsoft.Insights/AutoscaleSettings/PredictiveScaleup/Action,Predictive Autoscale scale up initiated,,False
+Microsoft Azure Monitor,Autoscale Setting,Predictive Metric Failure,Microsoft.Insights/AutoscaleSettings/PredictiveMetricFailure,Fetch predictive metric value encounter failure,,False
+Microsoft Azure Monitor,Autoscale Setting,Read autoscale setting,Microsoft.Insights/AutoscaleSettings/Read,Read an autoscale setting,,False
+Microsoft Azure Monitor,AutoscaleEvaluationsLog,Read AutoscaleEvaluationsLog data,Microsoft.Insights/Logs/AutoscaleEvaluationsLog/Read,Read data from the AutoscaleEvaluationsLog table,,False
+Microsoft Azure Monitor,AutoscaleScaleActionsLog,Read AutoscaleScaleActionsLog data,Microsoft.Insights/Logs/AutoscaleScaleActionsLog/Read,Read data from the AutoscaleScaleActionsLog table,,False
+Microsoft Azure Monitor,AzureActivity,Read AzureActivity data,Microsoft.Insights/Logs/AzureActivity/Read,Read data from the AzureActivity table,,False
+Microsoft Azure Monitor,AzureAssessmentRecommendation,Read AzureAssessmentRecommendation data,Microsoft.Insights/Logs/AzureAssessmentRecommendation/Read,Read data from the AzureAssessmentRecommendation table,,False
+Microsoft Azure Monitor,AzureDevOpsAuditing,Read AzureDevOpsAuditing data,Microsoft.Insights/Logs/AzureDevOpsAuditing/Read,Read data from the AzureDevOpsAuditing table,,False
+Microsoft Azure Monitor,AzureDiagnostics,Read AzureDiagnostics data,Microsoft.Insights/Logs/AzureDiagnostics/Read,Read data from the AzureDiagnostics table,,False
+Microsoft Azure Monitor,AzureMetrics,Read AzureMetrics data,Microsoft.Insights/Logs/AzureMetrics/Read,Read data from the AzureMetrics table,,False
+Microsoft Azure Monitor,BaiClusterEvent,Read BaiClusterEvent data,Microsoft.Insights/Logs/BaiClusterEvent/Read,Read data from the BaiClusterEvent table,,False
+Microsoft Azure Monitor,BaiClusterNodeEvent,Read BaiClusterNodeEvent data,Microsoft.Insights/Logs/BaiClusterNodeEvent/Read,Read data from the BaiClusterNodeEvent table,,False
+Microsoft Azure Monitor,BaiJobEvent,Read BaiJobEvent data,Microsoft.Insights/Logs/BaiJobEvent/Read,Read data from the BaiJobEvent table,,False
+Microsoft Azure Monitor,BehaviorAnalytics,Read BehaviorAnalytics data,Microsoft.Insights/Logs/BehaviorAnalytics/Read,Read data from the BehaviorAnalytics table,,False
+Microsoft Azure Monitor,Billing plan for Application Insights component,Billing plan for Application Insights component read,Microsoft.Insights/Components/BillingPlanForComponent/Read,Reading a billing plan for Application Insights component,,False
+Microsoft Azure Monitor,BlockchainApplicationLog,Read BlockchainApplicationLog data,Microsoft.Insights/Logs/BlockchainApplicationLog/Read,Read data from the BlockchainApplicationLog table,,False
+Microsoft Azure Monitor,BlockchainProxyLog,Read BlockchainProxyLog data,Microsoft.Insights/Logs/BlockchainProxyLog/Read,Read data from the BlockchainProxyLog table,,False
+Microsoft Azure Monitor,BoundPort,Read BoundPort data,Microsoft.Insights/Logs/BoundPort/Read,Read data from the BoundPort table,,False
+Microsoft Azure Monitor,Classic Metric Alerts,Classic metric alert activated,Microsoft.Insights/AlertRules/Activated/Action,Classic metric alert activated,,False
+Microsoft Azure Monitor,Classic Metric Alerts,Classic metric alert resolved,Microsoft.Insights/AlertRules/Resolved/Action,Classic metric alert resolved,,False
+Microsoft Azure Monitor,Classic Metric Alerts,Classic metric alert rule throttled,Microsoft.Insights/AlertRules/Throttled/Action,Classic metric alert rule throttled,,False
+Microsoft Azure Monitor,Classic Metric Alerts,Create or update classic metric alert,Microsoft.Insights/AlertRules/Write,Create or update a classic metric alert,,False
+Microsoft Azure Monitor,Classic Metric Alerts,Delete classic metric alert,Microsoft.Insights/AlertRules/Delete,Delete a classic metric alert,,False
+Microsoft Azure Monitor,Classic Metric Alerts,Read classic metric alert,Microsoft.Insights/AlertRules/Read,Read a classic metric alert,,False
+Microsoft Azure Monitor,CommonSecurityLog,Read CommonSecurityLog data,Microsoft.Insights/Logs/CommonSecurityLog/Read,Read data from the CommonSecurityLog table,,False
+Microsoft Azure Monitor,ComputerGroup,Read ComputerGroup data,Microsoft.Insights/Logs/ComputerGroup/Read,Read data from the ComputerGroup table,,False
+Microsoft Azure Monitor,ConfigurationChange,Read ConfigurationChange data,Microsoft.Insights/Logs/ConfigurationChange/Read,Read data from the ConfigurationChange table,,False
+Microsoft Azure Monitor,ConfigurationData,Read ConfigurationData data,Microsoft.Insights/Logs/ConfigurationData/Read,Read data from the ConfigurationData table,,False
+Microsoft Azure Monitor,ContainerImageInventory,Read ContainerImageInventory data,Microsoft.Insights/Logs/ContainerImageInventory/Read,Read data from the ContainerImageInventory table,,False
+Microsoft Azure Monitor,ContainerInventory,Read ContainerInventory data,Microsoft.Insights/Logs/ContainerInventory/Read,Read data from the ContainerInventory table,,False
+Microsoft Azure Monitor,ContainerLog,Read ContainerLog data,Microsoft.Insights/Logs/ContainerLog/Read,Read data from the ContainerLog table,,False
+Microsoft Azure Monitor,ContainerNodeInventory,Read ContainerNodeInventory data,Microsoft.Insights/Logs/ContainerNodeInventory/Read,Read data from the ContainerNodeInventory table,,False
+Microsoft Azure Monitor,ContainerRegistryLoginEvents,Read ContainerRegistryLoginEvents data,Microsoft.Insights/Logs/ContainerRegistryLoginEvents/Read,Read data from the ContainerRegistryLoginEvents table,,False
+Microsoft Azure Monitor,ContainerRegistryRepositoryEvents,Read ContainerRegistryRepositoryEvents data,Microsoft.Insights/Logs/ContainerRegistryRepositoryEvents/Read,Read data from the ContainerRegistryRepositoryEvents table,,False
+Microsoft Azure Monitor,ContainerServiceLog,Read ContainerServiceLog data,Microsoft.Insights/Logs/ContainerServiceLog/Read,Read data from the ContainerServiceLog table,,False
+Microsoft Azure Monitor,CoreAzureBackup,Read CoreAzureBackup data,Microsoft.Insights/Logs/CoreAzureBackup/Read,Read data from the CoreAzureBackup table,,False
+Microsoft Azure Monitor,Create notifications,Send test notifications,Microsoft.Insights/CreateNotifications/Write,Send test notifications to the provided receiver list,,False
+Microsoft Azure Monitor,Current billing features for Application Insights component,Current billing features for Application Insights component read,Microsoft.Insights/Components/CurrentBillingFeatures/Read,Reading current billing features for Application Insights component,,False
+Microsoft Azure Monitor,Current billing features for Application Insights component,Current billing features for Application Insights component write,Microsoft.Insights/Components/CurrentBillingFeatures/Write,Writing current billing features for Application Insights component,,False
+Microsoft Azure Monitor,CustomLogs,Read Custom Logs,Microsoft.Insights/Logs/Tables.Custom/Read,Reading data from any custom log,,False
+Microsoft Azure Monitor,DHAppFailure,Read DHAppFailure data,Microsoft.Insights/Logs/DHAppFailure/Read,Read data from the DHAppFailure table,,False
+Microsoft Azure Monitor,DHAppReliability,Read DHAppReliability data,Microsoft.Insights/Logs/DHAppReliability/Read,Read data from the DHAppReliability table,,False
+Microsoft Azure Monitor,DHCPActivity,Read DHCPActivity data,Microsoft.Insights/Logs/DHCPActivity/Read,Read data from the DHCPActivity table,,False
+Microsoft Azure Monitor,DHDriverReliability,Read DHDriverReliability data,Microsoft.Insights/Logs/DHDriverReliability/Read,Read data from the DHDriverReliability table,,False
+Microsoft Azure Monitor,DHLogonFailures,Read DHLogonFailures data,Microsoft.Insights/Logs/DHLogonFailures/Read,Read data from the DHLogonFailures table,,False
+Microsoft Azure Monitor,DHLogonMetrics,Read DHLogonMetrics data,Microsoft.Insights/Logs/DHLogonMetrics/Read,Read data from the DHLogonMetrics table,,False
+Microsoft Azure Monitor,DHOSCrashData,Read DHOSCrashData data,Microsoft.Insights/Logs/DHOSCrashData/Read,Read data from the DHOSCrashData table,,False
+Microsoft Azure Monitor,DHOSReliability,Read DHOSReliability data,Microsoft.Insights/Logs/DHOSReliability/Read,Read data from the DHOSReliability table,,False
+Microsoft Azure Monitor,DHWipAppLearning,Read DHWipAppLearning data,Microsoft.Insights/Logs/DHWipAppLearning/Read,Read data from the DHWipAppLearning table,,False
+Microsoft Azure Monitor,Data collection endpoint,Create or update data collection endpoint,Microsoft.Insights/DataCollectionEndpoints/Write,Create or update a data collection endpoint,,False
+Microsoft Azure Monitor,Data collection endpoint,Delete data collection endpoint,Microsoft.Insights/DataCollectionEndpoints/Delete,Delete a data collection endpoint,,False
+Microsoft Azure Monitor,Data collection endpoint,Read data collection endpoint,Microsoft.Insights/DataCollectionEndpoints/Read,Read a data collection endpoint,,False
+Microsoft Azure Monitor,Data collection endpoint,Trigger failback on a data collection endpoint,Microsoft.Insights/DataCollectionEndpoints/TriggerFailback/Action,Trigger failback on a data collection endpoint,,False
+Microsoft Azure Monitor,Data collection endpoint,Trigger failover on a data collection endpoint,Microsoft.Insights/DataCollectionEndpoints/TriggerFailover/Action,Trigger failover on a data collection endpoint,,False
+Microsoft Azure Monitor,Data collection endpoint NSP association proxy,Create or update data collection endpoint NSP association proxy,Microsoft.Insights/DataCollectionEndpoints/NetworkSecurityPerimeterAssociationProxies/Write,Create or update a data collection endpoint NSP association proxy,,False
+Microsoft Azure Monitor,Data collection endpoint NSP association proxy,Delete data collection endpoint NSP association proxy,Microsoft.Insights/DataCollectionEndpoints/NetworkSecurityPerimeterAssociationProxies/Delete,Delete a data collection endpoint NSP association proxy,,False
+Microsoft Azure Monitor,Data collection endpoint NSP association proxy,Read data collection endpoint NSP association proxy,Microsoft.Insights/DataCollectionEndpoints/NetworkSecurityPerimeterAssociationProxies/Read,Read a data collection endpoint NSP association proxy,,False
+Microsoft Azure Monitor,Data collection endpoint effective NSP configuration,Read data collection endpoint effective NSP configuration,Microsoft.Insights/DataCollectionEndpoints/NetworkSecurityPerimeterConfigurations/Read,Read data collection endpoint effective NSP configuration,,False
+Microsoft Azure Monitor,Data collection endpoint effective NSP configuration,Reconcile data collection endpoint NSP configuration,Microsoft.Insights/DataCollectionEndpoints/NetworkSecurityPerimeterConfigurations/Reconcile/Action,Reconcile data collection endpoint NSP configuration,,False
+Microsoft Azure Monitor,Data collection endpoint scoped private link proxy,Create or update data collection endpoint private link proxy,Microsoft.Insights/DataCollectionEndpoints/ScopedPrivateLinkProxies/Write,Create or update a data collection endpoint private link proxy,,False
+Microsoft Azure Monitor,Data collection endpoint scoped private link proxy,Delete data collection endpoint private link proxy,Microsoft.Insights/DataCollectionEndpoints/ScopedPrivateLinkProxies/Delete,Delete a data collection endpoint private link proxy,,False
+Microsoft Azure Monitor,Data collection endpoint scoped private link proxy,Read data collection endpoint private link proxy,Microsoft.Insights/DataCollectionEndpoints/ScopedPrivateLinkProxies/Read,Read a data collection endpoint private link proxy,,False
+Microsoft Azure Monitor,Data collection rule,Create or update data collection rule,Microsoft.Insights/DataCollectionRules/Write,Create or update a data collection rule,,False
+Microsoft Azure Monitor,Data collection rule,Delete data collection rule,Microsoft.Insights/DataCollectionRules/Delete,Delete a data collection rule,,False
+Microsoft Azure Monitor,Data collection rule,Read data collection rule,Microsoft.Insights/DataCollectionRules/Read,Read a data collection rule,,False
+Microsoft Azure Monitor,Data collection rule,Send data to data collection rule,Microsoft.Insights/DataCollectionRules/Data/Write,Send data to a data collection rule,,True
+Microsoft Azure Monitor,Data collection rule association,Create or update data collection rule association,Microsoft.Insights/DataCollectionRuleAssociations/Write,Create or update a resource's association with a data collection rule,,False
+Microsoft Azure Monitor,Data collection rule association,Delete data collection rule association,Microsoft.Insights/DataCollectionRuleAssociations/Delete,Delete a resource's association with a data collection rule,,False
+Microsoft Azure Monitor,Data collection rule association,Read data collection rule association,Microsoft.Insights/DataCollectionRuleAssociations/Read,Read a resource's association with a data collection rule,,False
+Microsoft Azure Monitor,DatabricksAccounts,Read DatabricksAccounts data,Microsoft.Insights/Logs/DatabricksAccounts/Read,Read data from the DatabricksAccounts table,,False
+Microsoft Azure Monitor,DatabricksClusters,Read DatabricksClusters data,Microsoft.Insights/Logs/DatabricksClusters/Read,Read data from the DatabricksClusters table,,False
+Microsoft Azure Monitor,DatabricksDBFS,Read DatabricksDBFS data,Microsoft.Insights/Logs/DatabricksDBFS/Read,Read data from the DatabricksDBFS table,,False
+Microsoft Azure Monitor,DatabricksInstancePools,Read DatabricksInstancePools data,Microsoft.Insights/Logs/DatabricksInstancePools/Read,Read data from the DatabricksInstancePools table,,False
+Microsoft Azure Monitor,DatabricksJobs,Read DatabricksJobs data,Microsoft.Insights/Logs/DatabricksJobs/Read,Read data from the DatabricksJobs table,,False
+Microsoft Azure Monitor,DatabricksNotebook,Read DatabricksNotebook data,Microsoft.Insights/Logs/DatabricksNotebook/Read,Read data from the DatabricksNotebook table,,False
+Microsoft Azure Monitor,DatabricksSQLPermissions,Read DatabricksSQLPermissions data,Microsoft.Insights/Logs/DatabricksSQLPermissions/Read,Read data from the DatabricksSQLPermissions table,,False
+Microsoft Azure Monitor,DatabricksSSH,Read DatabricksSSH data,Microsoft.Insights/Logs/DatabricksSSH/Read,Read data from the DatabricksSSH table,,False
+Microsoft Azure Monitor,DatabricksSecrets,Read DatabricksSecrets data,Microsoft.Insights/Logs/DatabricksSecrets/Read,Read data from the DatabricksSecrets table,,False
+Microsoft Azure Monitor,DatabricksTables,Read DatabricksTables data,Microsoft.Insights/Logs/DatabricksTables/Read,Read data from the DatabricksTables table,,False
+Microsoft Azure Monitor,DatabricksWorkspace,Read DatabricksWorkspace data,Microsoft.Insights/Logs/DatabricksWorkspace/Read,Read data from the DatabricksWorkspace table,,False
+Microsoft Azure Monitor,DeviceAppCrash,Read DeviceAppCrash data,Microsoft.Insights/Logs/DeviceAppCrash/Read,Read data from the DeviceAppCrash table,,False
+Microsoft Azure Monitor,DeviceAppLaunch,Read DeviceAppLaunch data,Microsoft.Insights/Logs/DeviceAppLaunch/Read,Read data from the DeviceAppLaunch table,,False
+Microsoft Azure Monitor,DeviceCalendar,Read DeviceCalendar data,Microsoft.Insights/Logs/DeviceCalendar/Read,Read data from the DeviceCalendar table,,False
+Microsoft Azure Monitor,DeviceCleanup,Read DeviceCleanup data,Microsoft.Insights/Logs/DeviceCleanup/Read,Read data from the DeviceCleanup table,,False
+Microsoft Azure Monitor,DeviceConnectSession,Read DeviceConnectSession data,Microsoft.Insights/Logs/DeviceConnectSession/Read,Read data from the DeviceConnectSession table,,False
+Microsoft Azure Monitor,DeviceEtw,Read DeviceEtw data,Microsoft.Insights/Logs/DeviceEtw/Read,Read data from the DeviceEtw table,,False
+Microsoft Azure Monitor,DeviceHardwareHealth,Read DeviceHardwareHealth data,Microsoft.Insights/Logs/DeviceHardwareHealth/Read,Read data from the DeviceHardwareHealth table,,False
+Microsoft Azure Monitor,DeviceHealth,Read DeviceHealth data,Microsoft.Insights/Logs/DeviceHealth/Read,Read data from the DeviceHealth table,,False
+Microsoft Azure Monitor,DeviceHeartbeat,Read DeviceHeartbeat data,Microsoft.Insights/Logs/DeviceHeartbeat/Read,Read data from the DeviceHeartbeat table,,False
+Microsoft Azure Monitor,DeviceSkypeHeartbeat,Read DeviceSkypeHeartbeat data,Microsoft.Insights/Logs/DeviceSkypeHeartbeat/Read,Read data from the DeviceSkypeHeartbeat table,,False
+Microsoft Azure Monitor,DeviceSkypeSignIn,Read DeviceSkypeSignIn data,Microsoft.Insights/Logs/DeviceSkypeSignIn/Read,Read data from the DeviceSkypeSignIn table,,False
+Microsoft Azure Monitor,DeviceSleepState,Read DeviceSleepState data,Microsoft.Insights/Logs/DeviceSleepState/Read,Read data from the DeviceSleepState table,,False
+Microsoft Azure Monitor,Diagnostic settings categories resource,Read diagnostic settings categories,Microsoft.Insights/DiagnosticSettingsCategories/Read,Read diagnostic settings categories,,False
+Microsoft Azure Monitor,Digest events,Event types management digest read,Microsoft.Insights/eventtypes/digestevents/Read,Read management event type digest,,False
+Microsoft Azure Monitor,DnsEvents,Read DnsEvents data,Microsoft.Insights/Logs/DnsEvents/Read,Read data from the DnsEvents table,,False
+Microsoft Azure Monitor,DnsInventory,Read DnsInventory data,Microsoft.Insights/Logs/DnsInventory/Read,Read data from the DnsInventory table,,False
+Microsoft Azure Monitor,Dynamics365Activity,Read Dynamics365Activity data,Microsoft.Insights/Logs/Dynamics365Activity/Read,Read data from the Dynamics365Activity table,,False
+Microsoft Azure Monitor,ETWEvent,Read ETWEvent data,Microsoft.Insights/Logs/ETWEvent/Read,Read data from the ETWEvent table,,False
+Microsoft Azure Monitor,Event,Read Event data,Microsoft.Insights/Logs/Event/Read,Read data from the Event table,,False
+Microsoft Azure Monitor,ExchangeAssessmentRecommendation,Read ExchangeAssessmentRecommendation data,Microsoft.Insights/Logs/ExchangeAssessmentRecommendation/Read,Read data from the ExchangeAssessmentRecommendation table,,False
+Microsoft Azure Monitor,ExchangeOnlineAssessmentRecommendation,Read ExchangeOnlineAssessmentRecommendation data,Microsoft.Insights/Logs/ExchangeOnlineAssessmentRecommendation/Read,Read data from the ExchangeOnlineAssessmentRecommendation table,,False
+Microsoft Azure Monitor,FailedIngestion,Read FailedIngestion data,Microsoft.Insights/Logs/FailedIngestion/Read,Read data from the FailedIngestion table,,False
+Microsoft Azure Monitor,FunctionAppLogs,Read FunctionAppLogs data,Microsoft.Insights/Logs/FunctionAppLogs/Read,Read data from the FunctionAppLogs table,,False
+Microsoft Azure Monitor,Get notification status,Get the test notification status,Microsoft.Insights/NotificationStatus/Read,Get the test notification status/detail,,False
+Microsoft Azure Monitor,Heartbeat,Read Heartbeat data,Microsoft.Insights/Logs/Heartbeat/Read,Read data from the Heartbeat table,,False
+Microsoft Azure Monitor,HuntingBookmark,Read HuntingBookmark data,Microsoft.Insights/Logs/HuntingBookmark/Read,Read data from the HuntingBookmark table,,False
+Microsoft Azure Monitor,IISAssessmentRecommendation,Read IISAssessmentRecommendation data,Microsoft.Insights/Logs/IISAssessmentRecommendation/Read,Read data from the IISAssessmentRecommendation table,,False
+Microsoft Azure Monitor,InboundConnection,Read InboundConnection data,Microsoft.Insights/Logs/InboundConnection/Read,Read data from the InboundConnection table,,False
+Microsoft Azure Monitor,InsightsMetrics,Read InsightsMetrics data,Microsoft.Insights/Logs/InsightsMetrics/Read,Read data from the InsightsMetrics table,,False
+Microsoft Azure Monitor,IntuneAuditLogs,Read IntuneAuditLogs data,Microsoft.Insights/Logs/IntuneAuditLogs/Read,Read data from the IntuneAuditLogs table,,False
+Microsoft Azure Monitor,IntuneDeviceComplianceOrg,Read IntuneDeviceComplianceOrg data,Microsoft.Insights/Logs/IntuneDeviceComplianceOrg/Read,Read data from the IntuneDeviceComplianceOrg table,,False
+Microsoft Azure Monitor,IntuneOperationalLogs,Read IntuneOperationalLogs data,Microsoft.Insights/Logs/IntuneOperationalLogs/Read,Read data from the IntuneOperationalLogs table,,False
+Microsoft Azure Monitor,IoTHubDistributedTracing,Read IoTHubDistributedTracing data,Microsoft.Insights/Logs/IoTHubDistributedTracing/Read,Read data from the IoTHubDistributedTracing table,,False
+Microsoft Azure Monitor,KubeEvents,Read KubeEvents data,Microsoft.Insights/Logs/KubeEvents/Read,Read data from the KubeEvents table,,False
+Microsoft Azure Monitor,KubeHealth,Read KubeHealth data,Microsoft.Insights/Logs/KubeHealth/Read,Read data from the KubeHealth table,,False
+Microsoft Azure Monitor,KubeMonAgentEvents,Read KubeMonAgentEvents data,Microsoft.Insights/Logs/KubeMonAgentEvents/Read,Read data from the KubeMonAgentEvents table,,False
+Microsoft Azure Monitor,KubeNodeInventory,Read KubeNodeInventory data,Microsoft.Insights/Logs/KubeNodeInventory/Read,Read data from the KubeNodeInventory table,,False
+Microsoft Azure Monitor,KubePodInventory,Read KubePodInventory data,Microsoft.Insights/Logs/KubePodInventory/Read,Read data from the KubePodInventory table,,False
+Microsoft Azure Monitor,KubeServices,Read KubeServices data,Microsoft.Insights/Logs/KubeServices/Read,Read data from the KubeServices table,,False
+Microsoft Azure Monitor,LinuxAuditLog,Read LinuxAuditLog data,Microsoft.Insights/Logs/LinuxAuditLog/Read,Read data from the LinuxAuditLog table,,False
+Microsoft Azure Monitor,List Migration Date,Subscription migration date read,Microsoft.Insights/ListMigrationDate/Read,Get back subscription migration date,,False
+Microsoft Azure Monitor,List Migration Date,Subscription migration date read,Microsoft.Insights/ListMigrationDate/Action,Get back Subscription migration date,,False
+Microsoft Azure Monitor,Log Definitions,Log Definitions read,Microsoft.Insights/AutoscaleSettings/providers/Microsoft.Insights/logDefinitions/Read,Read log definitions,,False
+Microsoft Azure Monitor,Log Definitions,Log Definitions read,Microsoft.Insights/LogDefinitions/Read,Read log definitions,,False
+Microsoft Azure Monitor,Log Definitions,Log Definitions read,Microsoft.Insights/Components/providers/Microsoft.Insights/logDefinitions/Read,Read log definitions,,False
+Microsoft Azure Monitor,Log Profiles,Create or update Activity Log log profile,Microsoft.Insights/LogProfiles/Write,Create or update an Activity Log log profile,,False
+Microsoft Azure Monitor,Log Profiles,Delete Activity Log log profile,Microsoft.Insights/LogProfiles/Delete,Delete an Activity Log log profile,,False
+Microsoft Azure Monitor,Log Profiles,Read Activity Log log profile,Microsoft.Insights/LogProfiles/Read,Read an Activity Log log profile,,False
+Microsoft Azure Monitor,Logs,Read Logs,Microsoft.Insights/Logs/Read,Reading data from all your logs,,False
+Microsoft Azure Monitor,MAApplication,Read MAApplication data,Microsoft.Insights/Logs/MAApplication/Read,Read data from the MAApplication table,,False
+Microsoft Azure Monitor,MAApplicationHealth,Read MAApplicationHealth data,Microsoft.Insights/Logs/MAApplicationHealth/Read,Read data from the MAApplicationHealth table,,False
+Microsoft Azure Monitor,MAApplicationHealthAlternativeVersions,Read MAApplicationHealthAlternativeVersions data,Microsoft.Insights/Logs/MAApplicationHealthAlternativeVersions/Read,Read data from the MAApplicationHealthAlternativeVersions table,,False
+Microsoft Azure Monitor,MAApplicationHealthIssues,Read MAApplicationHealthIssues data,Microsoft.Insights/Logs/MAApplicationHealthIssues/Read,Read data from the MAApplicationHealthIssues table,,False
+Microsoft Azure Monitor,MAApplicationInstance,Read MAApplicationInstance data,Microsoft.Insights/Logs/MAApplicationInstance/Read,Read data from the MAApplicationInstance table,,False
+Microsoft Azure Monitor,MAApplicationInstanceReadiness,Read MAApplicationInstanceReadiness data,Microsoft.Insights/Logs/MAApplicationInstanceReadiness/Read,Read data from the MAApplicationInstanceReadiness table,,False
+Microsoft Azure Monitor,MAApplicationReadiness,Read MAApplicationReadiness data,Microsoft.Insights/Logs/MAApplicationReadiness/Read,Read data from the MAApplicationReadiness table,,False
+Microsoft Azure Monitor,MADeploymentPlan,Read MADeploymentPlan data,Microsoft.Insights/Logs/MADeploymentPlan/Read,Read data from the MADeploymentPlan table,,False
+Microsoft Azure Monitor,MADevice,Read MADevice data,Microsoft.Insights/Logs/MADevice/Read,Read data from the MADevice table,,False
+Microsoft Azure Monitor,MADeviceNRT,Read MADeviceNRT data,Microsoft.Insights/Logs/MADeviceNRT/Read,Read data from the MADeviceNRT table,,False
+Microsoft Azure Monitor,MADeviceNotEnrolled,Read MADeviceNotEnrolled data,Microsoft.Insights/Logs/MADeviceNotEnrolled/Read,Read data from the MADeviceNotEnrolled table,,False
+Microsoft Azure Monitor,MADevicePnPHealth,Read MADevicePnPHealth data,Microsoft.Insights/Logs/MADevicePnPHealth/Read,Read data from the MADevicePnPHealth table,,False
+Microsoft Azure Monitor,MADevicePnPHealthAlternativeVersions,Read MADevicePnPHealthAlternativeVersions data,Microsoft.Insights/Logs/MADevicePnPHealthAlternativeVersions/Read,Read data from the MADevicePnPHealthAlternativeVersions table,,False
+Microsoft Azure Monitor,MADevicePnPHealthIssues,Read MADevicePnPHealthIssues data,Microsoft.Insights/Logs/MADevicePnPHealthIssues/Read,Read data from the MADevicePnPHealthIssues table,,False
+Microsoft Azure Monitor,MADeviceReadiness,Read MADeviceReadiness data,Microsoft.Insights/Logs/MADeviceReadiness/Read,Read data from the MADeviceReadiness table,,False
+Microsoft Azure Monitor,MADriverInstanceReadiness,Read MADriverInstanceReadiness data,Microsoft.Insights/Logs/MADriverInstanceReadiness/Read,Read data from the MADriverInstanceReadiness table,,False
+Microsoft Azure Monitor,MADriverReadiness,Read MADriverReadiness data,Microsoft.Insights/Logs/MADriverReadiness/Read,Read data from the MADriverReadiness table,,False
+Microsoft Azure Monitor,MAOfficeAddin,Read MAOfficeAddin data,Microsoft.Insights/Logs/MAOfficeAddin/Read,Read data from the MAOfficeAddin table,,False
+Microsoft Azure Monitor,MAOfficeAddinEntityHealth,Read MAOfficeAddinEntityHealth data,Microsoft.Insights/Logs/MAOfficeAddinEntityHealth/Read,Read data from the MAOfficeAddinEntityHealth table,,False
+Microsoft Azure Monitor,MAOfficeAddinHealth,Read MAOfficeAddinHealth data,Microsoft.Insights/Logs/MAOfficeAddinHealth/Read,Read data from the MAOfficeAddinHealth table,,False
+Microsoft Azure Monitor,MAOfficeAddinHealthEventNRT,Read MAOfficeAddinHealthEventNRT data,Microsoft.Insights/Logs/MAOfficeAddinHealthEventNRT/Read,Read data from the MAOfficeAddinHealthEventNRT table,,False
+Microsoft Azure Monitor,MAOfficeAddinHealthIssues,Read MAOfficeAddinHealthIssues data,Microsoft.Insights/Logs/MAOfficeAddinHealthIssues/Read,Read data from the MAOfficeAddinHealthIssues table,,False
+Microsoft Azure Monitor,MAOfficeAddinInstance,Read MAOfficeAddinInstance data,Microsoft.Insights/Logs/MAOfficeAddinInstance/Read,Read data from the MAOfficeAddinInstance table,,False
+Microsoft Azure Monitor,MAOfficeAddinInstanceReadiness,Read MAOfficeAddinInstanceReadiness data,Microsoft.Insights/Logs/MAOfficeAddinInstanceReadiness/Read,Read data from the MAOfficeAddinInstanceReadiness table,,False
+Microsoft Azure Monitor,MAOfficeAddinReadiness,Read MAOfficeAddinReadiness data,Microsoft.Insights/Logs/MAOfficeAddinReadiness/Read,Read data from the MAOfficeAddinReadiness table,,False
+Microsoft Azure Monitor,MAOfficeApp,Read MAOfficeApp data,Microsoft.Insights/Logs/MAOfficeApp/Read,Read data from the MAOfficeApp table,,False
+Microsoft Azure Monitor,MAOfficeAppCrashesNRT,Read MAOfficeAppCrashesNRT data,Microsoft.Insights/Logs/MAOfficeAppCrashesNRT/Read,Read data from the MAOfficeAppCrashesNRT table,,False
+Microsoft Azure Monitor,MAOfficeAppHealth,Read MAOfficeAppHealth data,Microsoft.Insights/Logs/MAOfficeAppHealth/Read,Read data from the MAOfficeAppHealth table,,False
+Microsoft Azure Monitor,MAOfficeAppInstance,Read MAOfficeAppInstance data,Microsoft.Insights/Logs/MAOfficeAppInstance/Read,Read data from the MAOfficeAppInstance table,,False
+Microsoft Azure Monitor,MAOfficeAppInstanceHealth,Read MAOfficeAppInstanceHealth data,Microsoft.Insights/Logs/MAOfficeAppInstanceHealth/Read,Read data from the MAOfficeAppInstanceHealth table,,False
+Microsoft Azure Monitor,MAOfficeAppReadiness,Read MAOfficeAppReadiness data,Microsoft.Insights/Logs/MAOfficeAppReadiness/Read,Read data from the MAOfficeAppReadiness table,,False
+Microsoft Azure Monitor,MAOfficeAppSessionsNRT,Read MAOfficeAppSessionsNRT data,Microsoft.Insights/Logs/MAOfficeAppSessionsNRT/Read,Read data from the MAOfficeAppSessionsNRT table,,False
+Microsoft Azure Monitor,MAOfficeBuildInfo,Read MAOfficeBuildInfo data,Microsoft.Insights/Logs/MAOfficeBuildInfo/Read,Read data from the MAOfficeBuildInfo table,,False
+Microsoft Azure Monitor,MAOfficeCurrencyAssessment,Read MAOfficeCurrencyAssessment data,Microsoft.Insights/Logs/MAOfficeCurrencyAssessment/Read,Read data from the MAOfficeCurrencyAssessment table,,False
+Microsoft Azure Monitor,MAOfficeCurrencyAssessmentDailyCounts,Read MAOfficeCurrencyAssessmentDailyCounts data,Microsoft.Insights/Logs/MAOfficeCurrencyAssessmentDailyCounts/Read,Read data from the MAOfficeCurrencyAssessmentDailyCounts table,,False
+Microsoft Azure Monitor,MAOfficeDeploymentStatus,Read MAOfficeDeploymentStatus data,Microsoft.Insights/Logs/MAOfficeDeploymentStatus/Read,Read data from the MAOfficeDeploymentStatus table,,False
+Microsoft Azure Monitor,MAOfficeDeploymentStatusNRT,Read MAOfficeDeploymentStatusNRT data,Microsoft.Insights/Logs/MAOfficeDeploymentStatusNRT/Read,Read data from the MAOfficeDeploymentStatusNRT table,,False
+Microsoft Azure Monitor,MAOfficeMacroErrorNRT,Read MAOfficeMacroErrorNRT data,Microsoft.Insights/Logs/MAOfficeMacroErrorNRT/Read,Read data from the MAOfficeMacroErrorNRT table,,False
+Microsoft Azure Monitor,MAOfficeMacroGlobalHealth,Read MAOfficeMacroGlobalHealth data,Microsoft.Insights/Logs/MAOfficeMacroGlobalHealth/Read,Read data from the MAOfficeMacroGlobalHealth table,,False
+Microsoft Azure Monitor,MAOfficeMacroHealth,Read MAOfficeMacroHealth data,Microsoft.Insights/Logs/MAOfficeMacroHealth/Read,Read data from the MAOfficeMacroHealth table,,False
+Microsoft Azure Monitor,MAOfficeMacroHealthIssues,Read MAOfficeMacroHealthIssues data,Microsoft.Insights/Logs/MAOfficeMacroHealthIssues/Read,Read data from the MAOfficeMacroHealthIssues table,,False
+Microsoft Azure Monitor,MAOfficeMacroIssueInstanceReadiness,Read MAOfficeMacroIssueInstanceReadiness data,Microsoft.Insights/Logs/MAOfficeMacroIssueInstanceReadiness/Read,Read data from the MAOfficeMacroIssueInstanceReadiness table,,False
+Microsoft Azure Monitor,MAOfficeMacroIssueReadiness,Read MAOfficeMacroIssueReadiness data,Microsoft.Insights/Logs/MAOfficeMacroIssueReadiness/Read,Read data from the MAOfficeMacroIssueReadiness table,,False
+Microsoft Azure Monitor,MAOfficeMacroSummary,Read MAOfficeMacroSummary data,Microsoft.Insights/Logs/MAOfficeMacroSummary/Read,Read data from the MAOfficeMacroSummary table,,False
+Microsoft Azure Monitor,MAOfficeSuite,Read MAOfficeSuite data,Microsoft.Insights/Logs/MAOfficeSuite/Read,Read data from the MAOfficeSuite table,,False
+Microsoft Azure Monitor,MAOfficeSuiteInstance,Read MAOfficeSuiteInstance data,Microsoft.Insights/Logs/MAOfficeSuiteInstance/Read,Read data from the MAOfficeSuiteInstance table,,False
+Microsoft Azure Monitor,MAProposedPilotDevices,Read MAProposedPilotDevices data,Microsoft.Insights/Logs/MAProposedPilotDevices/Read,Read data from the MAProposedPilotDevices table,,False
+Microsoft Azure Monitor,MAWindowsBuildInfo,Read MAWindowsBuildInfo data,Microsoft.Insights/Logs/MAWindowsBuildInfo/Read,Read data from the MAWindowsBuildInfo table,,False
+Microsoft Azure Monitor,MAWindowsCurrencyAssessment,Read MAWindowsCurrencyAssessment data,Microsoft.Insights/Logs/MAWindowsCurrencyAssessment/Read,Read data from the MAWindowsCurrencyAssessment table,,False
+Microsoft Azure Monitor,MAWindowsCurrencyAssessmentDailyCounts,Read MAWindowsCurrencyAssessmentDailyCounts data,Microsoft.Insights/Logs/MAWindowsCurrencyAssessmentDailyCounts/Read,Read data from the MAWindowsCurrencyAssessmentDailyCounts table,,False
+Microsoft Azure Monitor,MAWindowsDeploymentStatus,Read MAWindowsDeploymentStatus data,Microsoft.Insights/Logs/MAWindowsDeploymentStatus/Read,Read data from the MAWindowsDeploymentStatus table,,False
+Microsoft Azure Monitor,MAWindowsDeploymentStatusNRT,Read MAWindowsDeploymentStatusNRT data,Microsoft.Insights/Logs/MAWindowsDeploymentStatusNRT/Read,Read data from the MAWindowsDeploymentStatusNRT table,,False
+Microsoft Azure Monitor,MAWindowsSysReqInstanceReadiness,Read MAWindowsSysReqInstanceReadiness data,Microsoft.Insights/Logs/MAWindowsSysReqInstanceReadiness/Read,Read data from the MAWindowsSysReqInstanceReadiness table,,False
+Microsoft Azure Monitor,McasShadowItReporting,Read McasShadowItReporting data,Microsoft.Insights/Logs/McasShadowItReporting/Read,Read data from the McasShadowItReporting table,,False
+Microsoft Azure Monitor,Metric Action,Metric Action,Microsoft.Insights/Metrics/Action,Metric Action,,False
+Microsoft Azure Monitor,Metric Alerts,Create or update metric alert,Microsoft.Insights/MetricAlerts/Write,Create or update a metric alert,,False
+Microsoft Azure Monitor,Metric Alerts,Delete metric alert,Microsoft.Insights/MetricAlerts/Delete,Delete a metric alert,,False
+Microsoft Azure Monitor,Metric Alerts,Read metric alert,Microsoft.Insights/MetricAlerts/Read,Read a metric alert,,False
+Microsoft Azure Monitor,Metric Alerts,Read metric alert status,Microsoft.Insights/MetricAlerts/Status/Read,Read metric alert status,,False
+Microsoft Azure Monitor,Metric Baseline,Calculate baseline,Microsoft.Insights/CalculateBaseline/Read,Calculate baseline for metric values (preview),,False
+Microsoft Azure Monitor,Metric Baseline,Read metric baseline,Microsoft.Insights/Baseline/Read,Read a metric baseline (preview),,False
+Microsoft Azure Monitor,Metric Baseline,Read metric baselines,Microsoft.Insights/MetricBaselines/Read,Read metric baselines,,False
+Microsoft Azure Monitor,Metric Definitions,Read metric definitions,Microsoft.Insights/MetricDefinitions/Read,Read metric definitions,,False
+Microsoft Azure Monitor,Metric Definitions,Read metric definitions,Microsoft.Insights/MetricDefinitions/Microsoft.Insights/Read,Read metric definitions,,False
+Microsoft Azure Monitor,Metric Definitions,Read metric definitions,Microsoft.Insights/MetricDefinitions/providers/Microsoft.Insights/Read,Read metric definitions,,False
+Microsoft Azure Monitor,Metric Definitions,Read metric definitions,Microsoft.Insights/AutoscaleSettings/providers/Microsoft.Insights/MetricDefinitions/Read,Read metric definitions,,False
+Microsoft Azure Monitor,Metric Definitions,Read metric definitions,Microsoft.Insights/Components/providers/Microsoft.Insights/MetricDefinitions/Read,Read metric definitions,,False
+Microsoft Azure Monitor,Metric namespaces,Metric namespaces read,Microsoft.Insights/Metricnamespaces/Read,Read metric namespaces,,False
+Microsoft Azure Monitor,Metrics,Read metrics,Microsoft.Insights/Metrics/Read,Read metrics,,False
+Microsoft Azure Monitor,Metrics,Read metrics,Microsoft.Insights/Metrics/providers/Metrics/Read,Read metrics,,False
+Microsoft Azure Monitor,Metrics,Read metrics,Microsoft.Insights/Metrics/Microsoft.Insights/Read,Read metrics,,False
+Microsoft Azure Monitor,Metrics,Write metrics,Microsoft.Insights/Metrics/Write,Write metrics,,True
+Microsoft Azure Monitor,Microsoft.Insights,Initialize Microsoft.Insights,Microsoft.Insights/Tenants/Register/Action,Initializes the Microsoft Insights provider,,False
+Microsoft Azure Monitor,Microsoft.Insights,Register Microsoft.Insights,Microsoft.Insights/Register/Action,Register the Microsoft Insights provider,,False
+Microsoft Azure Monitor,Microsoft.Insights,Register Microsoft.Insights,Microsoft.Insights/Unregister/Action,Register the Microsoft Insights provider,,False
+Microsoft Azure Monitor,MicrosoftAzureBastionAuditLogs,Read MicrosoftAzureBastionAuditLogs data,Microsoft.Insights/Logs/MicrosoftAzureBastionAuditLogs/Read,Read data from the MicrosoftAzureBastionAuditLogs table,,False
+Microsoft Azure Monitor,MicrosoftDataShareReceivedSnapshotLog,Read MicrosoftDataShareReceivedSnapshotLog data,Microsoft.Insights/Logs/MicrosoftDataShareReceivedSnapshotLog/Read,Read data from the MicrosoftDataShareReceivedSnapshotLog table,,False
+Microsoft Azure Monitor,MicrosoftDataShareSentSnapshotLog,Read MicrosoftDataShareSentSnapshotLog data,Microsoft.Insights/Logs/MicrosoftDataShareSentSnapshotLog/Read,Read data from the MicrosoftDataShareSentSnapshotLog table,,False
+Microsoft Azure Monitor,MicrosoftDataShareShareLog,Read MicrosoftDataShareShareLog data,Microsoft.Insights/Logs/MicrosoftDataShareShareLog/Read,Read data from the MicrosoftDataShareShareLog table,,False
+Microsoft Azure Monitor,MicrosoftDynamicsTelemetryPerformanceLogs,Read MicrosoftDynamicsTelemetryPerformanceLogs data,Microsoft.Insights/Logs/MicrosoftDynamicsTelemetryPerformanceLogs/Read,Read data from the MicrosoftDynamicsTelemetryPerformanceLogs table,,False
+Microsoft Azure Monitor,MicrosoftDynamicsTelemetrySystemMetricsLogs,Read MicrosoftDynamicsTelemetrySystemMetricsLogs data,Microsoft.Insights/Logs/MicrosoftDynamicsTelemetrySystemMetricsLogs/Read,Read data from the MicrosoftDynamicsTelemetrySystemMetricsLogs table,,False
+Microsoft Azure Monitor,MicrosoftHealthcareApisAuditLogs,Read MicrosoftHealthcareApisAuditLogs data,Microsoft.Insights/Logs/MicrosoftHealthcareApisAuditLogs/Read,Read data from the MicrosoftHealthcareApisAuditLogs table,,False
+Microsoft Azure Monitor,Migrate to new pricing model,Migrate subscription to new pricing model action,Microsoft.Insights/MigrateToNewpricingModel/Action,Migrate subscription to new pricing model,,False
+Microsoft Azure Monitor,Monitored Object,Create or update monitored object,Microsoft.Insights/MonitoredObjects/Write,Create or update a monitored object,,False
+Microsoft Azure Monitor,Monitored Object,Delete monitored object,Microsoft.Insights/MonitoredObjects/Delete,Delete a monitored object,,False
+Microsoft Azure Monitor,Monitored Object,Read monitored object,Microsoft.Insights/MonitoredObjects/Read,Read a monitored object,,False
+Microsoft Azure Monitor,Network Security Perimeter Association Proxies,network security perimeter association proxy for scheduled query rules delete,Microsoft.Insights/ScheduledQueryRules/NetworkSecurityPerimeterAssociationProxies/Delete,Deleting a network security perimeter association proxy for scheduled query rules,,False
+Microsoft Azure Monitor,Network Security Perimeter Association Proxies,network security perimeter association proxy for scheduled query rules read,Microsoft.Insights/ScheduledQueryRules/NetworkSecurityPerimeterAssociationProxies/Read,Reading a network security perimeter association proxy for scheduled query rules,,False
+Microsoft Azure Monitor,Network Security Perimeter Association Proxies,network security perimeter association proxy for scheduled query rules write,Microsoft.Insights/ScheduledQueryRules/NetworkSecurityPerimeterAssociationProxies/Write,Writing a network security perimeter association proxy for scheduled query rules,,False
+Microsoft Azure Monitor,Network Security Perimeter Configurations,network security perimeter configuration for scheduled query rules read,Microsoft.Insights/ScheduledQueryRules/networkSecurityPerimeterConfigurations/Read,Reading a network security perimeter configuration for scheduled query rules,,False
+Microsoft Azure Monitor,Network Security Perimeter Configurations,network security perimeter configuration for scheduled query rules reconcile,Microsoft.Insights/ScheduledQueryRules/networkSecurityPerimeterConfigurations/Reconcile/Action,Reconciling network security perimeter configuration for scheduled query rules,,False
+Microsoft Azure Monitor,Network flow log diagnostic setting,Create or update network flow log diagnostic setting,Microsoft.Insights/ExtendedDiagnosticSettings/Write,Create or update a network flow log diagnostic setting,,False
+Microsoft Azure Monitor,Network flow log diagnostic setting,Delete network flow log diagnostic setting,Microsoft.Insights/ExtendedDiagnosticSettings/Delete,Delete a network flow log diagnostic setting,,False
+Microsoft Azure Monitor,Network flow log diagnostic setting,Read network flow log diagnostic setting,Microsoft.Insights/ExtendedDiagnosticSettings/Read,Read a network flow log diagnostic setting,,False
+Microsoft Azure Monitor,NetworkMonitoring,Read NetworkMonitoring data,Microsoft.Insights/Logs/NetworkMonitoring/Read,Read data from the NetworkMonitoring table,,False
+Microsoft Azure Monitor,OfficeActivity,Read OfficeActivity data,Microsoft.Insights/Logs/OfficeActivity/Read,Read data from the OfficeActivity table,,False
+Microsoft Azure Monitor,Operation,Read Operation data,Microsoft.Insights/Logs/Operation/Read,Read data from the Operation table,,False
+Microsoft Azure Monitor,Operations,Read operations,Microsoft.Insights/Operations/Read,Read operations,,False
+Microsoft Azure Monitor,OutboundConnection,Read OutboundConnection data,Microsoft.Insights/Logs/OutboundConnection/Read,Read data from the OutboundConnection table,,False
+Microsoft Azure Monitor,Perf,Read Perf data,Microsoft.Insights/Logs/Perf/Read,Read data from the Perf table,,False
+Microsoft Azure Monitor,Private Link Resource,Read a private link resource,Microsoft.Insights/PrivateLinkScopes/PrivateLinkResources/Read,Read a private link resource,,False
+Microsoft Azure Monitor,Private Link Scope,Create or update a private link scope,Microsoft.Insights/PrivateLinkScopes/Write,Create or update a private link scope,,False
+Microsoft Azure Monitor,Private Link Scope,Delete a private link scope,Microsoft.Insights/PrivateLinkScopes/Delete,Delete a private link scope,,False
+Microsoft Azure Monitor,Private Link Scope,Read a private link scope,Microsoft.Insights/PrivateLinkScopes/Read,Read a private link scope,,False
+Microsoft Azure Monitor,Private Link Scope operation status,Read a private link scoped operation status,Microsoft.Insights/PrivateLinkScopeOperationStatuses/Read,Read a private link scoped operation status,,False
+Microsoft Azure Monitor,Private Link Scoped Resource,Create or update a private link scoped resource,Microsoft.Insights/PrivateLinkScopes/ScopedResources/Write,Create or update a private link scoped resource,,False
+Microsoft Azure Monitor,Private Link Scoped Resource,Delete a private link scoped resource,Microsoft.Insights/PrivateLinkScopes/ScopedResources/Delete,Delete a private link scoped resource,,False
+Microsoft Azure Monitor,Private Link Scoped Resource,Read a private link scoped resource,Microsoft.Insights/PrivateLinkScopes/ScopedResources/Read,Read a private link scoped resource,,False
+Microsoft Azure Monitor,Private endpoint connection,Approve or reject a Private Endpoint connection,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnectionsApproval/action,Approve or reject a connection to a Private Endpoint resource of Microsoft.Network provider,,False
+Microsoft Azure Monitor,Private endpoint connection,Create or update a private endpoint connection,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnections/Write,Create or update a private endpoint connection,,False
+Microsoft Azure Monitor,Private endpoint connection,Delete a private endpoint connection,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnections/Delete,Delete a private endpoint connection,,False
+Microsoft Azure Monitor,Private endpoint connection,Read a private endpoint connection,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnections/Read,Read a private endpoint connection,,False
+Microsoft Azure Monitor,Private endpoint connection proxy,Create or update a private endpoint connection proxy,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnectionProxies/Write,Create or update a private endpoint connection proxy,,False
+Microsoft Azure Monitor,Private endpoint connection proxy,Delete a private endpoint connection proxy,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnectionProxies/Delete,Delete a private endpoint connection proxy,,False
+Microsoft Azure Monitor,Private endpoint connection proxy,Read a private endpoint connection proxy,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnectionProxies/Read,Read a private endpoint connection proxy,,False
+Microsoft Azure Monitor,Private endpoint connection proxy,Validate a private endpoint connection proxy,Microsoft.Insights/PrivateLinkScopes/PrivateEndpointConnectionProxies/Validate/Action,Validate a private endpoint connection proxy,,False
+Microsoft Azure Monitor,ProtectionStatus,Read ProtectionStatus data,Microsoft.Insights/Logs/ProtectionStatus/Read,Read data from the ProtectionStatus table,,False
+Microsoft Azure Monitor,ReservedAzureCommonFields,Read ReservedAzureCommonFields data,Microsoft.Insights/Logs/ReservedAzureCommonFields/Read,Read data from the ReservedAzureCommonFields table,,False
+Microsoft Azure Monitor,ReservedCommonFields,Read ReservedCommonFields data,Microsoft.Insights/Logs/ReservedCommonFields/Read,Read data from the ReservedCommonFields table,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Create or update resource diagnostic setting,Microsoft.Insights/AutoscaleSettings/providers/Microsoft.Insights/diagnosticSettings/Write,Create or update a resource diagnostic setting,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Create or update resource diagnostic setting,Microsoft.Insights/DiagnosticSettings/Write,Create or update a resource diagnostic setting,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Create or update resource diagnostic setting,Microsoft.Insights/Components/providers/Microsoft.Insights/diagnosticSettings/Write,Create or update a resource diagnostic setting,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Delete resource diagnostic setting,Microsoft.Insights/DiagnosticSettings/Delete,Delete a resource diagnostic setting,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Read resource diagnostic setting,Microsoft.Insights/AutoscaleSettings/providers/Microsoft.Insights/diagnosticSettings/Read,Read a resource diagnostic setting,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Read resource diagnostic setting,Microsoft.Insights/DiagnosticSettings/Read,Read a resource diagnostic setting,,False
+Microsoft Azure Monitor,Resource diagnostic settings,Read resource diagnostic setting,Microsoft.Insights/Components/providers/Microsoft.Insights/diagnosticSettings/Read,Read a resource diagnostic setting,,False
+Microsoft Azure Monitor,Rollback legacy pricing model,Rollback subscription to legacy pricing model action,Microsoft.Insights/RollbackToLegacyPricingModel/Action,Rollback subscription to legacy pricing model,,False
+Microsoft Azure Monitor,SCCMAssessmentRecommendation,Read SCCMAssessmentRecommendation data,Microsoft.Insights/Logs/SCCMAssessmentRecommendation/Read,Read data from the SCCMAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SCOMAssessmentRecommendation,Read SCOMAssessmentRecommendation data,Microsoft.Insights/Logs/SCOMAssessmentRecommendation/Read,Read data from the SCOMAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SPAssessmentRecommendation,Read SPAssessmentRecommendation data,Microsoft.Insights/Logs/SPAssessmentRecommendation/Read,Read data from the SPAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SQLAssessmentRecommendation,Read SQLAssessmentRecommendation data,Microsoft.Insights/Logs/SQLAssessmentRecommendation/Read,Read data from the SQLAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SQLQueryPerformance,Read SQLQueryPerformance data,Microsoft.Insights/Logs/SQLQueryPerformance/Read,Read data from the SQLQueryPerformance table,,False
+Microsoft Azure Monitor,Scheduled query rule,Scheduled query rule delete,Microsoft.Insights/ScheduledQueryRules/Delete,Deleting a scheduled query rule,,False
+Microsoft Azure Monitor,Scheduled query rule,Scheduled query rule read,Microsoft.Insights/ScheduledQueryRules/Read,Reading a scheduled query rule,,False
+Microsoft Azure Monitor,Scheduled query rule,Scheduled query rule write,Microsoft.Insights/ScheduledQueryRules/Write,Writing a scheduled query rule,,False
+Microsoft Azure Monitor,SecurityAlert,Read SecurityAlert data,Microsoft.Insights/Logs/SecurityAlert/Read,Read data from the SecurityAlert table,,False
+Microsoft Azure Monitor,SecurityBaseline,Read SecurityBaseline data,Microsoft.Insights/Logs/SecurityBaseline/Read,Read data from the SecurityBaseline table,,False
+Microsoft Azure Monitor,SecurityBaselineSummary,Read SecurityBaselineSummary data,Microsoft.Insights/Logs/SecurityBaselineSummary/Read,Read data from the SecurityBaselineSummary table,,False
+Microsoft Azure Monitor,SecurityDetection,Read SecurityDetection data,Microsoft.Insights/Logs/SecurityDetection/Read,Read data from the SecurityDetection table,,False
+Microsoft Azure Monitor,SecurityEvent,Read SecurityEvent data,Microsoft.Insights/Logs/SecurityEvent/Read,Read data from the SecurityEvent table,,False
+Microsoft Azure Monitor,SecurityIncident,Read SecurityIncident data,Microsoft.Insights/Logs/SecurityIncident/Read,Read data from the SecurityIncident table,,False
+Microsoft Azure Monitor,SecurityIoTRawEvent,Read SecurityIoTRawEvent data,Microsoft.Insights/Logs/SecurityIoTRawEvent/Read,Read data from the SecurityIoTRawEvent table,,False
+Microsoft Azure Monitor,SecurityNestedRecommendation,Read SecurityNestedRecommendation data,Microsoft.Insights/Logs/SecurityNestedRecommendation/Read,Read data from the SecurityNestedRecommendation table,,False
+Microsoft Azure Monitor,SecurityRecommendation,Read SecurityRecommendation data,Microsoft.Insights/Logs/SecurityRecommendation/Read,Read data from the SecurityRecommendation table,,False
+Microsoft Azure Monitor,ServiceFabricOperationalEvent,Read ServiceFabricOperationalEvent data,Microsoft.Insights/Logs/ServiceFabricOperationalEvent/Read,Read data from the ServiceFabricOperationalEvent table,,False
+Microsoft Azure Monitor,ServiceFabricReliableActorEvent,Read ServiceFabricReliableActorEvent data,Microsoft.Insights/Logs/ServiceFabricReliableActorEvent/Read,Read data from the ServiceFabricReliableActorEvent table,,False
+Microsoft Azure Monitor,ServiceFabricReliableServiceEvent,Read ServiceFabricReliableServiceEvent data,Microsoft.Insights/Logs/ServiceFabricReliableServiceEvent/Read,Read data from the ServiceFabricReliableServiceEvent table,,False
+Microsoft Azure Monitor,SfBAssessmentRecommendation,Read SfBAssessmentRecommendation data,Microsoft.Insights/Logs/SfBAssessmentRecommendation/Read,Read data from the SfBAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SfBOnlineAssessmentRecommendation,Read SfBOnlineAssessmentRecommendation data,Microsoft.Insights/Logs/SfBOnlineAssessmentRecommendation/Read,Read data from the SfBOnlineAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SharePointOnlineAssessmentRecommendation,Read SharePointOnlineAssessmentRecommendation data,Microsoft.Insights/Logs/SharePointOnlineAssessmentRecommendation/Read,Read data from the SharePointOnlineAssessmentRecommendation table,,False
+Microsoft Azure Monitor,SignalRServiceDiagnosticLogs,Read SignalRServiceDiagnosticLogs data,Microsoft.Insights/Logs/SignalRServiceDiagnosticLogs/Read,Read data from the SignalRServiceDiagnosticLogs table,,False
+Microsoft Azure Monitor,SigninLogs,Read SigninLogs data,Microsoft.Insights/Logs/SigninLogs/Read,Read data from the SigninLogs table,,False
+Microsoft Azure Monitor,SqlDataClassification,Read SqlDataClassification data,Microsoft.Insights/Logs/SqlDataClassification/Read,Read data from the SqlDataClassification table,,False
+Microsoft Azure Monitor,SqlVulnerabilityAssessmentResult,Read SqlVulnerabilityAssessmentResult data,Microsoft.Insights/Logs/SqlVulnerabilityAssessmentResult/Read,Read data from the SqlVulnerabilityAssessmentResult table,,False
+Microsoft Azure Monitor,StorageBlobLogs,Read StorageBlobLogs data,Microsoft.Insights/Logs/StorageBlobLogs/Read,Read data from the StorageBlobLogs table,,False
+Microsoft Azure Monitor,StorageFileLogs,Read StorageFileLogs data,Microsoft.Insights/Logs/StorageFileLogs/Read,Read data from the StorageFileLogs table,,False
+Microsoft Azure Monitor,StorageQueueLogs,Read StorageQueueLogs data,Microsoft.Insights/Logs/StorageQueueLogs/Read,Read data from the StorageQueueLogs table,,False
+Microsoft Azure Monitor,StorageTableLogs,Read StorageTableLogs data,Microsoft.Insights/Logs/StorageTableLogs/Read,Read data from the StorageTableLogs table,,False
+Microsoft Azure Monitor,SucceededIngestion,Read SucceededIngestion data,Microsoft.Insights/Logs/SucceededIngestion/Read,Read data from the SucceededIngestion table,,False
+Microsoft Azure Monitor,Syslog,Read Syslog data,Microsoft.Insights/Logs/Syslog/Read,Read data from the Syslog table,,False
+Microsoft Azure Monitor,SysmonEvent,Read SysmonEvent data,Microsoft.Insights/Logs/SysmonEvent/Read,Read data from the SysmonEvent table,,False
+Microsoft Azure Monitor,TSIIngress,Read TSIIngress data,Microsoft.Insights/Logs/TSIIngress/Read,Read data from the TSIIngress table,,False
+Microsoft Azure Monitor,Telemetry,Write telemetry,Microsoft.Insights/Telemetry/Write,Write telemetry,,True
+Microsoft Azure Monitor,Tenant Action Groups,Create or update a tenant action group,Microsoft.Insights/TenantActionGroups/Write,Create or update a tenant action group,,False
+Microsoft Azure Monitor,Tenant Action Groups,Delete a tenant action group,Microsoft.Insights/TenantActionGroups/Delete,Delete a tenant action group,,False
+Microsoft Azure Monitor,Tenant Action Groups,Read tenant action group,Microsoft.Insights/TenantActionGroups/Read,Read a tenant action group,,False
+Microsoft Azure Monitor,ThreatIntelligenceIndicator,Read ThreatIntelligenceIndicator data,Microsoft.Insights/Logs/ThreatIntelligenceIndicator/Read,Read data from the ThreatIntelligenceIndicator table,,False
+Microsoft Azure Monitor,UAApp,Read UAApp data,Microsoft.Insights/Logs/UAApp/Read,Read data from the UAApp table,,False
+Microsoft Azure Monitor,UAComputer,Read UAComputer data,Microsoft.Insights/Logs/UAComputer/Read,Read data from the UAComputer table,,False
+Microsoft Azure Monitor,UAComputerRank,Read UAComputerRank data,Microsoft.Insights/Logs/UAComputerRank/Read,Read data from the UAComputerRank table,,False
+Microsoft Azure Monitor,UADriver,Read UADriver data,Microsoft.Insights/Logs/UADriver/Read,Read data from the UADriver table,,False
+Microsoft Azure Monitor,UADriverProblemCodes,Read UADriverProblemCodes data,Microsoft.Insights/Logs/UADriverProblemCodes/Read,Read data from the UADriverProblemCodes table,,False
+Microsoft Azure Monitor,UAFeedback,Read UAFeedback data,Microsoft.Insights/Logs/UAFeedback/Read,Read data from the UAFeedback table,,False
+Microsoft Azure Monitor,UAHardwareSecurity,Read UAHardwareSecurity data,Microsoft.Insights/Logs/UAHardwareSecurity/Read,Read data from the UAHardwareSecurity table,,False
+Microsoft Azure Monitor,UAIESiteDiscovery,Read UAIESiteDiscovery data,Microsoft.Insights/Logs/UAIESiteDiscovery/Read,Read data from the UAIESiteDiscovery table,,False
+Microsoft Azure Monitor,UAOfficeAddIn,Read UAOfficeAddIn data,Microsoft.Insights/Logs/UAOfficeAddIn/Read,Read data from the UAOfficeAddIn table,,False
+Microsoft Azure Monitor,UAProposedActionPlan,Read UAProposedActionPlan data,Microsoft.Insights/Logs/UAProposedActionPlan/Read,Read data from the UAProposedActionPlan table,,False
+Microsoft Azure Monitor,UASysReqIssue,Read UASysReqIssue data,Microsoft.Insights/Logs/UASysReqIssue/Read,Read data from the UASysReqIssue table,,False
+Microsoft Azure Monitor,UAUpgradedComputer,Read UAUpgradedComputer data,Microsoft.Insights/Logs/UAUpgradedComputer/Read,Read data from the UAUpgradedComputer table,,False
+Microsoft Azure Monitor,Update,Read Update data,Microsoft.Insights/Logs/Update/Read,Read data from the Update table,,False
+Microsoft Azure Monitor,UpdateRunProgress,Read UpdateRunProgress data,Microsoft.Insights/Logs/UpdateRunProgress/Read,Read data from the UpdateRunProgress table,,False
+Microsoft Azure Monitor,UpdateSummary,Read UpdateSummary data,Microsoft.Insights/Logs/UpdateSummary/Read,Read data from the UpdateSummary table,,False
+Microsoft Azure Monitor,Usage,Read Usage data,Microsoft.Insights/Logs/Usage/Read,Read data from the Usage table,,False
+Microsoft Azure Monitor,UserAccessAnalytics,Read UserAccessAnalytics data,Microsoft.Insights/Logs/UserAccessAnalytics/Read,Read data from the UserAccessAnalytics table,,False
+Microsoft Azure Monitor,UserPeerAnalytics,Read UserPeerAnalytics data,Microsoft.Insights/Logs/UserPeerAnalytics/Read,Read data from the UserPeerAnalytics table,,False
+Microsoft Azure Monitor,VMBoundPort,Read VMBoundPort data,Microsoft.Insights/Logs/VMBoundPort/Read,Read data from the VMBoundPort table,,False
+Microsoft Azure Monitor,VMComputer,Read VMComputer data,Microsoft.Insights/Logs/VMComputer/Read,Read data from the VMComputer table,,False
+Microsoft Azure Monitor,VMConnection,Read VMConnection data,Microsoft.Insights/Logs/VMConnection/Read,Read data from the VMConnection table,,False
+Microsoft Azure Monitor,VMProcess,Read VMProcess data,Microsoft.Insights/Logs/VMProcess/Read,Read data from the VMProcess table,,False
+Microsoft Azure Monitor,W3CIISLog,Read W3CIISLog data,Microsoft.Insights/Logs/W3CIISLog/Read,Read data from the W3CIISLog table,,False
+Microsoft Azure Monitor,WDAVStatus,Read WDAVStatus data,Microsoft.Insights/Logs/WDAVStatus/Read,Read data from the WDAVStatus table,,False
+Microsoft Azure Monitor,WDAVThreat,Read WDAVThreat data,Microsoft.Insights/Logs/WDAVThreat/Read,Read data from the WDAVThreat table,,False
+Microsoft Azure Monitor,WUDOAggregatedStatus,Read WUDOAggregatedStatus data,Microsoft.Insights/Logs/WUDOAggregatedStatus/Read,Read data from the WUDOAggregatedStatus table,,False
+Microsoft Azure Monitor,WUDOStatus,Read WUDOStatus data,Microsoft.Insights/Logs/WUDOStatus/Read,Read data from the WUDOStatus table,,False
+Microsoft Azure Monitor,WVDCheckpoints,Read WVDCheckpoints data,Microsoft.Insights/Logs/WVDCheckpoints/Read,Read data from the WVDCheckpoints table,,False
+Microsoft Azure Monitor,WVDConnections,Read WVDConnections data,Microsoft.Insights/Logs/WVDConnections/Read,Read data from the WVDConnections table,,False
+Microsoft Azure Monitor,WVDErrors,Read WVDErrors data,Microsoft.Insights/Logs/WVDErrors/Read,Read data from the WVDErrors table,,False
+Microsoft Azure Monitor,WVDFeeds,Read WVDFeeds data,Microsoft.Insights/Logs/WVDFeeds/Read,Read data from the WVDFeeds table,,False
+Microsoft Azure Monitor,WVDHostRegistrations,Read WVDHostRegistrations data,Microsoft.Insights/Logs/WVDHostRegistrations/Read,Read data from the WVDHostRegistrations table,,False
+Microsoft Azure Monitor,WVDManagement,Read WVDManagement data,Microsoft.Insights/Logs/WVDManagement/Read,Read data from the WVDManagement table,,False
+Microsoft Azure Monitor,WaaSDeploymentStatus,Read WaaSDeploymentStatus data,Microsoft.Insights/Logs/WaaSDeploymentStatus/Read,Read data from the WaaSDeploymentStatus table,,False
+Microsoft Azure Monitor,WaaSInsiderStatus,Read WaaSInsiderStatus data,Microsoft.Insights/Logs/WaaSInsiderStatus/Read,Read data from the WaaSInsiderStatus table,,False
+Microsoft Azure Monitor,WaaSUpdateStatus,Read WaaSUpdateStatus data,Microsoft.Insights/Logs/WaaSUpdateStatus/Read,Read data from the WaaSUpdateStatus table,,False
+Microsoft Azure Monitor,Web tests,Webtest delete,Microsoft.Insights/Webtests/Delete,Deleting a webtest configuration,,False
+Microsoft Azure Monitor,Web tests,Webtest read,Microsoft.Insights/Components/Webtests/Read,Reading a webtest configuration,,False
+Microsoft Azure Monitor,Web tests,Webtest read,Microsoft.Insights/Webtests/Read,Reading a webtest configuration,,False
+Microsoft Azure Monitor,Web tests,Webtest write,Microsoft.Insights/Webtests/Write,Writing to a webtest configuration,,False
+Microsoft Azure Monitor,Webtest metric definitions,Webtest metric definitions read,Microsoft.Insights/Webtests/MetricDefinitions/Read,Reading a webtest metric definitions,,False
+Microsoft Azure Monitor,Webtest metrics,Webtest metrics read,Microsoft.Insights/Webtests/Metrics/Read,Reading a webtest metrics,,False
+Microsoft Azure Monitor,Webtest token,Webtest token read,Microsoft.Insights/Webtests/GetToken/Read,Reading a webtest token,,False
+Microsoft Azure Monitor,WindowsClientAssessmentRecommendation,Read WindowsClientAssessmentRecommendation data,Microsoft.Insights/Logs/WindowsClientAssessmentRecommendation/Read,Read data from the WindowsClientAssessmentRecommendation table,,False
+Microsoft Azure Monitor,WindowsEvent,Read WindowsEvent data,Microsoft.Insights/Logs/WindowsEvent/Read,Read data from the WindowsEvent table,,False
+Microsoft Azure Monitor,WindowsFirewall,Read WindowsFirewall data,Microsoft.Insights/Logs/WindowsFirewall/Read,Read data from the WindowsFirewall table,,False
+Microsoft Azure Monitor,WindowsServerAssessmentRecommendation,Read WindowsServerAssessmentRecommendation data,Microsoft.Insights/Logs/WindowsServerAssessmentRecommendation/Read,Read data from the WindowsServerAssessmentRecommendation table,,False
+Microsoft Azure Monitor,WireData,Read WireData data,Microsoft.Insights/Logs/WireData/Read,Read data from the WireData table,,False
+Microsoft Azure Monitor,WorkbookTemplates,Create or update workbook template,Microsoft.Insights/WorkbookTemplates/Write,Create or update a workbook template,,False
+Microsoft Azure Monitor,WorkbookTemplates,Delete workbook template,Microsoft.Insights/WorkbookTemplates/Delete,Delete a workbook template,,False
+Microsoft Azure Monitor,WorkbookTemplates,Read workbook template,Microsoft.Insights/WorkbookTemplates/Read,Read a workbook template,,False
+Microsoft Azure Monitor,Workbooks,Create or update workbook,Microsoft.Insights/Workbooks/Write,Create or update a workbook,,False
+Microsoft Azure Monitor,Workbooks,Delete workbook,Microsoft.Insights/Workbooks/Delete,Delete a workbook,,False
+Microsoft Azure Monitor,Workbooks,Read workbook,Microsoft.Insights/Workbooks/Read,Read a workbook,,False
+Microsoft Azure Monitor,Workbooks,Workbook revisions,Microsoft.Insights/Workbooks/Revisions/Read,Get the workbook revisions,,False
+Microsoft Azure Monitor,WorkloadMonitoringPerf,Read WorkloadMonitoringPerf data,Microsoft.Insights/Logs/WorkloadMonitoringPerf/Read,Read data from the WorkloadMonitoringPerf table,,False

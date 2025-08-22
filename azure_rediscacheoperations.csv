@@ -1,0 +1,73 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Cache,,Check Cache Name Availability,Microsoft.Cache/checknameavailability/action,Checks if a name is available for use with a new Redis Cache,,False
+Microsoft Cache,,Check Cache Name Availability in location,Microsoft.Cache/locations/checknameavailability/action,Checks if a name is available for use with a new Redis Enterprise cache,,False
+Microsoft Cache,,List Provider Operations,Microsoft.Cache/operations/read,Lists the operations that 'Microsoft.Cache' provider supports.,,False
+Microsoft Cache,,Read asynchronous operation status,Microsoft.Cache/locations/asyncOperations/read,Read an Async Operation's Status,,False
+Microsoft Cache,,Read operation results,Microsoft.Cache/locations/operationResults/read,Gets the result of a long running operation for which the 'Location' header was previously returned to the client,,False
+Microsoft Cache,,Read the status of a long running operation,Microsoft.Cache/locations/operationsStatus/read,View the status of a long running operation for which the 'AzureAsync' header was previously returned to the client,,False
+Microsoft Cache,,Register Resource Provider Microsoft.Cache,Microsoft.Cache/register/action,Registers the 'Microsoft.Cache' resource provider with a subscription,,False
+Microsoft Cache,,Unregister Resource Provider Microsoft.Cache,Microsoft.Cache/unregister/action,Unregisters the 'Microsoft.Cache' resource provider with a subscription,,False
+Microsoft Cache,Access Policies for Redis,Delete Access Policies,Microsoft.Cache/redis/accessPolicies/delete,Delete Redis Access Policies,,False
+Microsoft Cache,Access Policies for Redis,Get Access Policies,Microsoft.Cache/redis/accessPolicies/read,Get Redis Access Policies,,False
+Microsoft Cache,Access Policies for Redis,Modify Access Policies,Microsoft.Cache/redis/accessPolicies/write,Modify Redis Access Policies,,False
+Microsoft Cache,Access Policy Assignments for Redis,Delete Access Policy Assignments,Microsoft.Cache/redis/accessPolicyAssignments/delete,Delete Access Policy Assignments,,False
+Microsoft Cache,Access Policy Assignments for Redis,Get Access Policy Assignments,Microsoft.Cache/redis/accessPolicyAssignments/read,Get Redis Access Policy Assignments,,False
+Microsoft Cache,Access Policy Assignments for Redis,Modify Access Policy Assignments,Microsoft.Cache/redis/accessPolicyAssignments/write,Modify Redis Access Policy Assignments,,False
+Microsoft Cache,Azure Cache for Redis Detector,Get Azure Cache for Redis Detector,Microsoft.Cache/redis/detectors/read,Get the properties of one or all detectors for an Azure Cache for Redis cache,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connection proxies,Create private endpoint connection proxy,Microsoft.Cache/redis/privateEndpointConnectionProxies/write,Create the private endpoint connection proxy,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connection proxies,Delete private endpoint connection proxy,Microsoft.Cache/redis/privateEndpointConnectionProxies/delete,Delete the private endpoint connection proxy,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connection proxies,Get private endpoint connection proxy,Microsoft.Cache/redis/privateEndpointConnectionProxies/read,Get the private endpoint connection proxy,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connection proxies,Validate private endpoint connection proxy,Microsoft.Cache/redis/privateEndpointConnectionProxies/validate/action,Validate the private endpoint connection proxy,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connections,Delete private endpoint connection,Microsoft.Cache/redis/privateEndpointConnections/delete,Delete a private endpoint connection,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connections,Read private endpoint connection,Microsoft.Cache/redis/privateEndpointConnections/read,Read a private endpoint connection,,False
+Microsoft Cache,Azure Cache for Redis private endpoint connections,Write private endpoint connection,Microsoft.Cache/redis/privateEndpointConnections/write,Write a private endpoint connection,,False
+Microsoft Cache,Azure Cache for Redis private linkable resources,Approve Private Endpoint Connections,Microsoft.Cache/redis/PrivateEndpointConnectionsApproval/action,Approve Private Endpoint Connections,,False
+Microsoft Cache,Azure Cache for Redis private linkable resources,Read Private Linkable Resources,Microsoft.Cache/redis/privateLinkResources/read,Read 'groupId' of redis subresource that a private link can be connected to,,False
+Microsoft Cache,IP firewall rule of a Redis Cache,Delete Redis Cache Firewall Rule,Microsoft.Cache/redis/firewallRules/delete,Delete IP firewall rules of a Redis Cache,,False
+Microsoft Cache,IP firewall rule of a Redis Cache,Get Redis Cache Firewall Rule,Microsoft.Cache/redis/firewallRules/read,Get the IP firewall rules of a Redis Cache,,False
+Microsoft Cache,IP firewall rule of a Redis Cache,Update Redis Cache Firewall Rule,Microsoft.Cache/redis/firewallRules/write,Edit the IP firewall rules of a Redis Cache,,False
+Microsoft Cache,Linked Servers of a Redis Cache,Add Redis Cache Linked Server,Microsoft.Cache/redis/linkedServers/write,Add Linked Server to a Redis Cache,,False
+Microsoft Cache,Linked Servers of a Redis Cache,Delete Redis Cache Linked Server,Microsoft.Cache/redis/linkedServers/delete,Delete Linked Server from a Redis Cache,,False
+Microsoft Cache,Linked Servers of a Redis Cache,Get Redis Cache Linked Servers,Microsoft.Cache/redis/linkedServers/read,Get Linked Servers associated with a redis cache.,,False
+Microsoft Cache,Patching schedule of a Redis Cache,Change Redis Patching Schedule,Microsoft.Cache/redis/patchSchedules/write,Modify the patching schedule of a Redis Cache,,False
+Microsoft Cache,Patching schedule of a Redis Cache,Delete Redis Cache Patch Schedule,Microsoft.Cache/redis/patchSchedules/delete,Delete the patch schedule of a Redis Cache,,False
+Microsoft Cache,Patching schedule of a Redis Cache,Get Redis Cache Patch Schedule,Microsoft.Cache/redis/patchSchedules/read,Gets the patching schedule of a Redis Cache,,False
+Microsoft Cache,Redis Cache,Delete Redis Cache,Microsoft.Cache/redis/delete,Delete the entire Redis Cache,,False
+Microsoft Cache,Redis Cache,Export Redis data to storage,Microsoft.Cache/redis/export/action,Export Redis data to prefixed storage blobs in specified format,,False
+Microsoft Cache,Redis Cache,Flush Cache,Microsoft.Cache/redis/flush/action,Deletes all of the keys in a cache. ,,False
+Microsoft Cache,Redis Cache,"Force reboot a cache instance, potentially with data loss.",Microsoft.Cache/redis/forceReboot/action,"Force reboot a cache instance, potentially with data loss.",,False
+Microsoft Cache,Redis Cache,Import data into Redis from storage,Microsoft.Cache/redis/import/action,Import data of a specified format from multiple blobs into Redis,,False
+Microsoft Cache,Redis Cache,Manage Redis Cache (read-only),Microsoft.Cache/redis/read,View the Redis Cache's settings and configuration in the management portal,,False
+Microsoft Cache,Redis Cache,Manage Redis Cache (read-write),Microsoft.Cache/redis/write,Modify the Redis Cache's settings and configuration in the management portal,,False
+Microsoft Cache,Redis Cache,Regenerate Redis Cache Access Keys,Microsoft.Cache/redis/regenerateKey/action,Change the value of Redis Cache access keys in the management portal,,False
+Microsoft Cache,Redis Cache,Start an Azure Cache for Redis,Microsoft.Cache/redis/start/action,Start an Azure Cache for Redis,,False
+Microsoft Cache,Redis Cache,"Stop an Azure Cache for Redis, potentially with data loss.",Microsoft.Cache/redis/stop/action,"Stop an Azure Cache for Redis, potentially with data loss.",,False
+Microsoft Cache,Redis Cache,View Redis Cache Access Keys,Microsoft.Cache/redis/listKeys/action,View the value of Redis Cache access keys in the management portal,,False
+Microsoft Cache,Redis Cache Event Grid Filter,Delete Redis Cache Event Grid Filters,Microsoft.Cache/redis/eventGridFilters/delete,Delete Redis Cache Event Grid Filters,,False
+Microsoft Cache,Redis Cache Event Grid Filter,Get Redis Cache Event Grid Filter,Microsoft.Cache/redis/eventGridFilters/read,Get Redis Cache Event Grid Filter,,False
+Microsoft Cache,Redis Cache Event Grid Filter,Update Redis Cache Event Grid Filters,Microsoft.Cache/redis/eventGridFilters/write,Update Redis Cache Event Grid Filters,,False
+Microsoft Cache,Redis Enterprise cache,Delete Redis Enterprise cache,Microsoft.Cache/redisEnterprise/delete,Delete the entire Redis Enterprise cache,,False
+Microsoft Cache,Redis Enterprise cache,Manage Redis Enterprise cache (read),Microsoft.Cache/redisEnterprise/read,View the Redis Enterprise cache's settings and configuration in the management portal,,False
+Microsoft Cache,Redis Enterprise cache,Manage Redis Enterprise cache (write),Microsoft.Cache/redisEnterprise/write,Modify the Redis Enterprise cache's settings and configuration in the management portal,,False
+Microsoft Cache,Redis Enterprise cache database,Delete Redis Enterprise database,Microsoft.Cache/redisEnterprise/databases/delete,Deletes a Redis Enterprise database and its contents,,False
+Microsoft Cache,Redis Enterprise cache database,Export Redis Enterprise database,Microsoft.Cache/redisEnterprise/databases/export/action,Export data to storage blobs from a Redis Enterprise database ,,False
+Microsoft Cache,Redis Enterprise cache database,Force unlink Redis Enterprise database georeplica,Microsoft.Cache/redisEnterprise/databases/forceUnlink/action,Forcibly unlink a georeplica Redis Enterprise database from its peers,,False
+Microsoft Cache,Redis Enterprise cache database,Import Redis Enterprise database,Microsoft.Cache/redisEnterprise/databases/import/action,Import data from storage blobs to a Redis Enterprise database,,False
+Microsoft Cache,Redis Enterprise cache database,Manage Redis Enterprise cache database (read),Microsoft.Cache/redisEnterprise/databases/read,View the Redis Enterprise cache database's settings and configuration in the management portal,,False
+Microsoft Cache,Redis Enterprise cache database,Manage Redis Enterprise cache database (write),Microsoft.Cache/redisEnterprise/databases/write,Modify the Redis Enterprise cache database's settings and configuration in the management portal,,False
+Microsoft Cache,Redis Enterprise cache database,Regenerate Redis Enterprise database access keys,Microsoft.Cache/redisEnterprise/databases/regenerateKey/action,Change the value of Redis Enterprise database access keys in the management portal,,False
+Microsoft Cache,Redis Enterprise cache database,View Redis Enterprise database access keys,Microsoft.Cache/redisEnterprise/databases/listKeys/action,View the value of Redis Enterprise database access keys in the management portal,,False
+Microsoft Cache,Redis Enterprise cache private endpoint connections,Delete private endpoint connection,Microsoft.Cache/redisEnterprise/privateEndpointConnections/delete,Delete a private endpoint connection,,False
+Microsoft Cache,Redis Enterprise cache private endpoint connections,Read private endpoint connection,Microsoft.Cache/redisEnterprise/privateEndpointConnections/read,Read a private endpoint connection,,False
+Microsoft Cache,Redis Enterprise cache private endpoint connections,Write private endpoint connection,Microsoft.Cache/redisEnterprise/privateEndpointConnections/write,Write a private endpoint connection,,False
+Microsoft Cache,Redis Enterprise cache private link resources,Approve Private Endpoint Connections,Microsoft.Cache/redisEnterprise/PrivateEndpointConnectionsApproval/action,Approve Private Endpoint Connections,,False
+Microsoft Cache,Redis Enterprise cache private link resources,Read Private Linkable Resources,Microsoft.Cache/redisEnterprise/privateLinkResources/read,Read 'groupId' of redis subresource that a private link can be connected to,,False
+Microsoft Cache,Redis Enterprise database operation results,View Redis Enterprise database operation results,Microsoft.Cache/redisEnterprise/databases/operationResults/read,View the result of Redis Enterprise database operations in the management portal,,False
+Microsoft Cache,Redis Enterprise operation results,View Redis Enterprise operation results,Microsoft.Cache/redisEnterprise/operationResults/read,View the result of Redis Enterprise operations in the management portal,,False
+Microsoft Cache,Redis Enterprise private endpoint connection proxies,Create private endpoint connection proxy,Microsoft.Cache/redisEnterprise/privateEndpointConnectionProxies/write,Create the private endpoint connection proxy,,False
+Microsoft Cache,Redis Enterprise private endpoint connection proxies,Delete private endpoint connection proxy,Microsoft.Cache/redisEnterprise/privateEndpointConnectionProxies/delete,Delete the private endpoint connection proxy,,False
+Microsoft Cache,Redis Enterprise private endpoint connection proxies,Get private endpoint connection proxy,Microsoft.Cache/redisEnterprise/privateEndpointConnectionProxies/read,Get the private endpoint connection proxy,,False
+Microsoft Cache,Redis Enterprise private endpoint connection proxies,Redis Enterprise cache private endpoint operation results (read),Microsoft.Cache/redisEnterprise/privateEndpointConnectionProxies/operationResults/read,View the result of private endpoint connection operations in the management portal,,False
+Microsoft Cache,Redis Enterprise private endpoint connection proxies,Validate private endpoint connection proxy,Microsoft.Cache/redisEnterprise/privateEndpointConnectionProxies/validate/action,Validate the private endpoint connection proxy,,False
+Microsoft Cache,The available metrics for a Redis Cache,Read Redis Cache Metric Definitions,Microsoft.Cache/redis/metricDefinitions/read,Gets the available metrics for a Redis Cache,,False
+Microsoft Cache,The available metrics for a Redis Enterprise Cache,Read Redis Enterprise Metric Definitions,Microsoft.Cache/redisEnterprise/providers/Microsoft.Insights/metricDefinitions/read,Gets the available metrics for a Redis Enterprise Cache,,False

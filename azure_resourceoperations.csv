@@ -1,0 +1,68 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Resources,Calculate Template Hash,Calculate Template Hash,Microsoft.Resources/calculateTemplateHash/action,Calculate the hash of provided template.,,False
+Microsoft Resources,Changes,Read Changes,Microsoft.Resources/changes/read,Gets or lists changes,,False
+Microsoft Resources,Check Policy Compliance,Check Policy Compliance,Microsoft.Resources/checkPolicyCompliance/read,Check the compliance status of a given resource against resource policies.,,False
+Microsoft Resources,Check Resource Name,Check Resource Name,Microsoft.Resources/checkResourceName/action,Check the resource name for validity.,,False
+Microsoft Resources,Check Zone Peers,Check Zone Peers,Microsoft.Resources/checkZonePeers/action,Check Zone Peers,,False
+Microsoft Resources,Data Boundary,Opt-in to Data Boundary,Microsoft.Resources/dataBoundaries/write,Tenant level opt-in to data boundary,,False
+Microsoft Resources,Deployment,Cancel Deployment,Microsoft.Resources/deployments/cancel/action,Cancels a deployment.,,False
+Microsoft Resources,Deployment,Create Deployment,Microsoft.Resources/deployments/write,Creates or updates an deployment.,,False
+Microsoft Resources,Deployment,Create Deployment,Microsoft.Resources/subscriptions/resourcegroups/deployments/write,Creates or updates an deployment.,,False
+Microsoft Resources,Deployment,Delete Deployment,Microsoft.Resources/deployments/delete,Deletes a deployment.,,False
+Microsoft Resources,Deployment,Deployment What-If,Microsoft.Resources/deployments/whatIf/action,Predicts template deployment changes.,,False
+Microsoft Resources,Deployment,Export template for deployment,Microsoft.Resources/deployments/exportTemplate/action,Export template for a deployment,,False
+Microsoft Resources,Deployment,Get Deployment,Microsoft.Resources/deployments/read,Gets or lists deployments.,,False
+Microsoft Resources,Deployment,Get Deployment,Microsoft.Resources/subscriptions/resourcegroups/deployments/read,Gets or lists deployments.,,False
+Microsoft Resources,Deployment,Validate Deployment,Microsoft.Resources/deployments/validate/action,Validates a deployment.,,False
+Microsoft Resources,Deployment Operation,Get Deployment Operation,Microsoft.Resources/deployments/operations/read,Gets or lists deployment operations.,,False
+Microsoft Resources,Deployment Operation,Get Deployment Operation,Microsoft.Resources/subscriptions/resourcegroups/deployments/operations/read,Gets or lists deployment operations.,,False
+Microsoft Resources,Deployment Script Logs,Read deployment script logs,Microsoft.Resources/deploymentScripts/logs/read,Gets or lists deployment script logs,,False
+Microsoft Resources,Deployment Scripts,Delete deployment script,Microsoft.Resources/deploymentScripts/delete,Deletes a deployment script,,False
+Microsoft Resources,Deployment Scripts,Read deployment scripts,Microsoft.Resources/deploymentScripts/read,Gets or lists deployment scripts,,False
+Microsoft Resources,Deployment Scripts,Write deployment script,Microsoft.Resources/deploymentScripts/write,Creates or updates a deployment script,,False
+Microsoft Resources,Deployment Stacks,Delete a deployment stack,Microsoft.Resources/deploymentStacks/delete,Deletes a deployment stack,,False
+Microsoft Resources,Deployment Stacks,Export deployment stack template,Microsoft.Resources/deploymentStacks/exportTemplate/action,Export the template for a deployment stack,,False
+Microsoft Resources,Deployment Stacks,Manage deployment stack denySettings,Microsoft.Resources/deploymentStacks/manageDenySetting/action,Manage the denySettings property of a deployment stack.,,False
+Microsoft Resources,Deployment Stacks,Read deployment stack,Microsoft.Resources/deploymentStacks/read,Gets or lists deployment stacks,,False
+Microsoft Resources,Deployment Stacks,Validate deployment stack,Microsoft.Resources/deploymentStacks/validate/action,Validates a deployment stack.,,False
+Microsoft Resources,Deployment Stacks,Write deployment stack,Microsoft.Resources/deploymentStacks/write,Creates or updates a deployment stack,,False
+Microsoft Resources,Deployment operation status,Get deployment operation status,Microsoft.Resources/deployments/operationstatuses/read,Gets or lists deployment operation statuses.,,False
+Microsoft Resources,Deployment operation status,Get deployment operation status,Microsoft.Resources/subscriptions/resourcegroups/deployments/operationstatuses/read,Gets or lists deployment operation statuses.,,False
+Microsoft Resources,Location,Get Locations,Microsoft.Resources/subscriptions/locations/read,Gets the list of locations supported.,,False
+Microsoft Resources,Marketplace,Purchase Resource,Microsoft.Resources/marketplace/purchase/action,Purchases a resource from the marketplace.,System,False
+Microsoft Resources,Mobo Broker,Create Mobo Broker,Microsoft.Resources/moboBrokers/write,Creates or updates a mobo broker,,False
+Microsoft Resources,Mobo Broker,Delete mobo broker,Microsoft.Resources/moboBrokers/delete,Deletes a mobo broker,,False
+Microsoft Resources,Mobo Broker,Get Mobo Broker,Microsoft.Resources/moboBrokers/read,Gets or lists mobo brokers,,False
+Microsoft Resources,Mobo Service Operation Status,Get the Mobo Service Operation Status,Microsoft.Resources/locations/moboOperationStatuses/read,Reads the Mobo Service Operation Status for the resource.,,False
+Microsoft Resources,Providers,Get Providers,Microsoft.Resources/providers/read,Get the list of providers.,,False
+Microsoft Resources,Resource Group,Create Resource Group,Microsoft.Resources/subscriptions/resourceGroups/write,Creates or updates a resource group.,,False
+Microsoft Resources,Resource Group,Delete Resource Group,Microsoft.Resources/subscriptions/resourceGroups/delete,Deletes a resource group and all its resources.,,False
+Microsoft Resources,Resource Group,Get Resource Group,Microsoft.Resources/subscriptions/resourceGroups/read,Gets or lists resource groups.,,False
+Microsoft Resources,Resource Group,Move Resource Group Resources,Microsoft.Resources/subscriptions/resourceGroups/moveResources/action,Moves resources from one resource group to another.,,False
+Microsoft Resources,Resource Group,Validate Move Resource Group Resources,Microsoft.Resources/subscriptions/resourceGroups/validateMoveResources/action,Validate move of resources from one resource group to another.,,False
+Microsoft Resources,Resource Group Resources,Get Resource Group Resources,Microsoft.Resources/subscriptions/resourcegroups/resources/read,Gets the resources for the resource group.,,False
+Microsoft Resources,Resource Link,Create Resource Link,Microsoft.Resources/links/write,Creates or updates a resource link.,,False
+Microsoft Resources,Resource Link,Delete Resource Link,Microsoft.Resources/links/delete,Deletes a resource link.,,False
+Microsoft Resources,Resource Link,Get Resource Link,Microsoft.Resources/links/read,Gets or lists resource links.,,False
+Microsoft Resources,Resource Providers,Get Resource Providers,Microsoft.Resources/subscriptions/providers/read,Gets or lists resource providers.,,False
+Microsoft Resources,Resources,Get Resources,Microsoft.Resources/resources/read,Get the list of resources based upon filters.,,False
+Microsoft Resources,Subscription,Get Subscriptions,Microsoft.Resources/subscriptions/read,Gets the list of subscriptions.,,False
+Microsoft Resources,Subscription Operation Results,Get Subscription Operation Results,Microsoft.Resources/subscriptions/operationresults/read,Get the subscription operation results.,,False
+Microsoft Resources,Subscription Registrations,Get Subscription Registrations,Microsoft.Resources/subscriptionRegistrations/read,Get Subscription Registration for a resource provider namespace.,,False
+Microsoft Resources,Subscription Resource,Get Subscription Resources,Microsoft.Resources/subscriptions/resources/read,Gets resources of a subscription.,,False
+Microsoft Resources,Subscription Tag,Add Subscription Tag,Microsoft.Resources/subscriptions/tagNames/write,Adds a subscription tag.,,False
+Microsoft Resources,Subscription Tag,Delete Subscription Tag,Microsoft.Resources/subscriptions/tagNames/delete,Deletes a subscription tag.,,False
+Microsoft Resources,Subscription Tag,Get Subscription Tag,Microsoft.Resources/subscriptions/tagNames/read,Gets or lists subscription tags.,,False
+Microsoft Resources,Subscription Tag Value,Add Subscription Tag Value,Microsoft.Resources/subscriptions/tagNames/tagValues/write,Adds a subscription tag value.,,False
+Microsoft Resources,Subscription Tag Value,Delete Subscription Tag Value,Microsoft.Resources/subscriptions/tagNames/tagValues/delete,Deletes a subscription tag value.,,False
+Microsoft Resources,Subscription Tag Value,Get Subscription Tag Value,Microsoft.Resources/subscriptions/tagNames/tagValues/read,Gets or lists subscription tag values.,,False
+Microsoft Resources,Tags,Delete tags,Microsoft.Resources/tags/delete,Removes all the tags on a resource.,,False
+Microsoft Resources,Tags,Read tags,Microsoft.Resources/tags/read,Gets all the tags on a resource.,,False
+Microsoft Resources,Tags,Write tags,Microsoft.Resources/tags/write,"Updates the tags on a resource by replacing or merging existing tags with a new set of tags, or removing existing tags.",,False
+Microsoft Resources,Template Spec Versions,Delete a template spec version,Microsoft.Resources/templateSpecs/versions/delete,Deletes a template spec version,,False
+Microsoft Resources,Template Spec Versions,Read template spec version,Microsoft.Resources/templateSpecs/versions/read,Gets or lists template specs,,False
+Microsoft Resources,Template Spec Versions,Write a template spec version,Microsoft.Resources/templateSpecs/versions/write,Creates or updates a template spec version,,False
+Microsoft Resources,Template Specs,Delete a template spec,Microsoft.Resources/templateSpecs/delete,Deletes a template spec,,False
+Microsoft Resources,Template Specs,Read template spec,Microsoft.Resources/templateSpecs/read,Gets or lists template specs,,False
+Microsoft Resources,Template Specs,Write template spec,Microsoft.Resources/templateSpecs/write,Creates or updates a template spec,,False
+Microsoft Resources,Tenant,Get Tenants,Microsoft.Resources/tenants/read,Gets the list of tenants.,,False

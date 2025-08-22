@@ -1,0 +1,659 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Web Apps,,Validate ,microsoft.web/validate/action,Validate .,"user,system",False
+Microsoft Web Apps,,Verify Hosting Environment Vnet,microsoft.web/verifyhostingenvironmentvnet/action,Verify Hosting Environment Vnet.,"user,system",False
+Microsoft Web Apps,API Connections,Dynamic Invoke Connection.,microsoft.web/connections/dynamicInvoke/action,Dynamic Invoke a Connection.,"user,system",False
+Microsoft Web Apps,API Connections,List API Connections Keys,microsoft.web/connections/listConnectionKeys/action,Lists API Connections Keys.,"user,system",False
+Microsoft Web Apps,API Connections,Revokes API Connections Keys,microsoft.web/connections/revokeConnectionKeys/action,Revokes API Connections Keys.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs,Delete Api Management Accounts APIs,microsoft.web/apimanagementaccounts/apis/delete,Delete Api Management Accounts APIs.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs,Get Api Management Accounts APIs,microsoft.web/apimanagementaccounts/apis/read,Get Api Management Accounts APIs.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs,Update Api Management Accounts APIs,microsoft.web/apimanagementaccounts/apis/write,Update Api Management Accounts APIs.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Apiacls,Delete Api Management Accounts APIs Apiacls,microsoft.web/apimanagementaccounts/apis/apiacls/delete,Delete Api Management Accounts APIs Apiacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Apiacls,Get Api Management Accounts APIs Apiacls,microsoft.web/apimanagementaccounts/apis/apiacls/read,Get Api Management Accounts APIs Apiacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Apiacls,Update Api Management Accounts APIs Apiacls,microsoft.web/apimanagementaccounts/apis/apiacls/write,Update Api Management Accounts APIs Apiacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connectionacls,Get Api Management Accounts APIs Connectionacls,microsoft.web/apimanagementaccounts/apis/connectionacls/read,Get Api Management Accounts APIs Connectionacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,Confirm Consent Code Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/confirmconsentcode/action,Confirm Consent Code Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,Delete Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/delete,Delete Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,Get Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/read,Get Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,Get Consent Links for Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/getconsentlinks/action,Get Consent Links for Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,List Connection Keys Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/listconnectionkeys/action,List Connection Keys Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,List Secrets Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/listsecrets/action,List Secrets Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections,Update Api Management Accounts APIs Connections,microsoft.web/apimanagementaccounts/apis/connections/write,Update Api Management Accounts APIs Connections.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections Connectionacls,Delete Api Management Accounts APIs Connections Connectionacls,microsoft.web/apimanagementaccounts/apis/connections/connectionacls/delete,Delete Api Management Accounts APIs Connections Connectionacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections Connectionacls,Get Api Management Accounts APIs Connections Connectionacls,microsoft.web/apimanagementaccounts/apis/connections/connectionacls/read,Get Api Management Accounts APIs Connections Connectionacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Connections Connectionacls,Update Api Management Accounts APIs Connections Connectionacls,microsoft.web/apimanagementaccounts/apis/connections/connectionacls/write,Update Api Management Accounts APIs Connections Connectionacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Localized Definitions,Delete Api Management Accounts APIs Localized Definitions,microsoft.web/apimanagementaccounts/apis/localizeddefinitions/delete,Delete Api Management Accounts APIs Localized Definitions.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Localized Definitions,Get Api Management Accounts APIs Localized Definitions,microsoft.web/apimanagementaccounts/apis/localizeddefinitions/read,Get Api Management Accounts APIs Localized Definitions.,"user,system",False
+Microsoft Web Apps,Api Management Accounts APIs Localized Definitions,Update Api Management Accounts APIs Localized Definitions,microsoft.web/apimanagementaccounts/apis/localizeddefinitions/write,Update Api Management Accounts APIs Localized Definitions.,"user,system",False
+Microsoft Web Apps,Api Management Accounts Apiacls,Get Api Management Accounts Apiacls,microsoft.web/apimanagementaccounts/apiacls/read,Get Api Management Accounts Apiacls.,"user,system",False
+Microsoft Web Apps,Api Management Accounts Connectionacls,Get Api Management Accounts Connectionacls,microsoft.web/apimanagementaccounts/connectionacls/read,Get Api Management Accounts Connectionacls.,"user,system",False
+Microsoft Web Apps,App Service Environment,Create or Update App Service Environment,Microsoft.Web/hostingEnvironments/Write,Create a new App Service Environment or update existing one,"user,system",False
+Microsoft Web Apps,App Service Environment,Delete App Service Environment,Microsoft.Web/hostingEnvironments/Delete,Delete an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment,Get App Service Environment,Microsoft.Web/hostingEnvironments/Read,Get the properties of an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment,Get Networking Configuration,Microsoft.Web/hostingEnvironments/configurations/networking/Read,Get networking configuration of an App Service Environment,"user, system",False
+Microsoft Web Apps,App Service Environment,Get Operation Details,Microsoft.Web/hostingEnvironments/operations/details/default,Get additional details for an in progress operation.,"user, system",False
+Microsoft Web Apps,App Service Environment,Get Private Link Resources,Microsoft.Web/hostingEnvironments/privateLinkResources/Read,Get Private Link Resources.,"user, system",False
+Microsoft Web Apps,App Service Environment,Join App Service Environment,Microsoft.Web/hostingEnvironments/Join/Action,Joins an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment,Reboot an App Service Environment,Microsoft.Web/hostingEnvironments/reboot/Action,Reboot all machines in an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment,Send test upgrade notification for an App Service Environment,Microsoft.Web/hostingEnvironments/testUpgradeAvailableNotification/Action,Send test upgrade notification for an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment,Update Networking Configuration,Microsoft.Web/hostingEnvironments/configurations/networking/Write,Update networking configuration of an App Service Environment.,"user, system",False
+Microsoft Web Apps,App Service Environment,Upgrade an App Service Environment,Microsoft.Web/hostingEnvironments/upgrade/Action,Upgrades an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment FrontEnd Pool,Create or Update FrontEnd Pool,Microsoft.Web/hostingEnvironments/multiRolePools/Write,Create a new FrontEnd Pool in an App Service Environment or update an existing one,"user,system",False
+Microsoft Web Apps,App Service Environment FrontEnd Pool,Get FrontEnd Pool,Microsoft.Web/hostingEnvironments/multiRolePools/Read,Get the properties of a FrontEnd Pool in an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection,Approve or Reject Private Endpoint Connection,Microsoft.Web/hostingEnvironments/privateEndpointConnections/Write,Approve or Reject a private endpoint connection.,"user, system",False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection,Delete Private Endpoint Connection,Microsoft.Web/hostingEnvironments/privateEndpointConnections/Delete,Delete a private endpoint connection.,"user, system",False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection,Get Private Endpoint Connection,Microsoft.Web/hostingEnvironments/privateEndpointConnections/Read,Get a private endpoint connection or the list of private endpoint connections.,"user, system",False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection Proxies,Create or Update Private Endpoint Connection Proxies,Microsoft.Web/hostingEnvironments/privateEndpointConnectionProxies/Write,Create or Update Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection Proxies,Delete Private Endpoint Connection Proxies,Microsoft.Web/hostingEnvironments/privateEndpointConnectionProxies/Delete,Delete Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection Proxies,Read Private Endpoint Connection Proxies,Microsoft.Web/hostingEnvironments/privateEndpointConnectionProxies/Read,Read Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection Proxies,Validate Private Endpoint Connection Proxies,Microsoft.Web/hostingEnvironments/privateEndpointConnectionProxies/validate/action,Validate Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,App Service Environment Private Endpoint Connection Proxy Operations,Read Private Endpoint Connection Proxy Operations,Microsoft.Web/hostingEnvironments/privateEndpointConnectionProxies/operations/Read,Read Private Endpoint Connection Proxy Operations,system,False
+Microsoft Web Apps,App Service Environment Private Endpoint Connections,Approve Private Endpoint Connections,Microsoft.Web/hostingEnvironments/PrivateEndpointConnectionsApproval/action,Approve Private Endpoint Connections,"user,system",False
+Microsoft Web Apps,App Service Environment Worker Pool,Create or Update Worker Pool,Microsoft.Web/hostingEnvironments/workerPools/Write,Create a new Worker Pool in an App Service Environment or update an existing one,"user,system",False
+Microsoft Web Apps,App Service Environment Worker Pool,Get Worker Pool,Microsoft.Web/hostingEnvironments/workerPools/Read,Get the properties of a Worker Pool in an App Service Environment,"user,system",False
+Microsoft Web Apps,App Service Extensions,Invoke App Service Extensions APIs,microsoft.web/sites/extensions/api/action,Invoke App Service Extensions APIs.,"user,system",False
+Microsoft Web Apps,App Service Network Configuration,Delete App Service Network Configuration,microsoft.web/sites/networkConfig/delete,Delete App Service Network Configuration.,"user,system",False
+Microsoft Web Apps,App Service Network Configuration,Get App Service Network Configuration,microsoft.web/sites/networkConfig/read,Get App Service Network Configuration.,"user,system",False
+Microsoft Web Apps,App Service Network Configuration,Update App Service Network Configuration,microsoft.web/sites/networkConfig/write,Update App Service Network Configuration.,"user,system",False
+Microsoft Web Apps,App Service Plan,Create or Update App Service Plan,Microsoft.Web/serverfarms/Write,Create a new App Service Plan or update an existing one,"user,system",False
+Microsoft Web Apps,App Service Plan,Delete App Service Plan,Microsoft.Web/serverfarms/Delete,Delete an existing App Service Plan,"user,system",False
+Microsoft Web Apps,App Service Plan,Delete Event Grid Filter on hosting environment,Microsoft.Web/hostingEnvironments/eventGridFilters/delete,Delete Event Grid Filter on hosting environment.,"user,system",False
+Microsoft Web Apps,App Service Plan,Delete Event Grid Filter on server farm,Microsoft.Web/serverfarms/eventGridFilters/delete,Delete Event Grid Filter on server farm.,"user,system",False
+Microsoft Web Apps,App Service Plan,Get App Service Plan,Microsoft.Web/serverfarms/Read,Get the properties on an App Service Plan,"user,system",False
+Microsoft Web Apps,App Service Plan,Get Event Grid Filter on hosting environment,Microsoft.Web/hostingEnvironments/eventGridFilters/read,Get Event Grid Filter on hosting environment.,"user,system",False
+Microsoft Web Apps,App Service Plan,Get Event Grid Filter on server farm,Microsoft.Web/serverfarms/eventGridFilters/read,Get Event Grid Filter on server farm.,"user,system",False
+Microsoft Web Apps,App Service Plan,Join App Service Plan,Microsoft.Web/serverfarms/Join/Action,Joins an App Service Plan,"user,system",False
+Microsoft Web Apps,App Service Plan,Put Event Grid Filter on hosting environment,Microsoft.Web/hostingEnvironments/eventGridFilters/write,Put Event Grid Filter on hosting environment.,"user,system",False
+Microsoft Web Apps,App Service Plan,Put Event Grid Filter on server farm,Microsoft.Web/serverfarms/eventGridFilters/write,Put Event Grid Filter on server farm.,"user,system",False
+Microsoft Web Apps,App Service Plan,Restart Web Apps,Microsoft.Web/serverfarms/restartSites/Action,Restart all Web Apps in an App Service Plan,"user,system",False
+Microsoft Web Apps,App Service Plan First Party Key Vault Settings,Create or Update App Service Plan Key Vault first party settings,microsoft.web/serverfarms/firstpartyapps/keyvaultsettings/write,Create or Update first party Azure Key vault referenced settings for App Service Plan.,"user,system",False
+Microsoft Web Apps,App Service Plan First Party Key Vault Settings,Get App Service Plan Key Vault first party settings,microsoft.web/serverfarms/firstpartyapps/keyvaultsettings/read,Get first party Azure Key vault referenced settings for App Service Plan.,"user,system",False
+Microsoft Web Apps,App Service Plans Capabilities,Get App Service Plans Capabilities,microsoft.web/serverfarms/capabilities/read,Get App Service Plans Capabilities.,"user,system",False
+Microsoft Web Apps,App Service Plans First Party Apps Settings,Delete App Service Plans First Party Apps Settings,microsoft.web/serverfarms/firstpartyapps/settings/delete,Delete App Service Plans First Party Apps Settings.,"user,system",False
+Microsoft Web Apps,App Service Plans First Party Apps Settings,Get App Service Plans First Party Apps Settings,microsoft.web/serverfarms/firstpartyapps/settings/read,Get App Service Plans First Party Apps Settings.,"user,system",False
+Microsoft Web Apps,App Service Plans First Party Apps Settings,Update App Service Plans First Party Apps Settings,microsoft.web/serverfarms/firstpartyapps/settings/write,Update App Service Plans First Party Apps Settings.,"user,system",False
+Microsoft Web Apps,App Service Plans Hybrid Connection Namespaces Relays,Delete App Service Plans Hybrid Connection Namespaces Relays,microsoft.web/serverfarms/hybridconnectionnamespaces/relays/delete,Delete App Service Plans Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,App Service Plans Hybrid Connection Namespaces Relays,Get App Service Plans Hybrid Connection Namespaces Relays,microsoft.web/serverfarms/hybridconnectionnamespaces/relays/read,Get App Service Plans Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,App Service Plans Hybrid Connection Namespaces Relays Web Apps,Get App Service Plans Hybrid Connection Namespaces Relays Web Apps,microsoft.web/serverfarms/hybridconnectionnamespaces/relays/sites/read,Get App Service Plans Hybrid Connection Namespaces Relays Web Apps.,"user,system",False
+Microsoft Web Apps,App Service Plans Hybrid Connection Plan Limits,Get App Service Plans Hybrid Connection Plan Limits,microsoft.web/serverfarms/hybridconnectionplanlimits/read,Get App Service Plans Hybrid Connection Plan Limits.,"user,system",False
+Microsoft Web Apps,App Service Plans Hybrid Connection Relays,Get App Service Plans Hybrid Connection Relays,microsoft.web/serverfarms/hybridconnectionrelays/read,Get App Service Plans Hybrid Connection Relays.,"user,system",False
+Microsoft Web Apps,App Service Plans Metric Definitions,Get App Service Plans Metric Definitions,microsoft.web/serverfarms/metricdefinitions/read,Get App Service Plans Metric Definitions.,"user,system",False
+Microsoft Web Apps,App Service Plans Metrics,Get App Service Plans Metrics,microsoft.web/serverfarms/metrics/read,Get App Service Plans Metrics.,"user,system",False
+Microsoft Web Apps,App Service Plans Operation Results,Get App Service Plans Operation Results,microsoft.web/serverfarms/operationresults/read,Get App Service Plans Operation Results.,"user,system",False
+Microsoft Web Apps,App Service Plans SKUs,Get App Service Plans SKUs,microsoft.web/serverfarms/skus/read,Get App Service Plans SKUs.,"user,system",False
+Microsoft Web Apps,App Service Plans Usages,Get App Service Plans Usages,microsoft.web/serverfarms/usages/read,Get App Service Plans Usages.,"user,system",False
+Microsoft Web Apps,App Service Plans Virtual Network Connections,Get App Service Plans Virtual Network Connections,microsoft.web/serverfarms/virtualnetworkconnections/read,Get App Service Plans Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,App Service Plans Virtual Network Connections Gateways,Update App Service Plans Virtual Network Connections Gateways,microsoft.web/serverfarms/virtualnetworkconnections/gateways/write,Update App Service Plans Virtual Network Connections Gateways.,"user,system",False
+Microsoft Web Apps,App Service Plans Virtual Network Connections Routes,Delete App Service Plans Virtual Network Connections Routes,microsoft.web/serverfarms/virtualnetworkconnections/routes/delete,Delete App Service Plans Virtual Network Connections Routes.,"user,system",False
+Microsoft Web Apps,App Service Plans Virtual Network Connections Routes,Get App Service Plans Virtual Network Connections Routes,microsoft.web/serverfarms/virtualnetworkconnections/routes/read,Get App Service Plans Virtual Network Connections Routes.,"user,system",False
+Microsoft Web Apps,App Service Plans Virtual Network Connections Routes,Update App Service Plans Virtual Network Connections Routes,microsoft.web/serverfarms/virtualnetworkconnections/routes/write,Update App Service Plans Virtual Network Connections Routes.,"user,system",False
+Microsoft Web Apps,App Service Plans Web Apps,Get App Service Plans Web Apps,microsoft.web/serverfarms/sites/read,Get App Service Plans Web Apps.,"user,system",False
+Microsoft Web Apps,App Service Plans Workers,Reboot App Service Plans Workers,microsoft.web/serverfarms/workers/reboot/action,Reboot App Service Plans Workers.,"user,system",False
+Microsoft Web Apps,App Service Slots Extensions,Invoke App Service Slots Extensions APIs.,microsoft.web/sites/slots/extensions/api/action,Invoke App Service Slots Extensions APIs.,"user,system",False
+Microsoft Web Apps,App Service Slots Network Configuration,Delete App Service Slots Network Configuration,microsoft.web/sites/slots/networkConfig/delete,Delete App Service Slots Network Configuration.,"user,system",False
+Microsoft Web Apps,App Service Slots Network Configuration,Get App Service Slots Network Configuration,microsoft.web/sites/slots/networkConfig/read,Get App Service Slots Network Configuration.,"user,system",False
+Microsoft Web Apps,App Service Slots Network Configuration,Update App Service Slots Network Configuration,microsoft.web/sites/slots/networkConfig/write,Update App Service Slots Network Configuration.,"user,system",False
+Microsoft Web Apps,Available Stacks,Get Available Stacks,microsoft.web/availablestacks/read,Get Available Stacks.,"user,system",False
+Microsoft Web Apps,Billing meters for Microsoft Web Apps,Read billing meters,microsoft.web/billingmeters/read,Get list of billing meters.,system,False
+Microsoft Web Apps,Certificate,Add or Update Certificate,Microsoft.Web/certificates/Write,Add a new certificate or update an existing one.,"user,system",False
+Microsoft Web Apps,Certificate,Delete Certificate,Microsoft.Web/certificates/Delete,Delete an existing certificate.,"user,system",False
+Microsoft Web Apps,Certificate,Get Certificates,Microsoft.Web/certificates/Read,Get the list of certificates.,"user,system",False
+Microsoft Web Apps,Certificates Operation Results,Get Certificates Operation Results,microsoft.web/certificates/operationresults/read,Get Certificates Operation Results.,"user,system",False
+Microsoft Web Apps,Check Name Availability,Get Check Name Availability,microsoft.web/checknameavailability/read,Check if resource name is available.,"user,system",False
+Microsoft Web Apps,Classic Mobile Services,Get Classic Mobile Services,microsoft.web/classicmobileservices/read,Get Classic Mobile Services.,"user,system",False
+Microsoft Web Apps,Connection Gateways,Add or Update Connection Gateways,Microsoft.Web/connectionGateways/Write,Creates or updates a Connection Gateway.,"user,system",False
+Microsoft Web Apps,Connection Gateways,Associate with Connection Gateway,Microsoft.Web/connectionGateways/Associate/Action,Associates with a Connection Gateway.,"user,system",False
+Microsoft Web Apps,Connection Gateways,Delete Connection Gateway,Microsoft.Web/connectionGateways/Delete,Deletes a Connection Gateway.,"user,system",False
+Microsoft Web Apps,Connection Gateways,Get Connection Gateways,Microsoft.Web/connectionGateways/Read,Get the list of Connection Gateways.,"user,system",False
+Microsoft Web Apps,Connection Gateways,Join Connection Gateway,Microsoft.Web/connectionGateways/Join/Action,Joins a Connection Gateway.,"user,system",False
+Microsoft Web Apps,Connection Gateways,List Connection Gateway Status,Microsoft.Web/connectionGateways/ListStatus/Action,Lists status of a Connection Gateway.,"user,system",False
+Microsoft Web Apps,Connection Gateways,Move Connection Gateway,Microsoft.Web/connectionGateways/Move/Action,Moves a Connection Gateway.,"user,system",False
+Microsoft Web Apps,Connections,Add or Update Connection,Microsoft.Web/connections/Write,Creates or updates a Connection.,"user,system",False
+Microsoft Web Apps,Connections,Confirm Connections Consent Code,microsoft.web/connections/confirmconsentcode/action,Confirm Connections Consent Code.,"user,system",False
+Microsoft Web Apps,Connections,Delete Connection,Microsoft.Web/connections/Delete,Deletes a Connection.,"user,system",False
+Microsoft Web Apps,Connections,Get Connections,Microsoft.Web/connections/Read,Get the list of Connections.,"user,system",False
+Microsoft Web Apps,Connections,Join Connection,Microsoft.Web/connections/Join/Action,Joins a Connection.,"user,system",False
+Microsoft Web Apps,Connections,List Consent Links for Connections,microsoft.web/connections/listconsentlinks/action,List Consent Links for Connections.,"user,system",False
+Microsoft Web Apps,Connections,Move Connection,Microsoft.Web/connections/Move/Action,Moves a Connection.,"user,system",False
+Microsoft Web Apps,Container App,Create or Update container App,Microsoft.Web/containerApps/write,Create a Container App or update an existing one,"user, system",False
+Microsoft Web Apps,Container App,Delete Container App,Microsoft.Web/containerApps/delete,Delete a Container App,"user, system",False
+Microsoft Web Apps,Container App,Get Container App Operation,Microsoft.Web/containerApps/operationResults/read,Get the results of a Container App operation,"user, system",False
+Microsoft Web Apps,Container App,Get container App,Microsoft.Web/containerApps/read,Get the properties for a Container App,"user, system",False
+Microsoft Web Apps,Container App Revision,Activate Container App Revision,Microsoft.Web/containerApps/revisions/activate/action,Activate a Container App Revision,"user, system",False
+Microsoft Web Apps,Container App Revision,Deactivate Container App Revision,Microsoft.Web/containerApps/revisions/deactivate/action,Deactivate a Container App Revision,"user, system",False
+Microsoft Web Apps,Container App Revision,Get Container App Revision,Microsoft.Web/containerApps/revisions/read,Get a Container App Revision,"user, system",False
+Microsoft Web Apps,Container App Revision,List Container App Secrets,Microsoft.Web/containerApps/listsecrets/action,List a Container App Secrets,"user, system",False
+Microsoft Web Apps,Container App Revision,Restart Container App Revision,Microsoft.Web/containerApps/revisions/deactivate/restart/action,Restart a Container App Revision,"user, system",False
+Microsoft Web Apps,Container App Source Control,Create or Update Container App Source Control,Microsoft.Web/containerApps/sourcecontrols/write,Create or Update a Container App Source Control,"user, system",False
+Microsoft Web Apps,Container App Source Control,Delete Container App Source Control,Microsoft.Web/containerApps/sourcecontrols/delete,Delete a Container App Source Control,"user, system",False
+Microsoft Web Apps,Container App Source Control,Get Container App Source Control,Microsoft.Web/containerApps/sourcecontrols/read,Get a Container App Source Control,"user, system",False
+Microsoft Web Apps,Custom Apis,Add or Update Custom API,Microsoft.Web/customApis/Write,Creates or updates a Custom API.,"user,system",False
+Microsoft Web Apps,Custom Apis,Delete Custom API,Microsoft.Web/customApis/Delete,Deletes a Custom API.,"user,system",False
+Microsoft Web Apps,Custom Apis,Extract API definition from WSDL,Microsoft.Web/customApis/extractApiDefinitionFromWsdl/Action,Extracts API definition from a WSDL.,"user,system",False
+Microsoft Web Apps,Custom Apis,Get Custom API,Microsoft.Web/customApis/Read,Get the list of Custom API.,"user,system",False
+Microsoft Web Apps,Custom Apis,Join Custom API,Microsoft.Web/customApis/Join/Action,Joins a Custom API.,"user,system",False
+Microsoft Web Apps,Custom Apis,List Custom API WSDL interfaces,Microsoft.Web/customApis/listWsdlInterfaces/Action,Lists WSDL interfaces for a Custom API.,"user,system",False
+Microsoft Web Apps,Custom Apis,Move Custom API,Microsoft.Web/customApis/Move/Action,Moves a Custom API.,"user,system",False
+Microsoft Web Apps,Custom Hostname,Analyze Custom Hostname,microsoft.web/sites/analyzecustomhostname/read,Analyze Custom Hostname.,"user,system",False
+Microsoft Web Apps,Deleted Web App,Get Deleted Web App,Microsoft.Web/deletedSites/Read,Get the properties of a Deleted Web App,"user,system",False
+Microsoft Web Apps,Deleted Web App,Get Deleted Web App at location,Microsoft.Web/locations/deletedSites/Read,Get the properties of a Deleted Web App at location,"user,system",False
+Microsoft Web Apps,Deployment Locations,Get Deployment Locations,microsoft.web/deploymentlocations/read,Get Deployment Locations.,"user,system",False
+Microsoft Web Apps,Diagnostic setting for App Service Environment,Read diagnostic setting,microsoft.web/hostingenvironments/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for App Service Environment,Write diagnostic setting,microsoft.web/hostingenvironments/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for App Service plan,Read diagnostic setting,microsoft.web/serverfarms/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for App Service plan,Write diagnostic setting,microsoft.web/serverfarms/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for Web App,Read diagnostic setting,microsoft.web/sites/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for Web App,Write diagnostic setting,microsoft.web/sites/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for Web App slot,Read diagnostic setting,microsoft.web/sites/slots/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource,system,False
+Microsoft Web Apps,Diagnostic setting for Web App slot,Write diagnostic setting,microsoft.web/sites/slots/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource,system,False
+Microsoft Function Apps,Function App,Get Function App master key,Microsoft.Web/sites/hostruntime/host/_master/read,Get Function App's master key for admin operations,"user,system",False
+Microsoft Function Apps,Function App,Perform Function App runtime action,Microsoft.Web/sites/hostruntime/host/action,"Perform Function App runtime action like sync triggers, add functions, invoke functions, delete functions etc.","user,system",False
+Microsoft Web Apps,Function App Stacks,Get Function App Stacks,microsoft.web/functionappstacks/read,Get Function App Stacks.,"user,system",False
+Microsoft Web Apps,Function App Stacks,Get Function App Stacks for location,microsoft.web/locations/functionappstacks/read,Get Function App Stacks for location.,"user,system",False
+Microsoft Web Apps,Geo Region,Get Geo Regions,Microsoft.Web/geoRegions/Read,Get the list of Geo regions.,"user,system",False
+Microsoft Web Apps,Hosting Environment Configurations,Get Hosting Environment Configurations,microsoft.web/hostingenvironments/configurations/read,Get Hosting Environment Configurations.,"user,system",False
+Microsoft Web Apps,Hosting Environment Configurations,Update Hosting Environment Configurations,microsoft.web/hostingenvironments/configurations/write,Update  Hosting Environment Configurations.,"user,system",False
+Microsoft Web Apps,Hosting Environment Name,Check if Hosting Environment Name is available,microsoft.web/ishostingenvironmentnameavailable/read,Get if Hosting Environment Name is available.,"user,system",False
+Microsoft Web Apps,Hosting Environments,Get the health details of an App Service Environment,microsoft.web/hostingenvironments/health/read,Get the health details of an App Service Environment.,"user,system",False
+Microsoft Web Apps,Hosting Environments,Get the network endpoints of all inbound dependencies,microsoft.web/hostingenvironments/inboundnetworkdependenciesendpoints/read,Get the network endpoints of all inbound dependencies.,"user,system",False
+Microsoft Web Apps,Hosting Environments,Get the network endpoints of all outbound dependencies,microsoft.web/hostingenvironments/outboundnetworkdependenciesendpoints/read,Get the network endpoints of all outbound dependencies.,"user,system",False
+Microsoft Web Apps,Hosting Environments,Read hosting environments log definitions,microsoft.web/hostingenvironments/providers/Microsoft.Insights/logDefinitions/read,Read hosting environments log definitions,system,False
+Microsoft Web Apps,Hosting Environments,Resume Hosting Environments,microsoft.web/hostingenvironments/resume/action,Resume Hosting Environments.,"user,system",False
+Microsoft Web Apps,Hosting Environments,Suspend Hosting Environments,microsoft.web/hostingenvironments/suspend/action,Suspend Hosting Environments.,"user,system",False
+Microsoft Web Apps,Hosting Environments App Service Plans,Get Hosting Environments App Service Plans,microsoft.web/hostingenvironments/serverfarms/read,Get Hosting Environments App Service Plans.,"user,system",False
+Microsoft Web Apps,Hosting Environments Capacities,Get Hosting Environments Capacities,microsoft.web/hostingenvironments/capacities/read,Get Hosting Environments Capacities.,"user,system",False
+Microsoft Web Apps,Hosting Environments Detectors,Get Hosting Environments Detectors,microsoft.web/hostingenvironments/detectors/read,Get Hosting Environments Detectors.,"user,system",False
+Microsoft Web Apps,Hosting Environments Diagnostics,Get Hosting Environments Diagnostics,microsoft.web/hostingenvironments/diagnostics/read,Get Hosting Environments Diagnostics.,"user,system",False
+Microsoft Web Apps,Hosting Environments Metric Definitions,Get Hosting Environments Metric Definitions,microsoft.web/hostingenvironments/metricdefinitions/read,Get Hosting Environments Metric Definitions.,"user,system",False
+Microsoft Web Apps,Hosting Environments MultiRole Pools Metric Definitions,Get Hosting Environments MultiRole Pools Metric Definitions,microsoft.web/hostingenvironments/multirolepools/metricdefinitions/read,Get Hosting Environments MultiRole Pools Metric Definitions.,"user,system",False
+Microsoft Web Apps,Hosting Environments MultiRole Pools Metrics,Get Hosting Environments MultiRole Pools Metrics,microsoft.web/hostingenvironments/multirolepools/metrics/read,Get Hosting Environments MultiRole Pools Metrics.,"user,system",False
+Microsoft Web Apps,Hosting Environments MultiRole Pools SKUs,Get Hosting Environments MultiRole Pools SKUs,microsoft.web/hostingenvironments/multirolepools/skus/read,Get Hosting Environments MultiRole Pools SKUs.,"user,system",False
+Microsoft Web Apps,Hosting Environments MultiRole Pools Usages,Get Hosting Environments MultiRole Pools Usages,microsoft.web/hostingenvironments/multirolepools/usages/read,Get Hosting Environments MultiRole Pools Usages.,"user,system",False
+Microsoft Web Apps,Hosting Environments Operations,Get Hosting Environments Operations,microsoft.web/hostingenvironments/operations/read,Get Hosting Environments Operations.,"user,system",False
+Microsoft Web Apps,Hosting Environments Usages,Get Hosting Environments Usages,microsoft.web/hostingenvironments/usages/read,Get Hosting Environments Usages.,"user,system",False
+Microsoft Web Apps,Hosting Environments Web Apps,Get Hosting Environments Web Apps,microsoft.web/hostingenvironments/sites/read,Get Hosting Environments Web Apps.,"user,system",False
+Microsoft Web Apps,Hosting Environments Workerpools Metric Definitions,Get Hosting Environments Workerpools Metric Definitions,microsoft.web/hostingenvironments/workerpools/metricdefinitions/read,Get Hosting Environments Workerpools Metric Definitions.,"user,system",False
+Microsoft Web Apps,Hosting Environments Workerpools Metrics,Get Hosting Environments Workerpools Metrics,microsoft.web/hostingenvironments/workerpools/metrics/read,Get Hosting Environments Workerpools Metrics.,"user,system",False
+Microsoft Web Apps,Hosting Environments Workerpools SKUs,Get Hosting Environments Workerpools SKUs,microsoft.web/hostingenvironments/workerpools/skus/read,Get Hosting Environments Workerpools SKUs.,"user,system",False
+Microsoft Web Apps,Hosting Environments Workerpools Usages,Get Hosting Environments Workerpools Usages,microsoft.web/hostingenvironments/workerpools/usages/read,Get Hosting Environments Workerpools Usages.,"user,system",False
+Microsoft Web Apps,Hostname,Check if Hostname is Available,microsoft.web/ishostnameavailable/read,Check if Hostname is Available.,"user,system",False
+Microsoft Web Apps,Kubernetes Environment,Create or Update Kubernetes Environment,Microsoft.Web/kubeEnvironments/write,Create a Kubernetes Environment or update an existing one,"user, system",False
+Microsoft Web Apps,Kubernetes Environment,Delete Kubernetes Environment,Microsoft.Web/kubeEnvironments/delete,Delete a Kubernetes Environment,"user, system",False
+Microsoft Web Apps,Kubernetes Environment,Get Kubernetes Environment,Microsoft.Web/kubeEnvironments/read,Get the properties of a Kubernetes Environment,"user, system",False
+Microsoft Web Apps,Kubernetes Environment,Get Kubernetes Environment Operations,Microsoft.Web/kubeEnvironments/operations/read,Get the operations for a Kubernetes Environment,"user, system",False
+Microsoft Web Apps,Kubernetes Environment,Join Kubernetes Environment,Microsoft.Web/kubeEnvironments/join/action,Joins a Kubernetes Environment,"user, system",False
+Microsoft Web Apps,Locations,Extract Api Definition from WSDL for Locations,microsoft.web/locations/extractapidefinitionfromwsdl/action,Extract Api Definition from WSDL for Locations.,"user,system",False
+Microsoft Web Apps,Locations,List WSDL Interfaces for Locations,microsoft.web/locations/listwsdlinterfaces/action,List WSDL Interfaces for Locations.,"user,system",False
+Microsoft Web Apps,Locations,Preview Static Site Workflow File,Microsoft.Web/locations/previewstaticsiteworkflowfile/action,Preview Static Site Workflow File,"user,system",False
+Microsoft Web Apps,Locations,Validates deleting Vnet or subnet for Locations,microsoft.web/locations/validateDeleteVirtualNetworkOrSubnets/action,Validates deleting Vnet or subnet for Locations,"user,system",False
+Microsoft Web Apps,Locations,Vnet or subnet deletion notification for Locations,microsoft.web/locations/deleteVirtualNetworkOrSubnets/action,Vnet or subnet deletion notification for Locations.,"user,system",False
+Microsoft Web Apps,Locations API Operations,Get Locations API Operations,microsoft.web/locations/apioperations/read,Get Locations API Operations.,"user,system",False
+Microsoft Web Apps,Locations Connection Gateway Installations,Get Locations Connection Gateway Installations,microsoft.web/locations/connectiongatewayinstallations/read,Get Locations Connection Gateway Installations.,"user,system",False
+Microsoft Web Apps,Locations Managed API Operations,Get Locations Managed API Operations,microsoft.web/locations/managedapis/apioperations/read,Get Locations Managed API Operations.,"user,system",False
+Microsoft Web Apps,Locations Managed APIs,Get Locations Managed APIs,microsoft.web/locations/managedapis/read,Get Locations Managed APIs.,"user,system",False
+Microsoft Web Apps,Locations Managed APIs,Join Managed API,Microsoft.Web/locations/managedapis/Join/Action,Joins a Managed API.,"user,system",False
+Microsoft Web Apps,Locations Network Security Perimeter Updates,Notify Network Security Perimeter Updates,Microsoft.Web/locations/notifyNetworkSecurityPerimeterUpdatesAvailable/action,Notify Network Security Perimeter Updates.,"user,system",False
+Microsoft Web Apps,Microsoft Web Apps Network Intent Policies,Read Network Intent Policies,Microsoft.Web/locations/GetNetworkPolicies/action,Read Network Intent Policies,system,False
+Microsoft Web Apps,Microsoft.Web resource provider,Register Microsoft.Web resource provider,microsoft.web/register/action,Register Microsoft.Web resource provider for the subscription.,"user,system",False
+Microsoft Web Apps,Microsoft.Web resource provider,Unregister Microsoft.Web resource provider,microsoft.web/unregister/action,Unregister Microsoft.Web resource provider for the subscription.,"user,system",False
+Microsoft Web Apps,Operations,Get Operations,microsoft.web/locations/operationResults/read,Get Operations.,"user,system",False
+Microsoft Web Apps,Operations,Get Operations,microsoft.web/locations/operations/read,Get Operations.,"user,system",False
+Microsoft Web Apps,Operations,Get Operations,microsoft.web/operations/read,Get Operations.,"user,system",False
+Microsoft Web Apps,Publishing Users,Get Publishing Users,microsoft.web/publishingusers/read,Get Publishing Users.,"user,system",False
+Microsoft Web Apps,Publishing Users,Update Publishing Users,microsoft.web/publishingusers/write,Update Publishing Users.,"user,system",False
+Microsoft Web Apps,Recommendation,Get recommendations,Microsoft.Web/recommendations/Read,Get the list of recommendations for subscriptions.,"user,system",False
+Microsoft Web Apps,Recommendation,Get recommendations for App Service Plan,Microsoft.Web/serverfarms/recommendations/Read,Get the list of recommendations for App Service Plan.,"user,system",False
+Microsoft Web Apps,Recommendation,Get recommendations for web app,Microsoft.Web/sites/recommendations/Read,Get the list of recommendations for web app.,"user,system",False
+Microsoft Web Apps,Resource Health Metadata,Get Resource Health Metadata,microsoft.web/resourcehealthmetadata/read,Get Resource Health Metadata.,"user,system",False
+Microsoft Web Apps,SKUs,Get SKUs,microsoft.web/skus/read,Get SKUs.,"user,system",False
+Microsoft Web Apps,Site Name,Get sites assigned to hostname,Microsoft.Web/listSitesAssignedToHostName/Read,Get names of sites assigned to hostname.,"user,system",False
+Microsoft Web Apps,Source Controls,Get Source Controls,microsoft.web/sourcecontrols/read,Get Source Controls.,"user,system",False
+Microsoft Web Apps,Source Controls,Update Source Controls,microsoft.web/sourcecontrols/write,Update Source Controls.,"user,system",False
+Microsoft Web Apps,Static Site,Create or Update Static Site,Microsoft.Web/staticSites/Write,Create a new Static Site or update an existing one,"user,system",False
+Microsoft Web Apps,Static Site,Create or update free trial static web app,Microsoft.Web/freeTrialStaticWebApps/write,Creates or updates a free trial static web app.,"user,system",False
+Microsoft Web Apps,Static Site,Delete Static Site,Microsoft.Web/staticSites/Delete,Delete an existing Static Site,"user,system",False
+Microsoft Web Apps,Static Site,Delete free trial static web app,Microsoft.Web/freeTrialStaticWebApps/delete,Deletes a free trial static web app.,"user,system",False
+Microsoft Web Apps,Static Site,Deploy to Static Site,Microsoft.Web/staticSites/zipdeploy/action,Deploy a Static Site from zipped content,"user,system",False
+Microsoft Web Apps,Static Site,Detach Static Site,Microsoft.Web/staticSites/detach/Action,Detach a Static Site from the currently linked repository,"user,system",False
+Microsoft Web Apps,Static Site,Get Private Link Resources,Microsoft.Web/staticSites/privateLinkResources/Read,Get Private Link Resources,"user, system",False
+Microsoft Web Apps,Static Site,Get Static Site,Microsoft.Web/staticSites/Read,Get the properties of a Static Site,"user,system",False
+Microsoft Web Apps,Static Site,List free trial static web apps,Microsoft.Web/freeTrialStaticWebApps/read,Lists free trial static web apps.,"user,system",False
+Microsoft Web Apps,Static Site,Upgrade free trial static web app,Microsoft.Web/freeTrialStaticWebApps/upgrade/action,Upgrades a free trial static web app.,"user,system",False
+Microsoft Web Apps,Static Site,Validate Custom Domain Ownership,Microsoft.Web/staticSites/validateCustomDomainOwnership/action,Validate the custom domain ownership for a static site,"user,system",False
+Microsoft Web Apps,Static Site App Setting,Create or Update Static Site App Setting,Microsoft.Web/staticSites/config/Write,Create or update app settings for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site App Setting,List Static Site App Settings,Microsoft.Web/staticSites/listappsettings/Action,List app settings for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Build,Delete Static Site,Microsoft.Web/staticSites/builds/Delete,Delete a build for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Build,Deploy to Static Site Build,Microsoft.Web/staticSites/builds/zipdeploy/action,Deploy a Static Site Build from zipped content,"user,system",False
+Microsoft Web Apps,Static Site Build,Get Static Site Build,Microsoft.Web/staticSites/builds/Read,Get a build for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Build App Setting,Create or Update Static Site Build App Setting,Microsoft.Web/staticSites/builds/config/Write,Create or update app settings for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build App Setting,List Static Site Build App Settings,Microsoft.Web/staticSites/builds/listappsettings/Action,List app settings for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Database Connection,Create or Update Static Site Build Database Connection,Microsoft.Web/staticSites/builds/databaseConnections/Write,Create or Update a Database Connection with a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Database Connection,Delete Static Site Build Database Connection,Microsoft.Web/staticSites/builds/databaseConnections/Delete,Delete a Database Connection from a Static Site Build,"user, system",False
+Microsoft Web Apps,Static Site Build Database Connection,Get Static Site Build Database Connections,Microsoft.Web/staticSites/builds/databaseConnections/Read,Get Static Site Build Database Connections,"user, system",False
+Microsoft Web Apps,Static Site Build Database Connections,Show Static Site Build Database Connection Details,Microsoft.Web/staticSites/builds/databaseConnections/show/action,Show details for a Database Connection for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Database Connections,Show Static Site Build Database Connections Details,Microsoft.Web/staticSites/builds/showDatabaseConnections/action,Show details for Database Connections for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Function App Setting,List Static Site Build Function App Settings,Microsoft.Web/staticSites/builds/listfunctionappsettings/Action,List function app settings for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Functions,List Static Site Build Functions,Microsoft.Web/staticSites/builds/functions/Read,List the functions for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Linked Backends,Get Static Site Build Linked Backends,Microsoft.Web/staticSites/builds/linkedBackends/Read,Get Static Site Build Linked Backends,"user, system",False
+Microsoft Web Apps,Static Site Build Linked Backends,Register Static Site Build Linked Backend,Microsoft.Web/staticSites/builds/linkedBackends/Write,Register a Linked Backend with a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Build Linked Backends,Unlink Static Site Build Backend,Microsoft.Web/staticSites/builds/linkedBackends/Delete,Unlink a Backend from a Static Site Build,"user, system",False
+Microsoft Web Apps,Static Site Build User Provided Function Apps,Detach Static Site Build User Provided Function App,Microsoft.Web/staticSites/builds/userProvidedFunctionApps/Delete,Detach a User Provided Function App from a Static Site Build,"user, system",False
+Microsoft Web Apps,Static Site Build User Provided Function Apps,Get Static Site Build User Provided Function Apps,Microsoft.Web/staticSites/builds/userProvidedFunctionApps/Read,Get Static Site Build User Provided Function Apps,"user, system",False
+Microsoft Web Apps,Static Site Build User Provided Function Apps,Register Static Site Build User Provided Function App,Microsoft.Web/staticSites/builds/userProvidedFunctionApps/Write,Register a User Provided Function App with a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Configured Roles,List Static Site Configured Roles,Microsoft.Web/staticSites/listConfiguredRoles/action,Lists the roles configured for the static site.,"user,system",False
+Microsoft Web Apps,Static Site Custom Domain,Create Static Site Custom Domain,Microsoft.Web/staticSites/customdomains/Write,Create a custom domain for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Custom Domain,Delete Static Site Custom Domain,Microsoft.Web/staticSites/customdomains/Delete,Delete a custom domain for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Custom Domain,List Static Site Custom Domains,Microsoft.Web/staticSites/customdomains/Read,List the custom domains for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Custom Domain,Validate Static Site Custom Domain,Microsoft.Web/staticSites/customdomains/validate/Action,Validate a custom domain can be added to a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Database Connections,Create or Update Static Site Database Connection,Microsoft.Web/staticSites/databaseConnections/Write,Create or Update a Database Connection with a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Database Connections,Delete Static Site Database Connection,Microsoft.Web/staticSites/databaseConnections/Delete,Delete a Database Connection from a Static Site,"user, system",False
+Microsoft Web Apps,Static Site Database Connections,Get Static Site Database Connections,Microsoft.Web/staticSites/databaseConnections/Read,Get Static Site Database Connection,"user, system",False
+Microsoft Web Apps,Static Site Database Connections,Show Static Site Database Connection Details,Microsoft.Web/staticSites/databaseConnections/show/action,Show details for a Database Connection for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Database Connections,Show Static Site Database Connections Details,Microsoft.Web/staticSites/showDatabaseConnections/action,Show details for Database Connections for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Function App Setting,List Static Site Function App Settings,Microsoft.Web/staticSites/listfunctionappsettings/Action,List function app settings for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Functions,List Static Site Functions,Microsoft.Web/staticSites/functions/Read,List the functions for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Linked Backends,Get Static Site Linked Backends,Microsoft.Web/staticSites/linkedBackends/Read,Get Static Site Linked Backends,"user, system",False
+Microsoft Web Apps,Static Site Linked Backends,Register Static Site Linked Backend,Microsoft.Web/staticSites/linkedBackends/Write,Register a Linked Backend with a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Linked Backends,Validate Linked Backend,Microsoft.Web/staticSites/linkedBackends/validate/action,Validate a Linked Backend for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Linked Backends,Validate Linked Backend,Microsoft.Web/staticSites/builds/linkedBackends/validate/action,Validate a Linked Backend for a Static Site Build,"user,system",False
+Microsoft Web Apps,Static Site Linked Backends,unlink Static Site Backend,Microsoft.Web/staticSites/linkedBackends/Delete,Unlink a Backend from a Static Site,"user, system",False
+Microsoft Web Apps,Static Site Private Endpoint Connection,Delete Private Endpoint Connection,Microsoft.Web/staticSites/privateEndpointConnections/Delete,Delete a Private Endpoint Connection for a Static Site,"user, system",False
+Microsoft Web Apps,Static Site Private Endpoint Connection,Get Private Endpoint Connection,Microsoft.Web/staticSites/privateEndpointConnections/Read,Get a private endpoint connection or the list of private endpoint connections for a static site,"user, system",False
+Microsoft Web Apps,Static Site Private Endpoint Connection Proxies,Create or Update Private Endpoint Connection Proxies,Microsoft.Web/staticSites/privateEndpointConnectionProxies/Write,Create or Update Private Endpoint Connection Proxies for a Static Site,system,False
+Microsoft Web Apps,Static Site Private Endpoint Connection Proxies,Delete Private Endpoint Connection Proxies,Microsoft.Web/staticSites/privateEndpointConnectionProxies/Delete,Delete Private Endpoint Connection Proxies for a Static Site,system,False
+Microsoft Web Apps,Static Site Private Endpoint Connection Proxies,Get Private Endpoint Connection Proxies,Microsoft.Web/staticSites/privateEndpointConnectionProxies/Read,Get Private Endpoint Connection Proxies for a Static Site,system,False
+Microsoft Web Apps,Static Site Private Endpoint Connection Proxies,Validate Private Endpoint Connection Proxies,Microsoft.Web/staticSites/privateEndpointConnectionProxies/validate/action,Validate Private Endpoint Connection Proxies for a Static Site,system,False
+Microsoft Web Apps,Static Site Private Endpoint Connection Proxies Operations,Read Private Endpoint Connection Proxy Operations,Microsoft.Web/staticSites/privateEndpointConnectionProxies/operations/Read,Read Private Endpoint Connection Proxy Operations for a Static Site,system,False
+Microsoft Web Apps,Static Site Private Endpoint Connections,Approve or Reject Private Endpoint Connection,Microsoft.Web/staticSites/privateEndpointConnections/Write,Approve or Reject Private Endpoint Connection for a Static Site,"user, system",False
+Microsoft Web Apps,Static Site Region,Get Static Site Regions,Microsoft.Web/staticSiteRegions/Read,Get the list of Static Site regions.,"user,system",False
+Microsoft Web Apps,Static Site Secret,List Static Site Secrets,Microsoft.Web/staticSites/listsecrets/action,List the secrets for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site Secret,Reset Static Site Api Key,Microsoft.Web/staticSites/resetapikey/Action,Reset the api key for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site User,Delete Static Site User,Microsoft.Web/staticSites/authproviders/users/Delete,Delete a user for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site User,Get Static Site User,Microsoft.Web/staticSites/getuser/Action,Get a user's information for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site User,List Static Site Users,Microsoft.Web/staticSites/authproviders/listusers/Action,List the users for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site User,Update Static Site User,Microsoft.Web/staticSites/authproviders/users/Write,Update a user for a Static Site,"user,system",False
+Microsoft Web Apps,Static Site User Provided Function Apps,Detach Static Site User Provided Function App,Microsoft.Web/staticSites/userProvidedFunctionApps/Delete,Detach a User Provided Function App from a Static Site,"user, system",False
+Microsoft Web Apps,Static Site User Provided Function Apps,Get Static Site User Provided Function Apps,Microsoft.Web/staticSites/userProvidedFunctionApps/Read,Get Static Site User Provided Function Apps,"user, system",False
+Microsoft Web Apps,Static Site User Provided Function Apps,Register Static Site User Provided Function App,Microsoft.Web/staticSites/userProvidedFunctionApps/Write,Register a User Provided Function App with a Static Site,"user,system",False
+Microsoft Web Apps,Static Site User Roles Invitation,Create User Roles Invitation Link,Microsoft.Web/staticSites/createinvitation/action,Creates invitiation link for static site user for a set of roles,"user,system",False
+Microsoft Web Apps,Static Sites,Check Static Site Publish Access,Microsoft.Web/staticSites/publish/action,Check publish access to static web app,"user,system",False
+Microsoft Web Apps,The log definition of sites,Read sites log definitions,microsoft.web/sites/providers/Microsoft.Insights/logDefinitions/read,Gets the available logs for Web App,system,False
+Microsoft Web Apps,The log definition of web app slots,Read web app slots log definitions,microsoft.web/sites/slots/providers/Microsoft.Insights/logDefinitions/read,Gets the available logs for Web App slots,system,False
+Microsoft.Web,The metric definition of API Connections,Read API Connections metric definitions,Microsoft.Web/connections/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for API Connections,system,False
+Microsoft.Web,The metric definition of App Service Environment,Read App Service Environment metric definitions,Microsoft.Web/hostingEnvironments/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for App Service Environment,system,False
+Microsoft.Web,The metric definition of App Service Environment MultiRole,Read App Service Environment MultiRole metric definitions,Microsoft.Web/hostingEnvironments/multiRolePools/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for App Service Environment MultiRole,system,False
+Microsoft.Web,The metric definition of App Service Environment WorkerPool,Read App Service Environment WorkerPool metric definitions,Microsoft.Web/hostingEnvironments/workerPools/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for App Service Environment WorkerPool,system,False
+Microsoft.Web,The metric definition of App Service Plan,Read App Service Plan metric definitions,Microsoft.Web/serverfarms/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for App Service Plan,system,False
+Microsoft.Web,The metric definition of Static Site,Read Static Site metric definitions,Microsoft.Web/staticSites/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for Static Site,system,False
+Microsoft.Web,The metric definition of Web App,Read Web App metric definitions,Microsoft.Web/sites/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for Web App,system,False
+Microsoft.Web,The metric definition of Web App Slot,Read Web App Slot metric definitions,Microsoft.Web/sites/slots/providers/Microsoft.Insights/metricDefinitions/Read,Gets the available metrics for Web App Slot,system,False
+Microsoft Web Apps,Username,Check if Username is available,microsoft.web/isusernameavailable/read,Check if Username is available.,"user,system",False
+Microsoft Web Apps,Web App,Apply Web App Configuration,Microsoft.Web/sites/applySlotConfig/Action,Apply web app slot configuration from target slot to the current web app,"user,system",False
+Microsoft Web Apps,Web App,Approve or Reject Private Endpoint Connection,Microsoft.Web/sites/privateEndpointConnections/Write,Approve or Reject a private endpoint connection.,"user, system",False
+Microsoft Web Apps,Web App,Copy content from deployment slot,microsoft.web/sites/slotcopy/action,Copy content from deployment slot.,"user,system",False
+Microsoft Web Apps,Web App,Create Web App Backup,Microsoft.Web/sites/backup/Action,Create a new web app backup,"user,system",False
+Microsoft Web Apps,Web App,Create or Update Web App,Microsoft.Web/sites/Write,Create a new Web App or update an existing one,"user,system",False
+Microsoft Web Apps,Web App,Delete Event Grid Filter on web app,Microsoft.Web/sites/eventGridFilters/delete,Delete Event Grid Filter on web app.,"user,system",False
+Microsoft Web Apps,Web App,Delete Private Endpoint Connection,Microsoft.Web/sites/privateEndpointConnections/Delete,Delete a Private Endpoint Connection.,"user, system",False
+Microsoft Web Apps,Web App,Delete Web App,Microsoft.Web/sites/Delete,Delete an existing Web App,"user,system",False
+Microsoft Web Apps,Web App,Delete Web App Source Control Configuration,Microsoft.Web/sites/sourcecontrols/Delete,Delete Web App's source control configuration settings,"user,system",False
+Microsoft Web Apps,Web App,Get Event Grid Filter on web app,Microsoft.Web/sites/eventGridFilters/read,Get Event Grid Filter on web app.,"user,system",False
+Microsoft Web Apps,Web App,Get Private Endpoint Connection,Microsoft.Web/sites/privateEndpointConnections/Read,Get a Private Endpoint Connection or the list of Private Endpoint Connections.,"user, system",False
+Microsoft Web Apps,Web App,Get Private Link Resources,Microsoft.Web/sites/privateLinkResources/Read,Get Private Link Resources.,"user, system",False
+Microsoft Web Apps,Web App,Get Web App,Microsoft.Web/sites/Read,Get the properties of a Web App,"user,system",False
+Microsoft Web Apps,Web App,Get Web App Backup,Microsoft.Web/sites/backups/Read,Get the properties of a web app's backup,"user,system",False
+Microsoft Web Apps,Web App,Get Web App Configuration,Microsoft.Web/sites/config/Read,Get Web App configuration settings,"user,system",False
+Microsoft Web Apps,Web App,Get Web App Publishing Profile,Microsoft.Web/sites/publishxml/Action,Get publishing profile xml for a Web App,"user,system",False
+Microsoft Web Apps,Web App,Get Web App Slots Differences,Microsoft.Web/sites/slotsdiffs/Action,Get differences in configuration between web app and slots,"user,system",False
+Microsoft Web Apps,Web App,Get Web App Source Control Configuration,Microsoft.Web/sites/sourcecontrols/Read,Get Web App's source control configuration settings,"user,system",False
+Microsoft Web Apps,Web App,List Web App Backups,Microsoft.Web/sites/ListBackups,List all of a web app's backups,"user,system",False
+Microsoft Web Apps,Web App,List Web App Backups,Microsoft.Web/sites/slots/ListBackups,List all of a web app slot's backups,"user,system",False
+Microsoft Web Apps,Web App,List Web App Publishing Credentials Policies,Microsoft.Web/sites/basicPublishingCredentialsPolicies/Read,List which publishing methods are allowed for a Web App,"user,system",False
+Microsoft Web Apps,Web App,List Web App Publishing Credentials Policies,Microsoft.Web/sites/basicPublishingCredentialsPolicies/Write,List which publishing methods are allowed for a Web App,"user,system",False
+Microsoft Web Apps,Web App,List Web App Security Sensitive Settings,Microsoft.Web/sites/config/list/Action,"List Web App's security sensitive settings, such as publishing credentials, app settings and connection strings","user,system",False
+Microsoft Web Apps,Web App,Publish Web App,Microsoft.Web/sites/publish/Action,Publish a Web App,"user,system",False
+Microsoft Web Apps,Web App,Put Event Grid Filter on web app,Microsoft.Web/sites/eventGridFilters/write,Put Event Grid Filter on web app.,"user,system",False
+Microsoft Web Apps,Web App,Reset Web App Configuration,Microsoft.Web/sites/resetSlotConfig/Action,Reset web app configuration,"user,system",False
+Microsoft Web Apps,Web App,Restart Web App,Microsoft.Web/sites/restart/Action,Restart a Web App,"user,system",False
+Microsoft Web Apps,Web App,Start Dev Session for a Web App,Microsoft.Web/sites/startDevSession/Action,Start Dev Session for a Web App,"user,system",False
+Microsoft Web Apps,Web App,Start Web App,Microsoft.Web/sites/start/Action,Start a Web App,"user,system",False
+Microsoft Web Apps,Web App,Stop Web App,Microsoft.Web/sites/stop/Action,Stop a Web App,"user,system",False
+Microsoft Web Apps,Web App,Swap Web App Slots,Microsoft.Web/sites/slotsswap/Action,Swap Web App deployment slots,"user,system",False
+Microsoft Web Apps,Web App,Update Web App Configuration,Microsoft.Web/sites/config/Write,Update Web App's configuration settings,"user,system",False
+Microsoft Web Apps,Web App,Update Web App Source Control Configuration,Microsoft.Web/sites/sourcecontrols/Write,Update Web App's source control configuration settings,"user,system",False
+Microsoft Web Apps,Web App App Setting,Create or Update Web App Single App setting,microsoft.web/sites/config/web/appsettings/write,Create or Update Web App Single App setting,"user,system",False
+Microsoft Web Apps,Web App App Setting,Get Web App Single App setting,microsoft.web/sites/config/web/appsettings/read,Get Web App Single App setting.,"user,system",False
+Microsoft Web Apps,Web App Backups,List Web App backups,microsoft.web/sites/listbackups/action,List Web App backups.,"user,system",False
+Microsoft Web Apps,Web App Configuration,Validate upgrade path for Web App,microsoft.web/sites/slots/config/validateupgradepath/action,Validate upgrade path for Web App.,"user,system",False
+Microsoft Web Apps,Web App Connectionstring,Create or Update Web App single sonnection string,microsoft.web/sites/config/web/connectionstrings/write,Get Web App single App setting.,"user,system",False
+Microsoft Web Apps,Web App Connectionstring,Delete Web App single connection string,microsoft.web/sites/config/web/connectionstrings/delete,Delete Web App single connection string,"user,system",False
+Microsoft Web Apps,Web App Connectionstring,Get Web App single connection string,microsoft.web/sites/config/web/connectionstrings/read,Get Web App single connectionstring,"user,system",False
+Microsoft Web Apps,Web App Domain Ownership Identifiers,Update Web App Slots Domain Ownership Identifiers,microsoft.web/sites/slots/domainownershipidentifiers/write,Update Web App Slots Domain Ownership Identifiers.,"user,system",False
+Microsoft Web Apps,Web App Network Features,Get Web App Network Features,microsoft.web/sites/networkfeatures/read,Get Web App Features.,"user,system",False
+Microsoft Web Apps,Web App Network Security Perimeter Association Proxies,Create or Update Web App Network Security Perimeter Association Proxies,Microsoft.Web/Sites/networkSecurityPerimeterAssociationProxies/write,Create or Update Web App Network Security Perimeter Association Proxies.,system,False
+Microsoft Web Apps,Web App Network Security Perimeter Association Proxies,Delete Web App Network Security Perimeter Association Proxies,Microsoft.Web/Sites/networkSecurityPerimeterAssociationProxies/delete,Delete Web App Network Security Perimeter Association Proxies.,system,False
+Microsoft Web Apps,Web App Network Security Perimeter Association Proxies,Get Web App Network Security Perimeter Association Proxies,Microsoft.Web/Sites/networkSecurityPerimeterAssociationProxies/read,Get Web App Network Security Perimeter Association Proxies.,system,False
+Microsoft Web Apps,Web App Network Security Perimeter Configurations,Get Web App Network Security Perimeter Configurations,Microsoft.Web/Sites/networkSecurityPerimeterConfigurations/read,Get Web App Network Security Perimeter Configurations.,"user,system",False
+Microsoft Web Apps,Web App Network Security Perimeter Configurations,Reconcile Web App Network Security Perimeter Configurations,Microsoft.Web/Sites/networkSecurityPerimeterConfigurations/action,Reconcile Web App Network Security Perimeter Configurations.,"user,system",False
+Microsoft Web Apps,Web App Private Endpoint Connection Proxies,Create or Update Private Endpoint Connection Proxies,Microsoft.Web/sites/privateEndpointConnectionProxies/Write,Create or Update Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,Web App Private Endpoint Connection Proxies,Delete Private Endpoint Connection Proxies,Microsoft.Web/sites/privateEndpointConnectionProxies/Delete,Delete Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,Web App Private Endpoint Connection Proxies,Read Private Endpoint Connection Proxies,Microsoft.Web/sites/privateEndpointConnectionProxies/Read,Read Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,Web App Private Endpoint Connection Proxies,Validate Private Endpoint Connection Proxies,Microsoft.Web/sites/privateEndpointConnectionProxies/validate/action,Validate Private Endpoint Connection Proxies,system,False
+Microsoft Web Apps,Web App Private Endpoint Connection Proxy Operations,Read Private Endpoint Connection Proxy Operations,Microsoft.Web/sites/privateEndpointConnectionProxies/operations/Read,Read Private Endpoint Connection Proxy Operations,system,False
+Microsoft Web Apps,Web App Private Endpoint Connections,Approve Private Endpoint Connections,Microsoft.Web/sites/PrivateEndpointConnectionsApproval/action,Approve Private Endpoint Connections,"user,system",False
+Microsoft Web Apps,Web App Settings,Get Web App settings,microsoft.web/sites/config/appsettings/read,Get Web App settings.,"user,system",False
+Microsoft Web Apps,Web App Slot,Apply Web App Slot Configuration,Microsoft.Web/sites/slots/applySlotConfig/Action,Apply web app slot configuration from target slot to the current slot.,"user,system",False
+Microsoft Web Apps,Web App Slot,Copy content from one deployment slot to another,microsoft.web/sites/slots/slotcopy/action,Copy content from one deployment slot to another.,"user,system",False
+Microsoft Web Apps,Web App Slot,Create Web App Slot Backup,Microsoft.Web/sites/slots/backup/Action,Create new Web App Slot backup.,"user,system",False
+Microsoft Web Apps,Web App Slot,Create or Update Web App Slot,Microsoft.Web/sites/slots/Write,Create a new Web App Slot or update an existing one,"user,system",False
+Microsoft Web Apps,Web App Slot,Delete Web App Slot,Microsoft.Web/sites/slots/Delete,Delete an existing Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Delete Web App Slot Source Control Configuration,Microsoft.Web/sites/slots/sourcecontrols/Delete,Delete Web App Slot's source control configuration settings,"user,system",False
+Microsoft Web Apps,Web App Slot,Get Web App Deployment Slot,Microsoft.Web/sites/slots/Read,Get the properties of a Web App deployment slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Get Web App Slot Configuration,Microsoft.Web/sites/slots/config/Read,Get Web App Slot's configuration settings,"user,system",False
+Microsoft Web Apps,Web App Slot,Get Web App Slot Publishing Profile,Microsoft.Web/sites/slots/publishxml/Action,Get publishing profile xml for Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Get Web App Slot Source Control Configuration,Microsoft.Web/sites/slots/sourcecontrols/Read,Get Web App Slot's source control configuration settings,"user,system",False
+Microsoft Web Apps,Web App Slot,Get Web App Slots Differences,Microsoft.Web/sites/slots/slotsdiffs/Action,Get differences in configuration between web app and slots,"user,system",False
+Microsoft Web Apps,Web App Slot,List Web App Slot Backups,Microsoft.Web/sites/slots/backups/Read,Get the properties of a web app slots' backup,"user,system",False
+Microsoft Web Apps,Web App Slot,List Web App Slot Publishing Credentials Policies,Microsoft.Web/sites/slots/basicPublishingCredentialsPolicies/Read,List which publishing credentials are allowed for a Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,List Web App Slot Publishing Credentials Policies,Microsoft.Web/sites/slots/basicPublishingCredentialsPolicies/Write,List which publishing credentials are allowed for a Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,List Web App Slot Security Sensitive Settings,Microsoft.Web/sites/slots/config/list/Action,"List Web App Slot's security sensitive settings, such as publishing credentials, app settings and connection strings","user,system",False
+Microsoft Web Apps,Web App Slot,Publish Web App Slot,Microsoft.Web/sites/slots/publish/Action,Publish a Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Reset Web App Slot Configuration,Microsoft.Web/sites/slots/resetSlotConfig/Action,Reset web app slot configuration,"user,system",False
+Microsoft Web Apps,Web App Slot,Restart Web App Slot,Microsoft.Web/sites/slots/restart/Action,Restart a Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Start Dev Session for Web App Slot,Microsoft.Web/sites/slots/startDevSession/Action,Start Dev Session for Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Start Web App Slot,Microsoft.Web/sites/slots/start/Action,Start a Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Stop Web App Slot,Microsoft.Web/sites/slots/stop/Action,Stop a Web App Slot,"user,system",False
+Microsoft Web Apps,Web App Slot,Swap Web App Slots,Microsoft.Web/sites/slots/slotsswap/Action,Swap Web App deployment slots,"user,system",False
+Microsoft Web Apps,Web App Slot,Update Web App Slot Configuration,Microsoft.Web/sites/slots/config/Write,Update Web App Slot's configuration settings,"user,system",False
+Microsoft Web Apps,Web App Slot,Update Web App Slot Source Control Configuration,Microsoft.Web/sites/slots/sourcecontrols/Write,Update Web App Slot's source control configuration settings,"user,system",False
+Microsoft Web Apps,Web App Slot App Setting,Create or Update Web App Slot's Single App setting,microsoft.web/sites/slots/config/appsettings/write,Create or Update Web App Slot's Single App setting,"user,system",False
+Microsoft Web Apps,Web App Slot App Setting,Get Web App Slot's single App setting,microsoft.web/sites/slots/config/appsettings/read,Get Web App Slot's single App setting.,"user,system",False
+Microsoft Web Apps,Web App Slot App setting,Delete Web App Slot's App Setting,microsoft.web/sites/slots/config/web/appsettings/delete,Delete Web App Slot's App Setting,"user,system",False
+Microsoft Web Apps,Web App Slot Backups,List Web App Slot backups,microsoft.web/sites/slots/listbackups/action,List Web App Slot backups.,"user,system",False
+Microsoft Web Apps,Web App Slot Configuration,Validate upgrade path for Web App Slot,microsoft.web/sites/slots/config/validateupgradepath/action,Validate upgrade path for Web App Slot.,"user,system",False
+Microsoft Web Apps,Web App Slot Connectionstring,Create or Update Web App Slot's single sonnection string,microsoft.web/sites/slots/config/web/connectionstrings/write,Create or Update Web App Slot's single sonnection string,"user,system",False
+Microsoft Web Apps,Web App Slot Connectionstring,Delete Web App slot's single connection string,microsoft.web/sites/slots/config/web/connectionstrings/delete,Delete Web App slot's single connection string,"user,system",False
+Microsoft Web Apps,Web App Slot Connectionstring,Get Web App Slot's single connection string,microsoft.web/sites/slots/config/web/connectionstrings/read,Get Web App Slot's single connection string,"user,system",False
+Microsoft Web Apps,Web App Slot Settings,Get Web App Slot settings,microsoft.web/sites/slots/config/appsettings/read,Get Web App Slot settings.,"user,system",False
+Microsoft Web Apps,Web App Slot's Sitecontainers,Create or Update Web App Slot's Sitecontainers,Microsoft.Web/sites/slots/sitecontainers/Write,Create new or update existing Sitecontainers of a Web App's Slot,"user,system",False
+Microsoft Web Apps,Web App Slot's Sitecontainers,Delete Web App Slot's Sitecontainers,Microsoft.Web/sites/slots/sitecontainers/Delete,Delete Sitecontainers of an existing Web App's Slot,"user,system",False
+Microsoft Web Apps,Web App Slot's Sitecontainers,Get Web App Slot's Sitecontainers,Microsoft.Web/sites/slots/sitecontainers/Read,Get the properties of Sitecontainers of Web App's Slot,"user,system",False
+Microsoft Web Apps,Web App Slots Domain Ownership Identifiers,Delete Web App Slots Ownership Identifiers,microsoft.web/sites/slots/domainownershipidentifiers/delete,Delete Web App Slots Domain Ownership Identifiers.,"user,system",False
+Microsoft Web Apps,Web App Slots Domain Ownership Identifiers,Get Web Apps Slots Domain Ownership Identifiers,microsoft.web/sites/slots/domainownershipidentifiers/read,Get Web Apps Slots Domain Ownership Identifiers.,"user,system",False
+Microsoft Web Apps,Web App Slots Network Features,Get Web App Slot Network Features,microsoft.web/sites/slots/networkfeatures/read,Get Web App Slot Features.,"user,system",False
+Microsoft Web Apps,Web App Stacks,Get Web App Stacks,microsoft.web/webappstacks/read,Get Web App Stacks.,"user,system",False
+Microsoft Web Apps,Web App Stacks,Get Web App Stacks for location,microsoft.web/locations/webappstacks/read,Get Web App Stacks for location.,"user,system",False
+Microsoft Web Apps,Web App app setting,Delete Web Apps App Setting,microsoft.web/sites/config/web/appsettings/delete,Delete Web Apps App Setting,"user,system",False
+Microsoft Web Apps,Web App's Sitecontainers,Create or Update Web App's Sitecontainers,Microsoft.Web/sites/sitecontainers/Write,Create new Sitecontainers or update existing ones for a Web App,"user,system",False
+Microsoft Web Apps,Web App's Sitecontainers,Delete Sitecontainers of a Web App,Microsoft.Web/sites/sitecontainers/Delete,Delete Sitecontainers of an existing Web App,"user,system",False
+Microsoft Web Apps,Web App's Sitecontainers,Get Web App's Sitecontainers,Microsoft.Web/sites/sitecontainers/Read,Get the properties of a Web App's Sitecontainers,"user,system",False
+Microsoft Web Apps,Web Apps,Discovers an existing app backup,microsoft.web/sites/backups/action,Discovers an existing app backup that can be restored from a blob in Azure storage.,"user,system",False
+Microsoft Web Apps,Web Apps,Functions Web Apps,microsoft.web/sites/functions/action,Functions Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Get Zipped Container Logs for Web App,microsoft.web/sites/containerlogs/action,Get Zipped Container Logs for Web App.,"user,system",False
+Microsoft Web Apps,Web Apps,Join Network Security Perimeter,Microsoft.Web/Sites/joinPerimeter/action,Determines if a user is allowed to associate an Azure Web App with a Network Security Perimeter.,"user,system",False
+Microsoft Web Apps,Web Apps,List Web Apps Sync Function Trigger Status,microsoft.web/sites/listsyncfunctiontriggerstatus/action,List Sync Function Trigger Status.,"user,system",False
+Microsoft Web Apps,Web Apps,List Web Apps Sync Function Trigger Status for deployment slot,microsoft.web/sites/slots/listsyncfunctiontriggerstatus/action,List Sync Function Trigger Status for deployment slot.,"user,system",False
+Microsoft Web Apps,Web Apps,List Web Apps Sync Function Triggers Status,microsoft.web/sites/host/listsyncstatus/action,List Sync Function Triggers Status.,"user,system",False
+Microsoft Web Apps,Web Apps,Migrate MySql Web Apps,microsoft.web/sites/migratemysql/action,Migrate MySql Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Network Trace Web Apps,microsoft.web/sites/networktrace/action,Network Trace Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Newpassword Web Apps,microsoft.web/sites/newpassword/action,Newpassword Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Recover Web Apps,microsoft.web/sites/recover/action,Recover Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Restore Web App From Backup Blob,microsoft.web/sites/restorefrombackupblob/action,Restore Web App From Backup Blob.,"user,system",False
+Microsoft Web Apps,Web Apps,Restore Web Apps,microsoft.web/sites/restore/write,Restore Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Restore Web Apps From Deleted App,microsoft.web/sites/restorefromdeletedapp/action,Restore Web Apps From Deleted App.,"user,system",False
+Microsoft Web Apps,Web Apps,Restore Web Apps Snapshots,microsoft.web/sites/restoresnapshot/action,Restore Web Apps Snapshots.,"user,system",False
+Microsoft Web Apps,Web Apps,Sync Web Apps,microsoft.web/sites/sync/action,Sync Web Apps.,"user,system",False
+Microsoft Web Apps,Web Apps,Sync Web Apps Function Triggers,microsoft.web/sites/syncfunctiontriggers/action,Sync Function Triggers.,"user,system",False
+Microsoft Web Apps,Web Apps,Sync Web Apps Function Triggers,microsoft.web/sites/host/sync/action,Sync Function Triggers.,"user,system",False
+Microsoft Web Apps,Web Apps,Sync Web Apps Function Triggers for deployment slot,microsoft.web/sites/slots/syncfunctiontriggers/action,Sync Function Triggers for deployment slot.,"user,system",False
+Microsoft Web Apps,Web Apps Backup,Get Web Apps Backup,microsoft.web/sites/backup/read,Get Web Apps Backup.,"user,system",False
+Microsoft Web Apps,Web Apps Backup,Update Web Apps Backup,microsoft.web/sites/backup/write,Update Web Apps Backup.,"user,system",False
+Microsoft Web Apps,Web Apps Backups,Delete Web Apps Backups,microsoft.web/sites/backups/delete,Delete Web Apps Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Backups,List Web Apps Backups,microsoft.web/sites/backups/list/action,List Web Apps Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Backups,Restore Web Apps Backups,microsoft.web/sites/backups/restore/action,Restore Web Apps Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Backups,Update Web Apps Backups,microsoft.web/sites/backups/write,Update Web Apps Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Config,Delete Web Apps Config,microsoft.web/sites/config/delete,Delete Web Apps Config.,"user,system",False
+Microsoft Web Apps,Web Apps Config Snapshots,Get Web App Slots Config Snapshots,microsoft.web/sites/slots/config/snapshots/read,Get Web App Slots Config Snapshots.,"user,system",False
+Microsoft Web Apps,Web Apps Config Snapshots,Get Web Apps Config Snapshots,microsoft.web/sites/config/snapshots/read,Get Web Apps Config Snapshots.,"user,system",False
+Microsoft Web Apps,Web Apps Config Snapshots,Web Apps List Secrets From Snapshot,microsoft.web/sites/config/snapshots/listsecrets/action,Web Apps List Secrets From Snapshot.,"user,system",False
+Microsoft Web Apps,Web Apps Config Snapshots,Web Apps List Slot Secrets From Snapshot,microsoft.web/sites/slots/config/snapshots/listsecrets/action,Web Apps List Slot Secrets From Snapshot.,"user,system",False
+Microsoft Web Apps,Web Apps Container Logs,Download Web Apps Container Logs,microsoft.web/sites/containerlogs/download/action,Download Web Apps Container Logs.,"user,system",False
+Microsoft Web Apps,Web Apps Continuous Web Jobs,Delete Web Apps Continuous Web Jobs,microsoft.web/sites/continuouswebjobs/delete,Delete Web Apps Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Continuous Web Jobs,Get Web Apps Continuous Web Jobs,microsoft.web/sites/continuouswebjobs/read,Get Web Apps Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Continuous Web Jobs,Start Web Apps Continuous Web Jobs,microsoft.web/sites/continuouswebjobs/start/action,Start Web Apps Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Continuous Web Jobs,Stop Web Apps Continuous Web Jobs,microsoft.web/sites/continuouswebjobs/stop/action,Stop Web Apps Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Deployments,Delete Web Apps Deployments,microsoft.web/sites/deployments/delete,Delete Web Apps Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Deployments,Get Web Apps Deployments,microsoft.web/sites/deployments/read,Get Web Apps Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Deployments,Update Web Apps Deployments,microsoft.web/sites/deployments/write,Update Web Apps Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Deployments Log,Get Web Apps Deployments Log,microsoft.web/sites/deployments/log/read,Get Web Apps Deployments Log.,"user,system",False
+Microsoft Web Apps,Web Apps Detectors,Get Web Apps Detectors,microsoft.web/sites/detectors/read,Get Web Apps Detectors.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics ASP.NET Core,Get Web Apps Diagnostics ASP.NET Core,microsoft.web/sites/diagnostics/aspnetcore/read,Get Web Apps Diagnostics for ASP.NET Core app.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Analysis,Get Web Apps Diagnostics Analysis,microsoft.web/sites/diagnostics/analyses/read,Get Web Apps Diagnostics Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Analysis,Run Web Apps Diagnostics Analysis,microsoft.web/sites/diagnostics/analyses/execute/Action,Run Web Apps Diagnostics Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Autoheal,Get Web Apps Diagnostics Autoheal,microsoft.web/sites/diagnostics/autoheal/read,Get Web Apps Diagnostics Autoheal.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Category,Get Web Apps Diagnostics Category,microsoft.web/sites/diagnostics/read,Get Web Apps Diagnostics Categories.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Deployment,Get Web Apps Diagnostics Deployment,microsoft.web/sites/diagnostics/deployment/read,Get Web Apps Diagnostics Deployment.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Deployments,Get Web Apps Diagnostics Deployments,microsoft.web/sites/diagnostics/deployments/read,Get Web Apps Diagnostics Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Detector,Get Web Apps Diagnostics Detector,microsoft.web/sites/diagnostics/detectors/read,Get Web Apps Diagnostics Detector.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Detector,Run Web Apps Diagnostics Detector,microsoft.web/sites/diagnostics/detectors/execute/Action,Run Web Apps Diagnostics Detector.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics FREB Analysis,Get Web Apps Diagnostics FREB Analysis,microsoft.web/sites/diagnostics/frebanalysis/read,Get Web Apps Diagnostics FREB Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Failed Requests Per Uri,Get Web Apps Diagnostics Failed Requests Per Uri,microsoft.web/sites/diagnostics/failedrequestsperuri/read,Get Web Apps Diagnostics Failed Requests Per Uri.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Log Analyzer,Get Web Apps Diagnostics Log Analyzer,microsoft.web/sites/diagnostics/loganalyzer/read,Get Web Apps Diagnostics Log Analyzer.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Runtime Availability,Get Web Apps Diagnostics Runtime Availability,microsoft.web/sites/diagnostics/runtimeavailability/read,Get Web Apps Diagnostics Runtime Availability.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Service Health,Get Web Apps Diagnostics Service Health,microsoft.web/sites/diagnostics/servicehealth/read,Get Web Apps Diagnostics Service Health.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site CPU Analysis,Get Web Apps Diagnostics Site CPU Analysis,microsoft.web/sites/diagnostics/sitecpuanalysis/read,Get Web Apps Diagnostics Site CPU Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site Crashes,Get Web Apps Diagnostics Site Crashes,microsoft.web/sites/diagnostics/sitecrashes/read,Get Web Apps Diagnostics Site Crashes.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site Latency,Get Web Apps Diagnostics Site Latency,microsoft.web/sites/diagnostics/sitelatency/read,Get Web Apps Diagnostics Site Latency.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site Memory Analysis,Get Web Apps Diagnostics Site Memory Analysis,microsoft.web/sites/diagnostics/sitememoryanalysis/read,Get Web Apps Diagnostics Site Memory Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site Restart Setting Update,Get Web Apps Diagnostics Site Restart Setting Update,microsoft.web/sites/diagnostics/siterestartsettingupdate/read,Get Web Apps Diagnostics Site Restart Setting Update.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site Restart User Initiated,Get Web Apps Diagnostics Site Restart User Initiated,microsoft.web/sites/diagnostics/siterestartuserinitiated/read,Get Web Apps Diagnostics Site Restart User Initiated.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Site Swap,Get Web Apps Diagnostics Site Swap,microsoft.web/sites/diagnostics/siteswap/read,Get Web Apps Diagnostics Site Swap.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Thread Count,Get Web Apps Diagnostics Thread Count,microsoft.web/sites/diagnostics/threadcount/read,Get Web Apps Diagnostics Thread Count.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Worker Process Recycle,Get Web Apps Diagnostics Worker Process Recycle,microsoft.web/sites/diagnostics/workerprocessrecycle/read,Get Web Apps Diagnostics Worker Process Recycle.,"user,system",False
+Microsoft Web Apps,Web Apps Diagnostics Workeravailability,Get Web Apps Diagnostics Workeravailability,microsoft.web/sites/diagnostics/workeravailability/read,Get Web Apps Diagnostics Workeravailability.,"user,system",False
+Microsoft Web Apps,Web Apps Domain Ownership Identifiers,Delete Web Apps Domain Ownership Identifiers,microsoft.web/sites/domainownershipidentifiers/delete,Delete Web Apps Domain Ownership Identifiers.,"user,system",False
+Microsoft Web Apps,Web Apps Domain Ownership Identifiers,Get Web Apps Domain Ownership Identifiers,microsoft.web/sites/domainownershipidentifiers/read,Get Web Apps Domain Ownership Identifiers.,"user,system",False
+Microsoft Web Apps,Web Apps Domain Ownership Identifiers,Update Web Apps Domain Ownership Identifiers,microsoft.web/sites/domainownershipidentifiers/write,Update Web Apps Domain Ownership Identifiers.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Delete Web Apps Functions,microsoft.web/sites/functions/delete,Delete Web Apps Functions.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Delete Web Apps Functions Host Function Keys,microsoft.web/sites/host/functionkeys/delete,Delete Functions Host Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Delete Web Apps Functions Host System Keys,microsoft.web/sites/host/systemkeys/delete,Delete Functions Host System keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Delete Web Apps Functions Keys,microsoft.web/sites/functions/keys/delete,Delete Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Get Web Apps Functions,microsoft.web/sites/functions/read,Get Web Apps Functions.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,List Web Apps Functions Host Keys,microsoft.web/sites/host/listkeys/action,List Functions Host keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,List Web Apps Functions Keys,microsoft.web/sites/functions/listkeys/action,List Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,List Web Apps Functions Secrets,microsoft.web/sites/functions/listsecrets/action,List Function secrets.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Update Web Apps Functions,microsoft.web/sites/functions/write,Update Web Apps Functions.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Update Web Apps Functions Host Function Keys,microsoft.web/sites/host/functionkeys/write,Update Functions Host Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Update Web Apps Functions Host System Keys,microsoft.web/sites/host/systemkeys/write,Update Functions Host System keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions,Update Web Apps Functions Keys,microsoft.web/sites/functions/keys/write,Update Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Functions Masterkey,Get Web Apps Functions Masterkey,microsoft.web/sites/functions/masterkey/read,Get Web Apps Functions Masterkey.,"user,system",False
+Microsoft Web Apps,Web Apps Functions Token,Get Web Apps Functions Token,microsoft.web/sites/functions/token/read,Get Web Apps Functions Token.,"user,system",False
+Microsoft Web Apps,Web Apps Hostname Bindings,Delete Web Apps Hostname Bindings,microsoft.web/sites/hostnamebindings/delete,Delete Web Apps Hostname Bindings.,"user,system",False
+Microsoft Web Apps,Web Apps Hostname Bindings,Get Web Apps Hostname Bindings,microsoft.web/sites/hostnamebindings/read,Get Web Apps Hostname Bindings.,"user,system",False
+Microsoft Web Apps,Web Apps Hostname Bindings,Update Web Apps Hostname Bindings,microsoft.web/sites/hostnamebindings/write,Update Web Apps Hostname Bindings.,"user,system",False
+Microsoft Web Apps,Web Apps Hostruntime Functions Keys,Get Web Apps Hostruntime Functions Keys,microsoft.web/sites/hostruntime/functions/keys/read,Get Web Apps Hostruntime Functions Keys.,"user,system",False
+Microsoft Web Apps,Web Apps Hostruntime Host,Get Web Apps Hostruntime Host,microsoft.web/sites/hostruntime/host/read,Get Web Apps Hostruntime Host.,"user,system",False
+Microsoft Web Apps,Web Apps Hostruntime Workflows,Get Web Apps Hostruntime Workflow Trigger Uri,microsoft.web/sites/hostruntime/webhooks/api/workflows/triggers/listCallbackUrl/action,Get Web Apps Hostruntime Workflow Trigger Uri.,"user,system",False
+Microsoft Web Apps,Web Apps Hostruntime Workflows,List Web Apps Hostruntime Workflow Runs,microsoft.web/sites/hostruntime/webhooks/api/workflows/runs/read,List Web Apps Hostruntime Workflow Runs.,"user,system",False
+Microsoft Web Apps,Web Apps Hostruntime Workflows,List Web Apps Hostruntime Workflow Triggers,microsoft.web/sites/hostruntime/webhooks/api/workflows/triggers/read,List Web Apps Hostruntime Workflow Triggers.,"user,system",False
+Microsoft Web Apps,Web Apps Hostruntime Workflows,Run Web Apps Hostruntime Workflow Trigger,microsoft.web/sites/hostruntime/webhooks/api/workflows/triggers/run/action,Run Web Apps Hostruntime Workflow Trigger.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection,Delete Web Apps Hybrid Connection,microsoft.web/sites/hybridconnection/delete,Delete Web Apps Hybrid Connection.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection,Get Web Apps Hybrid Connection,microsoft.web/sites/hybridconnection/read,Get Web Apps Hybrid Connection.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection,Update Web Apps Hybrid Connection,microsoft.web/sites/hybridconnection/write,Update Web Apps Hybrid Connection.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection Namespaces Relays,Delete Web Apps Hybrid Connection Namespaces Relays,microsoft.web/sites/hybridconnectionnamespaces/relays/delete,Delete Web Apps Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection Namespaces Relays,Get Web Apps Hybrid Connection Namespaces Relays,microsoft.web/sites/hybridconnectionnamespaces/relays/read,Get Web Apps Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection Namespaces Relays,List Keys Web Apps Hybrid Connection Namespaces Relays,microsoft.web/sites/hybridconnectionnamespaces/relays/listkeys/action,List Keys Web Apps Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection Namespaces Relays,Update Web Apps Hybrid Connection Namespaces Relays,microsoft.web/sites/hybridconnectionnamespaces/relays/write,Update Web Apps Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Hybrid Connection Relays,Get Web Apps Hybrid Connection Relays,microsoft.web/sites/hybridconnectionrelays/read,Get Web Apps Hybrid Connection Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Instances,Get Web Apps Instances,microsoft.web/sites/instances/read,Get Web Apps Instances.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Deployments,Delete Web Apps Instances Deployments,microsoft.web/sites/instances/deployments/delete,Delete Web Apps Instances Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Deployments,Get Web Apps Instances Deployments,microsoft.web/sites/instances/deployments/read,Get Web Apps Instances Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Extensions,Get Web Apps Instances Extensions,microsoft.web/sites/instances/extensions/read,Get Web Apps Instances Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Extensions Log,Get Web Apps Instances Extensions Log,microsoft.web/sites/instances/extensions/log/read,Get Web Apps Instances Extensions Log.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Extensions Processes,Get Web Apps Instances Extensions Processes,microsoft.web/sites/instances/extensions/processes/read,Get Web Apps Instances Extensions Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Processes,Delete Web Apps Instances Processes,microsoft.web/sites/instances/processes/delete,Delete Web Apps Instances Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Processes,Get Web Apps Instances Processes,microsoft.web/sites/instances/processes/read,Get Web Apps Instances Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Processes,Stop Web Apps Instances Processes,microsoft.web/sites/instances/processes/stop/action,Stop Web Apps Instances Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Processes Modules,Get Web Apps Instances Processes Modules,microsoft.web/sites/instances/processes/modules/read,Get Web Apps Instances Processes Modules.,"user,system",False
+Microsoft Web Apps,Web Apps Instances Processes Threads,Get Web Apps Instances Processes Threads,microsoft.web/sites/instances/processes/threads/read,Get Web Apps Instances Processes Threads.,"user,system",False
+Microsoft Web Apps,Web Apps Metric Definitions,Get Web Apps Metric Definitions,microsoft.web/sites/metricdefinitions/read,Get Web Apps Metric Definitions.,"user,system",False
+Microsoft Web Apps,Web Apps Metrics,Get Web Apps Metrics,microsoft.web/sites/metrics/read,Get Web Apps Metrics.,"user,system",False
+Microsoft Web Apps,Web Apps Metrics Definitions,Get Web Apps Metrics Definitions,microsoft.web/sites/metricsdefinitions/read,Get Web Apps Metrics Definitions.,"user,system",False
+Microsoft Web Apps,Web Apps Migrate MySql,Get Web Apps Migrate MySql,microsoft.web/sites/migratemysql/read,Get Web Apps Migrate MySql.,"user,system",False
+Microsoft Web Apps,Web Apps Operation Results,Get Web Apps Network Trace Operation Results,microsoft.web/sites/networktraces/operationresults/read,Get Web Apps Network Trace Operation Results.,"user,system",False
+Microsoft Web Apps,Web Apps Operation Results,Get Web Apps Operation Results,microsoft.web/sites/operationresults/read,Get Web Apps Operation Results.,"user,system",False
+Microsoft Web Apps,Web Apps Operations,Get Web Apps Operations,microsoft.web/sites/operations/read,Get Web Apps Operations.,"user,system",False
+Microsoft Web Apps,Web Apps Performance Counters,Get Web Apps Performance Counters,microsoft.web/sites/perfcounters/read,Get Web Apps Performance Counters.,"user,system",False
+Microsoft Web Apps,Web Apps Premier Addons,Delete Web Apps Premier Addons,microsoft.web/sites/premieraddons/delete,Delete Web Apps Premier Addons.,"user,system",False
+Microsoft Web Apps,Web Apps Premier Addons,Get Web Apps Premier Addons,microsoft.web/sites/premieraddons/read,Get Web Apps Premier Addons.,"user,system",False
+Microsoft Web Apps,Web Apps Premier Addons,Update Web Apps Premier Addons,microsoft.web/sites/premieraddons/write,Update Web Apps Premier Addons.,"user,system",False
+Microsoft Web Apps,Web Apps Private Access,Get Web App Slots Private Access,microsoft.web/sites/slots/privateaccess/read,Get data around private site access enablement and authorized Virtual Networks that can access the site.,"user,system",False
+Microsoft Web Apps,Web Apps Private Access,Get Web Apps Private Access,microsoft.web/sites/privateaccess/read,Get data around private site access enablement and authorized Virtual Networks that can access the site.,"user,system",False
+Microsoft Web Apps,Web Apps Processes,Get Web Apps Processes,microsoft.web/sites/processes/read,Get Web Apps Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Processes Modules,Get Web Apps Processes Modules,microsoft.web/sites/processes/modules/read,Get Web Apps Processes Modules.,"user,system",False
+Microsoft Web Apps,Web Apps Processes Threads,Get Web Apps Processes Threads,microsoft.web/sites/processes/threads/read,Get Web Apps Processes Threads.,"user,system",False
+Microsoft Web Apps,Web Apps Public Certificates,Delete Web Apps Public Certificates,microsoft.web/sites/publiccertificates/delete,Delete Web Apps Public Certificates.,"user,system",False
+Microsoft Web Apps,Web Apps Public Certificates,Get Web Apps Public Certificates,microsoft.web/sites/publiccertificates/read,Get Web Apps Public Certificates.,"user,system",False
+Microsoft Web Apps,Web Apps Public Certificates,Update Web Apps Public Certificates,microsoft.web/sites/publiccertificates/write,Update Web Apps Public Certificates.,"user,system",False
+Microsoft Web Apps,Web Apps Publishing XML,Get Web Apps Publishing XML,microsoft.web/sites/publishxml/read,Get Web Apps Publishing XML.,"user,system",False
+Microsoft Web Apps,Web Apps Recommendation History,Get Web Apps Recommendation History,microsoft.web/sites/recommendationhistory/read,Get Web Apps Recommendation History.,"user,system",False
+Microsoft Web Apps,Web Apps Recommendations,Disable Web Apps Recommendations,microsoft.web/sites/recommendations/disable/action,Disable Web Apps Recommendations.,"user,system",False
+Microsoft Web Apps,Web Apps Resource Health Metadata,Get Web Apps Resource Health Metadata,microsoft.web/sites/resourcehealthmetadata/read,Get Web Apps Resource Health Metadata.,"user,system",False
+Microsoft Web Apps,Web Apps Restore,Get Web Apps Restore,microsoft.web/sites/restore/read,Get Web Apps Restore.,"user,system",False
+Microsoft Web Apps,Web Apps Site Extensions,Delete Web Apps Site Extensions,microsoft.web/sites/extensions/delete,Delete Web Apps Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Site Extensions,Delete Web Apps Site Extensions,microsoft.web/sites/siteextensions/delete,Delete Web Apps Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Site Extensions,Get Web Apps Site Extensions,microsoft.web/sites/extensions/read,Get Web Apps Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Site Extensions,Get Web Apps Site Extensions,microsoft.web/sites/siteextensions/read,Get Web Apps Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Site Extensions,Update Web Apps Site Extensions,microsoft.web/sites/extensions/write,Update Web Apps Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Site Extensions,Update Web Apps Site Extensions,microsoft.web/sites/siteextensions/write,Update Web Apps Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Slot Container Log,Get Zipped Container Logs for Web App Slot,microsoft.web/sites/slots/containerlogs/action,Get Zipped Container Logs for Web App Slot.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Discover Web Apps Slots Backups,microsoft.web/sites/slots/backups/action,Discover Web Apps Slots Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Network Trace Web Apps Slots,microsoft.web/sites/slots/networktrace/action,Network Trace Web Apps Slots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Newpassword Web Apps Slots,microsoft.web/sites/slots/newpassword/action,Newpassword Web Apps Slots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Recover Web Apps Slots,microsoft.web/sites/slots/recover/action,Recover Web Apps Slots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Restore Web App Slots From Deleted App,microsoft.web/sites/slots/restorefromdeletedapp/action,Restore Web App Slots From Deleted App.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Restore Web Apps Slot From Backup Blob,microsoft.web/sites/slots/restorefrombackupblob/action,Restore Web Apps Slot From Backup Blob.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Restore Web Apps Slots,microsoft.web/sites/slots/restore/write,Restore Web Apps Slots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Restore Web Apps Slots Snapshots,microsoft.web/sites/slots/restoresnapshot/action,Restore Web Apps Slots Snapshots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Sync Web Apps Function Triggers,microsoft.web/sites/slots/host/sync/action,Sync Function Triggers.,"user,system",False
+Microsoft Web Apps,Web Apps Slots,Sync Web Apps Slots,microsoft.web/sites/slots/sync/action,Sync Web Apps Slots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Analyze Custom Hostname,Get Web Apps Slots Analyze Custom Hostname,microsoft.web/sites/slots/analyzecustomhostname/read,Get Web Apps Slots Analyze Custom Hostname.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Backup,Get Web Apps Slots Backup,microsoft.web/sites/slots/backup/read,Get Web Apps Slots Backup.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Backup,Update Web Apps Slots Backup,microsoft.web/sites/slots/backup/write,Update Web Apps Slots Backup.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Backups,Delete Web Apps Slots Backups,microsoft.web/sites/slots/backups/delete,Delete Web Apps Slots Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Backups,List Web Apps Slots Backups,microsoft.web/sites/slots/backups/list/action,List Web Apps Slots Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Backups,Restore Web Apps Slots Backups,microsoft.web/sites/slots/backups/restore/action,Restore Web Apps Slots Backups.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Config,Delete Web Apps Slots Config,microsoft.web/sites/slots/config/delete,Delete Web Apps Slots Config.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Container Logs,Download Web Apps Slots Container Logs,microsoft.web/sites/slots/containerlogs/download/action,Download Web Apps Slots Container Logs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Continuous Web Jobs,Delete Web Apps Slots Continuous Web Jobs,microsoft.web/sites/slots/continuouswebjobs/delete,Delete Web Apps Slots Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Continuous Web Jobs,Get Web Apps Slots Continuous Web Jobs,microsoft.web/sites/slots/continuouswebjobs/read,Get Web Apps Slots Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Continuous Web Jobs,Start Web Apps Slots Continuous Web Jobs,microsoft.web/sites/slots/continuouswebjobs/start/action,Start Web Apps Slots Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Continuous Web Jobs,Stop Web Apps Slots Continuous Web Jobs,microsoft.web/sites/slots/continuouswebjobs/stop/action,Stop Web Apps Slots Continuous Web Jobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Deployments,Delete Web Apps Slots Deployments,microsoft.web/sites/slots/deployments/delete,Delete Web Apps Slots Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Deployments,Get Web Apps Slots Deployments,microsoft.web/sites/slots/deployments/read,Get Web Apps Slots Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Deployments,Update Web Apps Slots Deployments,microsoft.web/sites/slots/deployments/write,Update Web Apps Slots Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Deployments Log,Get Web Apps Slots Deployments Log,microsoft.web/sites/slots/deployments/log/read,Get Web Apps Slots Deployments Log.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Detectors,Get Web Apps Slots Detectors,microsoft.web/sites/slots/detectors/read,Get Web Apps Slots Detectors.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics,Get Web Apps Slots Diagnostics,microsoft.web/sites/slots/diagnostics/read,Get Web Apps Slots Diagnostics.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics ASP.NET Core,Get Web Apps Slots Diagnostics ASP.NET Core,microsoft.web/sites/slots/diagnostics/aspnetcore/read,Get Web Apps Slots Diagnostics for ASP.NET Core app.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Analysis,Get Web Apps Slots Diagnostics Analysis,microsoft.web/sites/slots/diagnostics/analyses/read,Get Web Apps Slots Diagnostics Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Analysis,Run Web Apps Slots Diagnostics Analysis,microsoft.web/sites/slots/diagnostics/analyses/execute/Action,Run Web Apps Slots Diagnostics Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Autoheal,Get Web Apps Slots Diagnostics Autoheal,microsoft.web/sites/slots/diagnostics/autoheal/read,Get Web Apps Slots Diagnostics Autoheal.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Deployment,Get Web Apps Slots Diagnostics Deployment,microsoft.web/sites/slots/diagnostics/deployment/read,Get Web Apps Slots Diagnostics Deployment.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Deployments,Get Web Apps Slots Diagnostics Deployments,microsoft.web/sites/slots/diagnostics/deployments/read,Get Web Apps Slots Diagnostics Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Detector,Get Web Apps Slots Diagnostics Detector,microsoft.web/sites/slots/diagnostics/detectors/read,Get Web Apps Slots Diagnostics Detector.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Detector,Run Web Apps Slots Diagnostics Detector,microsoft.web/sites/slots/diagnostics/detectors/execute/Action,Run Web Apps Slots Diagnostics Detector.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics FREB Analysis,Get Web Apps Slots Diagnostics FREB Analysis,microsoft.web/sites/slots/diagnostics/frebanalysis/read,Get Web Apps Slots Diagnostics FREB Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Log Analyzer,Get Web Apps Slots Diagnostics Log Analyzer,microsoft.web/sites/slots/diagnostics/loganalyzer/read,Get Web Apps Slots Diagnostics Log Analyzer.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Runtime Availability,Get Web Apps Slots Diagnostics Runtime Availability,microsoft.web/sites/slots/diagnostics/runtimeavailability/read,Get Web Apps Slots Diagnostics Runtime Availability.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Service Health,Get Web Apps Slots Diagnostics Service Health,microsoft.web/sites/slots/diagnostics/servicehealth/read,Get Web Apps Slots Diagnostics Service Health.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site CPU Analysis,Get Web Apps Slots Diagnostics Site CPU Analysis,microsoft.web/sites/slots/diagnostics/sitecpuanalysis/read,Get Web Apps Slots Diagnostics Site CPU Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site Crashes,Get Web Apps Slots Diagnostics Site Crashes,microsoft.web/sites/slots/diagnostics/sitecrashes/read,Get Web Apps Slots Diagnostics Site Crashes.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site Latency,Get Web Apps Slots Diagnostics Site Latency,microsoft.web/sites/slots/diagnostics/sitelatency/read,Get Web Apps Slots Diagnostics Site Latency.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site Memory Analysis,Get Web Apps Slots Diagnostics Site Memory Analysis,microsoft.web/sites/slots/diagnostics/sitememoryanalysis/read,Get Web Apps Slots Diagnostics Site Memory Analysis.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site Restart Setting Update,Get Web Apps Slots Diagnostics Site Restart Setting Update,microsoft.web/sites/slots/diagnostics/siterestartsettingupdate/read,Get Web Apps Slots Diagnostics Site Restart Setting Update.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site Restart User Initiated,Get Web Apps Slots Diagnostics Site Restart User Initiated,microsoft.web/sites/slots/diagnostics/siterestartuserinitiated/read,Get Web Apps Slots Diagnostics Site Restart User Initiated.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Site Swap,Get Web Apps Slots Diagnostics Site Swap,microsoft.web/sites/slots/diagnostics/siteswap/read,Get Web Apps Slots Diagnostics Site Swap.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Thread Count,Get Web Apps Slots Diagnostics Thread Count,microsoft.web/sites/slots/diagnostics/threadcount/read,Get Web Apps Slots Diagnostics Thread Count.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Worker Process Recycle,Get Web Apps Slots Diagnostics Worker Process Recycle,microsoft.web/sites/slots/diagnostics/workerprocessrecycle/read,Get Web Apps Slots Diagnostics Worker Process Recycle.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Diagnostics Workeravailability,Get Web Apps Slots Diagnostics Workeravailability,microsoft.web/sites/slots/diagnostics/workeravailability/read,Get Web Apps Slots Diagnostics Workeravailability.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Extensions,Get Web Apps Slots Extensions,microsoft.web/sites/slots/extensions/read,Get Web Apps Slots Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Extensions,Update Web Apps Slots Extensions,microsoft.web/sites/slots/extensions/write,Update Web Apps Slots Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Delete Web Apps Functions Host Function Keys,microsoft.web/sites/slots/host/functionkeys/delete,Delete Functions Host Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Delete Web Apps Functions Host System Keys,microsoft.web/sites/slots/host/systemkeys/delete,Delete Functions Host System keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Delete Web Apps Functions Keys,microsoft.web/sites/slots/functions/keys/delete,Delete Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Get Web Apps Slots Functions,microsoft.web/sites/slots/functions/read,Get Web Apps Slots Functions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,List Secrets Web Apps Slots Functions,microsoft.web/sites/slots/functions/listsecrets/action,List Secrets Web Apps Slots Functions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,List Web Apps Functions Host Keys,microsoft.web/sites/slots/host/listkeys/action,List Functions Host keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,List Web Apps Functions Keys,microsoft.web/sites/slots/functions/listkeys/action,List Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Update Web Apps Functions Host Function Keys,microsoft.web/sites/slots/host/functionkeys/write,Update Functions Host Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Update Web Apps Functions Host System Keys,microsoft.web/sites/slots/host/systemkeys/write,Update Functions Host System keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Functions,Update Web Apps Functions Keys,microsoft.web/sites/slots/functions/keys/write,Update Function keys.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hostname Bindings,Delete Web Apps Slots Hostname Bindings,microsoft.web/sites/slots/hostnamebindings/delete,Delete Web Apps Slots Hostname Bindings.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hostname Bindings,Get Web Apps Slots Hostname Bindings,microsoft.web/sites/slots/hostnamebindings/read,Get Web Apps Slots Hostname Bindings.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hostname Bindings,Update Web Apps Slots Hostname Bindings,microsoft.web/sites/slots/hostnamebindings/write,Update Web Apps Slots Hostname Bindings.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hybrid Connection,Delete Web Apps Slots Hybrid Connection,microsoft.web/sites/slots/hybridconnection/delete,Delete Web Apps Slots Hybrid Connection.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hybrid Connection,Get Web Apps Slots Hybrid Connection,microsoft.web/sites/slots/hybridconnection/read,Get Web Apps Slots Hybrid Connection.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hybrid Connection,Update Web Apps Slots Hybrid Connection,microsoft.web/sites/slots/hybridconnection/write,Update Web Apps Slots Hybrid Connection.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hybrid Connection Namespaces Relays,Delete Web Apps Slots Hybrid Connection Namespaces Relays,microsoft.web/sites/slots/hybridconnectionnamespaces/relays/delete,Delete Web Apps Slots Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hybrid Connection Namespaces Relays,Update Web Apps Slots Hybrid Connection Namespaces Relays,microsoft.web/sites/slots/hybridconnectionnamespaces/relays/write,Update Web Apps Slots Hybrid Connection Namespaces Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Hybrid Connection Relays,Get Web Apps Slots Hybrid Connection Relays,microsoft.web/sites/slots/hybridconnectionrelays/read,Get Web Apps Slots Hybrid Connection Relays.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Instances,Get Web Apps Slots Instances,microsoft.web/sites/slots/instances/read,Get Web Apps Slots Instances.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Instances Deployments,Get Web Apps Slots Instances Deployments,microsoft.web/sites/slots/instances/deployments/read,Get Web Apps Slots Instances Deployments.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Instances Processes,Delete Web Apps Slots Instances Processes,microsoft.web/sites/slots/instances/processes/delete,Delete Web Apps Slots Instances Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Instances Processes,Get Web Apps Slots Instances Processes,microsoft.web/sites/slots/instances/processes/read,Get Web Apps Slots Instances Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Instances Processes,Stop Web Apps Slots Instances Processes,microsoft.web/sites/slots/instances/processes/stop/action,Stop Web Apps Slots Instances Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Metric Definitions,Get Web Apps Slots Metric Definitions,microsoft.web/sites/slots/metricdefinitions/read,Get Web Apps Slots Metric Definitions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Metrics,Get Web Apps Slots Metrics,microsoft.web/sites/slots/metrics/read,Get Web Apps Slots Metrics.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Migrate MySql,Get Web Apps Slots Migrate MySql,microsoft.web/sites/slots/migratemysql/read,Get Web Apps Slots Migrate MySql.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Operation Results,Get Web Apps Slots Network Trace Operation Results,microsoft.web/sites/slots/networktraces/operationresults/read,Get Web Apps Slots Network Trace Operation Results.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Operation Results,Get Web Apps Slots Operation Results,microsoft.web/sites/slots/operationresults/read,Get Web Apps Slots Operation Results.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Operations,Get Web Apps Slots Operations,microsoft.web/sites/slots/operations/read,Get Web Apps Slots Operations.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Performance Counters,Get Web Apps Slots Performance Counters,microsoft.web/sites/slots/perfcounters/read,Get Web Apps Slots Performance Counters.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Phplogging,Get Web Apps Slots Phplogging,microsoft.web/sites/slots/phplogging/read,Get Web Apps Slots Phplogging.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Premier Addons,Delete Web Apps Slots Premier Addons,microsoft.web/sites/slots/premieraddons/delete,Delete Web Apps Slots Premier Addons.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Premier Addons,Get Web Apps Slots Premier Addons,microsoft.web/sites/slots/premieraddons/read,Get Web Apps Slots Premier Addons.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Premier Addons,Update Web Apps Slots Premier Addons,microsoft.web/sites/slots/premieraddons/write,Update Web Apps Slots Premier Addons.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Processes,Get Web Apps Slots Processes,microsoft.web/sites/slots/processes/read,Get Web Apps Slots Processes.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Public Certificates,Delete Web Apps Slots Public Certificates,microsoft.web/sites/slots/publiccertificates/delete,Delete Web Apps Slots Public Certificates.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Public Certificates,Get Web Apps Slots Public Certificates,microsoft.web/sites/slots/publiccertificates/read,Get Web Apps Slots Public Certificates.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Public Certificates,Write Web Apps Slots Public Certificates,microsoft.web/sites/slots/publiccertificates/write,Create or Update Web Apps Slots Public Certificates.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Resource Health Metadata,Get Web Apps Slots Resource Health Metadata,microsoft.web/sites/slots/resourcehealthmetadata/read,Get Web Apps Slots Resource Health Metadata.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Restore,Get Web Apps Slots Restore,microsoft.web/sites/slots/restore/read,Get Web Apps Slots Restore.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Site Extensions,Delete Web Apps Slots Site Extensions,microsoft.web/sites/slots/siteextensions/delete,Delete Web Apps Slots Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Site Extensions,Get Web Apps Slots Site Extensions,microsoft.web/sites/slots/siteextensions/read,Get Web Apps Slots Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Site Extensions,Update Web Apps Slots Site Extensions,microsoft.web/sites/slots/siteextensions/write,Update Web Apps Slots Site Extensions.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Snapshots,Get Web Apps Slots Snapshots,microsoft.web/sites/slots/snapshots/read,Get Web Apps Slots Snapshots.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Triggered WebJobs,Delete Web Apps Slots Triggered WebJobs,microsoft.web/sites/slots/triggeredwebjobs/delete,Delete Web Apps Slots Triggered WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Triggered WebJobs,Get Web Apps Slots Triggered WebJobs,microsoft.web/sites/slots/triggeredwebjobs/read,Get Web Apps Slots Triggered WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Triggered WebJobs,Run Web Apps Slots Triggered WebJobs,microsoft.web/sites/slots/triggeredwebjobs/run/action,Run Web Apps Slots Triggered WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Usages,Get Web Apps Slots Usages,microsoft.web/sites/slots/usages/read,Get Web Apps Slots Usages.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Virtual Network Connections,Delete Web Apps Slots Virtual Network Connections,microsoft.web/sites/slots/virtualnetworkconnections/delete,Delete Web Apps Slots Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Virtual Network Connections,Get Web Apps Slots Virtual Network Connections,microsoft.web/sites/slots/virtualnetworkconnections/read,Get Web Apps Slots Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Virtual Network Connections,Update Web Apps Slots Virtual Network Connections,microsoft.web/sites/slots/virtualnetworkconnections/write,Update Web Apps Slots Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,Web Apps Slots Virtual Network Connections Gateways,Update Web Apps Slots Virtual Network Connections Gateways,microsoft.web/sites/slots/virtualnetworkconnections/gateways/write,Update Web Apps Slots Virtual Network Connections Gateways.,"user,system",False
+Microsoft Web Apps,Web Apps Slots WebJobs,Get Web Apps Slots WebJobs,microsoft.web/sites/slots/webjobs/read,Get Web Apps Slots WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Snapshots,Get Web Apps Snapshots,microsoft.web/sites/snapshots/read,Get Web Apps Snapshots.,"user,system",False
+Microsoft Web Apps,Web Apps Triggered WebJobs,Delete Web Apps Triggered WebJobs,microsoft.web/sites/triggeredwebjobs/delete,Delete Web Apps Triggered WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Triggered WebJobs,Get Web Apps Triggered WebJobs,microsoft.web/sites/triggeredwebjobs/read,Get Web Apps Triggered WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Triggered WebJobs,Run Web Apps Triggered WebJobs,microsoft.web/sites/triggeredwebjobs/run/action,Run Web Apps Triggered WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Triggered WebJobs History,Get Web Apps Triggered WebJobs History,microsoft.web/sites/triggeredwebjobs/history/read,Get Web Apps Triggered WebJobs History.,"user,system",False
+Microsoft Web Apps,Web Apps Usages,Get Web Apps Usages,microsoft.web/sites/usages/read,Get Web Apps Usages.,"user,system",False
+Microsoft Web Apps,Web Apps Virtual Network Connections,Delete Web Apps Virtual Network Connections,microsoft.web/sites/virtualnetworkconnections/delete,Delete Web Apps Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,Web Apps Virtual Network Connections,Get Web Apps Virtual Network Connections,microsoft.web/sites/virtualnetworkconnections/read,Get Web Apps Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,Web Apps Virtual Network Connections,Update Web Apps Virtual Network Connections,microsoft.web/sites/virtualnetworkconnections/write,Update Web Apps Virtual Network Connections.,"user,system",False
+Microsoft Web Apps,Web Apps Virtual Network Connections Gateways,Get Web Apps Virtual Network Connections Gateways,microsoft.web/sites/virtualnetworkconnections/gateways/read,Get Web Apps Virtual Network Connections Gateways.,"user,system",False
+Microsoft Web Apps,Web Apps Virtual Network Connections Gateways,Update Web Apps Virtual Network Connections Gateways,microsoft.web/sites/virtualnetworkconnections/gateways/write,Update Web Apps Virtual Network Connections Gateways.,"user,system",False
+Microsoft Web Apps,Web Apps WebJobs,Get Web Apps WebJobs,microsoft.web/sites/webjobs/read,Get Web Apps WebJobs.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,Create the artifacts in a Logic App,microsoft.web/sites/deployWorkflowArtifacts/action,Create the artifacts in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,Create the artifacts in a deployment slot in a Logic App,microsoft.web/sites/slots/deployWorkflowArtifacts/action,Create the artifacts in a deployment slot in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,Get logic app's configuration information by its ID in a Logic App,microsoft.web/sites/workflowsconfiguration/read,Get logic app's configuration information by its ID in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,Get logic app's configuration information by its ID in a deployment slot in a Logic App,microsoft.web/sites/slots/workflowsconfiguration/read,Get logic app's configuration information by its ID in a deployment slot in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,List logic app's connections by its ID in a Logic App,microsoft.web/sites/listworkflowsconnections/action,List logic app's connections by its ID in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,List logic app's connections by its ID in a deployment slot in a Logic App,microsoft.web/sites/slots/listworkflowsconnections/action,List logic app's connections by its ID in a deployment slot in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,List the workflows in a Logic App,microsoft.web/sites/workflows/read,List the workflows in a Logic App.,"user,system",False
+Microsoft Web Apps,Web Apps Workflows,List the workflows in a deployment slot in a Logic App,microsoft.web/sites/slots/workflows/read,List the workflows in a deployment slot in a Logic App.,"user,system",False
+Microsoft Web Apps,Worker App,Create or Update Worker App,Microsoft.Web/workerApps/write,Create a Worker App or update an existing one,"user, system",False
+Microsoft Web Apps,Worker App,Delete Worker App,Microsoft.Web/workerApps/delete,Delete a Worker App,"user, system",False
+Microsoft Web Apps,Worker App,Get Worker App,Microsoft.Web/workerApps/read,Get the properties for a Worker App,"user, system",False
+Microsoft Web Apps,Worker App,Get Worker App Operation,Microsoft.Web/workerApps/operationResults/read,Get the results of a Worker App operation,"user, system",False
+Microsoft Web Apps,custom hostnames,Get custom hostnames under subscription,Microsoft.Web/customhostnameSites/Read ,Get info about custom hostnames under subscription.,"user,system",False

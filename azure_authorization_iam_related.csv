@@ -1,0 +1,78 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Authorization,Acquire policy token,Acquire policy token operation,Microsoft.Authorization/acquirePolicyToken/read,Acquire a policy token at the specified scope.,,False
+Microsoft Authorization,Classic subscription administrator,Delete administrator,Microsoft.Authorization/classicAdministrators/delete,Removes the administrator from the subscription.,,False
+Microsoft Authorization,Classic subscription administrator,Get administrator,Microsoft.Authorization/classicAdministrators/read,Reads the administrators for the subscription.,,False
+Microsoft Authorization,Classic subscription administrator,Set administrator,Microsoft.Authorization/classicAdministrators/write,Add or modify administrator to a subscription.,,False
+Microsoft Authorization,Classic subscription administrator operation statuses,Get administrator operation statuses,Microsoft.Authorization/classicAdministrators/operationstatuses/read,Gets the administrator opreation statuses of the subscription.,,False
+Microsoft Authorization,Deny assignment,Create deny assignment,Microsoft.Authorization/denyAssignments/write,Create a deny assignment at the specified scope.,,False
+Microsoft Authorization,Deny assignment,Delete deny assignment,Microsoft.Authorization/denyAssignments/delete,Delete a deny assignment at the specified scope.,,False
+Microsoft Authorization,Deny assignment,Get deny assignment,Microsoft.Authorization/denyAssignments/read,Get information about a deny assignment.,,False
+Microsoft Authorization,Diagnostic settings categories,Read the information about diagnostic settings categories,Microsoft.Authorization/diagnosticSettingsCategories/read,Get the information about diagnostic settings categories,,False
+Microsoft Authorization,Diagnostics settings,Delete a diagnostics setting,Microsoft.Authorization/diagnosticSettings/delete,Delete diagnostics settings,,False
+Microsoft Authorization,Diagnostics settings,Get information about diagnostics settings,Microsoft.Authorization/diagnosticSettings/read,Read the information about diagnostics settings,,False
+Microsoft Authorization,Diagnostics settings,Write to diagnostics settings,Microsoft.Authorization/diagnosticSettings/write,Create or update the information of diagnostics settings,,False
+Microsoft Authorization,Get Role eligibility schedule instance,Get Role eligibility schedule instance,Microsoft.Authorization/roleEligibilityScheduleInstances/read,Gets the role eligibility schedule instances at given scope.,,False
+Microsoft Authorization,Management lock,Add management locks,Microsoft.Authorization/locks/write,Add locks at the specified scope.,,False
+Microsoft Authorization,Management lock,Delete management locks,Microsoft.Authorization/locks/delete,Delete locks at the specified scope.,,False
+Microsoft Authorization,Management lock,Get management locks,Microsoft.Authorization/locks/read,Gets locks at the specified scope.,,False
+Microsoft Authorization,Microsoft Authorization,Assigns the caller to User Access Administrator role,Microsoft.Authorization/elevateAccess/action,Grants the caller User Access Administrator access at the tenant scope,,False
+Microsoft Authorization,Operations,Get operations,Microsoft.Authorization/operations/read,Gets the list of operations,,False
+Microsoft Authorization,Permission,List permissions,Microsoft.Authorization/permissions/read,Lists all the permissions the caller has at a given scope.,,False
+Microsoft Authorization,Policy assignment,Create policy assignment,Microsoft.Authorization/policyAssignments/write,Create a policy assignment at the specified scope.,,False
+Microsoft Authorization,Policy assignment,Delete policy assignment,Microsoft.Authorization/policyAssignments/delete,Delete a policy assignment at the specified scope.,,False
+Microsoft Authorization,Policy assignment,Exempt policy assignment,Microsoft.Authorization/policyAssignments/exempt/action,Exempt a policy assignment at the specified scope.,,False
+Microsoft Authorization,Policy assignment,Get policy assignment,Microsoft.Authorization/policyAssignments/read,Get information about a policy assignment.,,False
+Microsoft Authorization,Policy definition,Create policy definition,Microsoft.Authorization/policyDefinitions/write,Create a custom policy definition.,,False
+Microsoft Authorization,Policy definition,Delete policy definition,Microsoft.Authorization/policyDefinitions/delete,Delete a policy definition.,,False
+Microsoft Authorization,Policy definition,Get policy definition,Microsoft.Authorization/policyDefinitions/read,Get information about a policy definition.,,False
+Microsoft Authorization,Policy definition version,Create policy definition version,Microsoft.Authorization/policyDefinitions/versions/write,Create a custom policy definition version.,,False
+Microsoft Authorization,Policy definition version,Delete policy definition version,Microsoft.Authorization/policyDefinitions/versions/delete,Delete a policy definition version.,,False
+Microsoft Authorization,Policy definition version,Get policy definition version,Microsoft.Authorization/policyDefinitions/versions/read,Get information about a policy definition version.,,False
+Microsoft Authorization,Policy enrollment,Create policy enrollment,Microsoft.Authorization/policyEnrollments/write,Create a policy enrollment at the specified scope.,,False
+Microsoft Authorization,Policy enrollment,Delete policy enrollment,Microsoft.Authorization/policyEnrollments/delete,Delete a policy enrollment at the specified scope.,,False
+Microsoft Authorization,Policy enrollment,Get policy enrollment,Microsoft.Authorization/policyEnrollments/read,Get information about a policy enrollment.,,False
+Microsoft Authorization,Policy evaluation,audit' Policy action.,Microsoft.Authorization/policies/audit/action,Action taken as a result of evaluation of Azure Policy with 'audit' effect,System,False
+Microsoft Authorization,Policy evaluation,auditIfNotExists' Policy action.,Microsoft.Authorization/policies/auditIfNotExists/action,Action taken as a result of evaluation of Azure Policy with 'auditIfNotExists' effect,System,False
+Microsoft Authorization,Policy evaluation,deny' Policy action.,Microsoft.Authorization/policies/deny/action,Action taken as a result of evaluation of Azure Policy with 'deny' effect,System,False
+Microsoft Authorization,Policy evaluation,deployIfNotExists' Policy action.,Microsoft.Authorization/policies/deployIfNotExists/action,Action taken as a result of evaluation of Azure Policy with 'deployIfNotExists' effect,System,False
+Microsoft Authorization,Policy exemption,Create policy exemption,Microsoft.Authorization/policyExemptions/write,Create a policy exemption at the specified scope.,,False
+Microsoft Authorization,Policy exemption,Delete policy exemption,Microsoft.Authorization/policyExemptions/delete,Delete a policy exemption at the specified scope.,,False
+Microsoft Authorization,Policy exemption,Get policy exemption,Microsoft.Authorization/policyExemptions/read,Get information about a policy exemption.,,False
+Microsoft Authorization,Policy set definition,Create policy set definition,Microsoft.Authorization/policySetDefinitions/write,Create a custom policy set definition.,,False
+Microsoft Authorization,Policy set definition,Delete policy set definition,Microsoft.Authorization/policySetDefinitions/delete,Delete a policy set definition.,,False
+Microsoft Authorization,Policy set definition,Get policy set definition,Microsoft.Authorization/policySetDefinitions/read,Get information about a policy set definition.,,False
+Microsoft Authorization,Policy set definition version,Create policy set definition version,Microsoft.Authorization/policySetDefinitions/versions/write,Create a custom policy set definition version.,,False
+Microsoft Authorization,Policy set definition version,Delete policy set definition version,Microsoft.Authorization/policySetDefinitions/versions/delete,Delete a policy set definition version.,,False
+Microsoft Authorization,Policy set definition version,Get policy set definition version,Microsoft.Authorization/policySetDefinitions/versions/read,Get information about a policy set definition version.,,False
+Microsoft Authorization,Private Endpoint Connection,Delete a Private Endpoint Connection,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnections/delete,Deletes a private endpoint connection.,,False
+Microsoft Authorization,Private Endpoint Connection,Get Private Endpoint Connection,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnections/read,Get information about private endpoint connection.,,False
+Microsoft Authorization,Private Endpoint Connection,Write a Private Endpoint Connection,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnections/write,Creates or updates a private endpoint connection.,,False
+Microsoft Authorization,Private Endpoint Connection Proxy,Delete a Private Endpoint Connection Proxy,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnectionProxies/delete,Deletes a private endpoint connection proxy.,,False
+Microsoft Authorization,Private Endpoint Connection Proxy,Get Private Endpoint Connection Proxy,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnectionProxies/read,Get information about private endpoint connection proxy.,,False
+Microsoft Authorization,Private Endpoint Connection Proxy,Validate a Private Endpoint Connection Proxy,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnectionProxies/validate/action,Validates a private endpoint connection proxy.,,False
+Microsoft Authorization,Private Endpoint Connection Proxy,Write a Private Endpoint Connection Proxy,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/privateEndpointConnectionProxies/write,Creates or updates a private endpoint connection proxy.,,False
+Microsoft Authorization,Private Link Association,Delete a Private Link Association,Microsoft.Authorization/policyAssignments/privateLinkAssociations/delete,Deletes a private link association.,,False
+Microsoft Authorization,Private Link Association,Get Private Link Association,Microsoft.Authorization/policyAssignments/privateLinkAssociations/read,Get information about private link association.,,False
+Microsoft Authorization,Private Link Association,Write a Private Link Association,Microsoft.Authorization/policyAssignments/privateLinkAssociations/write,Creates or updates a private link association.,,False
+Microsoft Authorization,Provider operations,Get operations for resource providers,Microsoft.Authorization/providerOperations/read,Get operations for all resource providers which can be used in role definitions.,,False
+Microsoft Authorization,Resource Management Private Link,Delete a Resource Management Private Link,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/delete,Deletes a resource management private link.,,False
+Microsoft Authorization,Resource Management Private Link,Get Resource Management Private Link,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/read,Get information about resource management private link.,,False
+Microsoft Authorization,Resource Management Private Link,Write a Resource Management Private Link,Microsoft.Authorization/policyAssignments/resourceManagementPrivateLinks/write,Creates or updates a resource management private link.,,False
+Microsoft Authorization,Role assignment,Create role assignment,Microsoft.Authorization/roleAssignments/write,Create a role assignment at the specified scope.,,False
+Microsoft Authorization,Role assignment,Delete role assignment,Microsoft.Authorization/roleAssignments/delete,Delete a role assignment at the specified scope.,,False
+Microsoft Authorization,Role assignment,Get role assignment,Microsoft.Authorization/roleAssignments/read,Get information about a role assignment.,,False
+Microsoft Authorization,Role assignment schedule,Get Role assignment schedule,Microsoft.Authorization/roleAssignmentSchedules/read,Gets the role assignment schedules at given scope.,,False
+Microsoft Authorization,Role assignment schedule instance,Get Role assignment schedule instance,Microsoft.Authorization/roleAssignmentScheduleInstances/read,Gets the role assignment schedule instances at given scope.,,False
+Microsoft Authorization,Role assignment schedule request,Cancel Role assignment schedule request,Microsoft.Authorization/roleAssignmentScheduleRequests/cancel/action,Cancels a pending role assignment schedule request.,,False
+Microsoft Authorization,Role assignment schedule request,Get Role assignment schedule request,Microsoft.Authorization/roleAssignmentScheduleRequests/read,Gets the role assignment schedule requests at given scope.,,False
+Microsoft Authorization,Role assignment schedule request,Write Role assignment schedule request,Microsoft.Authorization/roleAssignmentScheduleRequests/write,Creates a role assignment schedule request at given scope.,,False
+Microsoft Authorization,Role definition,Create or update custom role definition,Microsoft.Authorization/roleDefinitions/write,Create or update a custom role definition with specified permissions and assignable scopes.,,False
+Microsoft Authorization,Role definition,Delete custom role definition,Microsoft.Authorization/roleDefinitions/delete,Delete the specified custom role definition.,,False
+Microsoft Authorization,Role definition,Get role definition,Microsoft.Authorization/roleDefinitions/read,Get information about a role definition.,,False
+Microsoft Authorization,Role eligibility schedule,Get Role eligibility schedule,Microsoft.Authorization/roleEligibilitySchedules/read,Gets the role eligibility schedules at given scope.,,False
+Microsoft Authorization,Role eligibility schedule request,Cancel Role eligibility schedule request,Microsoft.Authorization/roleEligibilityScheduleRequests/cancel/action,Cancels a pending role eligibility schedule request.,,False
+Microsoft Authorization,Role eligibility schedule request,Get Role eligibility schedule request,Microsoft.Authorization/roleEligibilityScheduleRequests/read,Gets the role eligibility schedule requests at given scope.,,False
+Microsoft Authorization,Role eligibility schedule request,Write Role eligibility schedule request,Microsoft.Authorization/roleEligibilityScheduleRequests/write,Creates a role eligibility schedule request at given scope.,,False
+Microsoft Authorization,Role management policy,Get Role management policy,Microsoft.Authorization/roleManagementPolicies/read,Get Role management policies,,False
+Microsoft Authorization,Role management policy,Write Role management policy,Microsoft.Authorization/roleManagementPolicies/write,Update a role management policy,,False
+Microsoft Authorization,Role management policy assignment,Get Role management policy assignment,Microsoft.Authorization/roleManagementPolicyAssignments/read,Get role management policy assignments,,False

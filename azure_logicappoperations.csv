@@ -1,0 +1,125 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Logic,Access Key,Delete Access Key,Microsoft.Logic/workflows/accessKeys/delete,Deletes the access key.,,False
+Microsoft Logic,Access Key,Get Access Key,Microsoft.Logic/workflows/accessKeys/read,Reads the access key.,,False
+Microsoft Logic,Access Key,List Access Key,Microsoft.Logic/workflows/accessKeys/list/action,Lists the access key secrets.,,False
+Microsoft Logic,Access Key,Regenerate Access Key,Microsoft.Logic/workflows/accessKeys/regenerate/action,Regenerates the access key secrets.,,False
+Microsoft Logic,Access Key,Regenerate Access Key,Microsoft.Logic/workflows/regenerateAccessKey/action,Regenerates the access key secrets.,,False
+Microsoft Logic,Access Key,Set Access Key,Microsoft.Logic/workflows/accessKeys/write,Creates or updates the access key.,,False
+Microsoft Logic,BusinessProcess,Delete business process.,Microsoft.Logic/businessprocesses/delete,Deletes the business process.,,False
+Microsoft Logic,BusinessProcess,Get business process development artifact.,Microsoft.Logic/businessprocesses/developmentartifacts/read,Reads the business process development artifact.,,False
+Microsoft Logic,BusinessProcess,Get business process version.,Microsoft.Logic/businessprocesses/versions/read,Reads the business process version.,,False
+Microsoft Logic,BusinessProcess,Get business process.,Microsoft.Logic/businessprocesses/read,Reads the business process.,,False
+Microsoft Logic,BusinessProcess,Validate business process development artifact.,Microsoft.Logic/businessprocesses/developmentartifacts/validate/action,Validates the business process development artifact.,,False
+Microsoft Logic,BusinessProcess,Write business process development artifact.,Microsoft.Logic/businessprocesses/developmentartifacts/write,Writes the business process development artifact.,,False
+Microsoft Logic,BusinessProcess,Write business process.,Microsoft.Logic/businessprocesses/write,Writes the business process.,,False
+Microsoft Logic,FlowOrganizationTemplate,Delete flow organization template.,Microsoft.Logic/templates/delete,Deletes the flow organization template.,,False
+Microsoft Logic,FlowOrganizationTemplate,Get flow organization template.,Microsoft.Logic/templates/read,Reads the flow organization template.,,False
+Microsoft Logic,FlowOrganizationTemplate,Write flow organization template.,Microsoft.Logic/templates/write,Writes the flow organization template.,,False
+Microsoft Logic,Integration Account,Delete Integration Account,Microsoft.Logic/integrationAccounts/delete,Deletes the integration account.,,False
+Microsoft Logic,Integration Account,Get Integration Account,Microsoft.Logic/integrationAccounts/read,Reads the integration account.,,False
+Microsoft Logic,Integration Account,Join Integration Account,Microsoft.Logic/integrationAccounts/join/action,Joins the Integration Account.,,False
+Microsoft Logic,Integration Account,List Integration Account Callback URL,Microsoft.Logic/integrationAccounts/listCallbackUrl/action,Gets the callback URL for integration account.,,False
+Microsoft Logic,Integration Account,List Key Vault Keys,Microsoft.Logic/integrationAccounts/listKeyVaultKeys/action,Gets the keys in the key vault.,,False
+Microsoft Logic,Integration Account,Log Integration Account Tracking Events,Microsoft.Logic/integrationAccounts/logTrackingEvents/action,Logs the tracking events in the integration account.,,False
+Microsoft Logic,Integration Account,Regenerate Access Key,Microsoft.Logic/integrationAccounts/regenerateAccessKey/action,Regenerates the access key secrets.,,False
+Microsoft Logic,Integration Account,Set Integration Account,Microsoft.Logic/integrationAccounts/write,Creates or updates the integration account.,,False
+Microsoft Logic,Integration Account Agreement,Delete Integration Account Agreement,Microsoft.Logic/integrationAccounts/agreements/delete,Deletes the agreement in integration account.,,False
+Microsoft Logic,Integration Account Agreement,Get Integration Account Agreement,Microsoft.Logic/integrationAccounts/agreements/read,Reads the agreement in integration account.,,False
+Microsoft Logic,Integration Account Agreement,List Integration Account Agreement Content Callback URL,Microsoft.Logic/integrationAccounts/agreements/listContentCallbackUrl/action,Gets the callback URL for agreement content in integration account.,,False
+Microsoft Logic,Integration Account Agreement,Set Integration Account Agreement,Microsoft.Logic/integrationAccounts/agreements/write,Creates or updates the agreement in integration account.,,False
+Microsoft Logic,Integration Account Assembly,Delete Integration Account Assembly,Microsoft.Logic/integrationAccounts/assemblies/delete,Deletes the assembly in integration account.,,False
+Microsoft Logic,Integration Account Assembly,Get Integration Account Assembly,Microsoft.Logic/integrationAccounts/assemblies/read,Reads the assembly in integration account.,,False
+Microsoft Logic,Integration Account Assembly,List Integration Account Assembly Content Callback URL,Microsoft.Logic/integrationAccounts/assemblies/listContentCallbackUrl/action,Gets the callback URL for assembly content in integration account.,,False
+Microsoft Logic,Integration Account Assembly,Set Integration Account Assembly,Microsoft.Logic/integrationAccounts/assemblies/write,Creates or updates the assembly in integration account.,,False
+Microsoft Logic,Integration Account Batch Configuration,Delete Integration Account Batch Configuration,Microsoft.Logic/integrationAccounts/batchConfigurations/delete,Deletes the batch configuration in integration account.,,False
+Microsoft Logic,Integration Account Batch Configuration,Get Integration Account Batch Configuration,Microsoft.Logic/integrationAccounts/batchConfigurations/read,Reads the batch configuration in integration account.,,False
+Microsoft Logic,Integration Account Batch Configuration,Set Integration Account Batch Configuration,Microsoft.Logic/integrationAccounts/batchConfigurations/write,Creates or updates the batch configuration in integration account.,,False
+Microsoft Logic,Integration Account Certificate,Delete Integration Account Certificate,Microsoft.Logic/integrationAccounts/certificates/delete,Deletes the certificate in integration account.,,False
+Microsoft Logic,Integration Account Certificate,Get Integration Account Certificate,Microsoft.Logic/integrationAccounts/certificates/read,Reads the certificate in integration account.,,False
+Microsoft Logic,Integration Account Certificate,Set Integration Account Certificate,Microsoft.Logic/integrationAccounts/certificates/write,Creates or updates the certificate in integration account.,,False
+Microsoft Logic,Integration Account Group,Delete Integration Account Group,Microsoft.Logic/integrationAccounts/groups/delete,Deletes the group in integration account.,,False
+Microsoft Logic,Integration Account Group,Get Integration Account Group,Microsoft.Logic/integrationAccounts/groups/read,Reads the group in integration account.,,False
+Microsoft Logic,Integration Account Group,Set Integration Account Group,Microsoft.Logic/integrationAccounts/groups/write,Creates or updates the group in integration account.,,False
+Microsoft Logic,Integration Account Log Definition,Get Integration Account Log Definition,Microsoft.Logic/integrationAccounts/providers/Microsoft.Insights/logDefinitions/read,Reads the Integration Account log definitions.,System,False
+Microsoft Logic,Integration Account Map,Delete Integration Account Map,Microsoft.Logic/integrationAccounts/maps/delete,Deletes the map in integration account.,,False
+Microsoft Logic,Integration Account Map,Get Integration Account Map,Microsoft.Logic/integrationAccounts/maps/read,Reads the map in integration account.,,False
+Microsoft Logic,Integration Account Map,List Integration Account Map Content Callback URL,Microsoft.Logic/integrationAccounts/maps/listContentCallbackUrl/action,Gets the callback URL for map content in integration account.,,False
+Microsoft Logic,Integration Account Map,Set Integration Account Map,Microsoft.Logic/integrationAccounts/maps/write,Creates or updates the map in integration account.,,False
+Microsoft Logic,Integration Account Partner,Delete Integration Account Partner,Microsoft.Logic/integrationAccounts/partners/delete,Deletes the partner in integration account.,,False
+Microsoft Logic,Integration Account Partner,Get Integration Account Partner,Microsoft.Logic/integrationAccounts/partners/read,Reads the parter in integration account.,,False
+Microsoft Logic,Integration Account Partner,List Integration Account Partner Content Callback URL,Microsoft.Logic/integrationAccounts/partners/listContentCallbackUrl/action,Gets the callback URL for partner content in integration account.,,False
+Microsoft Logic,Integration Account Partner,Set Integration Account Partner,Microsoft.Logic/integrationAccounts/partners/write,Creates or updates the partner in integration account.,,False
+Microsoft Logic,Integration Account RosettaNet Process Configuration,Delete Integration Account RosettaNet Process Configuration,Microsoft.Logic/integrationAccounts/rosettaNetProcessConfigurations/delete,Deletes the RosettaNet process configuration in integration account.,,False
+Microsoft Logic,Integration Account RosettaNet Process Configuration,Get Integration Account RosettaNet Process Configuration,Microsoft.Logic/integrationAccounts/rosettaNetProcessConfigurations/read,Reads the RosettaNet process configuration in integration account.,,False
+Microsoft Logic,Integration Account RosettaNet Process Configuration,Set Integration Account RosettaNet Process Configuration,Microsoft.Logic/integrationAccounts/rosettaNetProcessConfigurations/write,Creates or updates the  RosettaNet process configuration in integration account.,,False
+Microsoft Logic,Integration Account Schedule,Delete Integration Account Schedule,Microsoft.Logic/integrationAccounts/schedules/delete,Deletes the schedule in integration account.,,False
+Microsoft Logic,Integration Account Schedule,Get Integration Account Schedule,Microsoft.Logic/integrationAccounts/schedules/read,Reads the schedule in integration account.,,False
+Microsoft Logic,Integration Account Schedule,Set Integration Account Schedule,Microsoft.Logic/integrationAccounts/schedules/write,Creates or updates the schedule in integration account.,,False
+Microsoft Logic,Integration Account Schema,Delete Integration Account Schema,Microsoft.Logic/integrationAccounts/schemas/delete,Deletes the schema in integration account.,,False
+Microsoft Logic,Integration Account Schema,Get Integration Account Schema,Microsoft.Logic/integrationAccounts/schemas/read,Reads the schema in integration account.,,False
+Microsoft Logic,Integration Account Schema,List Integration Account Schema Content Callback URL,Microsoft.Logic/integrationAccounts/schemas/listContentCallbackUrl/action,Gets the callback URL for schema content in integration account.,,False
+Microsoft Logic,Integration Account Schema,Set Integration Account Schema,Microsoft.Logic/integrationAccounts/schemas/write,Creates or updates the schema in integration account.,,False
+Microsoft Logic,Integration Account Session,Delete Integration Account Session,Microsoft.Logic/integrationAccounts/sessions/delete,Deletes the session in integration account.,,False
+Microsoft Logic,Integration Account Session,Get Integration Account Session,Microsoft.Logic/integrationAccounts/sessions/read,Reads the session in integration account.,,False
+Microsoft Logic,Integration Account Session,Set Integration Account Session,Microsoft.Logic/integrationAccounts/sessions/write,Creates or updates the session in integration account.,,False
+Microsoft Logic,Integration Account Usage Configuration,Delete Integration Account Usage Configuration,Microsoft.Logic/integrationAccounts/usageConfigurations/delete,Deletes the usage configuration in integration account.,,False
+Microsoft Logic,Integration Account Usage Configuration,Get Integration Account Usage Configuration,Microsoft.Logic/integrationAccounts/usageConfigurations/read,Reads the usage configuration in integration account.,,False
+Microsoft Logic,Integration Account Usage Configuration,List Integration Account Usage Configuration Callback URL,Microsoft.Logic/integrationAccounts/usageConfigurations/listCallbackUrl/action,Gets the callback URL for the usage configuration in integration account.,,False
+Microsoft Logic,Integration Account Usage Configuration,Set Integration Account Usage Configuration,Microsoft.Logic/integrationAccounts/usageConfigurations/write,Creates or updates the usage configuration in integration account.,,False
+Microsoft Logic,Integration Service Environment,Delete Integration Service Environment,Microsoft.Logic/integrationServiceEnvironments/delete,Deletes the integration service environment.,,False
+Microsoft Logic,Integration Service Environment,Get Integration Service Environment,Microsoft.Logic/integrationServiceEnvironments/read,Reads the integration service environment.,,False
+Microsoft Logic,Integration Service Environment,Join Integration Service Environment,Microsoft.Logic/integrationServiceEnvironments/join/action,Joins the Integration Service Environment.,,False
+Microsoft Logic,Integration Service Environment,Set Integration Service Environment,Microsoft.Logic/integrationServiceEnvironments/write,Creates or updates the integration service environment.,,False
+Microsoft Logic,Integration Service Environment Managed API,Get Integration Service Environment available managed APIs,Microsoft.Logic/integrationServiceEnvironments/availableManagedApis/read,Reads the integration service environment available managed APIs.,,False
+Microsoft Logic,Integration Service Environment Managed API,Get Integration Service Environment managed API,Microsoft.Logic/integrationServiceEnvironments/managedApis/read,Reads the integration service environment managed API.,,False
+Microsoft Logic,Integration Service Environment Managed API,Join Integration Service Environment Managed API,Microsoft.Logic/integrationServiceEnvironments/managedApis/join/action,Joins the Integration Service Environment Managed API.,,False
+Microsoft Logic,Integration Service Environment Managed API,Set Integration Service Environment managed API,Microsoft.Logic/integrationServiceEnvironments/managedApis/write,Creates or updates the integration service environment managed API.,,False
+Microsoft Logic,Integration Service Environment Managed API Operation,Get Integration Service Environment managed API operation,Microsoft.Logic/integrationServiceEnvironments/managedApis/apiOperations/read,Reads the integration service environment managed API operation.,,False
+Microsoft Logic,Integration Service Environment Managed API Operation Statuses,Get Integration Service Environment managed API operation statuses,Microsoft.Logic/integrationServiceEnvironments/managedApis/operationStatuses/read,Reads the integration service environment managed API operation statuses.,,False
+Microsoft Logic,Integration Service Environment Metric Definition,Get Integration Service Environment Metric Definition,Microsoft.Logic/integrationServiceEnvironments/providers/Microsoft.Insights/metricDefinitions/read,Reads the integration service environment metric definitions.,System,False
+Microsoft Logic,Integration Service Environment Operation Statuses,Get Integration Service Environment operation statuses,Microsoft.Logic/integrationServiceEnvironments/operationStatuses/read,Reads the integration service environment operation statuses.,,False
+Microsoft Logic,Operation,Get Operation,Microsoft.Logic/operations/read,Gets the operation.,,False
+Microsoft Logic,Private Endpoints Connection Proxies,Delete Private Endpoint Connection Proxies,Microsoft.Logic/integrationAccounts/privateEndpointConnectionProxies/delete,Deletes the Private Endpoint Connection Proxies.,,False
+Microsoft Logic,Private Endpoints Connection Proxies,Get Private Endpoint Connection Proxies,Microsoft.Logic/integrationAccounts/privateEndpointConnectionProxies/read,Gets the Private Endpoint Connection Proxies.,,False
+Microsoft Logic,Private Endpoints Connection Proxies,Get Private Endpoint Connection Proxies operation status.,Microsoft.Logic/integrationAccounts/privateEndpointConnectionProxies/operationStatuses/read,Gets Private Endpoint Connection Proxies operation status.,,False
+Microsoft Logic,Private Endpoints Connection Proxies,Set Private Endpoint Connection Proxies,Microsoft.Logic/integrationAccounts/privateEndpointConnectionProxies/write,Creates or Updates the Private Endpoint Connection Proxies.,,False
+Microsoft Logic,Private Endpoints Connection Proxies,Validate Private Endpoint Connection Proxies,Microsoft.Logic/integrationAccounts/privateEndpointConnectionProxies/validate/action,Validates the Private Endpoint Connection Proxies.,,False
+Microsoft Logic,Resource Provider,Register Resource Provider,Microsoft.Logic/register/action,Registers the Microsoft.Logic resource provider for a given subscription.,,False
+Microsoft Logic,Trigger,Get Trigger,Microsoft.Logic/workflows/triggers/read,Reads the trigger.,,False
+Microsoft Logic,Trigger,List Trigger Callback URL,Microsoft.Logic/workflows/versions/triggers/listCallbackUrl/action,Gets the callback URL for trigger.,,False
+Microsoft Logic,Trigger,List Trigger Callback URL,Microsoft.Logic/workflows/triggers/listCallbackUrl/action,Gets the callback URL for trigger.,,False
+Microsoft Logic,Trigger,Set Trigger State,Microsoft.Logic/workflows/triggers/setState/action,Sets the trigger state.,,False
+Microsoft Logic,Trigger,Trigger Reset,Microsoft.Logic/workflows/triggers/reset/action,Resets the trigger.,,False
+Microsoft Logic,Trigger,Trigger Run,Microsoft.Logic/workflows/triggers/run/action,Executes the trigger.,,False
+Microsoft Logic,Trigger Histories,Get Trigger Histories,Microsoft.Logic/workflows/triggers/histories/read,Reads the trigger histories.,,False
+Microsoft Logic,Trigger Histories,Resubmit trigger,Microsoft.Logic/workflows/triggers/histories/resubmit/action,Resubmits the workflow trigger.,,False
+Microsoft Logic,Workflow,Delete Workflow,Microsoft.Logic/workflows/delete,Deletes the workflow.,,False
+Microsoft Logic,Workflow,Disable Workflow,Microsoft.Logic/workflows/disable/action,Disables the workflow.,,False
+Microsoft Logic,Workflow,Enable Workflow,Microsoft.Logic/workflows/enable/action,Enables the workflow.,,False
+Microsoft Logic,Workflow,Get Workflow,Microsoft.Logic/workflows/read,Reads the workflow.,,False
+Microsoft Logic,Workflow,Get workflow swagger,Microsoft.Logic/workflows/listSwagger/action,Gets the workflow swagger definitions.,,False
+Microsoft Logic,Workflow,List workflow callback URL,Microsoft.Logic/workflows/listCallbackUrl/action,Gets the callback URL for workflow.,,False
+Microsoft Logic,Workflow,Move Workflow,Microsoft.Logic/workflows/move/action,"Moves Workflow from its existing subscription id, resource group, and/or name to a different subscription id, resource group, and/or name.",,False
+Microsoft Logic,Workflow,Run Workflow,Microsoft.Logic/workflows/run/action,Starts a run of the workflow.,,False
+Microsoft Logic,Workflow,Set Workflow,Microsoft.Logic/workflows/write,Creates or updates the workflow.,,False
+Microsoft Logic,Workflow,Suspend Workflow,Microsoft.Logic/workflows/suspend/action,Suspends the workflow.,,False
+Microsoft Logic,Workflow,Validate Workflow,Microsoft.Logic/locations/workflows/validate/action,Validates the workflow.,,False
+Microsoft Logic,Workflow,Validate Workflow,Microsoft.Logic/workflows/validate/action,Validates the workflow.,,False
+Microsoft Logic,Workflow Detector,Get Workflow Detector,Microsoft.Logic/workflows/detectors/read,Reads the workflow detector.,,False
+Microsoft Logic,Workflow Diagnostic Setting,Get Workflow Diagnostic Setting,Microsoft.Logic/workflows/providers/Microsoft.Insights/diagnosticSettings/read,Reads the workflow diagnostic settings.,System,False
+Microsoft Logic,Workflow Diagnostic Setting,Set Workflow Diagnostic Setting,Microsoft.Logic/workflows/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the workflow diagnostic setting.,System,False
+Microsoft Logic,Workflow Log Definition,Get Workflow Log Definition,Microsoft.Logic/workflows/providers/Microsoft.Insights/logDefinitions/read,Reads the workflow log definitions.,System,False
+Microsoft Logic,Workflow Metric Definition,Get Workflow Metric Definition,Microsoft.Logic/workflows/providers/Microsoft.Insights/metricDefinitions/read,Reads the workflow metric definitions.,System,False
+Microsoft Logic,Workflow Run,Cancel Workflow Run,Microsoft.Logic/workflows/runs/cancel/action,Cancels the run of a workflow.,,False
+Microsoft Logic,Workflow Run,Delete Workflow Run,Microsoft.Logic/workflows/runs/delete,Deletes a run of a workflow.,,False
+Microsoft Logic,Workflow Run,Get Workflow Run,Microsoft.Logic/workflows/runs/read,Reads the workflow run.,,False
+Microsoft Logic,Workflow Run Action,Get Workflow Run Action,Microsoft.Logic/workflows/runs/actions/read,Reads the workflow run action.,,False
+Microsoft Logic,Workflow Run Action,List Workflow Run Action Expression Traces,Microsoft.Logic/workflows/runs/actions/listExpressionTraces/action,Gets the workflow run action expression traces.,,False
+Microsoft Logic,Workflow Run Action Repetition,Get Workflow Run Action Repetition,Microsoft.Logic/workflows/runs/actions/repetitions/read,Reads the workflow run action repetition.,,False
+Microsoft Logic,Workflow Run Action Repetition,List Workflow Run Action Repetition Expression Traces,Microsoft.Logic/workflows/runs/actions/repetitions/listExpressionTraces/action,Gets the workflow run action repetition expression traces.,,False
+Microsoft Logic,Workflow Run Action Scope Repetition,Get Workflow Run Action Scope Repetition,Microsoft.Logic/workflows/runs/actions/scoperepetitions/read,Reads the workflow run action scope repetition.,,False
+Microsoft Logic,Workflow Run Operation,Get Workflow Run Operation Status,Microsoft.Logic/workflows/runs/operations/read,Reads the workflow run operation status.,,False
+Microsoft Logic,Workflow Version,Get Workflow Version,Microsoft.Logic/workflows/versions/read,Reads the workflow version.,,False
+Microsoft Logic,Workflow recommend operation group,Gets workflow recommend operation groups,Microsoft.Logic/locations/workflows/recommendOperationGroups/action,Gets the workflow recommend operation groups.,,False
+Microsoft Logic,Workflow run action request history,Gets the workflow run action request history,Microsoft.Logic/workflows/runs/actions/requestHistories/read,Reads the workflow run action request history.,,False
+Microsoft Logic,Workflow run repetition action request history,Gets the workflow run repetition action request history,Microsoft.Logic/workflows/runs/actions/repetitions/requestHistories/read,Reads the workflow run repetition action request history.,,False

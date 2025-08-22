@@ -1,0 +1,223 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Storage,,,Microsoft.Storage/locations/notifyNetworkSecurityPerimeterUpdatesAvailable/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/updateAccountContainerHoldingPeriod/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/updateInternalProperties/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/accountMigrations/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/storageTaskAssignments/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/storageTaskAssignments/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/reports/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/storageTaskAssignments/reports/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/storageTaskAssignments/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/storageTaskAssignments/write,,,False
+Microsoft Storage Actions,,,Microsoft.Storage/locations/previewActions/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/inventoryPolicies/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/inventoryPolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/inventoryPolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/consumerDataShare/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/consumerDataSharePolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/dataSharePolicies/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/consumerDataSharePolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/consumerDataSharePolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/dataSharePolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/dataSharePolicies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/consumerDataSharePolicies/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/dataSharePolicies/write,,,False
+Microsoft Storage,,,Microsoft.Storage/deletedAccounts/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/hoboConfigurations/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/encryptionScopes/hoboConfigurations/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/hoboConfigurations/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/encryptionScopes/hoboConfigurations/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/localusers/regeneratePassword/action,,,False
+Microsoft Storage Actions,,,Microsoft.Storage/operations/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/networkSecurityPerimeterAssociationProxies/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/networkSecurityPerimeterAssociationProxies/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/networkSecurityPerimeterConfigurations/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/networkSecurityPerimeterConfigurations/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/networkSecurityPerimeterConfigurations/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/networkSecurityPerimeterAssociationProxies/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/encryptionScopes/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/encryptionScopes/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/encryptionScopes/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/encryptionScopes/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/privateEndpoints/move/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/blobServices/containers/migrate/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/fileServices/shares/lease/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/fileServices/usages/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/fileServices/usages/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/queueServices/queues/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/queueServices/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/queueServices/queues/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/queueServices/queues/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/queueServices/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/queueServices/queues/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/tableServices/tables/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/tableServices/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/tableServices/tables/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/tableServices/tables/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/tableServices/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/tableServices/tables/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/accountLocks/deleteLock/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/accountLocks/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/accountLocks/write,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/accountLocks/delete,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/permanentDelete/action,,,True
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/immutableStorage/runAsSuperUser/action,,,True
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/blobServices/containers/setAcl/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/blobServices/containers/getAcl/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/blobServices/getInfo/action,,,False
+Microsoft Storage,,,Microsoft.Storage/resilienciesProgressions/read,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/rotateKey/action,,,False
+Microsoft Storage,,,Microsoft.Storage/unregister/action,,,False
+Microsoft Storage,,,Microsoft.Storage/storageAccounts/inventoryPolicies/write,,,False
+Microsoft Storage Actions,,,Microsoft.Storage/register/action,,,False
+Microsoft Storage,,Delete table entities,Microsoft.Storage/storageAccounts/tableServices/tables/entities/delete,Delete table entities,,True
+Microsoft Storage,,Storage Account Migration,Microsoft.Storage/storageAccounts/accountMigrations/write,Customer is able to update their storage account redundancy for increased resiliency,,False
+Microsoft Storage,Abort Account HnsOn Migration,Abort Account HnsOn Migration,Microsoft.Storage/storageAccounts/hnsonmigration/action,Customer is able to abort an ongoing Hns migration on the storage account,,False
+Microsoft Storage,Account HnsOn Migration,Account HnsOn Migration,Microsoft.Storage/storageAccounts/hnsonmigration/action,Customer is able to migrate to hns account type,,False
+Microsoft Storage,ActionsRP operation status,Creates or updates an ActionsRP operation status,Microsoft.Storage/locations/ActionsRPOperationStatuses/write,Creates or updates an ActionsRP operation status,,False
+Microsoft Storage,ActionsRP operation status,Get an ActionsRP operation status,Microsoft.Storage/locations/ActionsRPOperationStatuses/read,Get an ActionsRP operation status,,False
+Microsoft Storage,Blob Service,List Blob Services,Microsoft.Storage/storageAccounts/blobServices/read,List blob services,,False
+Microsoft Storage,Blob Service,Read log definition,Microsoft.Storage/storageAccounts/blobServices/providers/Microsoft.Insights/logDefinitions/read,Gets the log definition for Blob,system,False
+Microsoft Storage,Blob service,Get list of Microsoft Storage Metrics definitions,Microsoft.Storage/storageAccounts/blobServices/providers/Microsoft.Insights/metricDefinitions/read,Get list of Microsoft Storage Metrics definitions.,system,False
+Microsoft Storage,Blob service,Read diagnostic setting,Microsoft.Storage/storageAccounts/blobServices/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource.,system,False
+Microsoft Storage,Blob service,Write diagnostic setting,Microsoft.Storage/storageAccounts/blobServices/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource.,system,False
+Microsoft Storage,File Service,List File Services,Microsoft.Storage/storageAccounts/fileServices/read,List file services,,False
+Microsoft Storage,File Service,Put File Service Properties,Microsoft.Storage/storageAccounts/fileServices/write,Put file service properties,,False
+Microsoft Storage,File Service,Read log definition,Microsoft.Storage/storageAccounts/fileServices/providers/Microsoft.Insights/logDefinitions/read,Gets the log definition for File,system,False
+Microsoft Storage,File Share,Delete File Share,Microsoft.Storage/storageAccounts/fileServices/shares/delete,Delete file share,,False
+Microsoft Storage,File Share,Get File Share,Microsoft.Storage/storageAccounts/fileServices/shares/read,Get file share,,False
+Microsoft Storage,File Share,List File Shares,Microsoft.Storage/storageAccounts/fileServices/shares/read,List file shares,,False
+Microsoft Storage,File Share,Put File Share,Microsoft.Storage/storageAccounts/fileServices/shares/write,Create or update file share,,False
+Microsoft Storage,File Share,Restore File Share,Microsoft.Storage/storageAccounts/fileServices/shares/restore/action,Restore file share,,False
+Microsoft Storage,File service,Get list of Microsoft Storage Metrics definitions,Microsoft.Storage/storageAccounts/fileServices/providers/Microsoft.Insights/metricDefinitions/read,Get list of Microsoft Storage Metrics definitions.,system,False
+Microsoft Storage,File service,Read diagnostic setting,Microsoft.Storage/storageAccounts/fileServices/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource.,system,False
+Microsoft Storage,File service,Write diagnostic setting,Microsoft.Storage/storageAccounts/fileServices/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource.,system,False
+Microsoft Storage,Join Network Security Perimeter action,Access check for joining Network Security Perimeter,Microsoft.Storage/storageAccounts/joinPerimeter/action,Access check for joining Network Security Perimeter,system,False
+Microsoft Storage,Local User,Delete Local User,Microsoft.Storage/storageAccounts/localUsers/delete,Delete local user,,False
+Microsoft Storage,Local User,Get Local User,Microsoft.Storage/storageAccounts/localusers/read,Get local user,,False
+Microsoft Storage,Local User,List Local User Keys,Microsoft.Storage/storageAccounts/localusers/listKeys/action,List local user keys,,False
+Microsoft Storage,Local User,List Local Users,Microsoft.Storage/storageAccounts/localusers/read,List local users,,False
+Microsoft Storage,Local User,Put Local User,Microsoft.Storage/storageAccounts/localusers/write,Create or update local user,,False
+Microsoft Storage,Location,Delete virtual network or subnets notifications,Microsoft.Storage/locations/deleteVirtualNetworkOrSubnets/action,Notifies Microsoft.Storage that virtual network or subnet is being deleted,,False
+Microsoft Storage,Name Availability,Check Name Availability,Microsoft.Storage/locations/checknameavailability/read,Checks that account name is valid and is not in use.,,False
+Microsoft Storage,Name Availability,Check Name Availability,Microsoft.Storage/checknameavailability/read,Checks that account name is valid and is not in use.,,False
+Microsoft Storage,Object Replication Policy,Delete Object Replication Policy,Microsoft.Storage/storageAccounts/objectReplicationPolicies/delete,Delete object replication policy,,False
+Microsoft Storage,Object Replication Policy,Get Object Replication Policy,Microsoft.Storage/storageAccounts/objectReplicationPolicies/read,Get object replication policy,,False
+Microsoft Storage,Object Replication Policy,List Object Replication Policies,Microsoft.Storage/storageAccounts/objectReplicationPolicies/read,List object replication policies,,False
+Microsoft Storage,Object Replication Policy,Put Object Replication Policy,Microsoft.Storage/storageAccounts/objectReplicationPolicies/write,Create or update object replication policy,,False
+Microsoft Storage,Object Replication Restore Point,Delete Object Replication Restore Point,Microsoft.Storage/storageAccounts/restorePoints/delete,Delete object replication restore point,,False
+Microsoft Storage,Object Replication Restore Point,Get Object Replication Restore Point,Microsoft.Storage/storageAccounts/restorePoints/read,Get object replication restore point,,False
+Microsoft Storage,Object Replication Restore Point,List Object Replication Restore Points,Microsoft.Storage/storageAccounts/restorePoints/read,List object replication restore points,,False
+Microsoft Storage,Object Replication Restore Point Marker,Put Object Replication Restore Point Marker,Microsoft.Storage/storageAccounts/objectReplicationPolicies/restorePointMarkers/write,Create object replication restore point marker,,False
+Microsoft Storage,Operations,Poll Asynchronous Operation,Microsoft.Storage/operations/read,Polls the status of an asynchronous operation.,,False
+Microsoft Storage,Queue Service,Read log definition,Microsoft.Storage/storageAccounts/queueServices/providers/Microsoft.Insights/logDefinitions/read,Gets the log definition for Queue,system,False
+Microsoft Storage,Queue service,Get list of Microsoft Storage Metrics definitions,Microsoft.Storage/storageAccounts/queueServices/providers/Microsoft.Insights/metricDefinitions/read,Get list of Microsoft Storage Metrics definitions.,system,False
+Microsoft Storage,Queue service,Read diagnostic setting,Microsoft.Storage/storageAccounts/queueServices/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource.,system,False
+Microsoft Storage,Queue service,Write diagnostic setting,Microsoft.Storage/storageAccounts/queueServices/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource.,system,False
+Microsoft Storage,Sku,List Skus,Microsoft.Storage/skus/read,Lists the Skus supported by Microsoft.Storage.,,False
+Microsoft Storage,Storage Account  Private Endpoint Connection Proxies,Put Private Endpoint Connection Proxies,Microsoft.Storage/storageAccounts/privateEndpointConnectionProxies/write,Put Private Endpoint Connection Proxies,,False
+Microsoft Storage,Storage Account Management Policies,Delete storage account management policies,Microsoft.Storage/storageAccounts/managementPolicies/delete,Delete storage account management policies,,False
+Microsoft Storage,Storage Account Management Policies,Get storage account management policies,Microsoft.Storage/storageAccounts/managementPolicies/read,Get storage management account policies,,False
+Microsoft Storage,Storage Account Management Policies,Put storage account management policies,Microsoft.Storage/storageAccounts/managementPolicies/write,Put storage account management policies,,False
+Microsoft Storage,Storage Account Private Endpoint Connection,Delete Private Endpoint Connection,Microsoft.Storage/storageAccounts/privateEndpointConnections/delete,Delete Private Endpoint Connection,,False
+Microsoft Storage,Storage Account Private Endpoint Connection,Get Private Endpoint Connection,Microsoft.Storage/storageAccounts/privateEndpointConnections/read,Get Private Endpoint Connection,,False
+Microsoft Storage,Storage Account Private Endpoint Connection,Put Private Endpoint Connection,Microsoft.Storage/storageAccounts/privateEndpointConnections/write,Put Private Endpoint Connection,,False
+Microsoft Storage,Storage Account Private Endpoint Connection,Update storage account private endpoint properties,Microsoft.Storage/storageAccounts/privateEndpointConnectionProxies/updatePrivateEndpointProperties/action,Update storage account private endpoint properties,,False
+Microsoft Storage,Storage Account Private Endpoint Connection Proxies,Delete Private Endpoint Connection Proxies,Microsoft.Storage/storageAccounts/privateEndpointConnectionProxies/delete,Delete Private Endpoint Connection Proxies,,False
+Microsoft Storage,Storage Account Private Endpoint Connection Proxy,Get Private Endpoint Connection Proxy,Microsoft.Storage/storageAccounts/privateEndpointConnectionProxies/read,Get Private Endpoint Connection Proxy,,False
+Microsoft Storage,Storage Account Private Endpoint Connections,Approve Private Endpoint Connections,Microsoft.Storage/storageAccounts/PrivateEndpointConnectionsApproval/action,Approve Private Endpoint Connections,,False
+Microsoft Storage,Storage Account Private Endpoint Connections,List Private Endpoint Connections,Microsoft.Storage/storageAccounts/privateEndpointConnections/read,List Private Endpoint Connections,,False
+Microsoft Storage,Storage Account SAS Token,Returns Storage Account SAS Token,Microsoft.Storage/storageAccounts/listAccountSas/action,Returns the Account SAS token for the specified storage account.,,False
+Microsoft Storage,Storage Accounts,Create/Update Diagnostic Settings,Microsoft.Storage/storageAccounts/services/diagnosticSettings/write,Create/Update storage account diagnostic settings.,,False
+Microsoft Storage,Storage Accounts,Create/Update Storage Account,Microsoft.Storage/storageAccounts/write,Creates a storage account with the specified parameters or update the properties or tags or adds custom domain for the specified storage account.,,False
+Microsoft Storage,Storage Accounts,Delete Storage Account,Microsoft.Storage/storageAccounts/delete,Deletes an existing storage account.,,False
+Microsoft Storage,Storage Accounts,Filter blobs,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/filter/action,Returns the list of blobs under an account with matching tags filter,,True
+Microsoft Storage,Storage Accounts,Get list of Microsoft Storage Metrics definitions,Microsoft.Storage/storageAccounts/providers/Microsoft.Insights/metricDefinitions/read,Get list of Microsoft Storage Metrics definitions.,system,False
+Microsoft Storage,Storage Accounts,List Storage Account Keys,Microsoft.Storage/storageAccounts/listkeys/action,Returns the access keys for the specified storage account.,,False
+Microsoft Storage,Storage Accounts,List/Get Storage Account(s),Microsoft.Storage/storageAccounts/read,Returns the list of storage accounts or gets the properties for the specified storage account.,,False
+Microsoft Storage,Storage Accounts,Read diagnostic setting,Microsoft.Storage/storageAccounts/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource.,system,False
+Microsoft Storage,Storage Accounts,Regenerate Storage Account Keys,Microsoft.Storage/storageAccounts/regeneratekey/action,Regenerates the access keys for the specified storage account.,,False
+Microsoft Storage,Storage Accounts,Revoke Storage Account User Delegation Keys,Microsoft.Storage/storageAccounts/revokeUserDelegationKeys/action,Revokes all the user delegation keys for the specified storage account.,,False
+Microsoft Storage,Storage Accounts,Storage Account Failover,Microsoft.Storage/storageAccounts/failover/action,Customer is able to control the failover in case of availability issues,,False
+Microsoft Storage,Storage Accounts,Write diagnostic setting,Microsoft.Storage/storageAccounts/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource.,system,False
+Microsoft Storage,Storage Blob Service Blobs,Add blob content,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/add/action,Returns the result of adding blob content,,True
+Microsoft Storage,Storage Blob Service Blobs,Delete blob,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/delete,Returns the result of deleting a blob,,True
+Microsoft Storage,Storage Blob Service Blobs,Delete blob versions,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/deleteBlobVersion/action,Returns the result of deleting a blob version,,True
+Microsoft Storage,Storage Blob Service Blobs,Execute the command as super user,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/runAsSuperUser/action,Returns the result of the blob command,,True
+Microsoft Storage,Storage Blob Service Blobs,Manage blob ownership,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/manageOwnership/action,Changes ownership of the blob,,True
+Microsoft Storage,Storage Blob Service Blobs,Modify blob permissions,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/modifyPermissions/action,Modifies permissions of the blob,,True
+Microsoft Storage,Storage Blob Service Blobs,Move blobs,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/move/action,Moves the blob from one path to another,,True
+Microsoft Storage,Storage Blob Service Blobs,Read Blob,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read,Returns a blob or a list of blobs,,True
+Microsoft Storage,Storage Blob Service Blobs,Read blob tags,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/tags/read,Returns the result of reading blob tags,,True
+Microsoft Storage,Storage Blob Service Blobs,Write Blob,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/write,Returns the result of writing a blob,,True
+Microsoft Storage,Storage Blob Service Blobs,Write blob tags,Microsoft.Storage/storageAccounts/blobServices/containers/blobs/tags/write,Returns the result of writing blob tags,,True
+Microsoft Storage,Storage Blob Service Containers,Clear blob container legal hold,Microsoft.Storage/storageAccounts/blobServices/containers/clearLegalHold/action,Clear blob container legal hold,,False
+Microsoft Storage,Storage Blob Service Containers,Delete blob container,Microsoft.Storage/storageAccounts/blobServices/containers/delete,Returns the result of deleting a container,,False
+Microsoft Storage,Storage Blob Service Containers,Get blob container,Microsoft.Storage/storageAccounts/blobServices/containers/read,Returns a container,,False
+Microsoft Storage,Storage Blob Service Containers,Lease blob container,Microsoft.Storage/storageAccounts/blobServices/containers/lease/action,Returns the result of leasing blob container,,False
+Microsoft Storage,Storage Blob Service Containers,List of blob containers,Microsoft.Storage/storageAccounts/blobServices/containers/read,Returns list of containers,,False
+Microsoft Storage,Storage Blob Service Containers,Patch blob container,Microsoft.Storage/storageAccounts/blobServices/containers/write,Returns the result of patch blob container,,False
+Microsoft Storage,Storage Blob Service Containers,Put blob container,Microsoft.Storage/storageAccounts/blobServices/containers/write,Returns the result of put blob container,,False
+Microsoft Storage,Storage Blob Service Containers,Restore blob ranges,Microsoft.Storage/storageAccounts/restoreBlobRanges/action,Restore blob ranges to the state of the specified time,,False
+Microsoft Storage,Storage Blob Service Containers,Set blob container legal hold,Microsoft.Storage/storageAccounts/blobServices/containers/setLegalHold/action,Set blob container legal hold,,False
+Microsoft Storage,Storage Blob Service Containers ImmutabilityPolicy,Delete blob container immutability policy,Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies/delete,Delete blob container immutability policy,,False
+Microsoft Storage,Storage Blob Service Containers ImmutabilityPolicy,Extend blob container immutability policy,Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies/extend/action,Extend blob container immutability policy,,False
+Microsoft Storage,Storage Blob Service Containers ImmutabilityPolicy,Get blob container immutability policy,Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies/read,Get blob container immutability policy,,False
+Microsoft Storage,Storage Blob Service Containers ImmutabilityPolicy,Lock blob container immutability policy,Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies/lock/action,Lock blob container immutability policy,,False
+Microsoft Storage,Storage Blob Service Containers ImmutabilityPolicy,Put blob container immutability policy,Microsoft.Storage/storageAccounts/blobServices/containers/immutabilityPolicies/write,Put blob container immutability policy,,False
+Microsoft Storage,Storage Blob Services,Generate a user delegation key,Microsoft.Storage/storageAccounts/blobServices/generateUserDelegationKey/action,Returns a user delegation key for the blob service,,False
+Microsoft Storage,Storage Blob Services,Get blob service properties or statistics,Microsoft.Storage/storageAccounts/blobServices/read,Returns blob service properties or statistics,,False
+Microsoft Storage,Storage Blob Services,Put blob service properties,Microsoft.Storage/storageAccounts/blobServices/write,Returns the result of put blob service properties,,False
+Microsoft Storage,Storage File Service,Get file service properties,Microsoft.Storage/storageAccounts/fileServices/read,Get file service properties,,False
+Microsoft Storage,Storage File Service Files,Delete Files,Microsoft.Storage/storageAccounts/fileServices/fileshares/files/delete,Returns the result of deleting a file/folder,,True
+Microsoft Storage,Storage File Service Files,File Take Ownership Privilege,Microsoft.Storage/storageAccounts/fileServices/takeOwnership/action,File Take Ownership Privilege,,True
+Microsoft Storage,Storage File Service Files,Get File Admin Privileges,Microsoft.Storage/storageAccounts/fileServices/fileshares/files/actassuperuser/action,Get File Admin Privileges,,True
+Microsoft Storage,Storage File Service Files,Modify File Acl,Microsoft.Storage/storageAccounts/fileServices/fileshares/files/modifypermissions/action,Returns the result of modifying permission on a file/folder,,True
+Microsoft Storage,Storage File Service Files,Read File Backup Semantics Privilege,Microsoft.Storage/storageAccounts/fileServices/readFileBackupSemantics/action,Read File Backup Semantics Privilege,,True
+Microsoft Storage,Storage File Service Files,Read Files,Microsoft.Storage/storageAccounts/fileServices/fileshares/files/read,Returns a file/folder or a list of files/folders,,True
+Microsoft Storage,Storage File Service Files,Write File Backup Semantics Privilege,Microsoft.Storage/storageAccounts/fileServices/writeFileBackupSemantics/action,Write File Backup Semantics Privilege,,True
+Microsoft Storage,Storage File Service Files,Write Files,Microsoft.Storage/storageAccounts/fileServices/fileshares/files/write,Returns the result of writing a file or creating a folder,,True
+Microsoft Storage,Storage File Services,Generate a user delegation key,Microsoft.Storage/storageAccounts/fileServices/generateUserDelegationKey/action,Returns a user delegation key for the file service,,False
+Microsoft Storage,Storage Queue Service,Get Queue service properties,Microsoft.Storage/storageAccounts/queueServices/read,Get Queue service properties,,False
+Microsoft Storage,Storage Queue Service Messages,Add message,Microsoft.Storage/storageAccounts/queueServices/queues/messages/add/action,Returns the result of adding a message,,True
+Microsoft Storage,Storage Queue Service Messages,Delete message,Microsoft.Storage/storageAccounts/queueServices/queues/messages/delete,Returns the result of deleting a message,,True
+Microsoft Storage,Storage Queue Service Messages,Process message,Microsoft.Storage/storageAccounts/queueServices/queues/messages/process/action,Returns the result of processing a message,,True
+Microsoft Storage,Storage Queue Service Messages,Process message,Microsoft.Storage/storageAccounts/queueServices/queues/setAcl/action,Returns the result of processing a message,,False
+Microsoft Storage,Storage Queue Service Messages,Process message,Microsoft.Storage/storageAccounts/queueServices/queues/getAcl/action,Returns the result of processing a message,,False
+Microsoft Storage,Storage Queue Service Messages,Read message,Microsoft.Storage/storageAccounts/queueServices/queues/messages/read,Returns a message,,True
+Microsoft Storage,Storage Queue Service Messages,Write message,Microsoft.Storage/storageAccounts/queueServices/queues/messages/write,Returns the result of writing a message,,True
+Microsoft Storage,Storage Queue Service Queues,Delete queue,Microsoft.Storage/storageAccounts/queueServices/queues/delete,Returns the result of deleting a queue,,False
+Microsoft Storage,Storage Queue Service Queues,Read a queue or list queues,Microsoft.Storage/storageAccounts/queueServices/queues/read,Returns a queue or a list of queues.,,False
+Microsoft Storage,Storage Queue Service Queues,Write queue,Microsoft.Storage/storageAccounts/queueServices/queues/write,Returns the result of writing a queue,,False
+Microsoft Storage,Storage Queue Services,Generate a user delegation key,Microsoft.Storage/storageAccounts/queueServices/generateUserDelegationKey/action,Returns a user delegation key for the queue service,,False
+Microsoft Storage,Storage Queue Services,Get queue service properties or statistics,Microsoft.Storage/storageAccounts/queueServices/read,Returns queue service properties or statistics.,,False
+Microsoft Storage,Storage Queue Services,Set queue service properties,Microsoft.Storage/storageAccounts/queueServices/write,Returns the result of setting queue service properties,,False
+Microsoft Storage,Storage Resource Provider,Registers the Storage Resource Provider,Microsoft.Storage/register/action,Registers the subscription for the storage resource provider and enables the creation of storage accounts.,,False
+Microsoft Storage,Storage Service SAS Token,Returns Storage Service SAS Token,Microsoft.Storage/storageAccounts/listServiceSas/action,Returns the Service SAS token for the specified storage account.,,False
+Microsoft Storage,Storage Table,Delete tables,Microsoft.Storage/storageAccounts/tableServices/tables/delete,Delete tables,,False
+Microsoft Storage,Storage Table Entities,Insert table entities,Microsoft.Storage/storageAccounts/tableServices/tables/entities/add/action,Insert table entities,,True
+Microsoft Storage,Storage Table Entities,"Insert, merge, update or replace table entities",Microsoft.Storage/storageAccounts/tableServices/tables/entities/write,"Insert, merge, or replace table entities",,True
+Microsoft Storage,Storage Table Entities,Merge or update table entities,Microsoft.Storage/storageAccounts/tableServices/tables/entities/update/action,Merge or update table entities,,True
+Microsoft Storage,Storage Table Entities,Merge or update table entities,Microsoft.Storage/storageAccounts/tableServices/tables/setAcl/action,Merge or update table entities,,False
+Microsoft Storage,Storage Table Entities,Merge or update table entities,Microsoft.Storage/storageAccounts/tableServices/tables/getAcl/action,Merge or update table entities,,False
+Microsoft Storage,Storage Table Entities,Query table entities,Microsoft.Storage/storageAccounts/tableServices/tables/entities/read,Query table entities,,True
+Microsoft Storage,Storage Table Service,Get Table service properties,Microsoft.Storage/storageAccounts/tableServices/read,Get Table service properties,,False
+Microsoft Storage,Storage Table Services,Generate a user delegation key,Microsoft.Storage/storageAccounts/tableServices/generateUserDelegationKey/action,Returns a user delegation key for the table service,,False
+Microsoft Storage,Storage Table Services,Get table service properties or statistics,Microsoft.Storage/storageAccounts/tableServices/read,Get table service properties or statistics,,False
+Microsoft Storage,Storage Table Services,Set table service properties,Microsoft.Storage/storageAccounts/tableServices/write,Set table service properties,,False
+Microsoft Storage,Storage Tables,Create tables,Microsoft.Storage/storageAccounts/tableServices/tables/write,Create tables,,False
+Microsoft Storage,Storage Tables,Query tables,Microsoft.Storage/storageAccounts/tableServices/tables/read,Query tables,,False
+Microsoft Storage Actions,Storage Task,Delete Storage Task,Microsoft.Storage/storageTasks/delete,Deletes an existing storage task,,False
+Microsoft Storage Actions,Storage Task,Get Storage Task,Microsoft.Storage/storageTasks/read,Gets the properties for the specified storage task,,False
+Microsoft Storage Actions,Storage Task,Promote Storage Task Version,Microsoft.Storage/storageTasks/promote/action,Promote specific version of storage task to current version,,False
+Microsoft Storage Actions,Storage Task,Put Storage Task,Microsoft.Storage/storageTasks/write,Creates or updates storage task,,False
+Microsoft Storage Actions,Storage Task Assignments,List Storage Task Assignments by Storage Task,Microsoft.Storage/storageTasks/storageTaskAssignments/read,List all storage task assignments of a storage task,,False
+Microsoft Storage Actions,Storage Task Run Statuses,List Storage Task Run Reports,Microsoft.Storage/storageTasks/reports/read,List run statuses of a storage task,,False
+Microsoft Storage Actions,Storage Tasks,List Storage Task Versions,Microsoft.Storage/storageTasks/versions/read,List all versions of a storage task,,False
+Microsoft Storage,Storage account groupids,Get StorageAccount groupids,Microsoft.Storage/storageAccounts/privateLinkResources/read,Get StorageAccount groupids,,False
+Microsoft Storage,Table Service,Read log definition,Microsoft.Storage/storageAccounts/tableServices/providers/Microsoft.Insights/logDefinitions/read,Gets the log definition for Table,system,False
+Microsoft Storage,Table service,Get list of Microsoft Storage Metrics definitions,Microsoft.Storage/storageAccounts/tableServices/providers/Microsoft.Insights/metricDefinitions/read,Get list of Microsoft Storage Metrics definitions.,system,False
+Microsoft Storage,Table service,Read diagnostic setting,Microsoft.Storage/storageAccounts/tableServices/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the resource.,system,False
+Microsoft Storage,Table service,Write diagnostic setting,Microsoft.Storage/storageAccounts/tableServices/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the resource.,system,False
+Microsoft Storage,Usage Metrics,Get Subscription Usages,Microsoft.Storage/locations/usages/read,Returns the limit and the current usage count for resources in the specified subscription,,False
+Microsoft Storage,Usage Metrics,Get Subscription Usages,Microsoft.Storage/usages/read,Returns the limit and the current usage count for resources in the specified subscription,,False

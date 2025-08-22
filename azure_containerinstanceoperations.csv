@@ -1,0 +1,40 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Container Instance,Cached Images,Get cached images.,Microsoft.ContainerInstance/locations/cachedImages/read,Gets the cached images for the subscription in a region.,User,False
+Microsoft Container Instance,Capabilities,Get Capabilities,Microsoft.ContainerInstance/locations/capabilities/read,Get the capabilities for a region.,User,False
+Microsoft Container Instance,Container Group,Attach to a container,Microsoft.ContainerInstance/containerGroups/containers/attach/action,Attach to the output stream of a container.,User,False
+Microsoft Container Instance,Container Group,Container Group Detectors,Microsoft.ContainerInstance/containerGroups/detectors/read,List Container Group Detectors,User,False
+Microsoft Container Instance,Container Group,Container Group Detectors,Microsoft.ContainerInstance/containerGroups/outboundNetworkDependenciesEndpoints/read,List Container Group Detectors,User,False
+Microsoft Container Instance,Container Group,Create or update Container Group,Microsoft.ContainerInstance/containerGroups/write,Create or update a specific container group.,User,False
+Microsoft Container Instance,Container Group,Delete Container Group,Microsoft.ContainerInstance/containerGroups/delete,Delete the specific container group.,User,False
+Microsoft Container Instance,Container Group,Exec Into a Container,Microsoft.ContainerInstance/containerGroups/containers/exec/action,Exec into a specific container.,User,False
+Microsoft Container Instance,Container Group,Get Container Build Logs,Microsoft.ContainerInstance/containerGroups/containers/buildlogs/read,Get build logs for a specific container.,User,False
+Microsoft Container Instance,Container Group,Get Container Groups,Microsoft.ContainerInstance/containerGroups/read,Get all container goups.,User,False
+Microsoft Container Instance,Container Group,Get Container Logs,Microsoft.ContainerInstance/containerGroups/containers/logs/read,Get logs for a specific container.,User,False
+Microsoft Container Instance,Container Group,Read Diagnostic Setting,Microsoft.ContainerInstance/containerGroups/providers/Microsoft.Insights/diagnosticSettings/read,Gets the diagnostic setting for the container group.,System,False
+Microsoft Container Instance,Container Group,Read container group metric definitions,Microsoft.ContainerInstance/containerGroups/providers/Microsoft.Insights/metricDefinitions/read,Gets the available metrics for container group.,System,False
+Microsoft Container Instance,Container Group,Refresh delegated resources.,Microsoft.ContainerInstance/containerGroups/refreshDelegatedResourceIdentity/action,Refresh delegated resource identity for a specific container group.,User,False
+Microsoft Container Instance,Container Group,Register Microsoft Container Instance,Microsoft.ContainerInstance/register/action,Registers the subscription for the container instance resource provider and enables the creation of container groups.,User,False
+Microsoft Container Instance,Container Group,Restart Container Group,Microsoft.ContainerInstance/containerGroups/restart/action,Restarts a specific container group.,User,False
+Microsoft Container Instance,Container Group,Start Container Group,Microsoft.ContainerInstance/containerGroups/start/action,Starts a specific container group.,User,False
+Microsoft Container Instance,Container Group,Stop Container Group,Microsoft.ContainerInstance/containerGroups/stop/action,Stops a specific container group. Compute resources will be deallocated and billing will stop.,User,False
+Microsoft Container Instance,Container Group,Write Diagnostic Setting,Microsoft.ContainerInstance/containerGroups/providers/Microsoft.Insights/diagnosticSettings/write,Creates or updates the diagnostic setting for the container group.,System,False
+Microsoft Container Instance,Container Group Profile,Create or update Container Group Profile,Microsoft.ContainerInstance/containerGroupProfiles/write,Create or update a specific container group profile.,User,False
+Microsoft Container Instance,Container Group Profile,Delete Container Group Profile,Microsoft.ContainerInstance/containerGroupProfiles/delete,Delete the specific container group profile.,User,False
+Microsoft Container Instance,Container Group Profile,Deregister container group profile revision.,Microsoft.ContainerInstance/containerGroupProfiles/revisions/deregister/action,Deregister container group profile revision.,User,False
+Microsoft Container Instance,Container Group Profile,Get Container Groups Profile,Microsoft.ContainerInstance/containerGroupProfiles/read,Get all container goup profiles.,User,False
+Microsoft Container Instance,Container Group Profile,Get container group profile revisions,Microsoft.ContainerInstance/containerGroupProfiles/revisions/read,Get container group profile revisions,User,False
+Microsoft Container Instance,Container Scale Set,Create or Update Container Scale Set,Microsoft.ContainerInstance/nGroups/write,Create or update a specific container scale set.,User,False
+Microsoft Container Instance,Container Scale Set,Delete Container Groups in a Container Scale Set,Microsoft.ContainerInstance/nGroups/containerGroups/delete/action,Delete specific contianer groups in a container scale set.,User,False
+Microsoft Container Instance,Container Scale Set,Delete Container Scale Set,Microsoft.ContainerInstance/nGroups/delete,Deletes a specific container scale set.,User,False
+Microsoft Container Instance,Container Scale Set,Get Container Scale Set,Microsoft.ContainerInstance/nGroups/read,Get details of a container scale set.,User,False
+Microsoft Container Instance,Container Scale Set,Restart Container Groups in a Container Scale Set,Microsoft.ContainerInstance/nGroups/containerGroups/restart/action,Restart sepcific container groups in a container scale set.,User,False
+Microsoft Container Instance,Container Scale Set,Start Container Groups in a Container Scale Set,Microsoft.ContainerInstance/nGroups/containerGroups/start/action,Start specific container groups in a container scale set.,User,False
+Microsoft Container Instance,Container Scale Set,Stop Container Groups in a Container Scale Set,Microsoft.ContainerInstance/nGroups/containerGroups/stop/action,Stop specific contianer groups in a container scale set.,User,False
+Microsoft Container Instance,Delete virtual network or subnet notification,Delete virtual network or subnet notification,Microsoft.ContainerInstance/locations/deleteVirtualNetworkOrSubnets/action,Notifies Microsoft.ContainerInstance that virtual network or subnet is being deleted.,User,False
+Microsoft Container Instance,Resource provider operations.,Async operation result,Microsoft.ContainerInstance/locations/operationResults/read,Get async operation result,User,False
+Microsoft Container Instance,Resource provider operations.,Async operation result,Microsoft.ContainerInstance/containerGroups/operationResults/read,Get async operation result,User,False
+Microsoft Container Instance,Resource provider operations.,Read operations.,Microsoft.ContainerInstance/locations/operations/read,List the operations for Azure Container Instance service.,User,False
+Microsoft Container Instance,Resource provider operations.,Read operations.,Microsoft.ContainerInstance/operations/read,List the operations for Azure Container Instance service.,User,False
+Microsoft Container Instance,Service Association Link.,Delete Service Association Link.,Microsoft.ContainerInstance/serviceassociationlinks/delete,Delete the service association link created by azure container instance resource provider on a subnet.,User,False
+Microsoft Container Instance,Usages,Get Regional Usage,Microsoft.ContainerInstance/locations/usages/read,Get the usage for a specific region.,User,False
+Microsoft Container Instance,Validate delete virtual network or subnet notification,Validate delete virtual network or subnet notification,Microsoft.ContainerInstance/locations/validateDeleteVirtualNetworkOrSubnets/action,Notifies Microsoft.ContainerInstance that virtual network or subnet is being deleted.,User,False

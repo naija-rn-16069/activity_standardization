@@ -1,0 +1,222 @@
+Service,Resource Type,Operation Name,Activity Type,Description,Origin,IsDataAction
+Microsoft Security,Adaptive Network Hardening,Gets Adaptive Network Hardening recommendations,Microsoft.Security/adaptiveNetworkHardenings/read,Gets Adaptive Network Hardening recommendations of an Azure protected resource,user,False
+Microsoft Security,Adaptive Network Hardening,Traffic hardening rules enforcement,Microsoft.Security/adaptiveNetworkHardenings/enforce/action,Enforces the given traffic hardening rules by creating matching security rules on the given Network Security Group(s),user,False
+Microsoft Security,Advanced Threat Protection Settings,Gets the Advanced Threat Protection Settings,Microsoft.Security/advancedThreatProtectionSettings/read,Gets the Advanced Threat Protection Settings for the resource,user,False
+Microsoft Security,Advanced Threat Protection Settings,Updates the Advanced Threat Protection Settings,Microsoft.Security/advancedThreatProtectionSettings/write,Updates the Advanced Threat Protection Settings for the resource,user,False
+Microsoft Security,Aggregated Alerts,Dismiss IoT aggregated alerts,Microsoft.Security/iotSecuritySolutions/analyticsModels/aggregatedAlerts/dismiss/action,Dismisses IoT aggregated alerts,user,False
+Microsoft Security,Aggregated Alerts,Get IoT aggregated alerts,Microsoft.Security/iotSecuritySolutions/analyticsModels/aggregatedAlerts/read,Gets IoT aggregated alerts,user,False
+Microsoft Security,Aggregated Recommendations,Get IoT aggregated recommendations,Microsoft.Security/iotSecuritySolutions/analyticsModels/aggregatedRecommendations/read,Gets IoT aggregated recommendations,user,False
+Microsoft Security,Aggregations,Get aggregations,Microsoft.Security/aggregations/read,Gets aggregations,user,False
+Microsoft Security,Aggregations,Get aggregations,Microsoft.Security/aggregations/action,Gets aggregations,user,False
+Microsoft Security,Analytics Models,Get IoT alert types,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT alert types,user,False
+Microsoft Security,Analytics Models,Get IoT alert types,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT alert types,user,False
+Microsoft Security,Analytics Models,Get IoT alerts,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT alerts,user,False
+Microsoft Security,Analytics Models,Get IoT alerts,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT alerts,user,False
+Microsoft Security,Analytics Models,Get IoT recommendation types,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT recommendation types,user,False
+Microsoft Security,Analytics Models,Get IoT recommendation types,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT recommendation types,user,False
+Microsoft Security,Analytics Models,Get IoT recommendations,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT recommendations,user,False
+Microsoft Security,Analytics Models,Get IoT recommendations,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT recommendations,user,False
+Microsoft Security,Analytics Models,Get IoT security analytics model,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets IoT security analytics model,user,False
+Microsoft Security,Analytics Models,Get device or a list of devices,Microsoft.Security/iotSecuritySolutions/analyticsModels/read,Gets devices,user,False
+Microsoft Security,Api Collections,Create Api Collections,Microsoft.Security/apiCollections/write,Create Api Collections,user,False
+Microsoft Security,Api Collections,Delete Api Collections,Microsoft.Security/apiCollections/delete,Delete Api Collections,user,False
+Microsoft Security,Api Collections,Get Api Collections,Microsoft.Security/apiCollections/read,Get Api Collections,user,False
+Microsoft Security,App Whitelistings,Create or Update App Whitelisting,Microsoft.Security/applicationWhitelistings/write,Creates a new application whitelisting or updates an existing one,user,False
+Microsoft Security,App Whitelistings,Get App Whitelisting,Microsoft.Security/applicationWhitelistings/read,Gets the application whitelistings,user,False
+Microsoft Security,Assessment Metadata,Create assessment metadata,Microsoft.Security/assessmentMetadata/write,Create or update a security assessment metadata,user,False
+Microsoft Security,Assessment Metadata,Get assessment metadata,Microsoft.Security/assessmentMetadata/read,Get available security assessment metadata on your subscription,user,False
+Microsoft Security,Assessments,Create assessment,Microsoft.Security/assessments/write,Create or update security assessments on your subscription,user,False
+Microsoft Security,Assessments,Get assessments,Microsoft.Security/assessments/read,Get security assessments on your subscription,user,False
+Microsoft Security,Auto Provisioning Settings,Create auto provisioning setting,Microsoft.Security/autoProvisioningSettings/write,Create or update security auto provisioning setting for the subscription,user,False
+Microsoft Security,Auto Provisioning Settings,Get auto provisioning setting,Microsoft.Security/autoProvisioningSettings/read,Get security auto provisioning setting for the subscription,user,False
+Microsoft Security,Automations,Delete automation,Microsoft.Security/automations/delete,Deletes the automation for the scope,user,False
+Microsoft Security,Automations,Get automations,Microsoft.Security/automations/read,Gets the automations for the scope,user,False
+Microsoft Security,Automations,Update automation,Microsoft.Security/automations/write,Creates or updates the automation for the scope,user,False
+Microsoft Security,Automations,Validate automation,Microsoft.Security/automations/validate/action,Validates the automation model for the scope,user,False
+Microsoft Security,Compliance Results,Get compliance results,Microsoft.Security/complianceResults/read,Gets the compliance results for the resource,user,False
+Microsoft Security,Datascanners,Delete datascanners,Microsoft.Security/datascanners/delete,Deletes the datascanners for the scope,user,False
+Microsoft Security,Datascanners,Get datascanners,Microsoft.Security/datascanners/read,Gets the datascanners for the scope,user,False
+Microsoft Security,Datascanners,Update datascanners,Microsoft.Security/datascanners/write,Creates or updates the datascanners for the scope,user,False
+Microsoft Security,DefenderForStorageSettings,Delete defenderForStorageSettings,Microsoft.Security/defenderforstoragesettings/delete,Deletes the defenderforstoragesettings for the scope,user,False
+Microsoft Security,DefenderForStorageSettings,Get defenderForStorageSettings,Microsoft.Security/defenderforstoragesettings/read,Gets the defenderforstoragesettings for the scope,user,False
+Microsoft Security,DefenderForStorageSettings,Update defenderForStorageSettings,Microsoft.Security/defenderforstoragesettings/write,Creates or updates the defenderforstoragesettings for the scope,user,False
+Microsoft Security,Device Security Groups,Create device security groups,Microsoft.Security/deviceSecurityGroups/write,Creates or updates IoT device security groups,user,False
+Microsoft Security,Device Security Groups,Delete device security groups,Microsoft.Security/deviceSecurityGroups/delete,Deletes IoT device security groups,user,False
+Microsoft Security,Device Security Groups,Get device security groups,Microsoft.Security/deviceSecurityGroups/read,Gets IoT device security groups,user,False
+Microsoft Security,External Security Solutions,Get Security Solutions,Microsoft.Security/externalSecuritySolutions/read,Gets the external security solutions,user,False
+Microsoft Security,External Security Solutions,Get Security Solutions,Microsoft.Security/locations/externalSecuritySolutions/read,Gets the external security solutions,user,False
+Microsoft Security,Governance assignments,Create governance assignments,Microsoft.Security/assessments/governanceAssignments/write,Create or update governance assignments for security assessments,user,False
+Microsoft Security,Governance assignments,Get governance assignments,Microsoft.Security/assessments/governanceAssignments/read,Get governance assignments for security assessments,user,False
+Microsoft Security,Governance rules,Create governance rules,Microsoft.Security/governanceRules/write,Create or update governance rules for managing security posture,user,False
+Microsoft Security,Governance rules,Get governance rules,Microsoft.Security/governanceRules/read,Get governance rules for managing security posture,user,False
+Microsoft Security,Information Protection Policies,Gets the information protection policies,Microsoft.Security/informationProtectionPolicies/read,Gets the information protection policies for the resource,user,False
+Microsoft Security,Information Protection Policies,Updates the information protection policies,Microsoft.Security/informationProtectionPolicies/write,Updates the information protection policies for the resource,user,False
+Microsoft Security,Integration,Create integration,Microsoft.Security/integration/write,Create or update integration on your scope,user,False
+Microsoft Security,Integration,Deleate integration,Microsoft.Security/integration/delete,Deleate or update integration on your scope,user,False
+Microsoft Security,Integration,Get integration,Microsoft.Security/integration/read,Get integration on your scope,user,False
+Microsoft Security,IoT Defender Settings,Create or update IoT Defender Settings,Microsoft.Security/iotDefenderSettings/write,Create or updates IoT Defender Settings,user,False
+Microsoft Security,IoT Defender Settings,Delete IoT Defender Settings,Microsoft.Security/iotDefenderSettings/delete,Deletes IoT Defender Settings,user,False
+Microsoft Security,IoT Defender Settings,Download manager activation file,Microsoft.Security/iotDefenderSettings/DownloadManagerActivation/action,Download manager activation file with subscription quota data,user,False
+Microsoft Security,IoT Defender Settings,Get IoT Defender Settings,Microsoft.Security/iotDefenderSettings/read,Gets IoT Defender Settings,user,False
+Microsoft Security,IoT Defender Settings,Get downloadable IoT Defender packages information,Microsoft.Security/iotDefenderSettings/PackageDownloads/action,Gets downloadable IoT Defender packages information,user,False
+Microsoft Security,IoT Security Solutions,Create IoT security solutions,Microsoft.Security/iotSecuritySolutions/write,Creates or updates IoT security solutions,user,False
+Microsoft Security,IoT Security Solutions,Delete IoT security solutions,Microsoft.Security/iotSecuritySolutions/delete,Deletes IoT security solutions,user,False
+Microsoft Security,IoT Security Solutions,Get IoT security solutions,Microsoft.Security/iotSecuritySolutions/read,Gets IoT security solutions,user,False
+Microsoft Security,IoT Sensors,Create or update IoT Sensors,Microsoft.Security/iotSensors/write,Create or updates IoT Sensors,user,False
+Microsoft Security,IoT Sensors,Delete IoT Sensors,Microsoft.Security/iotSensors/delete,Deletes IoT Sensors,user,False
+Microsoft Security,IoT Sensors,Download activation file for IoT Sensors,Microsoft.Security/iotSensors/DownloadActivation/action,Downloads activation file for IoT Sensors,user,False
+Microsoft Security,IoT Sensors,Download reset password file for IoT Sensors,Microsoft.Security/iotSensors/DownloadResetPassword/action,Downloads reset password file for IoT Sensors,user,False
+Microsoft Security,IoT Sensors,Get IoT Sensors,Microsoft.Security/iotSensors/read,Gets IoT Sensors,user,False
+Microsoft Security,IoT Sensors,Trigger threat intelligence package update,Microsoft.Security/iotSensors/TriggerTiPackageUpdate/action,Triggers threat intelligence package update,user,False
+Microsoft Security,IoT Site,Create IoT site,Microsoft.Security/iotSite/write,Creates or updates IoT site,user,False
+Microsoft Security,IoT Site,Delete IoT site,Microsoft.Security/iotSite/delete,Deletes IoT site,user,False
+Microsoft Security,IoT Site,Get IoT site,Microsoft.Security/iotSite/read,Gets IoT site,user,False
+Microsoft Security,Just-In-Time Network Access Policies,Create or Update JIT Network Access Policy,Microsoft.Security/locations/jitNetworkAccessPolicies/write,Creates a new just-in-time network access policy or updates an existing one,user,False
+Microsoft Security,Just-In-Time Network Access Policies,Delete JIT Network Access Policies,Microsoft.Security/locations/jitNetworkAccessPolicies/delete,Deletes the just-in-time network access policy,user,False
+Microsoft Security,Just-In-Time Network Access Policies,Get JIT Network Access Policies,Microsoft.Security/locations/jitNetworkAccessPolicies/read,Gets the just-in-time network access policies,user,False
+Microsoft Security,Just-In-Time Network Access Policies,Get JIT Network Access Policies,Microsoft.Security/jitNetworkAccessPolicies/read,Gets the just-in-time network access policies,user,False
+Microsoft Security,Just-In-Time Network Access Policies,Initiate JIT Network Access Policy,Microsoft.Security/locations/jitNetworkAccessPolicies/initiate/action,Initiates a just-in-time network access policy request,user,False
+Microsoft Security,Locations,Get locations,Microsoft.Security/locations/read,Gets the security data location,user,False
+Microsoft Security,MDE Onboarding,MDE Onboarding,Microsoft.Security/mdeOnboardings/read,Get Microsoft Defender for Endpoint onboarding script,user,False
+Microsoft Security,Pricings,Delete pricing settings,Microsoft.Security/pricings/delete,Deletes the pricing settings for the scope,user,False
+Microsoft Security,Pricings,Get pricing settings,Microsoft.Security/pricings/read,Gets the pricing settings for the scope,user,False
+Microsoft Security,Pricings,Update pricing settings,Microsoft.Security/pricings/write,Updates the pricing settings for the scope,user,False
+Microsoft Security,Pricings/SecurityOperators,Delete security operators,Microsoft.Security/pricings/securityoperators/delete,Deletes the security operators for the scope,user,False
+Microsoft Security,Pricings/SecurityOperators,Get security operators,Microsoft.Security/pricings/securityoperators/read,Gets the security operators for the scope,user,False
+Microsoft Security,Pricings/SecurityOperators,Update security operators,Microsoft.Security/pricings/securityoperators/write,Updates the security operators for the scope,user,False
+Microsoft Security,PrivateLinks,Delete privateEndpointConnectionProxies,Microsoft.Security/privateLinks/privateEndpointConnectionProxies/delete,Deletes the Private Endpoint Connection Proxy.,user,False
+Microsoft Security,PrivateLinks,Get privateEndpointConnectionProxies,Microsoft.Security/privateLinks/privateEndpointConnectionProxies/read,Read any Private Endpoint Connection Proxy.,user,False
+Microsoft Security,PrivateLinks,Update privateEndpointConnectionProxies,Microsoft.Security/privateLinks/privateEndpointConnectionProxies/write,Create or update a Private Endpoint Connection Proxy.,user,False
+Microsoft Security,PrivateLinks,Update privateEndpointConnectionProxies properties,Microsoft.Security/privateLinks/privateEndpointConnectionProxies/updatePrivateEndpointProperties/action,Updates the properties of the Private Endpoint Connection Proxy.,user,False
+Microsoft Security,PrivateLinks,Validate privateEndpointConnectionProxies,Microsoft.Security/privateLinks/privateEndpointConnectionProxies/validate/action,Validate the Private Endpoint Connection Proxy object before creation.,user,False
+Microsoft Security,Reference Data,Get Reference Data,Microsoft.Security/securitySolutionsReferenceData/read,Gets the security solutions reference data,user,False
+Microsoft Security,Resource Security Health,Get resource security health,Microsoft.Security/securityStatuses/read,Gets the security health statuses for Azure resources,user,False
+Microsoft Security,SQL Vulnerability Assessment Baseline Rules,Add a list of rules result to the baseline.,Microsoft.Security/sqlVulnerabilityAssessments/baselineRules/action,Add a list of rules result to the baseline.,user,False
+Microsoft Security,SQL Vulnerability Assessment Baseline Rules,Change the rule baseline result.,Microsoft.Security/sqlVulnerabilityAssessments/baselineRules/write,Change the rule baseline result.,user,False
+Microsoft Security,SQL Vulnerability Assessment Baseline Rules,Remove the rule result from the baseline.,Microsoft.Security/sqlVulnerabilityAssessments/baselineRules/delete,Remove the rule result from the baseline.,user,False
+Microsoft Security,SQL Vulnerability Assessment Baseline Rules,Return the databases’ baseline (all rules that were added to the baseline) or get a rule baseline results for the specified rule ID.,Microsoft.Security/sqlVulnerabilityAssessments/baselineRules/read,Return the databases’ baseline (all rules that were added to the baseline) or get a rule baseline results for the specified rule ID.,user,False
+Microsoft Security,SQL Vulnerability Assessment Scan Results,List/Get vulnerability assessment rule(s) result(s).,Microsoft.Security/sqlVulnerabilityAssessments/scans/scanResults/read,Return the list of vulnerability assessment rule results or get the rule result for the specified rule ID.,user,False
+Microsoft Security,SQL Vulnerability Assessment Scans,List/Get vulnerability assessment scan record(s).,Microsoft.Security/sqlVulnerabilityAssessments/scans/read,Return the list of vulnerability assessment scan records or get the scan record for the specified scan ID.,user,False
+Microsoft Security,Secrity assignments,Create security assignments,Microsoft.Security/assignments/write,Create or update the security assignment,user,False
+Microsoft Security,Secrity assignments,Create security assignments,Microsoft.Security/assignments/write,Create or update the security assignment,user,False
+Microsoft Security,Secrity assignments,Delete security assignments,Microsoft.Security/assignments/delete,Deletes the security assignment,user,False
+Microsoft Security,Secrity assignments,Delete security assignments,Microsoft.Security/assignments/delete,Deletes the security assignment,user,False
+Microsoft Security,Secrity assignments,Get security assignments,Microsoft.Security/assignments/read,Get the security assignment,user,False
+Microsoft Security,Secrity assignments,Get security assignments,Microsoft.Security/assignments/read,Get the security assignment,user,False
+Microsoft Security,Secrity standards,Create security standards,Microsoft.Security/standards/write,Create or update the security standard,user,False
+Microsoft Security,Secrity standards,Delete security standards,Microsoft.Security/standards/delete,Deletes the security standard,user,False
+Microsoft Security,Secrity standards,Get security standards,Microsoft.Security/standards/read,Get the security standard,user,False
+Microsoft Security,Secure Score,Get secure score,Microsoft.Security/secureScores/read,Get calculated secure score for your subscription,user,False
+Microsoft Security,Secure Score Control,Get secure score control (secure score),Microsoft.Security/secureScores/secureScoreControls/read,Get calculated secure score control for your secure score calculation,user,False
+Microsoft Security,Secure Score Control,Get secure score control (subscription),Microsoft.Security/secureScoreControls/read,Get calculated secure score control for your subscription,user,False
+Microsoft Security,Secure Score Control,Get secure score control definition,Microsoft.Security/secureScoreControlDefinitions/read,Get secure score control definition,user,False
+Microsoft Security,Security Alert Suppression Rules,Create or Update security alert suppression rule,Microsoft.Security/alertsSuppressionRules/write,Creates a new security alert suppression rule or update an existing rule,user,False
+Microsoft Security,Security Alert Suppression Rules,Delete security alert suppression rule,Microsoft.Security/alertsSuppressionRules/delete,Delete a security alert suppression rule,user,False
+Microsoft Security,Security Alert Suppression Rules,Get security alert suppression rule,Microsoft.Security/alertsSuppressionRules/read,Gets all available security alert suppression rule,user,False
+Microsoft Security,Security Alerts,Activate Alert,Microsoft.Security/locations/alerts/activate/action,Activate a security alert,user,False
+Microsoft Security,Security Alerts,Dismiss Alert,Microsoft.Security/locations/alerts/dismiss/action,Dismiss a security alert,user,False
+Microsoft Security,Security Alerts,Get security alerts,Microsoft.Security/alerts/read,Gets all available security alerts,user,False
+Microsoft Security,Security Alerts,Get security alerts,Microsoft.Security/locations/alerts/read,Gets all available security alerts,user,False
+Microsoft Security,Security Alerts,Resolve Alert,Microsoft.Security/locations/alerts/resolve/action,Resolve a security alert,user,False
+Microsoft Security,Security Alerts,Simulate Alert,Microsoft.Security/locations/alerts/simulate/action,Simulate a security alert,user,False
+Microsoft Security,Security Connectors,Delete security connector,Microsoft.Security/securityConnectors/delete,Deletes the security connector,user,False
+Microsoft Security,Security Connectors,Get security connector,Microsoft.Security/securityConnectors/read,Gets the security connector,user,False
+Microsoft Security,Security Connectors,Update security connector,Microsoft.Security/securityConnectors/write,Updates the security connector,user,False
+Microsoft Security,Security Connectors DevOps,Configurations_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/write,Creates or updates a DevOps Configuration.,user,False
+Microsoft Security,Security Connectors DevOps,Configurations_Delete,Microsoft.Security/securityConnectors/devops/delete,Deletes a DevOps Connector.,user,False
+Microsoft Security,Security Connectors DevOps,Configurations_Get,Microsoft.Security/securityConnectors/devops/read,Gets a DevOps Configuration.,user,False
+Microsoft Security,Security Connectors DevOps,Configurations_List,Microsoft.Security/securityConnectors/devops/read,List DevOps Configurations.,user,False
+Microsoft Security,Security Connectors DevOps,Configurations_Update,Microsoft.Security/securityConnectors/devops/write,Updates a DevOps Configuration.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs,AzureDevOpsOrgs_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/write,Creates or updates monitored Azure DevOps organization details.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs,AzureDevOpsOrgs_Delete,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/delete,Deletes a monitored Azure DevOps organization.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs,AzureDevOpsOrgs_Get,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/read,Returns a monitored Azure DevOps organization resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs,AzureDevOpsOrgs_List,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/read,Returns a list of Azure DevOps organizations onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs,AzureDevOpsOrgs_Update,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/write,Updates monitored Azure DevOps organization details.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs ListAvailableProjects,AzureDevOpsProjects_ListAvailable,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/listAvailableProjects/action,Returns a list of all Azure DevOps projects accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects,AzureDevOpsProjects_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/write,Creates or updates a monitored Azure DevOps project resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects,AzureDevOpsProjects_Delete,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/delete,Deletes a monitored Azure DevOps project resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects,AzureDevOpsProjects_Get,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/read,Returns a monitored Azure DevOps project resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects,AzureDevOpsProjects_List,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/read,Returns a list of Azure DevOps projects onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects,AzureDevOpsProjects_Update,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/write,Updates a monitored Azure DevOps project resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects ListAvailableRepos,AzureDevOpsRepos_ListAvailable,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/listAvailableRepos/action,Returns a list of all Azure DevOps repositories accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects Repos,AzureDevOpsRepos_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/repos/write,Creates or updates a monitored Azure DevOps repository resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects Repos,AzureDevOpsRepos_Delete,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/repos/delete,Deletes a monitored Azure DevOps repository resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects Repos,AzureDevOpsRepos_Get,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/repos/read,Returns a monitored Azure DevOps repository resource.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects Repos,AzureDevOpsRepos_List,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/repos/read,Returns a list of Azure DevOps repositories onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps AzureDevOpsOrgs Projects Repos,AzureDevOpsRepos_Update,Microsoft.Security/securityConnectors/devops/azureDevOpsOrgs/projects/repos/write,Updates a monitored Azure DevOps repository resource.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners,GitHubOwners_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/gitHubOwners/write,Creates or updates a monitored GitHub owner.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners,GitHubOwners_Delete,Microsoft.Security/securityConnectors/devops/gitHubOwners/delete,Deletes a monitored GitHub owner.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners,GitHubOwners_Get,Microsoft.Security/securityConnectors/devops/gitHubOwners/read,Returns a monitored GitHub owner.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners,GitHubOwners_List,Microsoft.Security/securityConnectors/devops/gitHubOwners/read,Returns a list of GitHub owners onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners,GitHubOwners_Update,Microsoft.Security/securityConnectors/devops/gitHubOwners/write,Updates a monitored GitHub owner.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners ListAvailableRepos,GitHubRepos_ListAvailable,Microsoft.Security/securityConnectors/devops/gitHubOwners/listAvailableRepos/action,Returns a list of all GitHub repositories accessible by the user token and app installation used by the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners Repos,GitHubRepos_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/gitHubOwners/repos/write,Creates or updates a monitored GitHub repository.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners Repos,GitHubRepos_Delete,Microsoft.Security/securityConnectors/devops/gitHubOwners/repos/delete,Deletes a monitored GitHub repository.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners Repos,GitHubRepos_Get,Microsoft.Security/securityConnectors/devops/gitHubOwners/repos/read,Returns a monitored GitHub repository.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners Repos,GitHubRepos_List,Microsoft.Security/securityConnectors/devops/gitHubOwners/repos/read,Returns a list of GitHub repositories onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitHubOwners Repos,GitHubRepos_Update,Microsoft.Security/securityConnectors/devops/gitHubOwners/repos/write,Updates a monitored GitHub repository.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups,GitLabGroups_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/gitLabGroups/write,Creates or updates monitored GitLab Group details.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups,GitLabGroups_Delete,Microsoft.Security/securityConnectors/devops/gitLabGroups/delete,Deletes a monitored GitLab Group.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups,GitLabGroups_Get,Microsoft.Security/securityConnectors/devops/gitLabGroups/read,Returns a monitored GitLab Group resource for a given fully-qualified name.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups,GitLabGroups_List,Microsoft.Security/securityConnectors/devops/gitLabGroups/read,Returns a list of GitLab groups onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups,GitLabGroups_Update,Microsoft.Security/securityConnectors/devops/gitLabGroups/write,Updates monitored GitLab Group details.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups ListAvailableProjects,GitLabProjects_ListAvailable,Microsoft.Security/securityConnectors/devops/gitLabGroups/listAvailableProjects/action,Gets a list of all GitLab projects that are directly owned by given group and accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups ListAvailableSubgroups,GitLabSubgroups_ListAvailable,Microsoft.Security/securityConnectors/devops/gitLabGroups/listAvailableSubgroups/action,Gets all nested subgroups of given GitLab Group which are accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups ListSubgroups,GitLabSubgroups_List,Microsoft.Security/securityConnectors/devops/gitLabGroups/listSubgroups/action,Gets nested subgroups of given GitLab Group which are onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups Projects,GitLabProjects_CreateOrUpdate,Microsoft.Security/securityConnectors/devops/gitLabGroups/projects/write,Creates or updates monitored GitLab Project details.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups Projects,GitLabProjects_Delete,Microsoft.Security/securityConnectors/devops/gitLabGroups/projects/delete,Deletes a monitored GitLab Project.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups Projects,GitLabProjects_Get,Microsoft.Security/securityConnectors/devops/gitLabGroups/projects/read,Returns a monitored GitLab Project resource for a given fully-qualified group name and project name.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups Projects,GitLabProjects_List,Microsoft.Security/securityConnectors/devops/gitLabGroups/projects/read,Gets a list of GitLab projects that are directly owned by given group and onboarded to the connector.,user,False
+Microsoft Security,Security Connectors DevOps GitLabGroups Projects,GitLabProjects_Update,Microsoft.Security/securityConnectors/devops/gitLabGroups/projects/write,Updates monitored GitLab Project details.,user,False
+Microsoft Security,Security Connectors DevOps ListAvailableAzureDevOpsOrgs,AzureDevOpsOrgs_ListAvailable,Microsoft.Security/securityConnectors/devops/listAvailableAzureDevOpsOrgs/action,Returns a list of all Azure DevOps organizations accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps ListAvailableGitHubOwners,GitHubOwners_ListAvailable,Microsoft.Security/securityConnectors/devops/listAvailableGitHubOwners/action,Returns a list of all GitHub owners accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps ListAvailableGitLabGroups,GitLabGroups_ListAvailable,Microsoft.Security/securityConnectors/devops/listAvailableGitLabGroups/action,Returns a list of all GitLab groups accessible by the user token consumed by the connector.,user,False
+Microsoft Security,Security Connectors DevOps OperationResults,OperationResults_Get,Microsoft.Security/securityConnectors/devops/operationResults/read,Get devops long running operation result.,user,False
+Microsoft Security,Security Contact,Delete security contact,Microsoft.Security/securityContacts/delete,Deletes the security contact,user,False
+Microsoft Security,Security Contact,Get security contact,Microsoft.Security/securityContacts/read,Gets the security contact,user,False
+Microsoft Security,Security Contact,Update security contact,Microsoft.Security/securityContacts/write,Updates the security contact,user,False
+Microsoft Security,Security Policy,Get security policy,Microsoft.Security/policies/read,Gets the security policy,user,False
+Microsoft Security,Security Policy,Update security policy,Microsoft.Security/policies/write,Updates the security policy,user,False
+Microsoft Security,Security Recommendations,Activate Recommendation,Microsoft.Security/locations/tasks/activate/action,Activate a security recommendation,user,False
+Microsoft Security,Security Recommendations,Dismiss Recommendation,Microsoft.Security/locations/tasks/dismiss/action,Dismiss a security recommendation,user,False
+Microsoft Security,Security Recommendations,Get security recommendations,Microsoft.Security/tasks/read,Gets all available security recommendations,user,False
+Microsoft Security,Security Recommendations,Get security recommendations,Microsoft.Security/locations/tasks/read,Gets all available security recommendations,user,False
+Microsoft Security,Security Recommendations,Resolve Recommendation,Microsoft.Security/locations/tasks/resolve/action,Resolve a security recommendation,user,False
+Microsoft Security,Security Recommendations,Start Recommendation,Microsoft.Security/locations/tasks/start/action,Start a security recommendation,user,False
+Microsoft Security,Security Solutions,Create or Update Security Solutions,Microsoft.Security/securitySolutions/write,Creates a new security solution or updates an existing one,user,False
+Microsoft Security,Security Solutions,Create or Update Security Solutions,Microsoft.Security/locations/securitySolutions/write,Creates a new security solution or updates an existing one,user,False
+Microsoft Security,Security Solutions,Delete Security Solutions,Microsoft.Security/securitySolutions/delete,Deletes a security solution,user,False
+Microsoft Security,Security Solutions,Delete Security Solutions,Microsoft.Security/locations/securitySolutions/delete,Deletes a security solution,user,False
+Microsoft Security,Security Solutions,Get Security Solutions,Microsoft.Security/securitySolutions/read,Gets the security solutions,user,False
+Microsoft Security,Security Solutions,Get Security Solutions,Microsoft.Security/locations/securitySolutions/read,Gets the security solutions,user,False
+Microsoft Security,Security Statuses Summaries,Get security statuses summaries,Microsoft.Security/securityStatusesSummaries/read,Gets the security statuses summaries for the scope,user,False
+Microsoft Security,Security custom recommendations,Create custom recommendations,Microsoft.Security/customRecommendations/write,Create or update the custom recommendation,user,False
+Microsoft Security,Security custom recommendations,Delete custom recommendations,Microsoft.Security/customRecommendations/delete,Deletes the custom recommendation,user,False
+Microsoft Security,Security custom recommendations,Get custom recommendations,Microsoft.Security/customRecommendations/read,Get the custom recommendations,user,False
+Microsoft Security,Security standardAssignments,Create security standard assignments,Microsoft.Security/standardAssignments/write,Create or update the standard assignment,user,False
+Microsoft Security,Security standardAssignments,Delete security standard assignments,Microsoft.Security/standardAssignments/delete,Deletes the standard assignment,user,False
+Microsoft Security,Security standardAssignments,Get security standard assignments,Microsoft.Security/standardAssignments/read,Get the standard assignments,user,False
+Microsoft Security,Security standards,Create security standards,Microsoft.Security/securityStandards/write,Create or update the security standard,user,False
+Microsoft Security,Security standards,Delete security standards,Microsoft.Security/securityStandards/delete,Deletes the security standard,user,False
+Microsoft Security,Security standards,Get security standards,Microsoft.Security/securityStandards/read,Get the security standards,user,False
+Microsoft Security,Sensitivity Settings,Get sensitivity settings,Microsoft.Security/sensitivitySettings/read,Gets tenant level sensitivity settings,user,False
+Microsoft Security,Sensitivity Settings,Update sensitivity settings,Microsoft.Security/sensitivitySettings/write,Updates tenant level sensitivity settings,user,False
+Microsoft Security,Server Vulnerability Assessments,Create or Update server vulnerability assessments,Microsoft.Security/serverVulnerabilityAssessments/write,Create or update a server vulnerability assessments solution on resource,user,False
+Microsoft Security,Server Vulnerability Assessments,Delete server vulnerability assessments,Microsoft.Security/serverVulnerabilityAssessments/delete,Remove a server vulnerability assessments solution from a resource,user,False
+Microsoft Security,Server Vulnerability Assessments,Get server vulnerability assessments,Microsoft.Security/serverVulnerabilityAssessments/read,Get server vulnerability assessments onboarding status on a given resource,user,False
+Microsoft Security,Server Vulnerability Assessments Settings,Create or Update server vulnerability assessments settings,Microsoft.Security/serverVulnerabilityAssessmentsSettings/write,Create or update server vulnerability assessments settings on a given subscription,user,False
+Microsoft Security,Server Vulnerability Assessments Settings,Delete server vulnerability assessments settings,Microsoft.Security/serverVulnerabilityAssessmentsSettings/delete,Remove server vulnerability assessments settings from a given subscription,user,False
+Microsoft Security,Server Vulnerability Assessments Settings,Get server vulnerability assessments settings,Microsoft.Security/serverVulnerabilityAssessmentsSettings/read,Get server vulnerability assessments settings onboarding status for a given subscription,user,False
+Microsoft Security,Settings,Get settings,Microsoft.Security/settings/read,Gets the settings for the scope,user,False
+Microsoft Security,Settings,Update settings,Microsoft.Security/settings/write,Updates the settings for the scope,user,False
+Microsoft Security,Sub Assessments,Create sub assessment,Microsoft.Security/assessments/subAssessments/write,Create or update security sub assessments on your subscription,user,False
+Microsoft Security,Sub Assessments,Get sub assessments,Microsoft.Security/assessments/subAssessments/read,Get security sub assessments on your subscription,user,False
+Microsoft Security,Subscription,Register Subscription,Microsoft.Security/register/action,Registers the subscription for Azure Security Center,user,False
+Microsoft Security,Subscription,Unregister Subscription,Microsoft.Security/unregister/action,Unregisters the subscription from Azure Security Center,user,False
+Microsoft Security,Web Application Firewalls,Create or Update Web Application Firewalls,Microsoft.Security/webApplicationFirewalls/write,Creates a new web application firewall or updates an existing one,user,False
+Microsoft Security,Web Application Firewalls,Delete Security Web Application Firewalls,Microsoft.Security/webApplicationFirewalls/delete,Deletes a web application firewall,user,False
+Microsoft Security,Web Application Firewalls,Get Web Application Firewalls,Microsoft.Security/webApplicationFirewalls/read,Gets the web application firewalls,user,False
+Microsoft Security,Workspace Settings,Delete workspace settings,Microsoft.Security/workspaceSettings/delete,Deletes the workspace settings,user,False
+Microsoft Security,Workspace Settings,Get workspace settings,Microsoft.Security/workspaceSettings/read,Gets the workspace settings,user,False
+Microsoft Security,Workspace Settings,Reconnect vms from system workspaces,Microsoft.Security/workspaceSettings/connect/action,Change workspace settings reconnection settings,user,False
+Microsoft Security,Workspace Settings,Update workspace settings,Microsoft.Security/workspaceSettings/write,Updates the workspace settings,user,False
